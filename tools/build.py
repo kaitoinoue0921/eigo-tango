@@ -194,7 +194,45 @@ def main():
         words[w] = dict(w=w, rank=rank[w], means=means, ex=pick, ipa=cmu.get(w),
                         summary=plain_summary(means), terms=key_terms(means))
 
+    if os.environ.get("EXPORT_DB"):
+        export_db(os.environ["EXPORT_DB"], words, eng, pairs, form_of)
+        return
     build_site(words, eng, pairs, form_of)
+
+# ---------- アプリ用SQLite ----------
+def export_db(path, words, eng, pairs, form_of):
+    import sqlite3
+    if os.path.exists(path): os.remove(path)
+    db = sqlite3.connect(path)
+    db.executescript("""
+    create table words(word text primary key, rank integer, ipa text, summary text, terms text, senses text, etym text, kana text);
+    create table examples(word text, en text, ja text, tid integer);
+    create index ex_w on examples(word);
+    create table idx(term text, word text, kind integer);   -- kind 0=見出し 1=活用形 2=カタカナ
+    create index idx_t on idx(term);
+    """)
+    kata = load_kata()
+    etf = os.path.join(DATA, "etymology.json")
+    et = json.load(open(etf, encoding="utf-8")) if os.path.exists(etf) else {}
+    for w, x in words.items():
+        blocks = []
+        for m in x["means"]:
+            blocks += [b.strip() for b in m.split(" / ") if b.strip()]
+        senses = json.dumps([[re.sub(r"〈[CU]〉", "", q) for q in split_bullets(b)[:10]] for b in blocks[:14]], ensure_ascii=False)
+        e = re.sub(r"\s+", " ", et.get(w, "")).strip()
+        if len(e) > 700:
+            cut = e[:700]; e = cut[:cut.rfind(". ") + 1] if ". " in cut[300:] else cut.rstrip() + "…"
+        db.execute("insert into words values(?,?,?,?,?,?,?,?)",
+                   (w, x["rank"], x["ipa"], x["summary"], "、".join(x["terms"][:6]), senses, e, "・".join(kata.get(w, []))))
+        for sid in x["ex"]:
+            db.execute("insert into examples values(?,?,?,?)", (w, eng[sid], pairs[sid], int(sid)))
+        db.execute("insert into idx values(?,?,0)", (w, w))
+        for k in kata.get(w, []):
+            db.execute("insert into idx values(?,?,2)", (k, w))
+    for f, b in form_of.items():
+        if b in words: db.execute("insert into idx values(?,?,1)", (f, b))
+    db.commit(); db.execute("vacuum"); db.close()
+    print("exported", path, os.path.getsize(path) // 1024, "KB")
 
 # ---------- HTML ----------
 def head(title, desc, path, extra=""):
