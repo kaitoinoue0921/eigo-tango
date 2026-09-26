@@ -205,7 +205,7 @@ def export_db(path, words, eng, pairs, form_of):
     if os.path.exists(path): os.remove(path)
     db = sqlite3.connect(path)
     db.executescript("""
-    create table words(word text primary key, rank integer, ipa text, summary text, terms text, senses text, etym text, kana text);
+    create table words(word text primary key, rank integer, ipa text, summary text, terms text, senses text, etym text, kana text, etym_ja text);
     create table examples(word text, en text, ja text, tid integer);
     create index ex_w on examples(word);
     create table idx(term text, word text, kind integer);   -- kind 0=見出し 1=活用形 2=カタカナ
@@ -222,8 +222,9 @@ def export_db(path, words, eng, pairs, form_of):
         e = re.sub(r"\s+", " ", et.get(w, "")).strip()
         if len(e) > 700:
             cut = e[:700]; e = cut[:cut.rfind(". ") + 1] if ". " in cut[300:] else cut.rstrip() + "…"
-        db.execute("insert into words values(?,?,?,?,?,?,?,?)",
-                   (w, x["rank"], x["ipa"], x["summary"], "、".join(x["terms"][:6]), senses, e, "・".join(kata.get(w, []))))
+        db.execute("insert into words values(?,?,?,?,?,?,?,?,?)",
+                   (w, x["rank"], x["ipa"], x["summary"], "、".join(x["terms"][:6]), senses, e, "・".join(kata.get(w, [])),
+                    json.dumps(load_etym_ja()[w], ensure_ascii=False) if w in load_etym_ja() else ""))
         for sid in x["ex"]:
             db.execute("insert into examples values(?,?,?,?)", (w, eng[sid], pairs[sid], int(sid)))
         db.execute("insert into idx values(?,?,0)", (w, w))
@@ -290,20 +291,42 @@ def level(r):
 
 _ALPHA = {}
 _ETYM = {}
+_ETJA = {}
+
+def load_etym_ja():
+    if not _ETJA:
+        d = {}
+        import glob
+        for f in sorted(glob.glob(os.path.join(ROOT, "tools", "content", "etym_ja*.json"))):
+            d.update(json.load(open(f, encoding="utf-8")))
+        _ETJA["d"] = d
+    return _ETJA["d"]
 
 def etym_html(w):
     if not _ETYM:
         f = os.path.join(DATA, "etymology.json")
         _ETYM["d"] = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {}
     t = _ETYM["d"].get(w, "").strip()
-    if not t: return ""
+    ja = load_etym_ja().get(w)
+    if not t and not ja: return ""
     t = re.sub(r"\s+", " ", t)
     if len(t) > 700:
         cut = t[:700]
         t = cut[:cut.rfind(". ") + 1] if ". " in cut[300:] else cut.rstrip() + "…"
-    return ('<h2>語源</h2>\n<div class="etym"><p lang="en">' + esc(t) + '</p>'
-            f'<p class="src">出典: <a href="https://en.wiktionary.org/wiki/{w}#Etymology" rel="nofollow noopener">Wiktionary「{w}」</a>'
-            '（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja" rel="noopener">CC BY-SA 4.0</a>）／原文は英語</p></div>\n')
+    h = '<h2>語源</h2>\n'
+    if ja:
+        h += '<div class="etym ja">'
+        if ja.get("parts"):
+            h += '<p class="parts">' + '<span class="plus">＋</span>'.join(
+                f'<span class="part"><b>{esc(x["p"])}</b><small>{esc(x["m"])}</small></span>' for x in ja["parts"]) + '</p>'
+        h += f'<p class="story">{esc(ja["story"])}</p>'
+        if ja.get("note"): h += f'<p class="small">{esc(ja["note"])}</p>'
+        h += '</div>\n'
+    if t:
+        h += ('<details class="etym"><summary>英語の原文（Wiktionary）</summary><p lang="en">' + esc(t) + '</p>'
+              f'<p class="src">出典: <a href="https://en.wiktionary.org/wiki/{w}#Etymology" rel="nofollow noopener">Wiktionary「{w}」</a>'
+              '（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja" rel="noopener">CC BY-SA 4.0</a>）</p></details>\n')
+    return h
 
 def word_page(x, words, order, pos, eng, pairs, form_of):
     w = x["w"]
