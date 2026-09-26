@@ -12,9 +12,10 @@
     t=t.trim().toLowerCase();
     if(!t)return[];
     var pre=[],inc=[],seen={};
+    for(var e=0;e<idx.length;e++){if(idx[e][0]===t){pre.push(idx[e])}}
     for(var i=0;i<idx.length&&pre.length<8;i++){
       var r=idx[i];
-      if(r[0].indexOf(t)===0){pre.push(r)}
+      if(r[0]!==t&&r[0].indexOf(t)===0){pre.push(r)}
     }
     if(pre.length<8){
       for(var j=0;j<idx.length&&pre.length+inc.length<8;j++){

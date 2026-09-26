@@ -73,6 +73,16 @@ def plain_summary(means):
     m = split_bullets(m)[0] if m.strip() else m
     return m.strip()[:40]
 
+
+# ---------- カタカナ語 ----------
+def load_kata():
+    d = {}
+    for line in open(os.path.join(ROOT, "tools", "katakana.tsv"), encoding="utf-8"):
+        w, k = line.rstrip("\n").split("\t")
+        d[w] = k.split(",")
+    return d
+KATA_WORDS = {}
+
 # ---------- 発音 ----------
 ARPA = {"AA":"ɑ","AE":"æ","AH":"ʌ","AO":"ɔ","AW":"aʊ","AY":"aɪ","EH":"ɛ","ER":"ɚ","EY":"eɪ","IH":"ɪ","IY":"i",
         "OW":"oʊ","OY":"ɔɪ","UH":"ʊ","UW":"u","B":"b","CH":"tʃ","D":"d","DH":"ð","F":"f","G":"ɡ","HH":"h",
@@ -135,6 +145,7 @@ TOK = re.compile(r"[a-z]+(?:'[a-z]+)?")
 
 def main():
     ej = load_ejdict()
+    KATA_WORDS.update(load_kata())
     cmu = load_cmu()
     eng, pairs = load_tatoeba()
     print("dict", len(ej), "eng", len(eng), "pairs", len(pairs))
@@ -260,14 +271,16 @@ def word_page(x, words, order, pos, eng, pairs, form_of):
     w = x["w"]
     up = "../"
     summ = x["summary"]
-    title = f"{w} の意味・発音・例文 | {SITE}"
-    desc = f"英単語 {w} の意味は「{summ}」。" + (f"発音記号 /{x['ipa']}/。" if x["ipa"] else "") + "日本語訳つきの例文で使い方を確認できます。"
+    kt = KATA_WORDS.get(w)
+    kmain = f"（{kt[0]}）" if kt else ""
+    title = f"{w}{kmain}の意味・発音・例文・語源 | {SITE}"
+    desc = f"英単語 {w}" + (f"（カタカナ語「{'・'.join(kt)}」）" if kt else "") + f" の意味は「{summ}」。" + (f"発音記号 /{x['ipa']}/。" if x["ipa"] else "") + "日本語訳つきの例文で使い方を確認できます。"
     ld = json.dumps({"@context": "https://schema.org", "@type": "DefinedTerm", "name": w,
                      "description": summ, "inLanguage": "en",
                      "inDefinedTermSet": f"{BASE_URL}/"}, ensure_ascii=False)
     h = head(title, desc, f"w/{w}.html", f'<script type="application/ld+json">{ld}</script>')
     h += f'<article class="entry"><p class="crumb"><a href="{up}index.html">トップ</a> › <a href="{up}list/{w[0]}.html">{w[0].upper()}</a> › {w}</p>\n'
-    h += f'<h1>{w}</h1>\n<p class="meta">'
+    h += f'<h1>{w}{("<small>" + esc("・".join(kt)) + "</small>") if kt else ""}</h1>\n<p class="meta">'
     if x["ipa"]:
         h += f'<span class="ipa">/{esc(x["ipa"])}/</span> '
     h += f'<span class="tag">{level(x["rank"])}</span> <span class="rank">頻度 {x["rank"]}位</span></p>\n'
@@ -322,6 +335,10 @@ def build_site(words, eng, pairs, form_of):
     for f, b in form_of.items():
         if b in words:
             idx.append([f, b, words[b]["summary"]])
+    for w, ks in KATA_WORDS.items():
+        if w in words:
+            for k in ks:
+                idx.append([k, w, words[w]["summary"]])
     idx.sort(key=lambda r: (words.get(r[1], {}).get("rank", 10**9), r[0]))
     write("assets/index.json", json.dumps(idx, ensure_ascii=False, separators=(",", ":")))
 
@@ -350,17 +367,28 @@ def build_site(words, eng, pairs, form_of):
         h += "</ol>\n" + foot("../")
         write(f"list/rank-{n}.html", h)
 
+    # カタカナ語
+    kw = sorted((w for w in KATA_WORDS if w in words), key=lambda w: words[w]["rank"])
+    h = head(f"カタカナ語の英語一覧（{len(kw)}語）| {SITE}", "シャープ・サービス・ストライクなど、日本語でよく使うカタカナ語の英語の意味・発音・例文を一覧で調べられます。", "list/katakana.html")
+    h += f"<h1>カタカナ語の英語</h1>\n<p class=\"small\">日本語で使うカタカナ語（{len(kw)}語）。英語の意味は、カタカナ語の意味と違うことがあります。</p>\n<ul class=\"wl\">\n"
+    for w in kw:
+        h += f'<li><a href="../w/{w}.html"><b>{esc("・".join(KATA_WORDS[w]))}</b><span>{w} — {esc(words[w]["summary"])}</span></a></li>\n'
+    h += "</ul>\n" + foot("../")
+    write("list/katakana.html", h)
+
     # トップ
     h = head(f"{SITE} — 広告の少ない、読みやすい英和辞書", f"英単語の意味・発音・例文をすばやく調べられる無料の英和辞書。{len(words)}語収録。", "")
     h += f"""<section class="hero">
 <h1>{SITE}</h1>
 <p>調べたい英単語を入力するだけ。意味・発音・日本語訳つきの例文まで、1ページで確認できます。</p>
-<p class="small">活用形（running, went など）も、もとの単語のページに案内します。</p>
+<p class="small">カタカナ（シャープ、サービス など）でも検索できます。活用形（running など）は、もとの単語のページに案内します。</p>
 </section>
 <h2>よく使われる単語</h2>
 <p class="chips">{" ".join(f'<a href="w/{w}.html">{w}</a>' for w in order[:80])}</p>
 <h2>頻度順で探す</h2>
 <p class="chips">{" ".join(f'<a href="list/rank-{k}.html">{(k-1)*step+1}〜{min(k*step, len(order))}位</a>' for k in range(1, len(bands)+1))}</p>
+<h2>カタカナ語から探す</h2>
+<p class="chips"><a href="list/katakana.html">カタカナ語の英語 一覧</a> {" ".join(f'<a href="w/{w}.html">{KATA_WORDS[w][0]}</a>' for w in kw[:24])}</p>
 <h2>頭文字で探す</h2>
 <p class="chips">{" ".join(f'<a href="list/{L}.html">{L.upper()}</a>' for L in letters)}</p>
 """
@@ -401,7 +429,7 @@ def build_site(words, eng, pairs, form_of):
     pv += foot("")
     write("privacy.html", pv)
 
-    urls = [""] + ["about.html", "privacy.html"] + [f"list/{L}.html" for L in letters] + \
+    urls = [""] + ["about.html", "privacy.html"] + [f"list/{L}.html" for L in letters] + ["list/katakana.html"] + \
            [f"list/rank-{n}.html" for n in range(1, len(bands) + 1)] + [f"w/{w}.html" for w in order]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += "".join(f"<url><loc>{BASE_URL}/{u}</loc></url>\n" for u in urls) + "</urlset>\n"
