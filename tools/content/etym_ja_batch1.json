@@ -1,0 +1,6170 @@
+{
+ "able": {
+  "parts": [],
+  "story": "ラテン語habilis「扱いやすい・手ごろな」から（habere「持つ」）。うまく扱える→「できる・有能な」。",
+  "note": "habit（習慣）もhabere「持つ」の仲間。"
+ },
+ "next": {
+  "parts": [],
+  "story": "古英語でnigh（近い）の最上級「いちばん近い」。すぐ隣にある→「次の」。",
+  "note": "比較級のほうがnear（より近い→今は「近い」）になった。"
+ },
+ "tomorrow": {
+  "parts": [
+   {
+    "p": "to",
+    "m": "〜に"
+   },
+   {
+    "p": "morrow",
+    "m": "朝"
+   }
+  ],
+  "story": "古英語「朝(morrow)に(to)」から。次の朝に→「明日」。",
+  "note": "morrowはmorning（朝）と同じ仲間。"
+ },
+ "because": {
+  "parts": [
+   {
+    "p": "be",
+    "m": "〜によって（by）"
+   },
+   {
+    "p": "cause",
+    "m": "原因"
+   }
+  ],
+  "story": "中英語のby cause「〜という原因によって」が縮まった形→「〜だから」。",
+  "note": ""
+ },
+ "world": {
+  "parts": [
+   {
+    "p": "wor",
+    "m": "人（wer）"
+   },
+   {
+    "p": "ld",
+    "m": "時代（eld）"
+   }
+  ],
+  "story": "古英語で「人(wer)の時代(eld)」→人が生きる世の中→「世界・世間」。",
+  "note": "werewolf（狼男）のwereも「人」。"
+ },
+ "person": {
+  "parts": [],
+  "story": "ラテン語persona「役者の仮面」から。仮面→劇の役柄→役を演じる個人→「人」。",
+  "note": "personality（人柄）も同じ。"
+ },
+ "place": {
+  "parts": [],
+  "story": "ギリシャ語plateia「広い（道）」→ラテン語platea「大通り・広場」から。開けた場所→「場所」。",
+  "note": "plaza（広場）も同じ語源。"
+ },
+ "party": {
+  "parts": [],
+  "story": "古フランス語partie「分けられた部分・一方の側」から。同じ側に分かれた人たち→「党・一行」→人の集まり→「パーティー」。",
+  "note": "part（部分）と同じ語源。"
+ },
+ "language": {
+  "parts": [],
+  "story": "ラテン語lingua「舌」から。舌で話すもの→「言語・言葉」。",
+  "note": "linguistics（言語学）、bilingual（二言語を話す）も同じ仲間。"
+ },
+ "food": {
+  "parts": [],
+  "story": "古英語foda「食べ物」から。feed（食べさせる）と同じ語根。",
+  "note": "fodder（家畜のえさ）も同じ仲間。"
+ },
+ "afraid": {
+  "parts": [],
+  "story": "古フランス語「平穏を取り去る→おびえさせる」から来た動詞affrayの過去分詞。おびえさせられた→「恐れて」。",
+  "note": ""
+ },
+ "idea": {
+  "parts": [],
+  "story": "ギリシャ語idea「見た姿・かたち」から（idein「見る」）。心に見える姿→「考え・アイデア」。",
+  "note": ""
+ },
+ "wait": {
+  "parts": [],
+  "story": "フランク語「見張る」から古フランス語を経て。じっと見張って様子をうかがう→「待つ」。",
+  "note": "watch（見張る）とも同じ仲間。"
+ },
+ "remember": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "再び"
+   },
+   {
+    "p": "member",
+    "m": "心に留めた（memor）"
+   }
+  ],
+  "story": "ラテン語「再び(re)心に留める(memor)」→「思い出す・覚えている」。",
+  "note": "memory（記憶）、memorial（記念の）も同じ仲間。memberとは別語。"
+ },
+ "plan": {
+  "parts": [],
+  "story": "フランス語plan「平面・見取り図」から（ラテン語planus「平らな」）。平面に描いた図面→「計画・案」。",
+  "note": "plain（平らな・明白な）、plane（平面）と同じ語源。"
+ },
+ "mind": {
+  "parts": [],
+  "story": "古英語gemynd「記憶・思い」から。心に覚えておくこと→「心・知性」、気にかけて覚えておく→「気にする」。",
+  "note": "ラテン語mens（→mental「心の」）とも遠い親戚。"
+ },
+ "country": {
+  "parts": [],
+  "story": "俗ラテン語contrata「向かい側に広がる土地」から（contra「反対側に」）。目の前に広がる土地→「地方・国」。",
+  "note": "county（州）とは別語。"
+ },
+ "police": {
+  "parts": [],
+  "story": "ギリシャ語polis「都市国家」→politeia「国の統治」から。国を治めること→治安を守る組織→「警察」。",
+  "note": "politics（政治）、policy（政策）と同じ語源。"
+ },
+ "study": {
+  "parts": [],
+  "story": "ラテン語studium「熱意・打ち込むこと」から。熱心に取り組む→「勉強（する）」、勉強する部屋→「書斎」。",
+  "note": "student（学生）も同じ仲間。"
+ },
+ "city": {
+  "parts": [],
+  "story": "ラテン語civitas「市民の集まり・国」から（civis「市民」）。市民が集まって住む所→「都市」。",
+  "note": "civil（市民の）、citizen（市民）と同じ仲間。"
+ },
+ "important": {
+  "parts": [
+   {
+    "p": "im-",
+    "m": "中へ"
+   },
+   {
+    "p": "port",
+    "m": "運ぶ"
+   }
+  ],
+  "story": "中世ラテン語importare「中へ運び込む→重大な結果をもたらす」から。重みを持つ→「重要な」。",
+  "note": "import（輸入する）と同じ語。portは「運ぶ」（transportなど）。"
+ },
+ "face": {
+  "parts": [],
+  "story": "ラテン語facies「姿・形」から（facere「作る」）。人の形として見える部分→「顔」、物の見える面→「表面」。",
+  "note": "surface（表面）も「上(sur)の面(face)」。"
+ },
+ "nice": {
+  "parts": [],
+  "story": "ラテン語nescius「知らない」から。「無知な・愚かな」→「こまかすぎる」→「繊細な」→「良い」と大きく意味が変わった。",
+  "note": "science（科学）のsciも「知る」。"
+ },
+ "different": {
+  "parts": [
+   {
+    "p": "dif-",
+    "m": "別々に"
+   },
+   {
+    "p": "fer",
+    "m": "運ぶ"
+   },
+   {
+    "p": "-ent",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語differre「別々に(dis)運ぶ(fer)」から。ばらばらに離れていく→「異なった」。",
+  "note": "differ（異なる）の形容詞形。prefer・referのferも「運ぶ」。"
+ },
+ "between": {
+  "parts": [
+   {
+    "p": "be",
+    "m": "〜のそばに（by）"
+   },
+   {
+    "p": "tween",
+    "m": "二つの（two）"
+   }
+  ],
+  "story": "古英語「二つのもの(two)のそばに(by)」→「〜の間に」。",
+  "note": "twin（双子）、twice（2回）も同じ「2」の仲間。"
+ },
+ "chance": {
+  "parts": [],
+  "story": "ラテン語cadere「落ちる・起こる」から。サイコロなどがどう落ちるか→成り行き→「偶然・機会」。",
+  "note": "accident（事故）のcidも同じ「落ちる」。"
+ },
+ "office": {
+  "parts": [
+   {
+    "p": "of",
+    "m": "仕事（opus）"
+   },
+   {
+    "p": "fice",
+    "m": "する（facere）"
+   }
+  ],
+  "story": "ラテン語officium「仕事をすること→務め」から。務め→「公職」、務めを果たす場所→「事務所」。",
+  "note": ""
+ },
+ "dinner": {
+  "parts": [],
+  "story": "古フランス語disner「断食をやめる」→一日の最初のしっかりした食事→今は「主要な食事・夕食」。",
+  "note": "breakfastも「断食(fast)を破る(break)」で同じ発想。"
+ },
+ "question": {
+  "parts": [
+   {
+    "p": "quest",
+    "m": "求める"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語quaerere「求める・尋ねる」から。答えを求めて尋ねること→「質問・問題」。",
+  "note": "quest（探求）、request（頼む）も同じ仲間。"
+ },
+ "visit": {
+  "parts": [],
+  "story": "ラテン語visitare「何度も見に行く」から（videre「見る」）。見に行く→「訪問する」。",
+  "note": "vision（視覚）、videoも「見る」の仲間。"
+ },
+ "music": {
+  "parts": [],
+  "story": "ギリシャ語mousike「ムーサ（Muse）の技」から。芸術の女神たちがつかさどる技→「音楽」。",
+  "note": "museum（博物館）も「ムーサの神殿」から。"
+ },
+ "table": {
+  "parts": [],
+  "story": "ラテン語tabula「板」から。板→食事を載せる板＝「テーブル」、板に書いた一覧→「表」。",
+  "note": "tablet（平板・錠剤）も同じ語源。"
+ },
+ "doctor": {
+  "parts": [],
+  "story": "ラテン語doctor「教える人」から（docere「教える」）。教師→学問を修めた「博士」→医学の博士＝「医者」。",
+  "note": "document（文書）もdocere「教える」の仲間。"
+ },
+ "front": {
+  "parts": [],
+  "story": "ラテン語frons「額(ひたい)」から。顔のいちばん前にある額→「前面・正面」。",
+  "note": ""
+ },
+ "glad": {
+  "parts": [],
+  "story": "古英語glæd「輝いている・明るい」から。顔が明るく輝く→「うれしい」。",
+  "note": ""
+ },
+ "park": {
+  "parts": [],
+  "story": "古フランス語parc「家畜の囲い」から。囲われた土地→貴族の狩猟地→公共の「公園」。車を囲いに置く→「駐車する」。",
+  "note": ""
+ },
+ "reason": {
+  "parts": [],
+  "story": "ラテン語ratio「計算・勘定」から（reri「数える・考える」）。筋道立てて考えること→「理性・理由」。",
+  "note": "ratio（比率）、rational（合理的な）と同じ語源。"
+ },
+ "close": {
+  "parts": [],
+  "story": "ラテン語claudere「閉じる」から。閉じる→「閉める・終える」、すき間が閉じて詰まった→「近い・親密な」。",
+  "note": "closet（戸棚）、include（含む）のcludも「閉じる」。"
+ },
+ "company": {
+  "parts": [
+   {
+    "p": "com-",
+    "m": "共に"
+   },
+   {
+    "p": "pan",
+    "m": "パン"
+   }
+  ],
+  "story": "古フランス語compaignon「パンを共に食べる仲間」から。仲間の集まり→「仲間・来客」→事業仲間の集まり「会社」。",
+  "note": "companion（仲間）と同じ語源。"
+ },
+ "street": {
+  "parts": [],
+  "story": "ラテン語via strata「舗装された道」のstrataから（sternere「敷き広げる」）。石を敷いた道→「街路」。",
+  "note": ""
+ },
+ "trouble": {
+  "parts": [],
+  "story": "ラテン語turba「騒ぎ・群衆」から。かき乱す→「悩ます・わずらわす」、かき乱された状態→「苦労・困難」。",
+  "note": "disturb（乱す）、turbulence（乱気流）のturbも同じ。"
+ },
+ "possible": {
+  "parts": [
+   {
+    "p": "poss",
+    "m": "〜できる"
+   },
+   {
+    "p": "-ible",
+    "m": "〜されうる"
+   }
+  ],
+  "story": "ラテン語posse「〜できる」から。実現できる→「可能な・ありうる」。",
+  "note": "power（力）、potential（潜在的な）も同じ仲間。"
+ },
+ "real": {
+  "parts": [],
+  "story": "後期ラテン語realis「物の」から（res「もの」）。頭の中ではなく物そのものにかかわる→「現実の・本物の」。",
+  "note": "republic（共和国）のreも「もの」のres。"
+ },
+ "station": {
+  "parts": [],
+  "story": "ラテン語statio「立っていること・持ち場」から（stare「立つ」）。立ち止まる場所→「駅・署」。",
+  "note": "stand（立つ）、status（地位）も同じ「立つ」の仲間。"
+ },
+ "picture": {
+  "parts": [],
+  "story": "ラテン語pictura「絵をかくこと・絵」から（pingere「絵の具で描く」）。描かれたもの→「絵・写真」。",
+  "note": "paint（描く）、depict（描写する）も同じ仲間。"
+ },
+ "several": {
+  "parts": [],
+  "story": "中世ラテン語separalis「別々の」から（separ「分かれた」）。一つずつ別々の→「いくつかの」。",
+  "note": "separate（分ける）と同じ語源。severe・sevenとは無関係。"
+ },
+ "hospital": {
+  "parts": [],
+  "story": "ラテン語hospes「客・客をもてなす主人」から。旅人や客をもてなす施設→病人を世話する所→「病院」。",
+  "note": "hotel、host（主人）、hospitality（もてなし）も同じ語源。"
+ },
+ "moment": {
+  "parts": [],
+  "story": "ラテン語momentum「動き」から（movere「動かす」）。ほんのわずかな動き→「瞬間」、物事を動かすほどの重さ→「重要」。",
+  "note": "movement・momentumと同じ語源。"
+ },
+ "rich": {
+  "parts": [],
+  "story": "古英語rice「力のある」から（ゲルマン語rik「王・支配者」）。王のように力を持つ→「富んだ・金持ちの」。",
+  "note": ""
+ },
+ "safe": {
+  "parts": [],
+  "story": "ラテン語salvus「無傷の・完全な」から。欠けたところがない→「安全な・確かな」、物を無事に守る→「金庫」。",
+  "note": "save（救う）、salvation（救済）も同じ仲間。"
+ },
+ "spend": {
+  "parts": [],
+  "story": "ラテン語expendere「はかりで量って払い出す」から。お金を払い出す→「使う」、時間を使う→「過ごす」。",
+  "note": "expend、expense（費用）、expensiveも同じ語源。"
+ },
+ "accident": {
+  "parts": [
+   {
+    "p": "ac-",
+    "m": "〜の上に"
+   },
+   {
+    "p": "cid",
+    "m": "落ちる"
+   },
+   {
+    "p": "-ent",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語accidere「〜に降りかかる・起こる」から。思いがけず降りかかる出来事→「偶然・事故」。",
+  "note": "chance（偶然）も同じcadere「落ちる」から。"
+ },
+ "store": {
+  "parts": [],
+  "story": "ラテン語instaurare「新しくする・補充する」から。補充して蓄える→「蓄え（る）」、蓄えた品を売る所→「店」。",
+  "note": "restore（元に戻す）、restaurantと同じ語根。"
+ },
+ "order": {
+  "parts": [],
+  "story": "ラテン語ordo「列・並び」から。きちんと並んだ状態→「順序・秩序」、秩序どおりにさせる→「命令・注文」。",
+  "note": "ordinary（普通の＝いつもの並びどおりの）も同じ語源。"
+ },
+ "second": {
+  "parts": [],
+  "story": "ラテン語secundus「次に続く」から（sequi「後に続く」）。1番に続くもの→「2番目の」。",
+  "note": "時間の「秒」は、1時間を「2回目に」細かく分けた単位（1回目が分）という意味から。sequence（連続）も同じ仲間。"
+ },
+ "restaurant": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "再び"
+   },
+   {
+    "p": "staur",
+    "m": "回復させる"
+   }
+  ],
+  "story": "フランス語restaurer「元気を回復させる」の現在分詞。元気を取り戻させるスープ→それを出す店→「レストラン」。",
+  "note": "restore（回復させる）と同じ語源。"
+ },
+ "hour": {
+  "parts": [],
+  "story": "ギリシャ語hora「季節・時期」から。一定の時の区切り→一日を分けた「1時間・時刻」。",
+  "note": "horoscope（星占い＝生まれた時刻を見る）も同じ仲間。"
+ },
+ "situation": {
+  "parts": [],
+  "story": "ラテン語situs「場所・位置」から。どこに置かれているか→「位置・立場」→置かれている状態→「事態」。",
+  "note": "site（用地・場所）も同じ語源。"
+ },
+ "finish": {
+  "parts": [],
+  "story": "ラテン語finire「終える」から（finis「終わり・境界」）。終わりに至らせる→「終える・仕上げる」。",
+  "note": "final（最後の）、infinite（無限の＝終わりがない）も同じ仲間。"
+ },
+ "agree": {
+  "parts": [
+   {
+    "p": "a-",
+    "m": "〜へ"
+   },
+   {
+    "p": "gree",
+    "m": "好ましい"
+   }
+  ],
+  "story": "古フランス語a gré「好ましく・快く」から。快く受け入れる→「同意する・意見が一致する」。",
+  "note": "grateful（感謝している）のgratも「好ましい」。"
+ },
+ "stupid": {
+  "parts": [],
+  "story": "ラテン語stupere「ぼうぜんとする」から。ぼうっと動けない状態→頭が働かない→「ばかな」。",
+  "note": "stupor（まひ状態）も同じ語源。"
+ },
+ "wine": {
+  "parts": [],
+  "story": "ラテン語vinum「ぶどう酒」がゲルマン語に早くから入った語。",
+  "note": "vine（ぶどうのつる）も同じ語源。vinegar（酢）は「酸っぱいワイン」の意。"
+ },
+ "clear": {
+  "parts": [],
+  "story": "ラテン語clarus「明るい・はっきりした」から。光がさして明るい→「晴れた・澄んだ」→「はっきりした・わかりやすい」。",
+  "note": "clarify（明らかにする）、declare（宣言する）も同じ仲間。"
+ },
+ "future": {
+  "parts": [],
+  "story": "ラテン語futurus「これから〜になろうとしている」から（esse「ある」の未来の形）。これからあるもの→「未来」。",
+  "note": ""
+ },
+ "point": {
+  "parts": [],
+  "story": "ラテン語punctum「突いてできた穴・点」から（pungere「刺す」）。刺した小さな点→「点・地点・要点」、刺す先→「とがった先」。",
+  "note": "punctual（時間に正確な）、puncture（パンク）も同じ仲間。"
+ },
+ "garden": {
+  "parts": [],
+  "story": "フランク語gardo「囲い地」から古フランス語を経て。垣根で囲った土地→「庭」。",
+  "note": "yard（庭）も同じゲルマン語の語根から。"
+ },
+ "expect": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "外を"
+   },
+   {
+    "p": "spect",
+    "m": "見る"
+   }
+  ],
+  "story": "ラテン語exspectare「外を見て待つ」から。来るものを見張って待ち受ける→「予期する」。",
+  "note": "inspect（調べる）、respect（尊敬）のspectも「見る」。"
+ },
+ "sentence": {
+  "parts": [],
+  "story": "ラテン語sententia「考え・意見」から（sentire「感じる・考える」）。考えを述べたひとまとまり→「文」、裁判官の意見→「判決」。",
+  "note": "sense（感覚）、sentiment（感情）も同じ仲間。"
+ },
+ "attention": {
+  "parts": [
+   {
+    "p": "at-",
+    "m": "〜へ"
+   },
+   {
+    "p": "tent",
+    "m": "伸ばす"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語attendere「〜へ(心を)伸ばす」から。心を向けること→「注意」、人に心を向ける→「世話・思いやり」。",
+  "note": "attend（出席する・世話をする）の名詞形。extend（延ばす）のtendも同じ。"
+ },
+ "strange": {
+  "parts": [],
+  "story": "ラテン語extraneus「外の」から（extra「外に」）。外から来た・よその→見慣れない→「奇妙な」。",
+  "note": "stranger（見知らぬ人）、extra（余分な）も同じ仲間。"
+ },
+ "river": {
+  "parts": [],
+  "story": "ラテン語ripa「岸」から。岸辺の土地→岸にはさまれて流れる「川」。",
+  "note": "arrive（到着する）も元は「岸に着く」。"
+ },
+ "student": {
+  "parts": [],
+  "story": "ラテン語studere「熱心に打ち込む」の現在分詞から。熱心に学ぶ人→「学生・研究者」。",
+  "note": "study（勉強）も同じ語源。"
+ },
+ "poor": {
+  "parts": [],
+  "story": "ラテン語pauper「貧しい」から古フランス語を経て「貧乏な」、さらに中身が乏しい→「貧相な・へたな」。",
+  "note": "poverty（貧困）も同じ語源。"
+ },
+ "test": {
+  "parts": [],
+  "story": "ラテン語testum「土の壺」から。金属の純度を確かめる壺→確かめること→「試験」。",
+  "note": ""
+ },
+ "apartment": {
+  "parts": [],
+  "story": "フランス語appartement（元はスペイン語）から。apart（離れて）＋-ment。ほかと分けられた部屋→「アパート（の一室）」。",
+  "note": ""
+ },
+ "sense": {
+  "parts": [],
+  "story": "ラテン語sensus「感じること」から（sentire「感じる」）。感じとる力→「感覚」→物事の意味を感じとる→「理解・分別」。",
+  "note": "sentence（文）、sentiment（感情）も同じ仲間。"
+ },
+ "voice": {
+  "parts": [],
+  "story": "ラテン語vox「声」から。声→意見を言う声→「発言権」。",
+  "note": "vocal（声の）、vocabulary（語彙）も同じ仲間。"
+ },
+ "catch": {
+  "parts": [],
+  "story": "俗ラテン語captiare「捕らえようとする」から（capere「つかむ」）。つかみ取る→「捕らえる」。",
+  "note": "chase（追いかける）は同じ語が別ルートで入った兄弟語。captureも仲間。"
+ },
+ "present": {
+  "parts": [
+   {
+    "p": "pre-",
+    "m": "前に"
+   },
+   {
+    "p": "sent",
+    "m": "ある（esse）"
+   }
+  ],
+  "story": "ラテン語praesens「目の前にある」から。その場にいる→「出席している」、今ある→「現在」、目の前に差し出す→「贈り物」。",
+  "note": "absent（欠席の）は「離れて(ab)いる」。"
+ },
+ "worry": {
+  "parts": [],
+  "story": "古英語wyrgan「首を絞める」から。のどを締めつける→しつこく苦しめる→「心配させる・心配する」。",
+  "note": ""
+ },
+ "kitchen": {
+  "parts": [],
+  "story": "ラテン語coquina「料理場」がゲルマン語に入った語（coquere「料理する」）。",
+  "note": "cook（料理する）も同じ語源。"
+ },
+ "cost": {
+  "parts": [
+   {
+    "p": "co-",
+    "m": "共に"
+   },
+   {
+    "p": "st",
+    "m": "立つ"
+   }
+  ],
+  "story": "ラテン語constare「共に立つ→（値段が）〜で成り立つ」から。〜の値段がつく→「（費用が）かかる」、その額→「代価」。",
+  "note": ""
+ },
+ "suspect": {
+  "parts": [
+   {
+    "p": "sus-",
+    "m": "下から"
+   },
+   {
+    "p": "spect",
+    "m": "見る"
+   }
+  ],
+  "story": "ラテン語suspicere「下から見上げる→疑いの目で見る」から。怪しんで見る→「疑う」。",
+  "note": "expect、inspectのspectも「見る」。"
+ },
+ "quiet": {
+  "parts": [],
+  "story": "ラテン語quietus「休んでいる」から。動かず休んでいる→「静かな・平穏な」。",
+  "note": "quit（やめる）、quite（まったく）も同じ語源。"
+ },
+ "expensive": {
+  "parts": [],
+  "story": "ラテン語expendere「はかりで量って払い出す」から。多く払い出させる→「費用のかかる・高価な」。",
+  "note": "spend、expense（費用）も同じ語源。"
+ },
+ "explain": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "すっかり"
+   },
+   {
+    "p": "plain",
+    "m": "平らにする"
+   }
+  ],
+  "story": "ラテン語explanare「平らに広げる」から。しわを伸ばして平らにするように、わかりやすくする→「説明する」。",
+  "note": "plain（明白な・平らな）と同じ語根。"
+ },
+ "teach": {
+  "parts": [],
+  "story": "古英語tæcan「示す・見せる」から。やり方を示して見せる→「教える」。",
+  "note": "token（しるし）も「示す」の仲間。"
+ },
+ "pain": {
+  "parts": [],
+  "story": "ラテン語poena「罰」から（もとはギリシャ語「償いの金」）。罰として受ける苦しみ→「苦痛・痛み」。",
+  "note": "penalty（罰）、punish（罰する）も同じ仲間。"
+ },
+ "video": {
+  "parts": [
+   {
+    "p": "vid",
+    "m": "見る"
+   },
+   {
+    "p": "-o",
+    "m": "（audioにならった語尾）"
+   }
+  ],
+  "story": "ラテン語video「私は見る」から。audio（聞く）にならって作られ、「見るもの」→「映像・ビデオ」。",
+  "note": "provide・visionのvid/visも「見る」。"
+ },
+ "couple": {
+  "parts": [],
+  "story": "ラテン語copula「結ぶもの・つなぎ」から。二つを結びつけたもの→「一組・夫婦」、動詞で「つなぐ」。",
+  "note": ""
+ },
+ "quit": {
+  "parts": [],
+  "story": "ラテン語quietus「休んでいる・自由な」から。義務や借りから解放されて自由になる→離れる→「やめる」。",
+  "note": "quiet・quiteと同じ語源。"
+ },
+ "case": {
+  "parts": [],
+  "story": "ラテン語casus「落ちること」から。身に降りかかってきた出来事→「場合・事件・実例」。",
+  "note": "「箱・ケース」のcaseは別語源（ラテン語capsa「箱」）。"
+ },
+ "certain": {
+  "parts": [],
+  "story": "ラテン語certus「決まった」から（cernere「ふるい分ける・見極める」）。見極めて決まった→「確かな」。",
+  "note": "「ある〜」は、決まってはいるが名を言わない用法。"
+ },
+ "check": {
+  "parts": [],
+  "story": "ペルシャ語shah「王」から。チェスで王を追いつめる「王手」→相手の動きを止める→「阻止・点検する」。",
+  "note": "chess（チェス）も同じ語源。"
+ },
+ "decision": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "離して"
+   },
+   {
+    "p": "cis",
+    "m": "切る"
+   },
+   {
+    "p": "-ion",
+    "m": "〜すること"
+   }
+  ],
+  "story": "ラテン語decidere「切り離す」から。迷いを断ち切ってどれかに決める→「決定・決心」。",
+  "note": "decideの名詞形。concise（簡潔な）のcisも「切る」。"
+ },
+ "government": {
+  "parts": [
+   {
+    "p": "govern",
+    "m": "舵を取る"
+   },
+   {
+    "p": "-ment",
+    "m": "〜すること"
+   }
+  ],
+  "story": "ギリシャ語kubernao「船の舵を取る」から。国の舵取りをすること→「統治・政府」。",
+  "note": "cyber（サイバー）も同じ「舵取り」の語から。"
+ },
+ "space": {
+  "parts": [],
+  "story": "ラテン語spatium「広がり・間隔」から。物と物の間の広がり→「空間・場所・間隔」、さらに「宇宙」。",
+  "note": ""
+ },
+ "single": {
+  "parts": [],
+  "story": "ラテン語singulus「一つずつの・単独の」から。一つだけ→「たった一つの・独身の」。",
+  "note": "singular（単数の）と同じ語源。"
+ },
+ "course": {
+  "parts": [],
+  "story": "ラテン語cursus「走ること・走路」から（currere「走る」）。走っていく道筋→「進路・経過・課程」。",
+  "note": "current（流れ）・occurも同じ「走る」の仲間。"
+ },
+ "experience": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "すっかり"
+   },
+   {
+    "p": "peri",
+    "m": "試す"
+   },
+   {
+    "p": "-ence",
+    "m": "〜すること"
+   }
+  ],
+  "story": "ラテン語experiri「試してみる」から。実際にやって試したこと→「経験」。",
+  "note": "experiment（実験）・expert（熟練者）と同じ仲間。"
+ },
+ "public": {
+  "parts": [],
+  "story": "ラテン語publicus「国民全体の」から。みんなに関わる→「公の・公共の・一般の人々」。",
+  "note": "republic（共和国）はラテン語res publica「公のもの」から。"
+ },
+ "state": {
+  "parts": [],
+  "story": "ラテン語status「立っている様子」から（stare「立つ」）。物事の立ち方＝「状態」、国のあり方→「国家・州」。",
+  "note": "動詞「述べる」は、はっきり定めて示す意から。status・statueも同じ仲間。"
+ },
+ "village": {
+  "parts": [],
+  "story": "ラテン語villa「田舎の屋敷・農場」から。屋敷のまわりに人が集まってできた集落→「村」。",
+  "note": "villa（別荘）と同じ語源。"
+ },
+ "secret": {
+  "parts": [
+   {
+    "p": "se-",
+    "m": "離して"
+   },
+   {
+    "p": "cret",
+    "m": "分ける"
+   }
+  ],
+  "story": "ラテン語secernere「分けて離す」から。ほかから分けて取っておいたもの→人に見せない「秘密」。",
+  "note": "secretary（秘書）は、秘密を任される人から。"
+ },
+ "truck": {
+  "parts": [],
+  "story": "ギリシャ語の「滑車・車輪」系の語から、もとは「小さな車輪」。車輪で荷を運ぶ車→「トラック」。",
+  "note": ""
+ },
+ "bicycle": {
+  "parts": [
+   {
+    "p": "bi-",
+    "m": "二つの"
+   },
+   {
+    "p": "cycle",
+    "m": "輪"
+   }
+  ],
+  "story": "「二つの(bi)輪(cycle)」→「自転車」。cycleはギリシャ語kuklos「輪」から。",
+  "note": "tricycleは「三輪車」。biは「2」でbilingual（2言語の）など。"
+ },
+ "paper": {
+  "parts": [],
+  "story": "パピルス（ギリシャ語papyros）から。古代エジプトで草から作った書く材料の名が、そのまま「紙」に。",
+  "note": ""
+ },
+ "promise": {
+  "parts": [
+   {
+    "p": "pro-",
+    "m": "前へ"
+   },
+   {
+    "p": "mise",
+    "m": "送る"
+   }
+  ],
+  "story": "ラテン語promittere「前へ送り出す・前もって言う」から。先のことを前もって言っておく→「約束」。",
+  "note": "mission・admit・commitのmit/misも「送る」。"
+ },
+ "president": {
+  "parts": [
+   {
+    "p": "pre-",
+    "m": "前に"
+   },
+   {
+    "p": "sid",
+    "m": "座る"
+   },
+   {
+    "p": "-ent",
+    "m": "〜する人"
+   }
+  ],
+  "story": "ラテン語praesidere「前に座る」から。会の前（上座）に座って取り仕切る人→「議長・会長・大統領」。",
+  "note": "preside（司会する）の名詞形。sidはsit（座る）と同じ語根。"
+ },
+ "advice": {
+  "parts": [
+   {
+    "p": "ad-",
+    "m": "〜に"
+   },
+   {
+    "p": "vice",
+    "m": "見えること"
+   }
+  ],
+  "story": "古フランス語avis「意見」から。「私にはこう見える」という言い方がもと→見立て・意見→「忠告」。",
+  "note": "visionのvisも「見る」。"
+ },
+ "information": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "中に"
+   },
+   {
+    "p": "form",
+    "m": "形"
+   },
+   {
+    "p": "-ation",
+    "m": "〜すること"
+   }
+  ],
+  "story": "ラテン語informare「形を与える」から。頭の中に形を与える→教える・知らせる→「情報」。",
+  "note": "informの名詞形。"
+ },
+ "cook": {
+  "parts": [],
+  "story": "ラテン語coquus「料理人」から（coquere「火を通して調理する」）。「料理人」→動詞「料理する」。",
+  "note": "kitchen（台所）も同じ語源。"
+ },
+ "wall": {
+  "parts": [],
+  "story": "ラテン語vallum「防壁・柵」から。敵を防ぐための土の壁や柵→「壁」。",
+  "note": ""
+ },
+ "report": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "元へ"
+   },
+   {
+    "p": "port",
+    "m": "運ぶ"
+   }
+  ],
+  "story": "ラテン語reportare「運び戻す」から。見聞きしたことを持ち帰って伝える→「報告・報道」。",
+  "note": "import・export・transportのportも「運ぶ」。"
+ },
+ "date": {
+  "parts": [],
+  "story": "ラテン語data「与えられた」から。昔の手紙は「〇月〇日、ローマにて与えられた（=書かれた）」と結んだことから「日付」。",
+  "note": "果物のナツメヤシ(date)は別語源で、ギリシャ語「指」から。"
+ },
+ "control": {
+  "parts": [
+   {
+    "p": "contra",
+    "m": "対の"
+   },
+   {
+    "p": "rol",
+    "m": "巻物・帳簿"
+   }
+  ],
+  "story": "中世ラテン語contrarotulus「控えの帳簿」から。控えと照らし合わせて確かめる→監督する→「統制・支配」。",
+  "note": "roll（巻く・名簿）と同じrol。"
+ },
+ "perfect": {
+  "parts": [
+   {
+    "p": "per-",
+    "m": "完全に"
+   },
+   {
+    "p": "fect",
+    "m": "作る"
+   }
+  ],
+  "story": "ラテン語perficere「やり遂げる」から。最後まで作り上げた→欠けたところのない→「完全な」。",
+  "note": "effect・factoryのfec/facも「作る」。"
+ },
+ "university": {
+  "parts": [],
+  "story": "ラテン語universitas「全体・共同体」から。教師と学生がひとつにまとまった組合→「大学」。",
+  "note": "universe（宇宙＝全体）と同じ語源。"
+ },
+ "prison": {
+  "parts": [],
+  "story": "ラテン語prehensio「つかまえること」から（prehendere「つかむ」）。捕まえて閉じ込めておく所→「刑務所」。",
+  "note": "comprehend（理解する＝頭でつかむ）も同じ「つかむ」。"
+ },
+ "save": {
+  "parts": [],
+  "story": "ラテン語salvus「無事な」から。危険から無事にする→「救う」、失わずに取っておく→「残す・節約する」。",
+  "note": "safe（安全な）と同じ語源。"
+ },
+ "common": {
+  "parts": [
+   {
+    "p": "com-",
+    "m": "共に"
+   },
+   {
+    "p": "mun",
+    "m": "務め"
+   }
+  ],
+  "story": "ラテン語communis「共有の」から。皆で務めを分け合う→みんなに共通の→「共通の・普通の」。",
+  "note": "community（地域社会）・communicate（伝え合う）も同じ仲間。"
+ },
+ "group": {
+  "parts": [],
+  "story": "イタリア語gruppo「結び目・かたまり」から。ひとかたまりになったもの→「群れ・団体」。",
+  "note": ""
+ },
+ "fear": {
+  "parts": [],
+  "story": "古英語fǣr「突然の危険・災難」から。危険そのもの→危険に対して感じる気持ち→「恐れ」。",
+  "note": ""
+ },
+ "travel": {
+  "parts": [],
+  "story": "travail「苦労する」と同じ語。昔の旅は苦労の連続だったことから→「旅行する」。",
+  "note": "travail（骨折り・苦労）と同じ語源。"
+ },
+ "native": {
+  "parts": [],
+  "story": "ラテン語nativus「生まれつきの」から（natus「生まれた」）。生まれたときからの→「出生地の・生まれつきの」。",
+  "note": "nature（自然）・nation（国民）と同じ「生まれる」の仲間。"
+ },
+ "bank": {
+  "parts": [],
+  "story": "イタリア語banca「台・ベンチ」から。両替商が机を並べて商売したことから→「銀行」。",
+  "note": "bench（ベンチ）と同じ語源。「土手」のbankも同じゲルマン語の語根。"
+ },
+ "figure": {
+  "parts": [],
+  "story": "ラテン語figura「形・姿」から（fingere「形づくる」）。形→「姿・図」、数を表す形→「数字」。",
+  "note": "fiction（作り話）も同じ「形づくる」の仲間。"
+ },
+ "support": {
+  "parts": [
+   {
+    "p": "sup-",
+    "m": "下から"
+   },
+   {
+    "p": "port",
+    "m": "運ぶ"
+   }
+  ],
+  "story": "「下から(sup)運ぶ(port)」→下から持ち上げる→「支える・支持する・養う」。",
+  "note": "reportのportも「運ぶ」。"
+ },
+ "line": {
+  "parts": [],
+  "story": "古英語line「綱・ひも」から（ラテン語linum「亜麻（糸）」由来とされる）。ぴんと張った糸→「線・列・行」。",
+  "note": "linen（亜麻布）と同じ仲間。"
+ },
+ "library": {
+  "parts": [],
+  "story": "ラテン語liber「本（もとは木の内皮）」から。本を入れる箱・本棚→本を集めた所→「図書館」。",
+  "note": "フランス語librairieは「本屋」なので注意。"
+ },
+ "message": {
+  "parts": [],
+  "story": "ラテン語mittere「送る」から。送り届けられるもの→「伝言・メッセージ」。",
+  "note": "mission・promiseのmis/mitも「送る」。"
+ },
+ "peace": {
+  "parts": [],
+  "story": "ラテン語pax「平和」から。もとは「取り決めで結ぶ」の意の語根で、争いをやめる取り決め→「平和・講和」。",
+  "note": "pact（協定）と同じ語根。"
+ },
+ "popular": {
+  "parts": [],
+  "story": "ラテン語popularis「民衆の」から（populus「民衆」）。民衆の→多くの人に好かれる→「人気がある」。",
+  "note": "people（人々）と同じ語源。"
+ },
+ "mark": {
+  "parts": [],
+  "story": "古英語mearc「境界・境界のしるし」から。境目を示す目印→「印・跡・点数」。",
+  "note": ""
+ },
+ "fact": {
+  "parts": [],
+  "story": "ラテン語factum「なされたこと」から（facere「する」）。実際に行われたこと→「事実」。",
+  "note": "factory（工場）・perfectのfac/fecも「する・作る」。"
+ },
+ "sign": {
+  "parts": [],
+  "story": "ラテン語signum「しるし・目印」から。目に見えるしるし→「標識・合図・兆候」、しるしを書く→「署名する」。",
+  "note": "signal（信号）・signature（署名）と同じ語源。"
+ },
+ "avoid": {
+  "parts": [],
+  "story": "古フランス語esvuidier「空にする」から。場所を空ける→立ち退く→近づかない→「避ける」。",
+  "note": "void（空っぽの）・vacuumと同じ仲間。"
+ },
+ "capital": {
+  "parts": [],
+  "story": "ラテン語capitalis「頭の」から（caput「頭」）。頭＝一番上の→「首都・大文字」、利子に対する元金→「資本」。",
+  "note": "captain（長）も同じcap「頭」。"
+ },
+ "minute": {
+  "parts": [],
+  "story": "中世ラテン語minuta「細かく分けた部分」から。1時間を小さく分けた一つ→「分」。形容詞「ごく小さい」も同じ。",
+  "note": "形容詞はマイニュートと発音。secondは「2番目の分割」から。"
+ },
+ "terrible": {
+  "parts": [
+   {
+    "p": "terr",
+    "m": "怖がらせる"
+   },
+   {
+    "p": "-ible",
+    "m": "〜しうる"
+   }
+  ],
+  "story": "ラテン語terrere「怖がらせる」から。人を怖がらせるほどの→「恐ろしい・ひどい」。",
+  "note": "terror（恐怖）と同じ語根。"
+ },
+ "notice": {
+  "parts": [],
+  "story": "ラテン語notitia「知られていること」から。知ること→「気づく」、知らせること→「通知・掲示」。",
+  "note": "note・notion（考え）と同じ仲間。"
+ },
+ "difference": {
+  "parts": [
+   {
+    "p": "dif-",
+    "m": "別々に"
+   },
+   {
+    "p": "fer",
+    "m": "運ぶ"
+   },
+   {
+    "p": "-ence",
+    "m": "〜すること"
+   }
+  ],
+  "story": "ラテン語differre「別々に運ぶ」から。離れ離れにする→同じでない→「違い・差」。",
+  "note": "prefer・offerのferも「運ぶ」。"
+ },
+ "desk": {
+  "parts": [],
+  "story": "ラテン語discus「円盤」から。平たい円盤→平らな台→「机」。",
+  "note": "disk・dish（皿）も同じ語源。"
+ },
+ "special": {
+  "parts": [],
+  "story": "ラテン語specialis「特定の種類の」から（species「見た目・種類」）。ある種類だけの→「特別な・特殊な」。",
+  "note": "especially（特に）と同じ語源。"
+ },
+ "plane": {
+  "parts": [],
+  "story": "ラテン語planum「平らな面」から。「平面・水準」。「飛行機」はairplaneの略。",
+  "note": "plain（平らな・明白な）と同じ語源。"
+ },
+ "umbrella": {
+  "parts": [
+   {
+    "p": "umbr",
+    "m": "影"
+   },
+   {
+    "p": "-ella",
+    "m": "小さな"
+   }
+  ],
+  "story": "ラテン語umbra「影」＋小さいを表す語尾。持ち歩ける小さな日陰→もとは「日傘」、今は「傘」全般。",
+  "note": ""
+ },
+ "price": {
+  "parts": [],
+  "story": "ラテン語pretium「値打ち・代価」から。物の値打ち→「値段・代償」。",
+  "note": "praise（ほめる）・precious（貴重な）と同じ仲間。"
+ },
+ "gift": {
+  "parts": [],
+  "story": "give（与える）に名詞を作る-tがついた形。与えられたもの→「贈り物」、天から与えられた→「才能」。",
+  "note": "ドイツ語のGiftは「毒」なので注意。"
+ },
+ "church": {
+  "parts": [],
+  "story": "ギリシャ語kuriakon「主（神）のもの」から。主の家→「教会」。",
+  "note": ""
+ },
+ "respect": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "振り返って"
+   },
+   {
+    "p": "spect",
+    "m": "見る"
+   }
+  ],
+  "story": "ラテン語respicere「振り返って見る」から。もう一度よく見て気にかける→「尊敬・尊重」。",
+  "note": "inspect・spectator（観客）のspectも「見る」。"
+ },
+ "shop": {
+  "parts": [],
+  "story": "古英語sċoppa「小屋・屋台」から。物を並べて売る小屋→「店」、作業小屋→「仕事場」。",
+  "note": "workshopは「仕事場」の意が残った語。"
+ },
+ "economy": {
+  "parts": [
+   {
+    "p": "eco",
+    "m": "家"
+   },
+   {
+    "p": "nomy",
+    "m": "管理"
+   }
+  ],
+  "story": "ギリシャ語oikonomia「家の切り盛り」から。家計のやりくり→国や社会のやりくり→「経済」。",
+  "note": "ecology（生態学）のecoも「家」。"
+ },
+ "offer": {
+  "parts": [
+   {
+    "p": "of-",
+    "m": "〜の方へ"
+   },
+   {
+    "p": "fer",
+    "m": "運ぶ"
+   }
+  ],
+  "story": "ラテン語offerre「前へ運ぶ・差し出す」から。相手の方へ差し出す→「申し出る・提供する」。",
+  "note": "もとは神にささげ物をする意味だった。"
+ },
+ "vacation": {
+  "parts": [],
+  "story": "ラテン語vacatio「空いていること」から（vacare「空である」）。仕事が空いている時間→「休暇」。",
+  "note": "vacant（空いている）・vacuum（真空）と同じ仲間。"
+ },
+ "accept": {
+  "parts": [
+   {
+    "p": "ac-",
+    "m": "〜に"
+   },
+   {
+    "p": "cept",
+    "m": "取る"
+   }
+  ],
+  "story": "ラテン語acceptare「受け取る」から。自分の方へ取り込む→「受け取る・認める・引き受ける」。",
+  "note": "except・conceptのceptも「取る」。"
+ },
+ "science": {
+  "parts": [],
+  "story": "ラテン語scientia「知識」から（scire「知る」）。知ること→体系立った知識→「科学」。",
+  "note": "conscience（良心）も同じ「知る」の仲間。"
+ },
+ "grow": {
+  "parts": [],
+  "story": "古英語grōwan「育つ・緑になる」から。草木が緑になって伸びる→「成長する・増える」。",
+  "note": "green（緑）・grass（草）と同じ語根。"
+ },
+ "arrive": {
+  "parts": [
+   {
+    "p": "ar-",
+    "m": "〜へ"
+   },
+   {
+    "p": "rive",
+    "m": "岸"
+   }
+  ],
+  "story": "ラテン語ripa「岸」から。船が岸に着く→「着く・到着する」。",
+  "note": "river（川）も「岸」のripaから。"
+ },
+ "medicine": {
+  "parts": [],
+  "story": "ラテン語medicina「治療術」から（medicus「医者」）。医者の技→「医学」、治すための物→「薬」。",
+  "note": "medical（医療の）と同じ語源。"
+ },
+ "guitar": {
+  "parts": [],
+  "story": "ギリシャ語kithara（古代の竪琴）から、アラビア語・スペイン語を通って「ギター」に。",
+  "note": "インドの楽器sitarとは無関係。zitherは同じ語源。"
+ },
+ "entire": {
+  "parts": [],
+  "story": "ラテン語integer「手つかずの・まるごとの」から。欠けずにそろった→「全体の・完全な」。",
+  "note": "integer（整数）・integrity（誠実さ）と同じ語源。"
+ },
+ "mosque": {
+  "parts": [],
+  "story": "アラビア語masjid「ひれ伏す場所」から。祈りでひれ伏す場所→イスラム教の「礼拝所」。",
+  "note": ""
+ },
+ "protect": {
+  "parts": [
+   {
+    "p": "pro-",
+    "m": "前を"
+   },
+   {
+    "p": "tect",
+    "m": "覆う"
+   }
+  ],
+  "story": "ラテン語protegere「前を覆う」から。前に覆いをかけて危険から守る→「保護する」。",
+  "note": "detect（見つける）は「覆いを外す」から。"
+ },
+ "social": {
+  "parts": [],
+  "story": "ラテン語socius「仲間」から。仲間の→人と人とのつながりの→「社会の・社交の」。",
+  "note": "society（社会）と同じ語源。"
+ },
+ "simple": {
+  "parts": [
+   {
+    "p": "sim",
+    "m": "一つ"
+   },
+   {
+    "p": "ple",
+    "m": "重ね"
+   }
+  ],
+  "story": "ラテン語simplex「一重の」から。一重で重なりがない→「単純な・簡単な・飾り気のない」。",
+  "note": "double（二重の）はduplexから。singleと同じ「一」の語根。"
+ },
+ "nature": {
+  "parts": [],
+  "story": "ラテン語natura「生まれ」から（nasci「生まれる」）。生まれつきの性質→「本質」、ありのままの世界→「自然」。",
+  "note": "nativeと同じ「生まれる」の仲間。"
+ },
+ "carry": {
+  "parts": [],
+  "story": "ラテン語carrus「荷馬車」から。荷馬車で運ぶ→「運ぶ・持ち歩く」。",
+  "note": "car（車）と同じ語源。"
+ },
+ "join": {
+  "parts": [],
+  "story": "ラテン語iungere「くびきでつなぐ・結ぶ」から。つなぎ合わせる→「つなぐ・加わる」。",
+  "note": "junction（合流点）と同じ語源。"
+ },
+ "cause": {
+  "parts": [],
+  "story": "ラテン語causa「理由・訴え」から。ものごとの理由→「原因」。",
+  "note": "because はby cause「その原因によって」から。"
+ },
+ "surprise": {
+  "parts": [
+   {
+    "p": "sur-",
+    "m": "上から"
+   },
+   {
+    "p": "prise",
+    "m": "つかむ"
+   }
+  ],
+  "story": "古フランス語「上からつかむ・不意に襲う」から。いきなり襲いかかる→「急襲する・驚かす」。",
+  "note": "prison（刑務所）のprisも「つかむ」。"
+ },
+ "admit": {
+  "parts": [
+   {
+    "p": "ad-",
+    "m": "〜へ"
+   },
+   {
+    "p": "mit",
+    "m": "送る"
+   }
+  ],
+  "story": "ラテン語admittere「中へ送る」から。中に通す→「入れる」、言い分を受け入れる→「認める」。",
+  "note": "commit・permitのmitも「送る」。"
+ },
+ "blame": {
+  "parts": [],
+  "story": "ラテン語blasphemare「神を冒涜する」から。悪く言う→「非難する・責任を負わせる」。",
+  "note": "blaspheme（冒涜する）と同じ語源。"
+ },
+ "machine": {
+  "parts": [],
+  "story": "ギリシャ語mēkhanē「仕掛け・工夫」から。うまく動くよう工夫された仕掛け→「機械」。",
+  "note": "mechanic（機械工）と同じ語源。"
+ },
+ "convince": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "完全に"
+   },
+   {
+    "p": "vince",
+    "m": "打ち負かす"
+   }
+  ],
+  "story": "ラテン語convincere「完全に打ち負かす」から。議論で打ち負かす→相手に「納得させる」。",
+  "note": "victory（勝利）のvicも「勝つ」。convictと同じ語源。"
+ },
+ "solve": {
+  "parts": [],
+  "story": "ラテン語solvere「ほどく・ゆるめる」から。からまったものをほどく→問題を「解く」。",
+  "note": "solution（解決）・dissolve（溶かす）と同じ仲間。"
+ },
+ "bill": {
+  "parts": [],
+  "story": "中世ラテン語bulla「封印・封印した文書」から。書き付け→「勘定書・紙幣・法案」。",
+  "note": "「くちばし」のbillは別語源。"
+ },
+ "view": {
+  "parts": [],
+  "story": "古フランス語veue「見られたもの」から（veoir「見る」）。見ること→「視界・ながめ・見方」。",
+  "note": "review・interviewのviewも同じ。"
+ },
+ "correct": {
+  "parts": [
+   {
+    "p": "cor-",
+    "m": "すっかり"
+   },
+   {
+    "p": "rect",
+    "m": "まっすぐにする"
+   }
+  ],
+  "story": "ラテン語corrigere「まっすぐに直す」から。曲がったものを直す→「訂正する・正しい」。",
+  "note": "direct・rectangle（長方形）のrectも「まっすぐ」。"
+ },
+ "practice": {
+  "parts": [],
+  "story": "ギリシャ語praktikos「実際に行う」から。頭で考えるだけでなく実際にやること→「実行・練習・習慣」。",
+  "note": "practical（実用的な）と同じ仲間。"
+ },
+ "none": {
+  "parts": [
+   {
+    "p": "n-",
+    "m": "〜でない"
+   },
+   {
+    "p": "one",
+    "m": "ひとつ"
+   }
+  ],
+  "story": "古英語で「ひとつ(one)もない(ne)」。→「どれも・だれも…ない」。",
+  "note": "no（ない）もone系の同じ仲間。"
+ },
+ "camera": {
+  "parts": [],
+  "story": "ラテン語camera「部屋」から。camera obscura（暗い部屋）で像を映す装置→略して「カメラ」。",
+  "note": "chamber（部屋）と同じ語源。"
+ },
+ "waste": {
+  "parts": [],
+  "story": "ラテン語系の「荒れ果てた・空っぽの」から。何も実らない荒れ地→役立てずに「むだにする・浪費」。",
+  "note": "vast（広大な）と遠い親戚。"
+ },
+ "chair": {
+  "parts": [
+   {
+    "p": "cat-",
+    "m": "下に"
+   },
+   {
+    "p": "hedra",
+    "m": "座席"
+   }
+  ],
+  "story": "ギリシャ語kathedra「腰を下ろす座席」から、フランス語を経て短くなり「いす」。",
+  "note": "cathedral（大聖堂）は司教の座席がある教会。"
+ },
+ "local": {
+  "parts": [
+   {
+    "p": "loc",
+    "m": "場所"
+   },
+   {
+    "p": "-al",
+    "m": "〜の"
+   }
+  ],
+  "story": "ラテン語locus「場所」から。ある場所に属する→「その地方の・局所的な」。",
+  "note": "location、locate も同じ「場所」。"
+ },
+ "dictionary": {
+  "parts": [
+   {
+    "p": "dict",
+    "m": "言う"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   },
+   {
+    "p": "-ary",
+    "m": "集めたもの"
+   }
+  ],
+  "story": "「言葉(dictio)を集めたもの」→「辞書」。dictioはdicere「言う」から。",
+  "note": "dictate（書き取らせる）、predict（予言する）も「言う」。"
+ },
+ "fruit": {
+  "parts": [],
+  "story": "ラテン語frui「楽しむ・恵みを味わう」の名詞形から。大地から得て味わう恵み→「果物・成果」。",
+  "note": ""
+ },
+ "honest": {
+  "parts": [],
+  "story": "ラテン語honestus「名誉ある」から（honor「名誉」）。恥じるところのない→「正直な」。",
+  "note": "honor（名誉）と同じ語源。"
+ },
+ "ticket": {
+  "parts": [],
+  "story": "古フランス語「貼り付けるもの・札」から。物に貼ったり付けたりする札→「切符」。",
+  "note": "etiquette（礼儀作法）と同じ語。英語stickとも親戚。"
+ },
+ "planet": {
+  "parts": [],
+  "story": "ギリシャ語planetes「さまよう者」から。星座の中をさまようように動いて見える星→「惑星」。",
+  "note": ""
+ },
+ "type": {
+  "parts": [],
+  "story": "ギリシャ語typos「打ってできた跡」から。打ち付けた跡・刻印→同じ形を写す「型」→「典型・タイプ」。",
+  "note": ""
+ },
+ "round": {
+  "parts": [],
+  "story": "ラテン語rotundus「丸い」から（rota「車輪」）。車輪のように丸い→「丸い・ぐるっと回って」。",
+  "note": "rotate（回転する）と同じ仲間。"
+ },
+ "continue": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "ともに"
+   },
+   {
+    "p": "tin",
+    "m": "保つ"
+   }
+  ],
+  "story": "ラテン語「ひとまとまりに(con)保つ(tenere)」→途切れずつなぎとめる→「続ける・続く」。",
+  "note": "contain・maintainのtainも「保つ」。"
+ },
+ "except": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "外へ"
+   },
+   {
+    "p": "cept",
+    "m": "取る"
+   }
+  ],
+  "story": "「外へ(ex)取り出す(capere)」→仲間から取り除く→「除く・〜を除いて」。",
+  "note": "accept（受け取る）のceptも「取る」。"
+ },
+ "escape": {
+  "parts": [
+   {
+    "p": "es-",
+    "m": "外へ"
+   },
+   {
+    "p": "cape",
+    "m": "マント"
+   }
+  ],
+  "story": "「マント(cape)から抜け出す(ex)」→つかまれた服を脱ぎ捨てて逃げる→「逃げる・免れる」。",
+  "note": ""
+ },
+ "translate": {
+  "parts": [
+   {
+    "p": "trans-",
+    "m": "向こうへ"
+   },
+   {
+    "p": "late",
+    "m": "運ばれた"
+   }
+  ],
+  "story": "ラテン語transferreの過去分詞から。「向こう側へ運ぶ」→別の言語に移し替える→「翻訳する」。",
+  "note": "transferと同じ成り立ち。"
+ },
+ "decide": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "離して"
+   },
+   {
+    "p": "cide",
+    "m": "切る"
+   }
+  ],
+  "story": "ラテン語「切り離す」から。迷いを切り捨てる→「決める・決心する」。",
+  "note": "suicide（自殺）やpesticide（殺虫剤）の-cideも「切る・殺す」。"
+ },
+ "normal": {
+  "parts": [],
+  "story": "ラテン語norma「大工の直角定規」から。定規に合っている→基準どおりの→「正常な・普通の」。",
+  "note": "norm（標準）と同じ語。"
+ },
+ "card": {
+  "parts": [],
+  "story": "ギリシャ語khartes「パピルス紙」から。1枚の紙→「カード」。",
+  "note": "chart（図表）と同じ語源。"
+ },
+ "sugar": {
+  "parts": [],
+  "story": "サンスクリット語sharkara「砂粒」から、ペルシャ・アラビア語を経て。粒状の甘いもの→「砂糖」。",
+  "note": ""
+ },
+ "subject": {
+  "parts": [
+   {
+    "p": "sub-",
+    "m": "下に"
+   },
+   {
+    "p": "ject",
+    "m": "投げる"
+   }
+  ],
+  "story": "「下に投げ置かれたもの」→支配下にある「臣下・支配を受ける」、論じる下地に置かれた「主題・科目」。",
+  "note": "object、projectのjectも「投げる」。"
+ },
+ "tent": {
+  "parts": [],
+  "story": "ラテン語tendere「張る・伸ばす」から。布をぴんと張ってつくる小屋→「テント」。",
+  "note": "tension（張り）、extend（伸ばす）も同じ仲間。"
+ },
+ "animal": {
+  "parts": [],
+  "story": "ラテン語anima「息・命」から。息をして生きているもの→「動物」。",
+  "note": "animation（命を吹き込む→アニメ）も同じ語源。"
+ },
+ "beauty": {
+  "parts": [],
+  "story": "ラテン語bellus「美しい・かわいい」から。美しいこと→「美しさ・美人」。",
+  "note": ""
+ },
+ "fault": {
+  "parts": [],
+  "story": "ラテン語fallere「欺く・しくじる」から。しくじり・足りないところ→「欠点・誤り・責任」。",
+  "note": "false（偽の）、fail（失敗する）と同じ仲間。"
+ },
+ "taste": {
+  "parts": [],
+  "story": "俗ラテン語「触って確かめる」から。舌で触れて確かめる→「味わう・味」→物を見分ける感覚「好み」。",
+  "note": ""
+ },
+ "interest": {
+  "parts": [
+   {
+    "p": "inter-",
+    "m": "間に"
+   },
+   {
+    "p": "est",
+    "m": "ある"
+   }
+  ],
+  "story": "ラテン語interesse「間にある→関わりがある」から。自分に関わる事柄→「関心・利害」、貸し借りで生じる「利子」。",
+  "note": ""
+ },
+ "contact": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "ともに"
+   },
+   {
+    "p": "tact",
+    "m": "触れる"
+   }
+  ],
+  "story": "ラテン語「互いに触れ合う」から→「接触・連絡」。",
+  "note": "tactile（触覚の）も「触れる」の仲間。"
+ },
+ "account": {
+  "parts": [
+   {
+    "p": "ac-",
+    "m": "〜に"
+   },
+   {
+    "p": "count",
+    "m": "数える"
+   }
+  ],
+  "story": "「数えて(count)入れる」→「計算・勘定」、勘定の中身を述べる→「説明する」。",
+  "note": "count・computeと同じ語源。"
+ },
+ "intend": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "〜へ"
+   },
+   {
+    "p": "tend",
+    "m": "伸ばす・向ける"
+   }
+  ],
+  "story": "ラテン語「〜の方へ心を伸ばす・向ける」から→「意図する・〜するつもりである」。",
+  "note": "attend・extendのtendも同じ。"
+ },
+ "conversation": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "ともに"
+   },
+   {
+    "p": "vers",
+    "m": "向きを変える"
+   }
+  ],
+  "story": "ラテン語conversari「人とともに過ごす・付き合う」から。付き合いの中で言葉を交わすこと→「会話」。",
+  "note": ""
+ },
+ "jail": {
+  "parts": [],
+  "story": "ラテン語cavea「檻」から（cavus「くぼんだ」）。閉じ込める檻→「刑務所・牢獄」。",
+  "note": "cage（鳥かご）と同じ語源。"
+ },
+ "opportunity": {
+  "parts": [
+   {
+    "p": "op-",
+    "m": "〜に向かって"
+   },
+   {
+    "p": "port",
+    "m": "港"
+   }
+  ],
+  "story": "ラテン語opportunus「港の方へ向かう（風）」から。船を港へ運ぶ順風→ちょうど都合のよい「機会」。",
+  "note": ""
+ },
+ "uncle": {
+  "parts": [],
+  "story": "ラテン語avunculus「母方のおじ」から（avus「祖父」＋「小さい」）。のちに広く「おじ」に。",
+  "note": ""
+ },
+ "responsible": {
+  "parts": [
+   {
+    "p": "respons",
+    "m": "答える"
+   },
+   {
+    "p": "-ible",
+    "m": "〜できる"
+   }
+  ],
+  "story": "「応答できる」→自分の行いについて問われたら答えなければならない→「責任がある」。",
+  "note": "respond（答える）と同じ語根。"
+ },
+ "exist": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "外へ"
+   },
+   {
+    "p": "sist",
+    "m": "立つ"
+   }
+  ],
+  "story": "ラテン語「外へ立ち現れる」から→はっきり姿がある→「存在する」。",
+  "note": "assist・resistのsistも「立つ」。"
+ },
+ "manager": {
+  "parts": [],
+  "story": "イタリア語maneggiare「(馬を)手で扱う」から（ラテン語manus「手」）。うまく扱い切り盛りする人→「経営者」。",
+  "note": "manual（手の・説明書）と同じ「手」。"
+ },
+ "purpose": {
+  "parts": [
+   {
+    "p": "pur-",
+    "m": "前に"
+   },
+   {
+    "p": "pose",
+    "m": "置く"
+   }
+  ],
+  "story": "古フランス語「前に(pur)置く(pose)」→目の前に掲げたもの→「目的」。",
+  "note": "propose（提案する）と同じ成り立ち。"
+ },
+ "text": {
+  "parts": [],
+  "story": "ラテン語texere「織る」から。言葉を織り上げたもの→「本文・原文」。",
+  "note": "textile（織物）と同じ語源。"
+ },
+ "distance": {
+  "parts": [
+   {
+    "p": "di-",
+    "m": "離れて"
+   },
+   {
+    "p": "stance",
+    "m": "立つ"
+   }
+  ],
+  "story": "ラテン語「離れて(dis)立つ(stare)」から→離れていること→「距離」。",
+  "note": "stand・statusも「立つ」の仲間。"
+ },
+ "suit": {
+  "parts": [],
+  "story": "ラテン語sequi「ついて行く」から。後に付き従うもの→ひと揃い（服の上下）「スーツ」、相手を追いかける「訴訟」。",
+  "note": "sequence（連続）、pursue（追う）も同じ仲間。"
+ },
+ "service": {
+  "parts": [],
+  "story": "ラテン語servus「奴隷・召使い」から。主人に仕えること→「奉仕・サービス」。",
+  "note": "serve（仕える）と同じ語源。"
+ },
+ "soup": {
+  "parts": [],
+  "story": "後期ラテン語suppa「スープに浸したパン」から。浸していた汁の方→「スープ」。",
+  "note": "supper（夕食）も同じ仲間。"
+ },
+ "complete": {
+  "parts": [
+   {
+    "p": "com-",
+    "m": "すっかり"
+   },
+   {
+    "p": "plete",
+    "m": "満たす"
+   }
+  ],
+  "story": "ラテン語「すっかり満たす」から→欠けたところがない→「完全な・仕上げる」。",
+  "note": "complement（補うもの）も同語源。deplete（使い果たす）のpleteも同じ。"
+ },
+ "rent": {
+  "parts": [],
+  "story": "ラテン語reddere「返す・納める」から。定期的に納めるお金→「賃借料」。",
+  "note": "render（与える・〜にする）と同じ語源。"
+ },
+ "sort": {
+  "parts": [],
+  "story": "ラテン語sors「くじ・運命・割り当て」から。くじで割り振られた組→「種類」。",
+  "note": ""
+ },
+ "major": {
+  "parts": [],
+  "story": "ラテン語magnus「大きい」の比較級maior「より大きい」から→「大きい方の・主要な」。",
+  "note": "majority（大多数）、mayor（市長）も同じ語。"
+ },
+ "corner": {
+  "parts": [],
+  "story": "ラテン語cornu「角（つの）」から。つののように突き出た部分→「かど・すみ」。",
+  "note": ""
+ },
+ "television": {
+  "parts": [
+   {
+    "p": "tele-",
+    "m": "遠く"
+   },
+   {
+    "p": "vision",
+    "m": "見ること"
+   }
+  ],
+  "story": "「遠く(tele)を見ること(vision)」→離れた場所の映像を見る「テレビ」。",
+  "note": "telephone（遠くの音）、telescope（遠くを見る道具）も同じtele-。"
+ },
+ "novel": {
+  "parts": [],
+  "story": "ラテン語novus「新しい」から。「新しい・目新しい」→新しい話→「小説」。",
+  "note": "new（新しい）とも遠い親戚。"
+ },
+ "charge": {
+  "parts": [],
+  "story": "ラテン語carrus「荷車」から。荷を積む→重荷を負わせる→費用を負わせて「請求する」、責任を負わせる「任務・監督」。",
+  "note": "car（車）、carry（運ぶ）と同じ語源。"
+ },
+ "count": {
+  "parts": [],
+  "story": "ラテン語computare「まとめて数える」が縮まった形。→「数える」→数に入れて「思う・重要である」。",
+  "note": "名詞の「伯爵」は別語源。compute（計算する）と同じ仲間。"
+ },
+ "example": {
+  "parts": [],
+  "story": "ラテン語exemplum「取り出したもの」から（eximere「取り出す」）。たくさんの中から取り出して見せる一つ→「例・見本」。",
+  "note": "sample（見本）はこの語が縮まったもの。"
+ },
+ "taxi": {
+  "parts": [],
+  "story": "taximeter cab（料金メーター付きの車）の略。taxiはラテン語taxa「料金」、meterは「計器」。",
+  "note": "tax（税）と同じ語源。"
+ },
+ "appreciate": {
+  "parts": [
+   {
+    "p": "ap-",
+    "m": "〜に"
+   },
+   {
+    "p": "preci",
+    "m": "値段"
+   }
+  ],
+  "story": "ラテン語「値段(pretium)をつける」から→価値を正しく認める→「よさがわかる・感謝する」。",
+  "note": "price（値段）、precious（貴重な）も同じ仲間。"
+ },
+ "ocean": {
+  "parts": [],
+  "story": "ギリシャ語Okeanos「大地を取り巻く大河（の神）」から→陸を取り囲む広い海→「大洋」。",
+  "note": ""
+ },
+ "population": {
+  "parts": [],
+  "story": "ラテン語populus「人々・民衆」から。そこに住む人々の数→「人口・全住民」。",
+  "note": "people、popular（人々に人気の）も同じ語源。"
+ },
+ "result": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "後ろへ"
+   },
+   {
+    "p": "sult",
+    "m": "跳ぶ"
+   }
+  ],
+  "story": "ラテン語「跳ね返る」から。行いが跳ね返ってくる→「結果・結果として生じる」。",
+  "note": "insult（跳びかかる→侮辱）のsultも「跳ぶ」。"
+ },
+ "force": {
+  "parts": [],
+  "story": "ラテン語fortis「強い」から。強さ→「力・暴力・軍隊」、力で押し通す→「強いる」。",
+  "note": "fort（とりで）、effort（努力）も同じ仲間。"
+ },
+ "attend": {
+  "parts": [
+   {
+    "p": "at-",
+    "m": "〜へ"
+   },
+   {
+    "p": "tend",
+    "m": "伸ばす・向ける"
+   }
+  ],
+  "story": "「〜の方へ心を向ける」→「注意する・世話をする」、その場へ身を向ける→「出席する」。",
+  "note": "intendと同じtend。"
+ },
+ "similar": {
+  "parts": [],
+  "story": "ラテン語similis「似ている」から→「似ている・同様の」。",
+  "note": "simulate（まねる）も同じ仲間。"
+ },
+ "till": {
+  "parts": [],
+  "story": "古英語・古ノルド語til「〜へ・〜まで」から。「〜まで」の意味は昔から。",
+  "note": "untilを縮めた語ではなく、逆にuntilがtillをもとにできた語。"
+ },
+ "meal": {
+  "parts": [],
+  "story": "古英語mæl「決まった時刻・機会」から。食べる決まった時刻→「食事」。",
+  "note": "piecemeal（少しずつ）のmealも「回・区切り」。"
+ },
+ "position": {
+  "parts": [
+   {
+    "p": "posit",
+    "m": "置かれた"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語ponere「置く」の過去分詞から。置かれた場所→「位置」、身の置き方→「姿勢・立場」。",
+  "note": "pose、compose、depositも「置く」の仲間。"
+ },
+ "imagine": {
+  "parts": [],
+  "story": "ラテン語imago「像・似姿」から。心の中に像を描く→「想像する」。",
+  "note": "image（像）と同じ語源。"
+ },
+ "solution": {
+  "parts": [],
+  "story": "ラテン語solvere「ほどく・解く」から。問題をほどく→「解決・解答」、固体をほどいて溶かす→「溶液」。",
+  "note": "solve（解く）、dissolve（溶かす）と同じ仲間。"
+ },
+ "suggest": {
+  "parts": [
+   {
+    "p": "sug-",
+    "m": "下から"
+   },
+   {
+    "p": "gest",
+    "m": "運ぶ"
+   }
+  ],
+  "story": "ラテン語「下から(sub)運び上げる(gerere)」→そっと持ち出す→「提案する・それとなく示す」。",
+  "note": ""
+ },
+ "century": {
+  "parts": [],
+  "story": "ラテン語centum「100」から。100のひとまとまり→「100年・1世紀」。",
+  "note": "cent（100分の1ドル）、percent（100につき）も同じ。"
+ },
+ "level": {
+  "parts": [],
+  "story": "ラテン語libella「小さな天秤・水準器」から。水平を測る道具→「水平・平らな」→「水準・レベル」。",
+  "note": ""
+ },
+ "private": {
+  "parts": [],
+  "story": "ラテン語privare「奪う・切り離す」の過去分詞から。公から切り離された→「個人の・私的な」。",
+  "note": "deprive（奪う）と同じ仲間。"
+ },
+ "permission": {
+  "parts": [
+   {
+    "p": "per-",
+    "m": "通して"
+   },
+   {
+    "p": "miss",
+    "m": "送る"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "permit（許す）の名詞形。ラテン語「通して送り出す」→通してやる→「許可」。",
+  "note": "mission（派遣）、transmitのmiss/mitも「送る」。"
+ },
+ "recognize": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "再び"
+   },
+   {
+    "p": "cogn",
+    "m": "知る"
+   }
+  ],
+  "story": "ラテン語「再び知る」から→見て前に知ったものだとわかる→「見分ける・認める」。",
+  "note": "cognitive（認知の）も「知る」の仲間。"
+ },
+ "region": {
+  "parts": [],
+  "story": "ラテン語regere「支配する・治める」から。支配の及ぶ範囲→「地域・地帯」。",
+  "note": "regular、regime（体制）も同じ仲間。"
+ },
+ "pair": {
+  "parts": [],
+  "story": "ラテン語par「等しい」から。等しいもの二つ→「一組・一対」。",
+  "note": "par（同等）、compare（比べる）も同じ語源。"
+ },
+ "garage": {
+  "parts": [],
+  "story": "フランス語garer「しまっておく・保管する」から。車をしまっておく場所→「車庫」。",
+  "note": ""
+ },
+ "modern": {
+  "parts": [],
+  "story": "ラテン語modo「たった今」から。今の時代の→「現代の」。",
+  "note": ""
+ },
+ "security": {
+  "parts": [
+   {
+    "p": "se-",
+    "m": "〜なしに"
+   },
+   {
+    "p": "cur",
+    "m": "心配"
+   }
+  ],
+  "story": "ラテン語「心配(cura)がない」から→気がかりのない状態→「安全・安心」。",
+  "note": "secure（安全な）の名詞形。cure（治療）のcurも「心配・世話」。"
+ },
+ "improve": {
+  "parts": [],
+  "story": "古フランス語「利益(prou)をもたらす」から→ためになる方へ変える→「よくする・よくなる」。",
+  "note": "見た目は似ているがprove（証明する）とは別語源。"
+ },
+ "rude": {
+  "parts": [],
+  "story": "ラテン語rudis「荒削りの・未加工の」から。洗練されていない→「無作法な・失礼な」。",
+  "note": "rudimentary（初歩的な）も同じ仲間。"
+ },
+ "innocent": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "〜でない"
+   },
+   {
+    "p": "noc",
+    "m": "害する"
+   },
+   {
+    "p": "-ent",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語「害を与えない」から→罪を犯していない→「無罪の・無邪気な」。",
+  "note": ""
+ },
+ "ancient": {
+  "parts": [],
+  "story": "俗ラテン語で、ante「前に」に形容詞語尾がついた語から。ずっと前の→「古代の」。",
+  "note": "ante-はanticipate（先取りする）の「前」。"
+ },
+ "culture": {
+  "parts": [],
+  "story": "ラテン語colere「耕す・世話をする」から。土地を耕す→「耕作・栽培」、心を耕す→「教養・文化」。",
+  "note": "agriculture（農業）と同じ仲間。"
+ },
+ "reality": {
+  "parts": [],
+  "story": "ラテン語res「もの・事実」から生まれたrealis「実際のものの」の名詞形→「現実」。",
+  "note": "real（本当の）の名詞形。"
+ },
+ "remain": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "後ろに"
+   },
+   {
+    "p": "main",
+    "m": "とどまる"
+   }
+  ],
+  "story": "ラテン語「後に残ってとどまる」から→「残る・相変わらず〜のままである」。",
+  "note": "mansion（邸宅）も「とどまる所」から。"
+ },
+ "community": {
+  "parts": [],
+  "story": "ラテン語communis「共通の」から。共通のものを持つ人々のまとまり→「地域社会・共同体」。",
+  "note": "common（共通の）と同じ語源。"
+ },
+ "education": {
+  "parts": [],
+  "story": "ラテン語educare「育て上げる」から（educere「外へ導き出す」と同系）。子どもを育て上げること→「教育」。",
+  "note": ""
+ },
+ "museum": {
+  "parts": [],
+  "story": "ギリシャ語Mouseion「ムーサ（学芸の女神たち）の神殿」から。学芸の場→「博物館」。",
+  "note": "music（音楽）もムーサの技から。"
+ },
+ "cash": {
+  "parts": [],
+  "story": "ラテン語capsa「箱」から、フランス語caisse「お金の箱」へ。お金をしまう箱→その中身の「現金」。",
+  "note": "case（箱・ケース）と同じ語源。"
+ },
+ "evidence": {
+  "parts": [
+   {
+    "p": "e-",
+    "m": "外に"
+   },
+   {
+    "p": "vid",
+    "m": "見る"
+   }
+  ],
+  "story": "「外に(e)はっきり見える(vid)」こと→はっきり示すもの→「証拠」。",
+  "note": "evident（明らかな）、video・visionのvid/visも「見る」。"
+ },
+ "paint": {
+  "parts": [],
+  "story": "ラテン語pingere「絵を描く・色を塗る」から、フランス語を経て「塗る・絵の具で描く」。",
+  "note": "picture（絵）・pigment（顔料）も同じ仲間。"
+ },
+ "usual": {
+  "parts": [
+   {
+    "p": "us",
+    "m": "使う"
+   },
+   {
+    "p": "-ual",
+    "m": "〜の"
+   }
+  ],
+  "story": "ラテン語usus「使うこと・習慣」から。いつも使っている→慣れた→「いつもの」。",
+  "note": "use（使う）と同じ語源。"
+ },
+ "band": {
+  "parts": [],
+  "story": "古英語で「縛るもの・ひも」。縛るように巻きつける→「帯・バンド」。",
+  "note": "bind・bond・bundleも「縛る」の仲間。「一団・楽隊」のbandは別系統の語とされる。"
+ },
+ "center": {
+  "parts": [],
+  "story": "ギリシャ語kentron「突き棒・コンパスの針」から。円を描くとき針を刺す点→「中心」。",
+  "note": ""
+ },
+ "fool": {
+  "parts": [],
+  "story": "ラテン語follis「ふいご・空気袋」から。中身が空っぽで風ばかり→「ばか者」。",
+  "note": "folly（愚かさ）も同じ語源。"
+ },
+ "size": {
+  "parts": [],
+  "story": "assize（法による割り当て）の頭が落ちた形。支払う量を定めた決まり→決められた量→「大きさ・寸法」。",
+  "note": ""
+ },
+ "enemy": {
+  "parts": [
+   {
+    "p": "en-",
+    "m": "〜でない"
+   },
+   {
+    "p": "emy",
+    "m": "友（amicus）"
+   }
+  ],
+  "story": "ラテン語inimicus「友(amicus)でない(in-)」→「敵」。",
+  "note": "amiable（愛想のよい）、フランス語ami（友）と同じ仲間。"
+ },
+ "pocket": {
+  "parts": [
+   {
+    "p": "pock",
+    "m": "袋"
+   },
+   {
+    "p": "-et",
+    "m": "小さい"
+   }
+  ],
+  "story": "古フランス語poque「袋」に「小さい」を表す-etがついた形→小さな袋→「ポケット」。",
+  "note": "closet（小部屋）の-etも「小さい」。"
+ },
+ "enter": {
+  "parts": [],
+  "story": "ラテン語intra「内側に」から生まれたintrare「中に入る」→「入る」。",
+  "note": "interior（内部）・introduce（中に導く）も「中へ」の仲間。"
+ },
+ "courage": {
+  "parts": [],
+  "story": "ラテン語cor「心臓・心」から。心の強さ→「勇気」。",
+  "note": "cordial（心からの）、record（心に呼び戻す）も同じcor。"
+ },
+ "issue": {
+  "parts": [],
+  "story": "ラテン語exire「外へ出る」から、古フランス語issue「出口」。外へ出る・出す→「出てくる」「発行（物）」。",
+  "note": "exit（出口）と同じ語源。"
+ },
+ "salt": {
+  "parts": [],
+  "story": "古英語sealtから。ラテン語sal（塩）と同じ祖先をもつ語。",
+  "note": "salad（塩で味つけした野菜）・sauceはラテン語salの仲間。"
+ },
+ "anger": {
+  "parts": [],
+  "story": "古ノルド語angr「悲しみ・苦しみ」から。胸が締めつけられるようなつらさ→「怒り」へ意味が変化。",
+  "note": "anxious（不安な）・anguish（苦悩）も「締めつける」の仲間。"
+ },
+ "effort": {
+  "parts": [
+   {
+    "p": "ef-",
+    "m": "外へ"
+   },
+   {
+    "p": "fort",
+    "m": "強い・力"
+   }
+  ],
+  "story": "「外へ(ex)力(fort)を出す」→力をふりしぼること→「努力」。",
+  "note": "force・comfort・fortress（要塞）のfortも「強い」。"
+ },
+ "button": {
+  "parts": [],
+  "story": "古フランス語bouter「押す・突く」から。突き出た丸いつまみ→「ボタン」。",
+  "note": ""
+ },
+ "vote": {
+  "parts": [],
+  "story": "ラテン語votum「神への誓い・願い」から。自分の願いをはっきり示す→「投票・票」。",
+  "note": "vow（誓う）も同じ語源。"
+ },
+ "memory": {
+  "parts": [],
+  "story": "ラテン語memor「覚えている」から。覚えておく力→「記憶・思い出」。",
+  "note": "remember・memorial・memoも同じ仲間。"
+ },
+ "apart": {
+  "parts": [
+   {
+    "p": "a-",
+    "m": "〜へ"
+   },
+   {
+    "p": "part",
+    "m": "わき・側"
+   }
+  ],
+  "story": "ラテン語ad partem「わきの方へ」から。わきへよける→「離れて・別々に」。",
+  "note": ""
+ },
+ "value": {
+  "parts": [],
+  "story": "ラテン語valere「強い・価値がある」から→「価値・評価する」。",
+  "note": "valid（有効な）・available（役に立つ）も同じ仲間。"
+ },
+ "universe": {
+  "parts": [
+   {
+    "p": "uni",
+    "m": "一つ"
+   },
+   {
+    "p": "vers",
+    "m": "向ける・回す"
+   }
+  ],
+  "story": "ラテン語universus「一つ(uni)に向けられた(vers)」→すべてひとまとまり→「宇宙・全世界」。",
+  "note": "university（全体の集まり）も同じ。reverse・versionのversは「回す・向ける」。"
+ },
+ "rule": {
+  "parts": [],
+  "story": "ラテン語regula「まっすぐな棒・定規」から。まっすぐ整える基準→「規則」、治める→「支配する」。",
+  "note": "ruler（定規／支配者）は両方の意味をもつ。regular（規則的な）も同じ語源。"
+ },
+ "army": {
+  "parts": [],
+  "story": "ラテン語arma「武器」から。武器を持った(armata)集団→「軍隊」。",
+  "note": "arms（武器）・alarm（「武器を取れ」の叫び）も同じ仲間。"
+ },
+ "toilet": {
+  "parts": [],
+  "story": "フランス語toile「布」に「小さい」の意がついた語。身支度で服を覆う布→身支度の部屋→「トイレ・便器」。",
+  "note": ""
+ },
+ "absent": {
+  "parts": [
+   {
+    "p": "ab-",
+    "m": "離れて"
+   },
+   {
+    "p": "sent",
+    "m": "いる（esse）"
+   }
+  ],
+  "story": "ラテン語abesse「離れて(ab)いる(esse)」→その場にいない→「不在の・欠席した」。",
+  "note": "present（出席している）は「前に(pre)いる」。"
+ },
+ "search": {
+  "parts": [],
+  "story": "ラテン語circare「ぐるぐる回る」から。あちこち回って探す→「くまなく捜す」。",
+  "note": "circle（円）・circus（円形の広場）と同じ語根。"
+ },
+ "telephone": {
+  "parts": [
+   {
+    "p": "tele-",
+    "m": "遠く"
+   },
+   {
+    "p": "phone",
+    "m": "音"
+   }
+  ],
+  "story": "「遠く(tele)の音(phone)」を届ける装置→「電話」。",
+  "note": "television・telescopeのtele、microphoneのphoneも同じ。"
+ },
+ "affair": {
+  "parts": [
+   {
+    "p": "af-",
+    "m": "〜へ"
+   },
+   {
+    "p": "fair",
+    "m": "する（faire）"
+   }
+  ],
+  "story": "フランス語à faire「するべき（こと）」から。なすべき事→「事柄・事件」。",
+  "note": "faireはラテン語facere「する」で、factと同じ仲間。"
+ },
+ "ability": {
+  "parts": [],
+  "story": "ラテン語habilis「持ちやすい・扱いやすい」（habere「持つ」から）→うまく扱える→「能力」。",
+  "note": "able（できる）と同じ語源。フランス語経由でhが落ちた。"
+ },
+ "media": {
+  "parts": [],
+  "story": "ラテン語medius「中間の」から。mediumの複数形で、情報を人と人の「間」で伝えるもの→「媒体・メディア」。",
+  "note": "middle（中間）・mediate（仲介する）も同じ祖先。"
+ },
+ "plenty": {
+  "parts": [],
+  "story": "ラテン語plenus「満ちた」から。満ちあふれている状態→「たくさん・たっぷり」。",
+  "note": "complete（完全な）も同じ語根。英語のfullも遠い親戚。"
+ },
+ "record": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "再び"
+   },
+   {
+    "p": "cord",
+    "m": "心"
+   }
+  ],
+  "story": "ラテン語recordari「心(cor)に再び(re)呼び戻す＝思い出す」から。忘れないよう残す→「記録（する）」。",
+  "note": "courage（勇気）のcourも同じ「心」。"
+ },
+ "article": {
+  "parts": [],
+  "story": "ラテン語articulus「小さな関節・区切り」から。全体を区切った一部分→「一品・一個」「（新聞の）記事」。",
+  "note": "articulate（区切ってはっきり話す）も同じ語源。"
+ },
+ "season": {
+  "parts": [],
+  "story": "ラテン語satio「種まき」から。種をまく時期→「季節・時季」。",
+  "note": "sow（種をまく）・seed（種）と同じ語根。"
+ },
+ "exercise": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "外へ"
+   },
+   {
+    "p": "erc",
+    "m": "閉じ込める"
+   }
+  ],
+  "story": "ラテン語exercere「閉じ込めた所から外へ出して働かせる」→体や力を働かせる→「運動・練習」。",
+  "note": ""
+ },
+ "stomach": {
+  "parts": [],
+  "story": "ギリシャ語stoma「口」から。胃の入り口→「胃」、さらに「腹」。",
+  "note": ""
+ },
+ "suppose": {
+  "parts": [
+   {
+    "p": "sup-",
+    "m": "下に"
+   },
+   {
+    "p": "pose",
+    "m": "置く"
+   }
+  ],
+  "story": "「下に(sub)置く(pose)」→話の土台として置く→「仮定する・（たぶん〜と）思う」。",
+  "note": "propose・exposeのposeも「置く」。"
+ },
+ "cheap": {
+  "parts": [],
+  "story": "古英語ceap「取り引き」から。good cheap「よい買い物」が縮まり、得な値段→「安い」。",
+  "note": ""
+ },
+ "despite": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "下に"
+   },
+   {
+    "p": "spite",
+    "m": "見る"
+   }
+  ],
+  "story": "ラテン語despicere「見下す」から。見下して相手にしない→「〜を無視して」→「〜にもかかわらず」。",
+  "note": "despise（軽蔑する）と同じ語源。spite（悪意）はdespiteの頭が落ちた形。"
+ },
+ "nation": {
+  "parts": [],
+  "story": "ラテン語natio「生まれ・種族」（nasci「生まれる」）から。同じ生まれの人々→「国民・国家」。",
+  "note": "native（生まれつきの）・nature（自然）も同じ仲間。"
+ },
+ "deserve": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "すっかり"
+   },
+   {
+    "p": "serve",
+    "m": "仕える"
+   }
+  ],
+  "story": "ラテン語deservire「熱心に仕える」から。よく仕えた→報いを受けるに値する→「値する」。",
+  "note": ""
+ },
+ "pressure": {
+  "parts": [],
+  "story": "ラテン語premere「押す」の過去分詞pressusから。押すこと→「圧力・圧迫」。",
+  "note": "press・express・impressも同じ「押す」。"
+ },
+ "desperate": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "なくす"
+   },
+   {
+    "p": "sper",
+    "m": "希望"
+   }
+  ],
+  "story": "ラテン語desperare「希望(spes)をなくす(de)」→望みを失った→「自暴自棄の・必死の」。",
+  "note": "despair（絶望）も同じ語源。"
+ },
+ "flower": {
+  "parts": [],
+  "story": "ラテン語flos「花」から、フランス語を経て「花」。",
+  "note": "flour（小麦粉）はもとflowerと同じ語で「粉の最上の部分」の意。bloom・blossomも遠い親戚。"
+ },
+ "prove": {
+  "parts": [],
+  "story": "ラテン語probare「試す・よしと認める」（probus「よい」）から。試して確かめる→「証明する」。",
+  "note": "proof・probe・approve・probableも同じ仲間。"
+ },
+ "medical": {
+  "parts": [],
+  "story": "ラテン語medicus「医者」（mederi「治す」から）→「医学の・医療の」。",
+  "note": "medicine（薬・医学）も同じ語源。"
+ },
+ "event": {
+  "parts": [
+   {
+    "p": "e-",
+    "m": "外へ"
+   },
+   {
+    "p": "vent",
+    "m": "来る"
+   }
+  ],
+  "story": "ラテン語evenire「外に(e)出て来る(ven)」→起こってくること→「出来事」。",
+  "note": "prevent・adventure・conventionのvent/venも「来る」。"
+ },
+ "couch": {
+  "parts": [],
+  "story": "フランス語coucher「寝かせる・横にする」から。横になれる台→「寝いす・長いす」。",
+  "note": ""
+ },
+ "pleasure": {
+  "parts": [],
+  "story": "ラテン語placere「喜ばせる」から。pleaseの名詞形で「喜び・楽しみ」。",
+  "note": "pleasant（楽しい）も同じ仲間。"
+ },
+ "action": {
+  "parts": [],
+  "story": "ラテン語agere「行う・動かす」の過去分詞actusから。行うこと→「行動・行為・作用」。",
+  "note": "act・agent・agenda（するべきこと）も同じ仲間。"
+ },
+ "tongue": {
+  "parts": [],
+  "story": "古英語tungeから。ラテン語lingua「舌・言語」と同じ祖先。話すための器官→「言葉」の意味も。",
+  "note": "language・linguistics（言語学）はlinguaから。"
+ },
+ "cover": {
+  "parts": [],
+  "story": "ラテン語cooperire「すっかり(co)覆う(operire)」から→「おおう」。",
+  "note": "discover（覆いを取る→発見する）も同じ。"
+ },
+ "create": {
+  "parts": [],
+  "story": "ラテン語creare「生み出す・育てる」から→「創造する・引き起こす」。",
+  "note": "creature（生き物＝つくられたもの）も同じ語源。"
+ },
+ "camp": {
+  "parts": [],
+  "story": "ラテン語campus「平らな野原」から。軍が野営する野原→「野営地・キャンプ」。",
+  "note": "campus（大学構内）、campaign（野での軍事行動→運動）も同じ。"
+ },
+ "master": {
+  "parts": [],
+  "story": "ラテン語magister「長・先生」（magis「より大きく」から）。人の上に立つ者→「主人・名人・先生」。",
+  "note": "magistrate（行政長官）、mister・mistressも同じ語源。"
+ },
+ "mail": {
+  "parts": [],
+  "story": "古フランス語male「袋」から。手紙を運ぶ袋→中身の「郵便物」→「郵便」。",
+  "note": ""
+ },
+ "pregnant": {
+  "parts": [
+   {
+    "p": "pre-",
+    "m": "前に"
+   },
+   {
+    "p": "gn",
+    "m": "生まれる"
+   }
+  ],
+  "story": "ラテン語praegnans「生まれる(gnasci)前(prae)の」と考えられる→出産を控えた→「妊娠している」。",
+  "note": ""
+ },
+ "judge": {
+  "parts": [],
+  "story": "ラテン語iudex「法(ius)を言い渡す人」から→「裁判官・審査員」。",
+  "note": "justice（正義）・jury（陪審）もiusの仲間。"
+ },
+ "positive": {
+  "parts": [],
+  "story": "ラテン語positivus「置かれた・定められた」（ponere「置く」）から。はっきり定まった→「確かな・肯定的な」。",
+  "note": "position・postのposも「置く」。"
+ },
+ "general": {
+  "parts": [],
+  "story": "ラテン語genus「種類・一族」から。種類全体にかかわる→「一般の・全体の」。全体を率いる者→「大将」。",
+  "note": "gene（遺伝子）・genre（種類）と同じ語根。"
+ },
+ "military": {
+  "parts": [],
+  "story": "ラテン語miles「兵士」から→「兵士の・軍隊の」。",
+  "note": "mile（マイル）は別語源（ラテン語mille「千」）。"
+ },
+ "character": {
+  "parts": [],
+  "story": "ギリシャ語kharakter「刻む道具・刻まれた印」から。人に刻まれた印→「性格・特徴」、さらに「文字」「登場人物」。",
+  "note": ""
+ },
+ "survive": {
+  "parts": [
+   {
+    "p": "sur-",
+    "m": "超えて"
+   },
+   {
+    "p": "vive",
+    "m": "生きる"
+   }
+  ],
+  "story": "「（ほかの人や出来事を）超えて(super)生きる(vivere)」→「〜より長生きする・生き残る」。",
+  "note": "vivid・reviveのvivも「生きる」。"
+ },
+ "orange": {
+  "parts": [],
+  "story": "もとは頭にnがついた語（スペイン語naranja）。イタリア語などでnが落ち、仏語で地名Orangeの影響も受けた。",
+  "note": ""
+ },
+ "license": {
+  "parts": [],
+  "story": "ラテン語licere「許されている」から→「許可・許可証」。",
+  "note": "leisure（余暇＝自由にしてよい時間）も同じlicere系。"
+ },
+ "favourite": {
+  "parts": [],
+  "story": "イタリア語favorito「ひいきされた」から（favor「好意」）。好意を受けている→「お気に入り（の）」。",
+  "note": ""
+ },
+ "program": {
+  "parts": [
+   {
+    "p": "pro-",
+    "m": "前もって"
+   },
+   {
+    "p": "gram",
+    "m": "書く"
+   }
+  ],
+  "story": "ギリシャ語prographein「前もって(pro)書いて示す(graph)」→告知→「予定表・番組・計画」。",
+  "note": "grammar・diagramのgramも「書く」。"
+ },
+ "intelligent": {
+  "parts": [
+   {
+    "p": "intel-",
+    "m": "間"
+   },
+   {
+    "p": "lig",
+    "m": "選ぶ"
+   }
+  ],
+  "story": "ラテン語intellegere「間から(inter)選び取る(legere)」→見分けて理解する→「理解力のある」。",
+  "note": "collect・electのlec/legも「選ぶ・集める」。"
+ },
+ "data": {
+  "parts": [],
+  "story": "ラテン語datum「与えられたもの」の複数形。考える材料として与えられたもの→「資料・データ」。",
+  "note": "date（日付）も同じ語源（手紙に「〜日に与えられた」と書いたことから）。"
+ },
+ "translation": {
+  "parts": [
+   {
+    "p": "trans-",
+    "m": "向こうへ"
+   },
+   {
+    "p": "lat",
+    "m": "運ばれた"
+   }
+  ],
+  "story": "ラテン語translatus「向こうへ(trans)運ばれた」→ある言葉から別の言葉へ移す→「翻訳」。",
+  "note": "latはtransfer（運ぶ）の過去分詞形。relateも同じlat。"
+ },
+ "note": {
+  "parts": [],
+  "story": "ラテン語nota「印」から。印をつけておく→「覚え書き・注」、心に印をつける→「注目」。",
+  "note": "notice・notableも同じ仲間。"
+ },
+ "schedule": {
+  "parts": [],
+  "story": "ギリシャ語skhede「パピルスの一片」から、ラテン語schedula「小さな紙片」。予定を書いた紙→「予定表」。",
+  "note": ""
+ },
+ "guard": {
+  "parts": [],
+  "story": "ゲルマン語の「見張る」がフランス語に入り、語頭のwがguに変わった形→「見張る・見張り」。",
+  "note": "ward（病棟・見張り）・warden（管理人）は同じ語のw形。regardも同じ仲間。"
+ },
+ "confidence": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "すっかり"
+   },
+   {
+    "p": "fid",
+    "m": "信じる"
+   }
+  ],
+  "story": "「すっかり(con)信じる(fidere)」こと→「信頼・確信」。",
+  "note": "fidelity（忠実）のfidも「信じる」。faith（信仰）も同じ仲間。"
+ },
+ "argument": {
+  "parts": [],
+  "story": "ラテン語arguere「明らかにする・示す」から。自分の考えを示す→「主張・論拠」→「議論・口論」。",
+  "note": "argue（論じる）の名詞形。"
+ },
+ "prevent": {
+  "parts": [
+   {
+    "p": "pre-",
+    "m": "前に"
+   },
+   {
+    "p": "vent",
+    "m": "来る"
+   }
+  ],
+  "story": "「前に(prae)来る(venire)」→先回りする→先回りして防ぐ→「起こらないようにする」。",
+  "note": "event・adventureのventも「来る」。"
+ },
+ "condition": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "一緒に"
+   },
+   {
+    "p": "dit",
+    "m": "言う"
+   }
+  ],
+  "story": "ラテン語condicio「取り決め」（con「一緒に」＋dicere「言う」）から。取り決め→「条件」→「状態」。",
+  "note": ""
+ },
+ "favor": {
+  "parts": [],
+  "story": "ラテン語favor「好意」（favere「目をかける」から）→「好意・親切な行為・ひいきする」。",
+  "note": "favourite（お気に入り）も同じ語源。"
+ },
+ "lesson": {
+  "parts": [],
+  "story": "ラテン語lectio「読むこと」から。読んで学ぶ一区切り→「授業・課」、学び取ること→「教訓」。",
+  "note": "lecture（講義）も同じ語源。"
+ },
+ "mirror": {
+  "parts": [],
+  "story": "ラテン語mirari「驚いて見つめる」から。自分をじっと見る道具→「鏡」。",
+  "note": "miracle（奇跡）・admire（感嘆する）も同じ仲間。"
+ },
+ "solar": {
+  "parts": [],
+  "story": "ラテン語sol「太陽」から→「太陽の」。",
+  "note": "英語のsunも遠い親戚。"
+ },
+ "environment": {
+  "parts": [
+   {
+    "p": "environ",
+    "m": "取り巻く"
+   },
+   {
+    "p": "-ment",
+    "m": "こと"
+   }
+  ],
+  "story": "フランス語environner「取り巻く」から。まわりを取り巻くもの→「環境」。",
+  "note": ""
+ },
+ "scene": {
+  "parts": [],
+  "story": "ギリシャ語skene「テント・舞台裏の小屋」から。劇を演じる場所→「舞台・場面」→出来事の「現場」。",
+  "note": ""
+ },
+ "clock": {
+  "parts": [],
+  "story": "中世ラテン語clocca「鐘」から。鐘で時を知らせたことから→「時計」。",
+  "note": "cloak（マント）も鐘の形から同じclocca系。"
+ },
+ "damage": {
+  "parts": [],
+  "story": "ラテン語damnum「損失」から→「損害」。",
+  "note": "condemn（非難する）・damn（のろう）も同じ仲間。"
+ },
+ "quality": {
+  "parts": [],
+  "story": "ラテン語qualis「どんな種類の」から。「どんな」ものかという性質→「質・特性」。",
+  "note": "quantity（量）はquantus「どれだけの」から。"
+ },
+ "final": {
+  "parts": [],
+  "story": "ラテン語finis「終わり」から→「最終の」。",
+  "note": "finish（終える）・define（境界を定める）も同じfin。"
+ },
+ "journey": {
+  "parts": [],
+  "story": "ラテン語diurnus「一日の」から。一日がかりの道のり→「旅行・旅程」。",
+  "note": "journal（日誌）も同じで、フランス語jour（日）の仲間。"
+ },
+ "credit": {
+  "parts": [],
+  "story": "ラテン語credere「信じる」から。信じて任せる→「信用」、信じられる手柄→「称賛・名誉」。",
+  "note": "incredible（信じられない）も同じ。"
+ },
+ "salad": {
+  "parts": [],
+  "story": "ラテン語sal「塩」から。塩で味つけした野菜→「サラダ」。",
+  "note": "salt・sauceと同じ仲間。"
+ },
+ "closet": {
+  "parts": [
+   {
+    "p": "clos",
+    "m": "閉じた"
+   },
+   {
+    "p": "-et",
+    "m": "小さい"
+   }
+  ],
+  "story": "閉じた場所(clos)の小さいもの→閉じた小部屋→「戸棚・物置」。",
+  "note": "close（閉じる）と同じ語源。"
+ },
+ "assume": {
+  "parts": [
+   {
+    "p": "as-",
+    "m": "〜へ"
+   },
+   {
+    "p": "sume",
+    "m": "取る"
+   }
+  ],
+  "story": "ラテン語assumere「自分の方へ(ad)取る(sumere)」→引き受ける、確かめずに受け入れる→「当然と思う」。",
+  "note": "consume・resumeのsumeも「取る」。"
+ },
+ "diet": {
+  "parts": [],
+  "story": "ギリシャ語diaita「暮らし方」から。日々の食べ方の決まり→「規定食・食事」。",
+  "note": "「議会」の意味のdietは由来が別とされる。"
+ },
+ "theory": {
+  "parts": [],
+  "story": "ギリシャ語theoria「眺めること・観察」から。じっと眺めて考える→「理論」。",
+  "note": "theater（見る場所）も同じ語根。"
+ },
+ "faith": {
+  "parts": [],
+  "story": "ラテン語fides「信頼」から、古フランス語を経て「信頼・信仰」。",
+  "note": "confidence・fidelityのfidも同じ。"
+ },
+ "current": {
+  "parts": [],
+  "story": "ラテン語currere「走る」から。流れ走っている→「流れ」、今まさに進行中の→「現在の・通用している」。",
+  "note": "currency（通貨＝流通するもの）も同じ。"
+ },
+ "safety": {
+  "parts": [],
+  "story": "ラテン語salvus「無事な」から→「安全」。",
+  "note": "save（救う）・salvation（救済）も同じ仲間。"
+ },
+ "familiar": {
+  "parts": [],
+  "story": "ラテン語familiaris「家の者の」から。家族のように→「親しい・よく知っている」。",
+  "note": "family（家族）と同じ語源。"
+ },
+ "rate": {
+  "parts": [],
+  "story": "ラテン語pro rata parte「定められた割り当てに応じて」から。定められた割り当て→「割合・率」。",
+  "note": "ratio（比）も同じratus系。"
+ },
+ "fail": {
+  "parts": [],
+  "story": "ラテン語fallere「だます・期待を裏切る」から。期待に応えられない→「失敗する・役に立たない・衰える」。",
+  "note": "false（偽りの）、fault（欠点）も同じ仲間。"
+ },
+ "contract": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "共に"
+   },
+   {
+    "p": "tract",
+    "m": "引く"
+   }
+  ],
+  "story": "ラテン語「共に(con)引き寄せる(tract)」→両者を引き寄せて取り決める→「契約」。ぎゅっと引き寄せる→「縮む」。",
+  "note": "tractor（引く車）、attract（引きつける）のtractも「引く」。"
+ },
+ "source": {
+  "parts": [],
+  "story": "ラテン語surgere「わき上がる」から。水がわき出てくる所→「水源」、物事が生まれ出る所→「源・出所」。",
+  "note": "surge（押し寄せる）と同じ語源。"
+ },
+ "role": {
+  "parts": [],
+  "story": "ラテン語rotulus「巻いたもの・巻物」から。役者のせりふを書いた巻物→その人が受け持つ「役・役割」。",
+  "note": "roll（巻く・巻いたもの）と同じ語源。"
+ },
+ "patience": {
+  "parts": [
+   {
+    "p": "pati",
+    "m": "耐える"
+   },
+   {
+    "p": "-ence",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語pati「苦しみに耐える」から。じっと耐えること→「忍耐」。",
+  "note": "patient（忍耐強い・患者）と同じ語源。"
+ },
+ "recommend": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "強く"
+   },
+   {
+    "p": "commend",
+    "m": "ゆだねる"
+   }
+  ],
+  "story": "commendはラテン語「手(manus)にゆだねる」から。人を相手の手に託すように強くすすめる→「推薦する・勧める」。",
+  "note": "command（命令する）、demand（要求する）もmand「ゆだねる・命じる」の仲間。"
+ },
+ "confident": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "すっかり"
+   },
+   {
+    "p": "fid",
+    "m": "信じる"
+   },
+   {
+    "p": "-ent",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語「すっかり(con)信じて(fid)いる」→自分を信じきっている→「自信のある・確信している」。",
+  "note": "confide（打ち明ける）、confidence（自信）も同じ仲間。"
+ },
+ "temperature": {
+  "parts": [],
+  "story": "ラテン語temperare「程よく混ぜる・加減する」から。熱さ・冷たさの加減の度合い→「温度・体温」。",
+  "note": "temper（気質・かんしゃく）、temperate（温和な）と同じ語源。"
+ },
+ "property": {
+  "parts": [],
+  "story": "ラテン語proprius「自分だけの」から。自分だけのもの→「財産・所有物」、そのものだけの性質→「特性」。",
+  "note": "proper（ふさわしい・固有の）と同じ語源。"
+ },
+ "term": {
+  "parts": [],
+  "story": "ラテン語terminus「境界・終わり」から。区切られた期間→「期間・学期」、意味の範囲を区切ったことば→「用語」、取り決め→「条件」。",
+  "note": "terminal（終点）と同じ語源。"
+ },
+ "drug": {
+  "parts": [],
+  "story": "オランダ語droge vate「乾いた樽」のdroge（乾いた）を、中身の干した薬草の名と取り違えたことから→「薬」。",
+  "note": "dry（乾いた）と同じ語源。"
+ },
+ "idiot": {
+  "parts": [],
+  "story": "ギリシャ語idiotes「公職につかない私人・素人」から（idios「自分の」）。専門知識のない人→無知な人→「ばか」。",
+  "note": "idiom（慣用句＝その言語独自の言い回し）もidios「自分の・独自の」。"
+ },
+ "capable": {
+  "parts": [
+   {
+    "p": "cap",
+    "m": "取る・入れる"
+   },
+   {
+    "p": "-able",
+    "m": "〜できる"
+   }
+  ],
+  "story": "ラテン語capere「取る・受け入れる」から。受け入れる力がある→「能力のある・〜できる」。",
+  "note": "capacity（容量・能力）と同じ仲間。"
+ },
+ "horrible": {
+  "parts": [
+   {
+    "p": "horr",
+    "m": "震える"
+   },
+   {
+    "p": "-ible",
+    "m": "〜させる"
+   }
+  ],
+  "story": "ラテン語horrere「（恐怖で）震える・毛が逆立つ」から。震え上がるほどの→「恐ろしい・ひどい」。",
+  "note": "horror（恐怖）と同じ語源。"
+ },
+ "period": {
+  "parts": [
+   {
+    "p": "peri-",
+    "m": "周り"
+   },
+   {
+    "p": "od",
+    "m": "道"
+   }
+  ],
+  "story": "ギリシャ語「周りを回る(peri)道(hodos)」→一巡り→「周期・期間・時代」、文の一区切り→「ピリオド」。",
+  "note": "perimeter（周囲）のperiも「周り」。"
+ },
+ "cave": {
+  "parts": [],
+  "story": "ラテン語cavus「うつろな・空洞の」から。中が空洞になった所→「ほら穴」。",
+  "note": "cavity（空洞・虫歯の穴）と同じ語源。"
+ },
+ "mention": {
+  "parts": [],
+  "story": "ラテン語mentio「心に呼び起こすこと」から（mens「心」の仲間）。話題を相手の心に呼び起こす→「言及・触れる」。",
+  "note": "mental（心の）と同じ仲間。"
+ },
+ "female": {
+  "parts": [],
+  "story": "ラテン語femina「女性」の縮小形femellaから。形がmaleに引きずられて今のつづりに→「女性・雌」。",
+  "note": "見た目はfe＋maleだが、maleとは語源が別。feminine（女性らしい）の仲間。"
+ },
+ "male": {
+  "parts": [],
+  "story": "ラテン語mas「男性・雄」の縮小形masculusから→「男性・雄」。",
+  "note": "masculine（男性らしい）と同じ語源。femaleとは語源が別。"
+ },
+ "task": {
+  "parts": [],
+  "story": "ラテン語taxare「値をつける・課す」から。課せられる務め→「（課された）仕事」。",
+  "note": "tax（税）と同じ語源。"
+ },
+ "complain": {
+  "parts": [
+   {
+    "p": "com-",
+    "m": "強く"
+   },
+   {
+    "p": "plain",
+    "m": "胸を打って嘆く"
+   }
+  ],
+  "story": "ラテン語plangere「（悲しみで）胸を打つ・嘆く」から。嘆き悲しむ→不満を訴える→「不平を言う」。",
+  "note": "complaint（不平）の名詞形。"
+ },
+ "development": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "取り去る"
+   },
+   {
+    "p": "velop",
+    "m": "包む"
+   },
+   {
+    "p": "-ment",
+    "m": "こと"
+   }
+  ],
+  "story": "古フランス語「包み(velop)を解く(de)こと」→中身を広げる→「展開・発達・開発」。",
+  "note": "envelope（封筒＝包むもの）と同じvelop「包む」。"
+ },
+ "habit": {
+  "parts": [],
+  "story": "ラテン語habitus「状態・身なり」から（habere「持つ」）。身についた状態→「習慣・癖」。",
+  "note": "修道士の服（habit）の意味もこの「身なり」から。exhibit（展示する）もhabere「持つ」の仲間。"
+ },
+ "grateful": {
+  "parts": [
+   {
+    "p": "grate",
+    "m": "ありがたい"
+   },
+   {
+    "p": "-ful",
+    "m": "〜に満ちた"
+   }
+  ],
+  "story": "ラテン語gratus「喜ばしい・ありがたく思う」から。ありがたさに満ちた→「感謝している」。",
+  "note": "gratitude（感謝）、congratulate（祝う）も同じ仲間。"
+ },
+ "court": {
+  "parts": [],
+  "story": "ラテン語cohors「囲われた庭」から。囲われた「中庭」→王の住む中庭のある所「宮廷」→裁判を行う所「法廷」、区切った「コート」。",
+  "note": "courtesy（礼儀＝宮廷風のふるまい）と同じ語源。"
+ },
+ "pencil": {
+  "parts": [],
+  "story": "ラテン語peniculus「小さな筆」から。もとは絵を描く細い筆を指し、のちに「鉛筆」に。",
+  "note": "pen（ペン）とは別語源。penはラテン語penna「羽根」から。"
+ },
+ "prepare": {
+  "parts": [
+   {
+    "p": "pre-",
+    "m": "前もって"
+   },
+   {
+    "p": "pare",
+    "m": "整える"
+   }
+  ],
+  "story": "ラテン語「前もって(prae)整える(parare)」→「準備する・用意する」。",
+  "note": "repair（修理する＝もう一度整える）も同じparare。"
+ },
+ "style": {
+  "parts": [],
+  "story": "ラテン語stilus「先のとがった筆記具」から。筆の使い方→書きぶり→ものの表し方「様式・スタイル」。",
+  "note": "stylus（針・タッチペン）と同じ語。"
+ },
+ "professor": {
+  "parts": [
+   {
+    "p": "pro-",
+    "m": "人前で"
+   },
+   {
+    "p": "fess",
+    "m": "言う"
+   },
+   {
+    "p": "-or",
+    "m": "人"
+   }
+  ],
+  "story": "ラテン語profiteri「公に宣言する」から。人前で知識があると公言し教える人→「教授」。",
+  "note": "profession（職業）、confess（告白する）も同じ仲間。"
+ },
+ "butter": {
+  "parts": [],
+  "story": "ギリシャ語boutyron「牛(bous)のチーズ(tyros)」から→「バター」。",
+  "note": ""
+ },
+ "opposite": {
+  "parts": [
+   {
+    "p": "op-",
+    "m": "反対に"
+   },
+   {
+    "p": "pos",
+    "m": "置く"
+   }
+  ],
+  "story": "ラテン語「反対に(ob)置かれた(positus)」→向こう側にある→「反対側の・正反対の」。",
+  "note": "oppose（反対する）、position（位置）も同じ仲間。"
+ },
+ "surface": {
+  "parts": [
+   {
+    "p": "sur-",
+    "m": "上の"
+   },
+   {
+    "p": "face",
+    "m": "顔・面"
+   }
+  ],
+  "story": "フランス語「上(sur)の面(face)」→ものの外側の面→「表面・うわべ」。",
+  "note": "superficial（表面的な）も同じ成り立ち。"
+ },
+ "battle": {
+  "parts": [],
+  "story": "ラテン語battuere「打つ・たたく」から。打ち合うこと→「戦闘・戦う」。",
+  "note": "battery（電池＝連ねた砲列）もbattuereの仲間。"
+ },
+ "fence": {
+  "parts": [],
+  "story": "defence（防御）の頭が取れた形。身を守るための囲い→「囲い・柵」、剣で身を守る→「フェンシング」。",
+  "note": ""
+ },
+ "super": {
+  "parts": [],
+  "story": "superintendent「上から(super)監督する人」の短縮。→（アパートなどの）「管理人・監督」。",
+  "note": "superはラテン語で「上に」。superior、supremeも同じ仲間。"
+ },
+ "site": {
+  "parts": [],
+  "story": "ラテン語situs「置かれた位置」から→「場所・用地」。",
+  "note": "situation（状況・立場）と同じ語源。"
+ },
+ "career": {
+  "parts": [],
+  "story": "ラテン語carrus「荷車」から。車が走る道→「競走路」→人が進んでいく道→「経歴・職業」。",
+  "note": "car（車）と同じ語源。"
+ },
+ "divorce": {
+  "parts": [
+   {
+    "p": "di-",
+    "m": "離れて"
+   },
+   {
+    "p": "vorce",
+    "m": "向ける"
+   }
+  ],
+  "story": "ラテン語「離れて(di)向きを変える(vertere)」→別々の方を向く→「離婚」。",
+  "note": "divert（そらす）、convert（変える）のvertも「向ける」。"
+ },
+ "accent": {
+  "parts": [
+   {
+    "p": "ac-",
+    "m": "〜に"
+   },
+   {
+    "p": "cent",
+    "m": "歌う"
+   }
+  ],
+  "story": "ラテン語「ことばに(ad)添えて歌う(canere)」→声の上げ下げ→「強勢・アクセント・口調」。",
+  "note": "chant（詠唱）もcanere「歌う」の仲間。"
+ },
+ "double": {
+  "parts": [],
+  "story": "ラテン語duplus「二重の・2倍の」から（du「2」）→「2倍の・二重の」。",
+  "note": "duplicate（複製する）、dual（二つの）と同じ仲間。"
+ },
+ "degree": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "下へ"
+   },
+   {
+    "p": "gree",
+    "m": "段"
+   }
+  ],
+  "story": "ラテン語gradus「段・一歩」から。階段の一段一段→「程度・段階」、学問の段階→「学位」、目盛り→「度」。",
+  "note": "grade（等級）、gradual（徐々の）も同じ「段」。"
+ },
+ "square": {
+  "parts": [
+   {
+    "p": "s-",
+    "m": "外へ・すっかり（ex）"
+   },
+   {
+    "p": "quare",
+    "m": "四角にする"
+   }
+  ],
+  "story": "ラテン語「すっかり四角(quadra)にする」から→「正方形」、四角い「広場」、同じ数をかけた四角の面積→「2乗」。",
+  "note": "quarter（4分の1）もquad「4」の仲間。"
+ },
+ "reluctant": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "逆らって"
+   },
+   {
+    "p": "luct",
+    "m": "もがく"
+   },
+   {
+    "p": "-ant",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語「逆らって(re)もがいている(luctari)」→抵抗している→「気が進まない」。",
+  "note": ""
+ },
+ "union": {
+  "parts": [
+   {
+    "p": "uni",
+    "m": "1つ"
+   },
+   {
+    "p": "-on",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語unus「1」から。一つにまとまること→「結合・団結」、まとまった団体→「労働組合」。",
+  "note": "unite（団結させる）、unit（単位）、uniqueと同じ仲間。"
+ },
+ "unique": {
+  "parts": [],
+  "story": "ラテン語unicus「ただ一つの」（unus「1」）から→「唯一の・ほかにない」。",
+  "note": "union、uniform（同じ形の→制服）も同じ「1」。"
+ },
+ "model": {
+  "parts": [],
+  "story": "ラテン語modus「尺度」に「小さい」がついた形から。小さな尺度→ひな型→「模型・模範」。",
+  "note": "mode（様式）、mold（型）と同じ仲間。"
+ },
+ "mental": {
+  "parts": [],
+  "story": "ラテン語mens「心」から→「心の・精神の」。",
+  "note": "mention（言及）、mind（心）も同じ仲間。"
+ },
+ "illegal": {
+  "parts": [
+   {
+    "p": "il-",
+    "m": "〜でない"
+   },
+   {
+    "p": "leg",
+    "m": "法"
+   },
+   {
+    "p": "-al",
+    "m": "〜の"
+   }
+  ],
+  "story": "legalはラテン語lex「法」から。法にかなわ(il)ない→「不法の・違法の」。",
+  "note": "legislation（立法）のlegも「法」。"
+ },
+ "suicide": {
+  "parts": [
+   {
+    "p": "sui",
+    "m": "自分を"
+   },
+   {
+    "p": "-cide",
+    "m": "殺すこと"
+   }
+  ],
+  "story": "ラテン語風に作られた語で「自分(sui)を殺すこと(cide)」→「自殺」。",
+  "note": "homicide（殺人）、pesticide（殺虫剤）の-cideも「殺すこと」。"
+ },
+ "audience": {
+  "parts": [
+   {
+    "p": "aud",
+    "m": "聞く"
+   },
+   {
+    "p": "-ience",
+    "m": "こと・人々"
+   }
+  ],
+  "story": "ラテン語audire「聞く」から。聞くこと→聞く人たち「聴衆」、身分の高い人に話を聞いてもらう場→「謁見・公式会見」。",
+  "note": "audio（音声）と同じ語源。"
+ },
+ "relax": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "元へ"
+   },
+   {
+    "p": "lax",
+    "m": "ゆるい"
+   }
+  ],
+  "story": "ラテン語「元の状態へ(re)ゆるめる(laxare)」→「ゆるめる・くつろぐ」。",
+  "note": "lax（ゆるい）と同じ語源。"
+ },
+ "castle": {
+  "parts": [],
+  "story": "ラテン語castrum「とりで」に「小さい」がついた形から。小さなとりで→「城」。",
+  "note": "英国の地名の-chester、-casterもcastrum由来。"
+ },
+ "candy": {
+  "parts": [],
+  "story": "アラビア語sukkar qandi「固めた砂糖」（qand「氷砂糖」）から→「砂糖菓子」。",
+  "note": "sugar（砂糖）もアラビア語sukkar由来。"
+ },
+ "stage": {
+  "parts": [],
+  "story": "古フランス語ester「立つ」から。立っている位置→物事が進む途中の位置「段階」、人が立つ一段高い床→「舞台」。",
+  "note": ""
+ },
+ "receive": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "元へ"
+   },
+   {
+    "p": "ceive",
+    "m": "取る"
+   }
+  ],
+  "story": "ラテン語「（手元に）取り戻す(re＋capere)」から→「受け取る」。",
+  "note": "conceive、deceive、perceiveのceiveも「取る」。"
+ },
+ "industry": {
+  "parts": [],
+  "story": "ラテン語industria「勤勉・熱心な働き」から。熱心な働き→ものを作る仕事→「産業」。",
+  "note": "形容詞industrious（勤勉な）に元の意味が残る。"
+ },
+ "challenge": {
+  "parts": [],
+  "story": "ラテン語calumnia「言いがかり・偽りの告発」から。相手に言いがかりをつける→「異議を申し立てる・挑む」。",
+  "note": ""
+ },
+ "noon": {
+  "parts": [],
+  "story": "ラテン語nona hora「（夜明けから）9番目の時」＝午後3時ごろの祈りの時刻。その時刻が早まり「正午」を指すように。",
+  "note": "nine（9）と同じ語源。"
+ },
+ "prize": {
+  "parts": [],
+  "story": "古フランス語prise「奪い取ったもの・戦利品」から（prendre「取る」）。勝ち取ったもの→「賞・賞品」。",
+  "note": "surprise（不意に取る→驚かす）、prisonも同じ「取る」の仲間。"
+ },
+ "creature": {
+  "parts": [
+   {
+    "p": "creat",
+    "m": "創る"
+   },
+   {
+    "p": "-ure",
+    "m": "もの"
+   }
+  ],
+  "story": "ラテン語creare「創る」から。（神に）創られたもの→「生き物」。",
+  "note": "create（創造する）と同じ語源。"
+ },
+ "justice": {
+  "parts": [],
+  "story": "ラテン語ius「法・権利」→iustus「正しい」から。正しいこと→「正義・公正」、正義を行う人→「裁判官」。",
+  "note": "just（正しい）、judge（裁判官）も同じius「法」の仲間。"
+ },
+ "request": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "くり返し"
+   },
+   {
+    "p": "quest",
+    "m": "求める"
+   }
+  ],
+  "story": "ラテン語requirere「求める」の過去分詞から。求めたこと→「頼み・要請」。",
+  "note": "require（必要とする）、question、quest（探求）も同じ仲間。"
+ },
+ "rare": {
+  "parts": [],
+  "story": "ラテン語rarus「間があいた・まばらな」から。まばらにしかない→「まれな・珍しい」。",
+  "note": ""
+ },
+ "department": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "離して"
+   },
+   {
+    "p": "part",
+    "m": "分ける"
+   },
+   {
+    "p": "-ment",
+    "m": "こと"
+   }
+  ],
+  "story": "フランス語departir「分ける」から。分けられた一部分→「部門・（官庁の）省」。",
+  "note": "depart（出発する）も、もとは「分かれる」の意味。"
+ },
+ "desert": {
+  "parts": [],
+  "story": "ラテン語deserere「見捨てる」の過去分詞から。人に見捨てられた土地→「砂漠・住む人のない」、動詞「見捨てる」。",
+  "note": "dessert（デザート）とは別語。つづりと発音の違いに注意。"
+ },
+ "active": {
+  "parts": [
+   {
+    "p": "act",
+    "m": "行う"
+   },
+   {
+    "p": "-ive",
+    "m": "〜の性質の"
+   }
+  ],
+  "story": "ラテン語agere「行う・動かす」から。行動している→「活動的な・積極的な・有効な」。",
+  "note": "act（行う）、actor（俳優）と同じ語源。"
+ },
+ "actor": {
+  "parts": [
+   {
+    "p": "act",
+    "m": "行う・演じる"
+   },
+   {
+    "p": "-or",
+    "m": "人"
+   }
+  ],
+  "story": "ラテン語agere「行う」から。行う人→劇を演じる人→「俳優」。",
+  "note": "action、activeと同じ語源。"
+ },
+ "complex": {
+  "parts": [
+   {
+    "p": "com-",
+    "m": "共に"
+   },
+   {
+    "p": "plex",
+    "m": "編む"
+   }
+  ],
+  "story": "ラテン語「共に(com)編み合わされた(plectere)」→いくつもの部分が絡み合った→「複雑な・複合の」。",
+  "note": "perplex（困惑させる）も同じ「編む」の仲間。"
+ },
+ "spirit": {
+  "parts": [],
+  "story": "ラテン語spiritus「息」から（spirare「息をする」）。命のもととなる息→「霊魂・精神・気分」。",
+  "note": "inspire（息を吹き込む→鼓舞する）、respire（呼吸する）も同じ仲間。"
+ },
+ "emergency": {
+  "parts": [
+   {
+    "p": "e-",
+    "m": "外へ"
+   },
+   {
+    "p": "merg",
+    "m": "沈む・浸る"
+   },
+   {
+    "p": "-ency",
+    "m": "こと"
+   }
+  ],
+  "story": "emerge「（水中から）外へ浮かび上がる」の名詞形。突然浮かび上がってきた事態→「非常事態・緊急」。",
+  "note": "emerge（現れる）、merge（合体する）と同じ仲間。"
+ },
+ "physical": {
+  "parts": [],
+  "story": "ギリシャ語physis「自然」から。自然界の→「物質の・物理学の」、自然にそなわる体の→「身体の」。",
+  "note": "physics（物理学）、physician（医者）と同じ語源。"
+ },
+ "coach": {
+  "parts": [],
+  "story": "ハンガリーの村Kocs(コチ)で作られた大型馬車から。学生を試験まで「運ぶ」家庭教師という俗語から「コーチ」へ。",
+  "note": ""
+ },
+ "official": {
+  "parts": [],
+  "story": "office（務め・職）の形容詞形。ラテン語officium「務め」から→務めに関わる→「公務の・公式の・公務員」。",
+  "note": "officer（公務員・将校）も同じofficeから。"
+ },
+ "officer": {
+  "parts": [
+   {
+    "p": "office",
+    "m": "務め・職"
+   },
+   {
+    "p": "-er",
+    "m": "人"
+   }
+  ],
+  "story": "ラテン語officium「務め」から。務め(office)を持つ人→「公務員・役人・将校」。",
+  "note": "official（公式の）と同じ語源。"
+ },
+ "salary": {
+  "parts": [],
+  "story": "ラテン語salarium「給料」から。この語はsal「塩」の形容詞形で、なぜ塩が給料になったかははっきりしない。",
+  "note": "「ローマ兵は塩で給料をもらった」という話はよく聞くが、根拠はない。"
+ },
+ "original": {
+  "parts": [
+   {
+    "p": "origin",
+    "m": "始まり"
+   },
+   {
+    "p": "-al",
+    "m": "〜の"
+   }
+  ],
+  "story": "ラテン語origo「始まり」から。始まりの→「最初の・元の」、ほかをまねず自分から始めた→「独創的な」。",
+  "note": "origin（起源）と同じ語源。"
+ },
+ "fortune": {
+  "parts": [],
+  "story": "ラテン語fortuna「運」から（ローマ神話の運命の女神Fortuna）。「運・運勢」、複数形で「財産」も表したことから「富」の意味も。",
+  "note": "fortunate（幸運な）と同じ語源。"
+ },
+ "total": {
+  "parts": [],
+  "story": "ラテン語totus「全体の」から→全部まとめた→「総計の・全くの・合計」。",
+  "note": ""
+ },
+ "serve": {
+  "parts": [],
+  "story": "ラテン語servus「召使い・奴隷」から。主人に仕える→「仕える・勤める・給仕をする・役立つ」。",
+  "note": "servant（使用人）、service（奉仕）と同じ語源。"
+ },
+ "presence": {
+  "parts": [
+   {
+    "p": "pre-",
+    "m": "前に"
+   },
+   {
+    "p": "sence",
+    "m": "ある（esse）"
+   }
+  ],
+  "story": "ラテン語「目の前に(prae)ある(esse)こと」→その場にいること→「存在・出席」。",
+  "note": "present（出席している・現在の）と同じ語源。"
+ },
+ "aunt": {
+  "parts": [],
+  "story": "ラテン語amita「父の姉妹」から。のちに父母どちらの姉妹も指すようになり→「おば」。",
+  "note": ""
+ },
+ "push": {
+  "parts": [],
+  "story": "ラテン語pulsare「打つ・何度も突く」から。相手を突いて動かす→「押す」。",
+  "note": "pulse（脈はく＝打つもの）と同じ仲間。"
+ },
+ "conference": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "共に"
+   },
+   {
+    "p": "fer",
+    "m": "運ぶ"
+   },
+   {
+    "p": "-ence",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語「共に(con)運んで(ferre)持ち寄る」から。意見を持ち寄って話し合うこと→「会議」。",
+  "note": "prefer、transferのferも「運ぶ」。"
+ },
+ "poem": {
+  "parts": [],
+  "story": "ギリシャ語poiema「作られたもの」から（poiein「作る」）。ことばで作り上げた作品→「詩」。",
+  "note": "poet（詩人）と同じ語源。"
+ },
+ "cell": {
+  "parts": [],
+  "story": "ラテン語cella「小部屋」から。修道士の小部屋→「独房」、顕微鏡で見た生物の小さな部屋のような区切り→「細胞」。",
+  "note": ""
+ },
+ "claim": {
+  "parts": [],
+  "story": "ラテン語clamare「叫ぶ」から。大声で求める→「要求する・主張する」。",
+  "note": "exclaim（叫ぶ）と同じ語源。"
+ },
+ "remove": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "離れて"
+   },
+   {
+    "p": "move",
+    "m": "動かす"
+   }
+  ],
+  "story": "ラテン語「離れたところへ(re)動かす(movere)」→「取り去る・移す」。",
+  "note": "remote（遠い）と同じ語源。"
+ },
+ "aggressive": {
+  "parts": [
+   {
+    "p": "ag-",
+    "m": "〜に向かって"
+   },
+   {
+    "p": "gress",
+    "m": "進む"
+   },
+   {
+    "p": "-ive",
+    "m": "〜の性質の"
+   }
+  ],
+  "story": "ラテン語「〜に向かって(ad)進む(gradi)」→相手に向かっていく→「攻撃的な・積極的な」。",
+  "note": "progress（前進）のgressも「進む」。"
+ },
+ "election": {
+  "parts": [
+   {
+    "p": "e-",
+    "m": "外へ"
+   },
+   {
+    "p": "lect",
+    "m": "選ぶ"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語「（多くの中から）選び(legere)出す(e)こと」→「選挙」。",
+  "note": "elect（選ぶ）、select（選び出す）と同じ仲間。"
+ },
+ "defend": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "離して"
+   },
+   {
+    "p": "fend",
+    "m": "打つ"
+   }
+  ],
+  "story": "ラテン語defendere「打ち払う・寄せつけない」から→攻撃を防ぐ→「守る・弁護する」。",
+  "note": "fence（囲い）はdefenceの短縮形。"
+ },
+ "former": {
+  "parts": [],
+  "story": "古英語forma「最初の」の比較級。より前の→「かつての・前者」。",
+  "note": ""
+ },
+ "engine": {
+  "parts": [],
+  "story": "ラテン語ingenium「生まれつきの才能・工夫」から。工夫して作った仕掛け→「機械・エンジン」。",
+  "note": "ingenious（独創的な）、engineer（技師）と同じ語源。"
+ },
+ "approach": {
+  "parts": [
+   {
+    "p": "ap-",
+    "m": "〜へ"
+   },
+   {
+    "p": "proach",
+    "m": "近く"
+   }
+  ],
+  "story": "ラテン語prope「近くに」から作られた動詞。〜の近くへ行く→「近づく・接近」。",
+  "note": ""
+ },
+ "argue": {
+  "parts": [],
+  "story": "ラテン語arguere「明らかにする・証明する」から。筋道立てて示す→「議論する・主張する」。",
+  "note": "argument（議論）と同じ語源。"
+ },
+ "effect": {
+  "parts": [
+   {
+    "p": "ef-",
+    "m": "外へ"
+   },
+   {
+    "p": "fect",
+    "m": "作る"
+   }
+  ],
+  "story": "ラテン語「作り(facere)出す(ex)」→作り出されたもの→「結果・効果」。",
+  "note": "efficient（効率的な）、affect（影響する）も同じ「作る」の仲間。"
+ },
+ "policy": {
+  "parts": [],
+  "story": "ギリシャ語politeia「市民であること・国の治め方」から（polis「都市国家」）→治め方の「方針」。",
+  "note": "police（警察）、politics（政治）と同じ語源。"
+ },
+ "minister": {
+  "parts": [],
+  "story": "ラテン語minister「仕える者・下働き」から（minor「より小さい」）。神に仕える→「聖職者」、国王に仕える→「大臣」。",
+  "note": "master（主人）はmagis「より大きい」系で、対になる語。"
+ },
+ "suffer": {
+  "parts": [
+   {
+    "p": "suf-",
+    "m": "下で"
+   },
+   {
+    "p": "fer",
+    "m": "運ぶ"
+   }
+  ],
+  "story": "ラテン語「下で(sub)重荷を運ぶ(ferre)」→重みに耐える→「がまんする・苦しむ・（損害を）受ける」。",
+  "note": "prefer、transferのferも「運ぶ」。"
+ },
+ "nurse": {
+  "parts": [],
+  "story": "ラテン語nutrix「乳母」（nutrire「養う・乳を与える」）から。子を養い育てる人→「乳母・看護人」。",
+  "note": "nutrition（栄養）と同じ語源。"
+ },
+ "alarm": {
+  "parts": [],
+  "story": "イタリア語all'arme!「武器を取れ！」から。危険を知らせる叫び→「警報・警報器・驚かす」。",
+  "note": "arm（武器）と同じ語源。"
+ },
+ "ignore": {
+  "parts": [
+   {
+    "p": "i-",
+    "m": "〜でない"
+   },
+   {
+    "p": "gnore",
+    "m": "知っている"
+   }
+  ],
+  "story": "ラテン語ignorare「知らない」から。知らないふりをする→「無視する」。",
+  "note": "ignorant（無知な）と同じ語源。know（知る）とも遠い親戚。"
+ },
+ "responsibility": {
+  "parts": [],
+  "story": "respond「応える」から。求めに応えられること→「責任」。語の組み立ては英語の中で作られた。",
+  "note": "response（応答）と同じ仲間。"
+ },
+ "proposal": {
+  "parts": [
+   {
+    "p": "pro-",
+    "m": "前に"
+   },
+   {
+    "p": "pos",
+    "m": "置く"
+   },
+   {
+    "p": "-al",
+    "m": "こと"
+   }
+  ],
+  "story": "propose「（相手の）前に(pro)置く(pos)」の名詞形→案を差し出すこと→「提案・申し込み」。",
+  "note": "purpose、positionも同じ仲間。"
+ },
+ "chest": {
+  "parts": [],
+  "story": "ラテン語cista「箱」から。「大箱」→心臓や肺を箱のように収める体の部分→「胸」。",
+  "note": ""
+ },
+ "essential": {
+  "parts": [
+   {
+    "p": "ess",
+    "m": "存在する"
+   },
+   {
+    "p": "-ential",
+    "m": "〜の"
+   }
+  ],
+  "story": "ラテン語essentia「存在・本質」から。そのものがそのものであるための本質の→欠かせない→「絶対必要な」。",
+  "note": "essence（本質）と同じ語源。"
+ },
+ "examination": {
+  "parts": [],
+  "story": "ラテン語examen「天びんの針」から。はかりにかけて重さを確かめる→よく調べる→「試験・調査・診察」。",
+  "note": "examine（調べる）の名詞形。"
+ },
+ "competition": {
+  "parts": [
+   {
+    "p": "com-",
+    "m": "共に"
+   },
+   {
+    "p": "pet",
+    "m": "求める"
+   },
+   {
+    "p": "-ition",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語competere「共に(con)求める(petere)」から。同じものを皆で求め合う→「競争」。",
+  "note": "compete（競う）の名詞形。repeatのpetも「求める」。"
+ },
+ "plate": {
+  "parts": [],
+  "story": "ギリシャ語platys「平らな・広い」から。平たいもの→「平皿・板」。",
+  "note": "plateau（高原）、platform（台）も「平ら」の仲間。"
+ },
+ "romantic": {
+  "parts": [],
+  "story": "romance（中世の伝奇物語）から。伝奇物語のような→空想的で夢のある→「ロマンチックな」。",
+  "note": ""
+ },
+ "porch": {
+  "parts": [],
+  "story": "ラテン語porticus「柱廊」から。建物の入り口に張り出した屋根付きの部分→「ポーチ・玄関」。",
+  "note": "portico（柱廊玄関）と同じ語。"
+ },
+ "poverty": {
+  "parts": [],
+  "story": "ラテン語pauper「貧しい」から。貧しい状態→「貧乏」。",
+  "note": "poor（貧しい）と同じ語源。"
+ },
+ "atmosphere": {
+  "parts": [
+   {
+    "p": "atmo",
+    "m": "蒸気"
+   },
+   {
+    "p": "sphere",
+    "m": "球"
+   }
+  ],
+  "story": "ギリシャ語「蒸気(atmos)の球(sphaira)」。地球を包む気体の層→「大気」、場を包む空気→「雰囲気」。",
+  "note": ""
+ },
+ "magazine": {
+  "parts": [],
+  "story": "アラビア語makhzan「倉庫」から。品物を集めた倉庫→いろいろな記事を集めて蓄えた本→「雑誌」。",
+  "note": "今も「弾薬庫」の意味が残る。"
+ },
+ "prime": {
+  "parts": [],
+  "story": "ラテン語primus「第一の」から→「最も重要な・最上の」、人生で一番の時期→「全盛期」。",
+  "note": "primary（第一の）、prime minister（首相）も同じ。"
+ },
+ "alien": {
+  "parts": [],
+  "story": "ラテン語alienus「他人のもの」から（alius「ほかの」）。よその→「外国の・異質な」、よそから来た者→「宇宙人」。",
+  "note": "else（ほかの）と同じ語源。"
+ },
+ "celebrate": {
+  "parts": [],
+  "story": "ラテン語celebrare「大勢で集まる」から（celeber「人の多い」）。大勢集まって祝う→「祝う・たたえる」。",
+  "note": "celebrity（有名人）も同じ仲間。"
+ },
+ "strict": {
+  "parts": [],
+  "story": "ラテン語stringere「きつく締める」の過去分詞から。きつく締めつけた→ゆるみのない→「厳しい・厳密な」。",
+  "note": "districtのstrictも同じ「締めつける」。"
+ },
+ "sudden": {
+  "parts": [],
+  "story": "ラテン語subitus「こっそり近づいてきた」から（sub「下」＋ire「行く」）。気づかぬうちに来ている→「突然の」。",
+  "note": ""
+ },
+ "attic": {
+  "parts": [],
+  "story": "建物の最上階の外壁をアッティカ（古代アテネの地方）様式で飾ったことから。最上階→「屋根裏」。",
+  "note": ""
+ },
+ "democracy": {
+  "parts": [
+   {
+    "p": "demo",
+    "m": "民衆"
+   },
+   {
+    "p": "-cracy",
+    "m": "支配"
+   }
+  ],
+  "story": "ギリシャ語「民衆(demos)による支配(kratia)」→「民主政治・民主主義」。",
+  "note": "aristocracy（貴族政治）の-cracyも「支配」。"
+ },
+ "author": {
+  "parts": [],
+  "story": "ラテン語auctor「生み出す人」から（augere「増やす・生む」）。作品を生み出した人→「著者・創始者」。",
+  "note": "hは本来のラテン語になく、後から入ったつづり。"
+ },
+ "copy": {
+  "parts": [],
+  "story": "ラテン語copia「豊富さ」から。中世に「写し」を意味するように。写しを作って数を増やす→「写し・複写する」。",
+  "note": "copious（豊富な）と同じ語源。"
+ },
+ "expert": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "すっかり"
+   },
+   {
+    "p": "pert",
+    "m": "試す"
+   }
+  ],
+  "story": "ラテン語experiri「試してみる」の過去分詞「十分に試した」から→経験を積んだ→「専門家」。",
+  "note": "experiment、experienceと同じ仲間。"
+ },
+ "false": {
+  "parts": [],
+  "story": "ラテン語fallere「だます」の過去分詞から。だまされた・偽りの→「正しくない・本物でない」。",
+  "note": "fail（しくじる）、fault（誤り）と同じ仲間。"
+ },
+ "pray": {
+  "parts": [],
+  "story": "ラテン語precari「願い求める」から（prex「願い」）。神に願い求める→「祈る」。",
+  "note": "precarious（不安定な＝お願い次第の）と同じ語源。"
+ },
+ "develop": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "はがす"
+   },
+   {
+    "p": "velop",
+    "m": "包む"
+   }
+  ],
+  "story": "古フランス語「包み(veloper)をほどく(des-)」から。包みを開いて中身を広げる→「発展させる・開発する」。",
+  "note": "envelope（封筒＝包むもの）と逆の関係。"
+ },
+ "expression": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "外へ"
+   },
+   {
+    "p": "press",
+    "m": "押す"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語「外へ(ex)押し出す(press)こと」から。心の中のものを外へ押し出す→「表現・顔つき」。",
+  "note": "express（表現する）の名詞形。"
+ },
+ "debt": {
+  "parts": [],
+  "story": "ラテン語debitum「負っているもの」から（debere「借りがある」）。→「借金・恩義」。",
+  "note": "bを発音しないのはラテン語に合わせて後から入れたため。"
+ },
+ "independent": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "〜でない"
+   },
+   {
+    "p": "de-",
+    "m": "下に"
+   },
+   {
+    "p": "pend",
+    "m": "ぶら下がる"
+   },
+   {
+    "p": "-ent",
+    "m": "〜している"
+   }
+  ],
+  "story": "「(ほかのものに)ぶら下がって(depend)いない(in)」→頼らない→「独立した」。",
+  "note": "pendant（ペンダント）のpendも「ぶら下がる」。"
+ },
+ "pretend": {
+  "parts": [
+   {
+    "p": "pre-",
+    "m": "前に"
+   },
+   {
+    "p": "tend",
+    "m": "伸ばす"
+   }
+  ],
+  "story": "ラテン語praetendere「前に(prae)差し出す(tendere)」から。口実を前に出して見せる→「ふりをする」。",
+  "note": "extendのtendも「伸ばす」。"
+ },
+ "construction": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "共に"
+   },
+   {
+    "p": "struct",
+    "m": "積み上げる"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語「(材料を)いっしょに積み上げること」→「組立て・建築」、組み上げたもの→「構造・建築物」。",
+  "note": "structureのstructも「積み上げる」。"
+ },
+ "mobile": {
+  "parts": [
+   {
+    "p": "mob",
+    "m": "動く"
+   },
+   {
+    "p": "-ile",
+    "m": "〜できる"
+   }
+  ],
+  "story": "ラテン語mobilis「動かしやすい」から（movere「動かす」）→「移動できる」。携帯電話もこの意味から。",
+  "note": "move、motionと同じ仲間。"
+ },
+ "influence": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "中に"
+   },
+   {
+    "p": "flu",
+    "m": "流れる"
+   },
+   {
+    "p": "-ence",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語「流れ込むこと」から。星から人に流れ込み運命を左右すると考えられた力→「影響(力)」。",
+  "note": "influenza（インフルエンザ）も同じ語。"
+ },
+ "topic": {
+  "parts": [],
+  "story": "ギリシャ語topos「場所」から。議論のよりどころとなる「決まった論点」→「話題」。",
+  "note": "topography（地形）のtopoも「場所」。"
+ },
+ "border": {
+  "parts": [],
+  "story": "古フランス語bord「へり」（ゲルマン語から）＋-ure。物のへり→「ヘリ・縁」、国のへり→「国境」。",
+  "note": "board（板・船べり）と同じ仲間。"
+ },
+ "introduce": {
+  "parts": [
+   {
+    "p": "intro-",
+    "m": "中へ"
+   },
+   {
+    "p": "duce",
+    "m": "導く"
+   }
+  ],
+  "story": "ラテン語「中へ(intro)導く(ducere)」→人を輪の中へ導く→「紹介する」、新しい物を持ち込む→「導入する」。",
+  "note": "produce、reduceのduceも「導く」。"
+ },
+ "giant": {
+  "parts": [],
+  "story": "ギリシャ語gigas「巨人（神話の巨人族）」から。→「巨人・大男」。",
+  "note": "giga-（ギガ、10億）も同じ語源。"
+ },
+ "concern": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "共に"
+   },
+   {
+    "p": "cern",
+    "m": "ふるい分ける"
+   }
+  ],
+  "story": "ラテン語concernere「ふるいにかけて混ぜ合わせる」から。のちに「関わる・見分ける」の意に→「関係する・関心」。",
+  "note": ""
+ },
+ "partner": {
+  "parts": [],
+  "story": "古フランス語parçonier「財産を分け合う共同相続人」から。part（部分）の影響で形が変わった。分け合う相手→「相手・仲間」。",
+  "note": ""
+ },
+ "repair": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "再び"
+   },
+   {
+    "p": "pair",
+    "m": "用意する"
+   }
+  ],
+  "story": "ラテン語reparare「再び(re)整える(parare)」から→壊れたものをまた使える状態にする→「修繕する」。",
+  "note": "prepare（準備する）のpareも「整える」。"
+ },
+ "plastic": {
+  "parts": [],
+  "story": "ギリシャ語plassein「形作る」から。自由に形を作れる→「形を変えやすい」→型で成形できる素材「プラスチック」。",
+  "note": ""
+ },
+ "equal": {
+  "parts": [],
+  "story": "ラテン語aequalis「等しい」から（aequus「平らな・等しい」）→「等しい・平等の」。",
+  "note": "equator（赤道＝地球を等分する線）も同じ仲間。"
+ },
+ "collection": {
+  "parts": [
+   {
+    "p": "col-",
+    "m": "共に"
+   },
+   {
+    "p": "lect",
+    "m": "集める"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語「一か所に(con)集める(legere)こと」→「収集・収集物」、お金を集めること→「募金」。",
+  "note": "select、electのlectも「集める・選ぶ」。"
+ },
+ "describe": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "下に"
+   },
+   {
+    "p": "scribe",
+    "m": "書く"
+   }
+  ],
+  "story": "ラテン語「書き(scribere)写す(de)」から。見たものを書き写す→「描写する・述べる」。",
+  "note": "scribble（走り書き）、script（台本）も「書く」。"
+ },
+ "incident": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "上に"
+   },
+   {
+    "p": "cid",
+    "m": "落ちる"
+   },
+   {
+    "p": "-ent",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語incidere「上に落ちかかる→降りかかる」から。身に降りかかってくる→「でき事」。",
+  "note": "accident（事故）のcidも「落ちる」。"
+ },
+ "furniture": {
+  "parts": [],
+  "story": "フランス語fourniture「備えつけること」から（fournir「備える」＝furnish）。部屋に備えつけるもの→「家具」。",
+  "note": "furnish（備えつける）と同じ語源。"
+ },
+ "particular": {
+  "parts": [
+   {
+    "p": "parti",
+    "m": "部分"
+   },
+   {
+    "p": "-cul",
+    "m": "小さな"
+   },
+   {
+    "p": "-ar",
+    "m": "〜の"
+   }
+  ],
+  "story": "ラテン語particula「小さな部分」から。全体の中の一部分だけの→「特定の・特有の」。",
+  "note": "particle（粒子）と同じ語源。"
+ },
+ "fashion": {
+  "parts": [],
+  "story": "ラテン語factio「作ること」から（facere「作る」）。作り方→「方法・やり方」、その時代の装いのやり方→「流行」。",
+  "note": "faction（派閥）と同じ語源。"
+ },
+ "eager": {
+  "parts": [],
+  "story": "ラテン語acer「鋭い」から。鋭くつき動かされる→「熱望している・熱心な」。",
+  "note": "acid（酸）も「鋭い」の仲間。vinegarは「すっぱい(aigre)ワイン(vin)」。"
+ },
+ "monster": {
+  "parts": [],
+  "story": "ラテン語monstrum「不吉な前兆」から（monere「警告する」）。異常なできごと・姿の生き物→「怪物」。",
+  "note": "demonstrate（示す）も同じ仲間。"
+ },
+ "magic": {
+  "parts": [],
+  "story": "ギリシャ語magos「マギ（古代ペルシャの神官）」から。神官の不思議な術→「魔法・手品」。",
+  "note": ""
+ },
+ "dentist": {
+  "parts": [
+   {
+    "p": "dent",
+    "m": "歯"
+   },
+   {
+    "p": "-ist",
+    "m": "〜する人"
+   }
+  ],
+  "story": "フランス語dent「歯」（ラテン語dens）から。歯を扱う人→「歯科医」。",
+  "note": "dental（歯の）も同じ。dandelion（タンポポ）は「ライオンの歯」。"
+ },
+ "refrigerator": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "再び"
+   },
+   {
+    "p": "friger",
+    "m": "冷やす"
+   },
+   {
+    "p": "-ator",
+    "m": "もの"
+   }
+  ],
+  "story": "ラテン語refrigerare「再び(re)冷たく(frigus)する」から。冷やすもの→「冷蔵庫」。fridgeはこの短縮。",
+  "note": ""
+ },
+ "dish": {
+  "parts": [],
+  "story": "ラテン語discus「円盤」から。円盤状の器→「皿」、皿に盛ったもの→「料理」。",
+  "note": "disc（円盤）、desk（机）と同じ語源。"
+ },
+ "object": {
+  "parts": [
+   {
+    "p": "ob-",
+    "m": "〜に向かって"
+   },
+   {
+    "p": "ject",
+    "m": "投げる"
+   }
+  ],
+  "story": "ラテン語「〜に向かって(ob)投げ(iacere)られたもの」→目の前に投げ出されたもの→「物・対象・目的」。動詞は「異議を唱える」。",
+  "note": "project、injectのjectも「投げる」。"
+ },
+ "produce": {
+  "parts": [
+   {
+    "p": "pro-",
+    "m": "前へ"
+   },
+   {
+    "p": "duce",
+    "m": "導く"
+   }
+  ],
+  "story": "ラテン語「前へ(pro)導き出す(ducere)」→生み出して表に出す→「生産する・取り出す」。",
+  "note": "product（製品）は過去分詞から。"
+ },
+ "literature": {
+  "parts": [],
+  "story": "ラテン語littera「文字」から。文字で書かれたもの→「文学・文献」。",
+  "note": "letter（文字・手紙）と同じ語源。"
+ },
+ "majority": {
+  "parts": [
+   {
+    "p": "major",
+    "m": "より大きい"
+   },
+   {
+    "p": "-ity",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語maior「より大きい」から。数がより大きい方→「大多数・過半数」。",
+  "note": "major、mayor（市長）も同じ語源。"
+ },
+ "permit": {
+  "parts": [
+   {
+    "p": "per-",
+    "m": "通して"
+   },
+   {
+    "p": "mit",
+    "m": "送る"
+   }
+  ],
+  "story": "ラテン語「通して(per)送る(mittere)」→通してやる→「許可する」。",
+  "note": "commit、transmitのmitも「送る」。"
+ },
+ "content": {
+  "parts": [],
+  "story": "ラテン語continere「含む」の過去分詞から。中に含まれたもの→「中身」、欲しいものが中に収まった→「満足して」。",
+  "note": "contain（含む）と同じ語源。"
+ },
+ "response": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "返して"
+   },
+   {
+    "p": "spons",
+    "m": "約束する"
+   }
+  ],
+  "story": "ラテン語respondere「約束を返す→答える」から。→「返事・反応」。",
+  "note": "respond（答える）の名詞形。sponsor（保証人）も「約束する」。"
+ },
+ "centre": {
+  "parts": [],
+  "story": "ギリシャ語kentron「突き刺す針」から。コンパスの針を刺す点→円の「中心」。",
+  "note": "米つづりはcenter。"
+ },
+ "pity": {
+  "parts": [],
+  "story": "ラテン語pietas「敬う心・思いやり」から。人を思いやる心→「あわれみ」。",
+  "note": "piety（信心）と同じ語源。"
+ },
+ "rescue": {
+  "parts": [],
+  "story": "ラテン語「振るい落として(ex+quatere)取り返す(re)」から。危険から引き離して取り戻す→「救助する」。",
+  "note": ""
+ },
+ "existence": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "外へ"
+   },
+   {
+    "p": "sist",
+    "m": "立つ"
+   },
+   {
+    "p": "-ence",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語exsistere「外に出て立つ→現れる」から。はっきり現れてそこにある→「存在」。",
+  "note": "exist（存在する）の名詞形。assistのsistも「立つ」。"
+ },
+ "adult": {
+  "parts": [],
+  "story": "ラテン語adolescere「成長する」の過去分詞「成長しきった」から→「おとな」。",
+  "note": "adolescent（青年期の＝成長中の）と同じ語源。"
+ },
+ "demand": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "強く"
+   },
+   {
+    "p": "mand",
+    "m": "命じる"
+   }
+  ],
+  "story": "ラテン語demandare「任せる・命じる」から。フランス語で「求める」の意に→「要求する・需要」。",
+  "note": "command（命令する）のmandも「命じる」。"
+ },
+ "document": {
+  "parts": [
+   {
+    "p": "docu",
+    "m": "教える"
+   },
+   {
+    "p": "-ment",
+    "m": "もの"
+   }
+  ],
+  "story": "ラテン語documentum「教え・証拠」から（docere「教える」）。証拠となる書き物→「文書」。",
+  "note": "doctor（本来は教える人）も同じ仲間。"
+ },
+ "march": {
+  "parts": [],
+  "story": "古フランス語marchier「踏みつける」から（ゲルマン語の「しるしをつける」）。足で地面に跡をつけて進む→「行進する」。",
+  "note": "3月のMarchは軍神マルスが由来の別語。"
+ },
+ "miserable": {
+  "parts": [
+   {
+    "p": "miser",
+    "m": "みじめな"
+   },
+   {
+    "p": "-able",
+    "m": "〜に値する"
+   }
+  ],
+  "story": "ラテン語miser「みじめな・不幸な」から。あわれむに値するほど→「みじめな」。",
+  "note": "misery（悲惨）と同じ語源。"
+ },
+ "counter": {
+  "parts": [
+   {
+    "p": "count",
+    "m": "数える"
+   },
+   {
+    "p": "-er",
+    "m": "もの"
+   }
+  ],
+  "story": "中世ラテン語computatorium「計算する所」から。お金を数える台→「売り台・カウンター」。",
+  "note": "「反対の」のcounterはラテン語contra由来の別語。"
+ },
+ "material": {
+  "parts": [],
+  "story": "ラテン語materia「材木・材料」から。物を作る材料→「材料・生地」、形あるもの→「物質の」。",
+  "note": "matter（物質）と同じ語源。"
+ },
+ "negative": {
+  "parts": [],
+  "story": "ラテン語negare「否定する」から。「いいえ」と打ち消す→「否定の」、打ち消し方向の→「消極的な」。",
+  "note": "deny（否定する）も同じ語源。"
+ },
+ "fate": {
+  "parts": [],
+  "story": "ラテン語fatum「（神によって）語られたこと」から。神のことばで定められたもの→「運命」。",
+  "note": "fatal（致命的な）も同じ語源。"
+ },
+ "laundry": {
+  "parts": [],
+  "story": "ラテン語lavare「洗う」から。洗う物・洗う所→「洗濯物・クリーニング屋」。",
+  "note": "lavatory（洗面所）、lava（溶岩）も同じ仲間。"
+ },
+ "channel": {
+  "parts": [],
+  "story": "ラテン語canalis「溝・水路」から→「水路・海峡」、情報の通り道→テレビの「チャンネル」。",
+  "note": "canal（運河）と同じ語。"
+ },
+ "constant": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "しっかり"
+   },
+   {
+    "p": "stant",
+    "m": "立っている"
+   }
+  ],
+  "story": "ラテン語constare「しっかり立っている」から。ぐらつかず変わらない→「不変の・絶え間のない」。",
+  "note": "distance、instantのstも「立つ」。"
+ },
+ "potential": {
+  "parts": [
+   {
+    "p": "potent",
+    "m": "力がある"
+   },
+   {
+    "p": "-ial",
+    "m": "〜の"
+   }
+  ],
+  "story": "ラテン語potentia「力」から。力を秘めている→まだ表に出ていない→「潜在的な・可能性のある」。",
+  "note": "powerと同じ仲間。"
+ },
+ "repeat": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "再び"
+   },
+   {
+    "p": "peat",
+    "m": "求める"
+   }
+  ],
+  "story": "ラテン語repetere「再び(re)求める・向かう(petere)」から→同じことをもう一度する→「繰り返す」。",
+  "note": "competeのpeteも「求める」。"
+ },
+ "method": {
+  "parts": [
+   {
+    "p": "met(a)-",
+    "m": "〜を追って"
+   },
+   {
+    "p": "hod",
+    "m": "道"
+   }
+  ],
+  "story": "ギリシャ語methodos「(目的に)向かう道筋」から（hodos「道」）。進むための道筋→「方法」。",
+  "note": ""
+ },
+ "guide": {
+  "parts": [],
+  "story": "ゲルマン語「道を示す」から。フランス語経由で入った→「案内する・案内人」。",
+  "note": "wit・wise（知る）と遠い親戚にあたる語。"
+ },
+ "legal": {
+  "parts": [],
+  "story": "ラテン語lex「法」から→「法律の・合法の」。",
+  "note": "loyal（忠実な＝法を守る）も同じ語源。"
+ },
+ "discussion": {
+  "parts": [
+   {
+    "p": "dis-",
+    "m": "ばらばらに"
+   },
+   {
+    "p": "cuss",
+    "m": "揺さぶる"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語discutere「揺さぶって散らす」から。問題をばらして細かく調べる→「議論」。",
+  "note": "discuss（議論する）の名詞形。"
+ },
+ "obey": {
+  "parts": [
+   {
+    "p": "ob-",
+    "m": "〜に向かって"
+   },
+   {
+    "p": "ey",
+    "m": "聞く"
+   }
+  ],
+  "story": "ラテン語oboedire「(命令に)耳を傾ける」から（audire「聞く」）。言うことを聞く→「服従する・従う」。",
+  "note": "audio（音声）も同じ「聞く」。"
+ },
+ "reputation": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "くり返し"
+   },
+   {
+    "p": "put",
+    "m": "考える"
+   },
+   {
+    "p": "-ation",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語reputatio「よく考えること」から。人をどう考えるか→世間の見方→「評判」。",
+  "note": "computeのputも「考える・数える」。"
+ },
+ "regular": {
+  "parts": [],
+  "story": "ラテン語regula「定規・規則」から。規則どおりの→「規則正しい・いつもの・正規の」。",
+  "note": "rule（規則）も同じ語源。"
+ },
+ "effective": {
+  "parts": [
+   {
+    "p": "ef-",
+    "m": "外へ(ex)"
+   },
+   {
+    "p": "fect",
+    "m": "作る"
+   },
+   {
+    "p": "-ive",
+    "m": "〜の"
+   }
+  ],
+  "story": "ラテン語efficere「作り出す・成し遂げる」から。結果を作り出す→「効果的な・有効な」。",
+  "note": "effect（効果）の形容詞形。"
+ },
+ "electric": {
+  "parts": [],
+  "story": "ギリシャ語ēlektron「琥珀」から。琥珀をこすると物を引き寄せる（静電気）ことから「電気の」。",
+  "note": "electron（電子）も同じ語源。"
+ },
+ "nuclear": {
+  "parts": [],
+  "story": "ラテン語nucleus「小さな木の実・その核」から。実の中心の核→原子の中心「原子核の・核の」。",
+  "note": "nucleus（核）の形容詞形。"
+ },
+ "interview": {
+  "parts": [
+   {
+    "p": "inter-",
+    "m": "互いに・間で"
+   },
+   {
+    "p": "view",
+    "m": "見る"
+   }
+  ],
+  "story": "古フランス語「互いに(entre)見る(voir)」から。顔を合わせて会う→「会見・面接」。",
+  "note": ""
+ },
+ "temper": {
+  "parts": [],
+  "story": "ラテン語temperare「程よく混ぜる・加減する」から。気持ちの混ざり具合→「気質・気分」、それが乱れて「かんしゃく」。",
+  "note": "temperature（温度）も同じ仲間。"
+ },
+ "retire": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "後ろへ"
+   },
+   {
+    "p": "tire",
+    "m": "引く"
+   }
+  ],
+  "story": "フランス語retirer「引き戻す」から。身を後ろへ引く→「引退する・引きこもる」。",
+  "note": "tire（疲れさせる）とは別語。"
+ },
+ "multiple": {
+  "parts": [
+   {
+    "p": "multi",
+    "m": "多くの"
+   },
+   {
+    "p": "ple",
+    "m": "〜重の"
+   }
+  ],
+  "story": "ラテン語multiplus「多くの重なりの」から→「多数から成る・複合の」。",
+  "note": "multiply（掛ける・増やす）と同じ仲間。"
+ },
+ "impression": {
+  "parts": [
+   {
+    "p": "im-",
+    "m": "上に・中に"
+   },
+   {
+    "p": "press",
+    "m": "押す"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語imprimere「押しつける」から。押しつけて付いた跡→心に刻まれた跡＝「印象」。",
+  "note": "print（印刷する）も同じ語源。"
+ },
+ "deny": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "離れて"
+   },
+   {
+    "p": "ny",
+    "m": "いいえと言う"
+   }
+  ],
+  "story": "ラテン語denegare「拒む」（negare「いいえと言う」）から→「否定する・拒む」。",
+  "note": "negative（否定の）と同じ仲間。"
+ },
+ "attempt": {
+  "parts": [
+   {
+    "p": "at-",
+    "m": "〜へ"
+   },
+   {
+    "p": "tempt",
+    "m": "試す"
+   }
+  ],
+  "story": "ラテン語「〜に(ad)向けて試す(temptare)」から→「企てる・試みる」。",
+  "note": "tempt（誘惑する）ももとは「試す」の意。"
+ },
+ "code": {
+  "parts": [],
+  "story": "ラテン語codex「木の幹→木の板」から。書きつける板→書物→法を集めた「法典」→決まりごと「規約・符号」。",
+  "note": ""
+ },
+ "violent": {
+  "parts": [],
+  "story": "ラテン語vis「力」から。力ずくの→「暴力による・激しい」。",
+  "note": "violence（暴力）の形容詞形。"
+ },
+ "secretary": {
+  "parts": [],
+  "story": "中世ラテン語secretarius「秘密(secret)を任された人」から。内密の文書を扱う人→「秘書・書記」。",
+  "note": "secret（秘密）と同じ語源。"
+ },
+ "tend": {
+  "parts": [],
+  "story": "ラテン語tendere「伸ばす・向ける」から。ある方向へ伸びていく→「〜する傾向がある」。",
+  "note": "「世話をする」のtendはattendの短縮形。extend・intendのtendも「伸ばす」。"
+ },
+ "grammar": {
+  "parts": [],
+  "story": "ギリシャ語grammatikē「文字の技術」（gramma「書かれた文字」）から。文字と書き方の学問→「文法」。",
+  "note": ""
+ },
+ "operation": {
+  "parts": [
+   {
+    "p": "oper",
+    "m": "仕事"
+   },
+   {
+    "p": "-ation",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語opus「仕事・作業」から。はたらかせること→「作用・運転」、医師の作業→「手術」、軍の「作戦」。",
+  "note": ""
+ },
+ "ordinary": {
+  "parts": [],
+  "story": "ラテン語ordinarius「順序どおりの」（ordo「順序・秩序」）から。いつもの順序どおり→「普通の・いつもの」。",
+  "note": "order（順序・命令）と同じ語源。"
+ },
+ "identity": {
+  "parts": [
+   {
+    "p": "ident",
+    "m": "同じ"
+   },
+   {
+    "p": "-ity",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語idem「同じもの」から。「同じであること」→ある人がほかならぬその人であること＝「身元・独自性」。",
+  "note": "identical（同一の）、identify（特定する）も同じ仲間。"
+ },
+ "victim": {
+  "parts": [],
+  "story": "ラテン語victima「いけにえの動物」から。神に捧げられる犠牲→災難の「犠牲者」。",
+  "note": ""
+ },
+ "arrest": {
+  "parts": [
+   {
+    "p": "ar-",
+    "m": "〜へ"
+   },
+   {
+    "p": "re-",
+    "m": "後ろに"
+   },
+   {
+    "p": "st",
+    "m": "立つ"
+   }
+  ],
+  "story": "ラテン語「後ろにとどまる(restare)」から「止める」。人を止めて取り押さえる→「逮捕する」。",
+  "note": ""
+ },
+ "admire": {
+  "parts": [
+   {
+    "p": "ad-",
+    "m": "〜に"
+   },
+   {
+    "p": "mire",
+    "m": "驚く"
+   }
+  ],
+  "story": "ラテン語admirari「〜に驚嘆する」から。驚いて見とれる→「感嘆する・称賛する」。",
+  "note": "miracle（奇跡）も「驚く」の仲間。"
+ },
+ "allergic": {
+  "parts": [
+   {
+    "p": "all",
+    "m": "ほかの"
+   },
+   {
+    "p": "erg",
+    "m": "はたらき"
+   },
+   {
+    "p": "-ic",
+    "m": "〜の"
+   }
+  ],
+  "story": "ギリシャ語「ほかと違うはたらき」から作られた語。体が異常な反応をすること→「アレルギーの」。",
+  "note": "energy（エネルギー）のergも「はたらき」。"
+ },
+ "image": {
+  "parts": [],
+  "story": "ラテン語imago「写し・似姿」から。似せて写したもの→「像・イメージ」、写したように「そっくりの人」。",
+  "note": "imitate（まねる）と同じ語根。"
+ },
+ "direct": {
+  "parts": [
+   {
+    "p": "di-",
+    "m": "離れて・別々に"
+   },
+   {
+    "p": "rect",
+    "m": "まっすぐにする"
+   }
+  ],
+  "story": "ラテン語dirigere「まっすぐにする・向ける」から→「まっすぐな・直接の」、道筋を示して「指揮する」。",
+  "note": "correct（正しい）のrectも「まっすぐ」。"
+ },
+ "talent": {
+  "parts": [],
+  "story": "ギリシャ語talanton「はかり・重さの単位→大金」から。預けられた金を活かす聖書のたとえ話から、神から授かった「才能」に。",
+  "note": ""
+ },
+ "assistant": {
+  "parts": [
+   {
+    "p": "as-",
+    "m": "〜のそばに"
+   },
+   {
+    "p": "sist",
+    "m": "立つ"
+   },
+   {
+    "p": "-ant",
+    "m": "人"
+   }
+  ],
+  "story": "ラテン語assistere「そばに立つ」から。そばに立って手伝う人→「助手」。",
+  "note": "insist・resistのsistも「立つ」。"
+ },
+ "intention": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "〜へ"
+   },
+   {
+    "p": "tent",
+    "m": "伸ばす"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語intendere「〜へ心を伸ばす・向ける」から。心を向けること→「意図」。",
+  "note": "intend（意図する）の名詞形。tend・extendと同じ仲間。"
+ },
+ "grade": {
+  "parts": [],
+  "story": "ラテン語gradus「一歩・段」から。一段ずつの段階→「等級・学年・成績」。",
+  "note": "graduate（卒業する）、gradual（段階的な）も同じ仲間。"
+ },
+ "coast": {
+  "parts": [],
+  "story": "ラテン語costa「肋骨・わき腹」から。体の側面→陸地の側面＝「海岸」。",
+  "note": ""
+ },
+ "skeptical": {
+  "parts": [],
+  "story": "ギリシャ語skeptesthai「よく調べる・考察する」から。すぐ信じずに調べ続ける態度→「疑い深い・懐疑的な」。",
+  "note": ""
+ },
+ "emotional": {
+  "parts": [
+   {
+    "p": "e-",
+    "m": "外へ"
+   },
+   {
+    "p": "mot",
+    "m": "動く"
+   }
+  ],
+  "story": "emotion（感情）＋-al。ラテン語emovere「外へ動かす」から。心が揺り動かされること→「感情(の)」。",
+  "note": "motion・moveと同じ「動く」の仲間。"
+ },
+ "file": {
+  "parts": [],
+  "story": "ラテン語filum「糸」から。書類を糸や針金に通して束ね整理したことから「書類とじ・ファイル」。",
+  "note": ""
+ },
+ "diary": {
+  "parts": [],
+  "story": "ラテン語dies「日」から。一日ごとの記録→「日記」。",
+  "note": "journal（日誌）ももとは「日の」という意味の語。"
+ },
+ "communicate": {
+  "parts": [],
+  "story": "ラテン語communicare「共有する」（communis「共通の」）から。知識や気持ちを共有する→「伝える・通信する」。",
+  "note": "common（共通の）、community（地域社会）も同じ仲間。"
+ },
+ "customer": {
+  "parts": [
+   {
+    "p": "custom",
+    "m": "習慣"
+   },
+   {
+    "p": "-er",
+    "m": "人"
+   }
+  ],
+  "story": "custom（習慣）＋-er。いつも習慣的に買いに来る人→「お得意・客」。",
+  "note": "中世ラテン語では「税を集める人」の意だった。"
+ },
+ "firm": {
+  "parts": [],
+  "story": "ラテン語firmus「しっかりした」から。名詞は「署名」の意のイタリア語firmaから。署名→商号→「商会・会社」。",
+  "note": "confirm（確かめる）のfirmも「しっかりした」。"
+ },
+ "production": {
+  "parts": [
+   {
+    "p": "pro-",
+    "m": "前へ"
+   },
+   {
+    "p": "duc",
+    "m": "導く"
+   },
+   {
+    "p": "-tion",
+    "m": "こと"
+   }
+  ],
+  "story": "ラテン語producere「前へ導き出す」から。前へ出して形にする→「生産・生産物」。",
+  "note": "reduce・introduceのducも「導く」。"
+ },
+ "impact": {
+  "parts": [
+   {
+    "p": "im-",
+    "m": "中に"
+   },
+   {
+    "p": "pact",
+    "m": "打ち込む"
+   }
+  ],
+  "story": "ラテン語impingere「打ち当てる・打ち込む」の過去分詞から。ぶつかって打ち込まれる→「衝突・衝撃・影響」。",
+  "note": ""
+ },
+ "significant": {
+  "parts": [
+   {
+    "p": "sign",
+    "m": "しるし"
+   },
+   {
+    "p": "fic",
+    "m": "作る"
+   },
+   {
+    "p": "-ant",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語significare「しるし(sign)を作る」→「意味を示す」。意味をもつ→「重要な・意味のある」。",
+  "note": "signal（信号）、signature（署名）も「しるし」の仲間。"
+ },
+ "reduce": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "後ろへ・もとへ"
+   },
+   {
+    "p": "duce",
+    "m": "導く"
+   }
+  ],
+  "story": "ラテン語reducere「引き戻す」から。もとの小さな状態へ連れ戻す→「減らす・下げる」。",
+  "note": "produce・introduceのduceも「導く」。"
+ },
+ "cigarette": {
+  "parts": [
+   {
+    "p": "cigar",
+    "m": "葉巻"
+   },
+   {
+    "p": "-ette",
+    "m": "小さい"
+   }
+  ],
+  "story": "フランス語でcigar（葉巻）に「小さい」の-etteがついた形。小さい葉巻→「紙巻きたばこ」。",
+  "note": "-etteはkitchenette（簡易台所）などにも。"
+ },
+ "drawer": {
+  "parts": [
+   {
+    "p": "draw",
+    "m": "引く"
+   },
+   {
+    "p": "-er",
+    "m": "もの"
+   }
+  ],
+  "story": "「引く(draw)もの(er)」→引っぱって出すもの＝「引き出し」。",
+  "note": ""
+ },
+ "mansion": {
+  "parts": [],
+  "story": "ラテン語mansio「とどまる所・住まい」（manere「とどまる」）から。住む家→「大邸宅」。",
+  "note": "remain（とどまる）、permanent（永続的な）も同じ仲間。"
+ },
+ "hesitant": {
+  "parts": [],
+  "story": "ラテン語haesitare「くっついて動けない」から。足がくっついたように前に進めない→「ためらう・ちゅうちょする」。",
+  "note": "hesitate（ためらう）の形容詞形。"
+ },
+ "detail": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "完全に・離して"
+   },
+   {
+    "p": "tail",
+    "m": "切る"
+   }
+  ],
+  "story": "フランス語détailler「細かく切り分ける」から。切り分けた一つ一つ→「細部・詳細」。",
+  "note": "tailor（仕立て屋＝布を切る人）も同じ「切る」。"
+ },
+ "depression": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "下へ"
+   },
+   {
+    "p": "press",
+    "m": "押す"
+   },
+   {
+    "p": "-ion",
+    "m": "こと"
+   }
+  ],
+  "story": "「下へ(de)押す(press)こと」→押し下げられた「くぼ地」、気分が沈む「意気消沈」、経済が沈む「不景気」。",
+  "note": ""
+ },
+ "graduate": {
+  "parts": [],
+  "story": "ラテン語gradus「段・一歩」から。学問の段を一つ上がる→学位を得る→「卒業する・卒業生」。",
+  "note": "grade（等級）と同じ仲間。"
+ },
+ "blanket": {
+  "parts": [],
+  "story": "古フランス語blanket「白い毛織物」（blanc「白い」）から。白いウール地→「毛布」。",
+  "note": "blank（白紙の・空白）と同じ語源。"
+ },
+ "cruel": {
+  "parts": [],
+  "story": "ラテン語crudelis「むごい」から。crudus「生の・荒い」と同系。荒々しく容赦ない→「残酷な」。",
+  "note": "crude（生の・粗野な）と同じ仲間。"
+ },
+ "destroy": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "逆に・取り去る"
+   },
+   {
+    "p": "stroy",
+    "m": "築く"
+   }
+  ],
+  "story": "ラテン語destruere「築いたもの(struere)を崩す(de)」から→「破壊する」。",
+  "note": "structure（構造）、construct（建設する）のstruも「築く」。"
+ },
+ "authority": {
+  "parts": [],
+  "story": "ラテン語auctor「生み出す人・保証人」から。物事の元をつくり保証する人の力→「権威・権力」。",
+  "note": "author（著者）と同じ語源。"
+ },
+ "ruin": {
+  "parts": [],
+  "story": "ラテン語ruere「崩れ落ちる」から。崩れ落ちた建物→「廃墟」、崩れ落ちること→「破滅」。",
+  "note": ""
+ },
+ "include": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "中に"
+   },
+   {
+    "p": "clude",
+    "m": "閉じる"
+   }
+  ],
+  "story": "ラテン語includere「中に閉じ込める」から。中に入れて囲う→「含む」。",
+  "note": "exclude（除外する）は「外に閉め出す」。close（閉じる）も仲間。"
+ },
+ "balance": {
+  "parts": [
+   {
+    "p": "ba",
+    "m": "二つの"
+   },
+   {
+    "p": "lance",
+    "m": "皿"
+   }
+  ],
+  "story": "ラテン語bilanx「二つ(bi)の皿(lanx)のついた」から。両皿の「天びん」→両側が釣り合うこと→「つり合い」。",
+  "note": ""
+ },
+ "manner": {
+  "parts": [],
+  "story": "ラテン語manus「手」から。手でのやり方・扱い方→「方法」、ふるまい方→「態度・行儀」。",
+  "note": "manual（手の・手引き）も「手」の仲間。"
+ },
+ "respond": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "返して"
+   },
+   {
+    "p": "spond",
+    "m": "約束する"
+   }
+  ],
+  "story": "ラテン語respondere「約束を返す」から。相手の言葉に返す→「返事をする・反応する」。",
+  "note": "response（応答）、sponsor（保証人）も同じ仲間。"
+ },
+ "citizen": {
+  "parts": [
+   {
+    "p": "citi",
+    "m": "都市（city）"
+   },
+   {
+    "p": "-zen",
+    "m": "〜の人"
+   }
+  ],
+  "story": "古フランス語「都市(cite)に住む人」から。都市の住人→国に属する人＝「市民・国民」。",
+  "note": ""
+ },
+ "poet": {
+  "parts": [],
+  "story": "ギリシャ語poiētēs「作る人」（poiein「作る」）から。言葉で作品を作る人→「詩人」。",
+  "note": "poem（詩）も同じ語源。"
+ },
+ "principal": {
+  "parts": [],
+  "story": "ラテン語princeps「第一の者」から。「第一の・主要な」→第一の人「長・校長」、第一のお金「元金」。",
+  "note": "prince（王子）と同じ語源。発音が同じprinciple（原理）と混同しやすい。"
+ },
+ "roll": {
+  "parts": [],
+  "story": "ラテン語rota「車輪」の小さいものrotula「小さな車輪」から。車輪のように「転がる・転がす」、巻き上げたもの→「名簿・ロールパン」。",
+  "note": "rotate（回転する）も「車輪」の仲間。"
+ },
+ "error": {
+  "parts": [],
+  "story": "ラテン語errare「さまよう」から。正しい道からさまよい出ること→「誤り」。",
+  "note": "err（誤る）と同じ語源。"
+ },
+ "vain": {
+  "parts": [],
+  "story": "ラテン語vanus「空っぽの」から。中身がない→「むなしい・むだな」、中身がないのに見栄を張る→「虚栄心の強い」。",
+  "note": "vanish（消える）も同じ仲間。"
+ },
+ "bomb": {
+  "parts": [],
+  "story": "ギリシャ語bombos「ブーンという低い音」から。ドーンと鳴り響くもの→「爆弾」。",
+  "note": ""
+ },
+ "horror": {
+  "parts": [],
+  "story": "ラテン語horrere「毛が逆立つ・震える」から。身の毛がよだつほどの「恐怖」。",
+  "note": "horrible（恐ろしい）も同じ語源。"
+ },
+ "tense": {
+  "parts": [],
+  "story": "「時制」の意はラテン語tempus「時」から（フランス語tens経由）。",
+  "note": "「ぴんと張った」のtenseはラテン語tendere「伸ばす」からの別語。"
+ },
+ "supper": {
+  "parts": [],
+  "story": "古フランス語soper「夕食をとる」から。スープ(soupe)にパンを浸して食べる軽い夜の食事→「夕食」。",
+  "note": "soup（スープ）と同じ語源。"
+ },
+ "contest": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "共に"
+   },
+   {
+    "p": "test",
+    "m": "証人"
+   }
+  ],
+  "story": "ラテン語contestari「証人(testis)を呼ぶ」から。双方が証人を呼んで争う→「争う・競争」。",
+  "note": ""
+ },
+ "collect": {
+  "parts": [
+   {
+    "p": "col-",
+    "m": "一緒に"
+   },
+   {
+    "p": "lect",
+    "m": "集める"
+   }
+  ],
+  "story": "ラテン語colligere「一緒に(com)集める(legere)」から→「集める・集まる」。",
+  "note": "select（選ぶ）のlectも「集める・選ぶ」。"
+ },
+ "committee": {
+  "parts": [
+   {
+    "p": "commit",
+    "m": "ゆだねる"
+   },
+   {
+    "p": "-ee",
+    "m": "〜される人"
+   }
+  ],
+  "story": "commit「委ねる」＋-ee「〜される人」。仕事を任された人たち→「委員会」。",
+  "note": "employee（雇われる人）の-eeと同じ。"
+ },
+ "plain": {
+  "parts": [],
+  "story": "ラテン語planus「平らな」から。平らな土地→「平原」、でこぼこがない→「はっきりした・わかりやすい・質素な」。",
+  "note": "plane（平面）、plan（計画）と同じ語源。"
+ },
+ "disaster": {
+  "parts": [
+   {
+    "p": "dis-",
+    "m": "悪い・離れて"
+   },
+   {
+    "p": "aster",
+    "m": "星"
+   }
+  ],
+  "story": "イタリア語disastro「悪い(dis)星(astro)」から。星回りが悪いこと→不運→「災害」。",
+  "note": "astronaut（宇宙飛行士）のastroも「星」。"
+ },
+ "insane": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "〜でない"
+   },
+   {
+    "p": "sane",
+    "m": "健全な"
+   }
+  ],
+  "story": "ラテン語insanus「健全(sanus)でない(in)」から→「正気でない」。",
+  "note": "sane（正気の）の反対語。"
+ },
+ "conservative": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "すっかり"
+   },
+   {
+    "p": "serv",
+    "m": "保つ"
+   }
+  ],
+  "story": "ラテン語conservare「保存する」から。今あるものを保とうとする→「保守的な」。",
+  "note": "conserve（保存する）の形容詞形。"
+ },
+ "detective": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "取り去る"
+   },
+   {
+    "p": "tect",
+    "m": "覆う"
+   }
+  ],
+  "story": "ラテン語detegere「覆いを取る」から。覆い隠されたことを暴く人→「刑事・探偵」。",
+  "note": "detect（見つける）と同じ仲間。"
+ },
+ "album": {
+  "parts": [],
+  "story": "ラテン語album「白い書き板」（albus「白い」）から。何も書いてない白い板→書き込む帳面→「アルバム」。",
+  "note": ""
+ },
+ "vehicle": {
+  "parts": [],
+  "story": "ラテン語vehiculum「運ぶもの」（vehere「運ぶ」）から。人や物を運ぶもの→「乗り物」。",
+  "note": ""
+ },
+ "option": {
+  "parts": [],
+  "story": "ラテン語optio「選ぶこと」（optare「選ぶ」）から。選ぶこと・選べるもの→「選択（の自由）」。",
+  "note": "opt（選ぶ）と同じ語源。"
+ },
+ "pandemic": {
+  "parts": [
+   {
+    "p": "pan-",
+    "m": "すべての"
+   },
+   {
+    "p": "dem",
+    "m": "人々"
+   },
+   {
+    "p": "-ic",
+    "m": "〜の"
+   }
+  ],
+  "story": "ギリシャ語「すべての(pan)人々(demos)の」から。国中・世界中に広がる→「全国的・世界的流行（の）」。",
+  "note": "epidemic（流行病）、democracy（民主主義）のdemも「人々」。"
+ },
+ "bible": {
+  "parts": [],
+  "story": "ギリシャ語biblia「書物（複数）」から。特別な書物→「聖書」。",
+  "note": ""
+ },
+ "mayor": {
+  "parts": [],
+  "story": "ラテン語maior「より大きい・上位の」から。町でいちばん上位の人→「市長」。",
+  "note": "major（主要な）と同じ語源。"
+ },
+ "contain": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "共に・すっかり"
+   },
+   {
+    "p": "tain",
+    "m": "保つ"
+   }
+  ],
+  "story": "ラテン語continere「まとめて保つ」から。中にまとめて保つ→「含む・入れている」。",
+  "note": "obtain・maintainのtainも「保つ」。"
+ },
+ "individual": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "〜できない"
+   },
+   {
+    "p": "divid",
+    "m": "分ける"
+   },
+   {
+    "p": "-ual",
+    "m": "〜の"
+   }
+  ],
+  "story": "ラテン語「分ける(divide)ことができない(in)」から。それ以上分けられない一つのもの→「個々の・個人」。",
+  "note": ""
+ },
+ "separate": {
+  "parts": [
+   {
+    "p": "se-",
+    "m": "離して"
+   },
+   {
+    "p": "par",
+    "m": "整える"
+   }
+  ],
+  "story": "ラテン語separare「離して(se)整える(parare)」から。別々にしておく→「分ける・離れた」。",
+  "note": ""
+ },
+ "soldier": {
+  "parts": [],
+  "story": "後期ラテン語solidus（金貨の名）から。給料の金貨をもらって戦う人→「兵士」。",
+  "note": ""
+ },
+ "vocabulary": {
+  "parts": [],
+  "story": "ラテン語vocare「呼ぶ」から生まれたvocabulum「呼び名・語」をまとめたもの→「語彙」。",
+  "note": "voice（声）・vocal（声の）も同じ仲間。"
+ },
+ "design": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "下に・はっきり"
+   },
+   {
+    "p": "sign",
+    "m": "印をつける"
+   }
+  ],
+  "story": "ラテン語designare「印をつけて示す」から。形を印で描き示す→「設計する・図案」。",
+  "note": "sign（しるし）・signal と同じ仲間。"
+ },
+ "comfort": {
+  "parts": [
+   {
+    "p": "com-",
+    "m": "すっかり"
+   },
+   {
+    "p": "fort",
+    "m": "強い"
+   }
+  ],
+  "story": "「すっかり強くする」→気持ちを力づける→「慰める」、そこから「快適さ」。",
+  "note": "fort（とりで）・effort（努力）のfortも「強い」。"
+ },
+ "defense": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "離れて"
+   },
+   {
+    "p": "fense",
+    "m": "打つ"
+   }
+  ],
+  "story": "ラテン語defendere「打ち払う」から。攻撃を打ち払う→「防御・守備」、人を守って言い分を述べる→「弁護」。",
+  "note": "offend（攻撃する）も同じ語根。fence（柵）はdefenseが縮まった語。"
+ },
+ "urgent": {
+  "parts": [
+   {
+    "p": "urg",
+    "m": "押す"
+   },
+   {
+    "p": "-ent",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語urgere「押しつける・せき立てる」から。せき立ててくる→「急を要する」。",
+  "note": "urge（せき立てる）と同じ語源。"
+ },
+ "artificial": {
+  "parts": [
+   {
+    "p": "arti",
+    "m": "技"
+   },
+   {
+    "p": "fic",
+    "m": "作る"
+   }
+  ],
+  "story": "ラテン語ars「技」＋facere「作る」から。人の技で作った→「人工の・人造の」。",
+  "note": "art（芸術・技術）・artifact（人工物）と同じ仲間。"
+ },
+ "limit": {
+  "parts": [],
+  "story": "ラテン語limes「畑と畑の間のあぜ道・境界」から。境目の線→「限界・制限する」。",
+  "note": ""
+ },
+ "suggestion": {
+  "parts": [
+   {
+    "p": "sug-",
+    "m": "下から"
+   },
+   {
+    "p": "gest",
+    "m": "運ぶ"
+   }
+  ],
+  "story": "ラテン語suggerere「下から持ち出す」から。そっと差し出す→「提案・ほのめかし」。",
+  "note": "gesture（身ぶり）・digest（消化する）のgestも「運ぶ」。"
+ },
+ "proper": {
+  "parts": [],
+  "story": "ラテン語proprius「自分自身の・固有の」から。そのものに本来ふさわしい→「適切な」。",
+  "note": "property（財産＝自分のもの）・appropriateと同じ仲間。"
+ },
+ "resist": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "逆らって"
+   },
+   {
+    "p": "sist",
+    "m": "立つ"
+   }
+  ],
+  "story": "ラテン語resistere「向かって立ち止まる」から。相手に逆らって踏ん張る→「抵抗する・こらえる」。",
+  "note": "insist・consistのsistも「立つ」。"
+ },
+ "battery": {
+  "parts": [],
+  "story": "古フランス語baterie「打つこと」から。打ちかける大砲の一群→並んだ蓄電器をそれにたとえ→「電池」。",
+  "note": "battle（戦い）・debate（討論）も「打つ」の仲間。"
+ },
+ "envelope": {
+  "parts": [
+   {
+    "p": "en-",
+    "m": "中に"
+   },
+   {
+    "p": "velop",
+    "m": "包む"
+   }
+  ],
+  "story": "フランス語envelopper「包み込む」の名詞形。手紙を包み込むもの→「封筒」。",
+  "note": "develop（発達する）は「包みを解く」が原義。"
+ },
+ "cancel": {
+  "parts": [],
+  "story": "ラテン語cancellare「格子状にする」から。書いた文字に格子のような×線を引いて消す→「取り消す」。",
+  "note": ""
+ },
+ "participate": {
+  "parts": [
+   {
+    "p": "parti",
+    "m": "部分"
+   },
+   {
+    "p": "cip",
+    "m": "取る"
+   }
+  ],
+  "story": "ラテン語particeps「分け前(part)を取る人」から。一部を受け持つ→「参加する」。",
+  "note": "part（部分）、capture・acceptのcip/capも「取る」。"
+ },
+ "vast": {
+  "parts": [],
+  "story": "ラテン語vastus「からっぽの・果てしなく広い」から→「広大な」。",
+  "note": "waste（荒れ地・むだにする）と同じ語源。"
+ },
+ "gentleman": {
+  "parts": [
+   {
+    "p": "gentle",
+    "m": "生まれのよい"
+   },
+   {
+    "p": "man",
+    "m": "男"
+   }
+  ],
+  "story": "gentleはもと「家柄のよい」。家柄のよい男→礼儀正しい男性→「紳士」。",
+  "note": ""
+ },
+ "gentle": {
+  "parts": [],
+  "story": "ラテン語gentilis「同じ一族の」から「家柄のよい」に。育ちのよい人らしい→「穏やかな・優しい」。",
+  "note": "gentlemanのgentleも同じ。"
+ },
+ "measure": {
+  "parts": [],
+  "story": "ラテン語mensura「はかること」（metiri「はかる」）から→「寸法・分量・手段」。",
+  "note": "immense（はかり知れない→巨大な）も同じ仲間。"
+ },
+ "generation": {
+  "parts": [],
+  "story": "ラテン語generare「生み出す」から。生み出すこと→「発生」、同じころに生まれた人々→「世代」。",
+  "note": "gene（遺伝子）・generate（生み出す）と同じ語根。"
+ },
+ "panic": {
+  "parts": [],
+  "story": "ギリシャ神話の牧神パン(Pan)から。森で理由のない恐怖を起こすとされ、その恐怖→「パニック」。",
+  "note": ""
+ },
+ "require": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "再び"
+   },
+   {
+    "p": "quire",
+    "m": "求める"
+   }
+  ],
+  "story": "ラテン語requirere「もう一度探し求める」から→「必要とする・要求する」。",
+  "note": "question・request・queryも「求める」の仲間。"
+ },
+ "protection": {
+  "parts": [
+   {
+    "p": "pro-",
+    "m": "前に"
+   },
+   {
+    "p": "tect",
+    "m": "覆う"
+   }
+  ],
+  "story": "ラテン語protegere「前を覆う」から。前に覆いをかけて守る→「保護」。",
+  "note": "detect（見つける）は「覆いを取る」が原義。"
+ },
+ "investigation": {
+  "parts": [
+   {
+    "p": "in-",
+    "m": "中に"
+   },
+   {
+    "p": "vestig",
+    "m": "足跡"
+   }
+  ],
+  "story": "ラテン語investigare「足跡(vestigium)をたどる」から。跡をたどって調べる→「調査」。",
+  "note": ""
+ },
+ "resign": {
+  "parts": [
+   {
+    "p": "re-",
+    "m": "逆に"
+   },
+   {
+    "p": "sign",
+    "m": "印をつける"
+   }
+  ],
+  "story": "ラテン語resignare「封印を解く・取り消す」から。受けていた地位を取り消して返す→「辞任する」。",
+  "note": ""
+ },
+ "extreme": {
+  "parts": [],
+  "story": "ラテン語exter「外側の」の最上級extremus「いちばん外の」から。いちばん端の→「極度の」。",
+  "note": "exterior（外側）も同じ仲間。"
+ },
+ "uniform": {
+  "parts": [
+   {
+    "p": "uni",
+    "m": "一つの"
+   },
+   {
+    "p": "form",
+    "m": "形"
+   }
+  ],
+  "story": "「一つの形」→どれも同じ形→「不変の・同一の」、みな同じ形の服→「制服」。",
+  "note": "unit・unite、reform・formalも同じ仲間。"
+ },
+ "polish": {
+  "parts": [],
+  "story": "ラテン語polire「磨いてなめらかにする」から→「磨く・洗練する」。",
+  "note": "polite（礼儀正しい）はもと「磨かれた」の意で同じ語源。"
+ },
+ "fiction": {
+  "parts": [],
+  "story": "ラテン語fingere「こねて形をつくる」から。頭の中でこしらえたもの→「作り話・小説」。",
+  "note": ""
+ },
+ "tour": {
+  "parts": [],
+  "story": "古フランス語tourner「回る」から。あちこち回って元に戻る→「観光旅行」。",
+  "note": "turn（回る）・tournamentと同じ仲間。"
+ },
+ "gender": {
+  "parts": [],
+  "story": "ラテン語genus「種類・生まれ」から。言葉や人を分ける種類→「性」。",
+  "note": "genre（ジャンル）・general と同じ語源。"
+ },
+ "explosion": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "外へ"
+   },
+   {
+    "p": "plos",
+    "m": "手をたたく"
+   }
+  ],
+  "story": "ラテン語explodere「拍手でやじって舞台から追い出す」から。勢いよく外へ飛び出す→「爆発」。",
+  "note": "applause（拍手）も同じ「たたく」の仲間。"
+ },
+ "arrogant": {
+  "parts": [
+   {
+    "p": "ar-",
+    "m": "〜へ"
+   },
+   {
+    "p": "rog",
+    "m": "求める"
+   }
+  ],
+  "story": "ラテン語arrogare「自分のものだと言い張る」から。当然のように権利を求める→「傲慢な」。",
+  "note": "interrogate（尋問する）のrogも「求める・問う」。"
+ },
+ "spaghetti": {
+  "parts": [],
+  "story": "イタリア語spago「ひも」に「小さい」を表す-ettoが付いた語の複数形。細いひも→「スパゲッティ」。",
+  "note": ""
+ },
+ "ambulance": {
+  "parts": [],
+  "story": "ラテン語ambulare「歩く」から。フランス語で「動く(歩く)病院」と呼んだ野戦病院→「救急車」。",
+  "note": ""
+ },
+ "application": {
+  "parts": [
+   {
+    "p": "ap-",
+    "m": "〜に"
+   },
+   {
+    "p": "plic",
+    "m": "折り重ねる"
+   }
+  ],
+  "story": "ラテン語applicare「ぴたりと当てる」から。当てはめる→「適用」、自分を向ける→「申し込み」。",
+  "note": "complicate（複雑にする）のplicも「折る」。"
+ },
+ "corn": {
+  "parts": [],
+  "story": "もとは「穀物の粒」。その土地の主要な穀物を指し、アメリカではトウモロコシを指すようになった。",
+  "note": ""
+ },
+ "poison": {
+  "parts": [],
+  "story": "ラテン語potio「飲み物」から。毒を入れた一服の飲み物→「毒」。",
+  "note": "potion（飲み薬）と同じ語源。"
+ },
+ "debate": {
+  "parts": [],
+  "story": "古フランス語debatre「打ち倒す・争う」から。言葉で打ち合う→「討論する」。",
+  "note": "battle・batteryも「打つ」の仲間。"
+ },
+ "fancy": {
+  "parts": [],
+  "story": "fantasy（空想）が縮まった形。心に思い描く→「空想・好み」、手の込んだ→「装飾的な」。",
+  "note": ""
+ },
+ "advise": {
+  "parts": [
+   {
+    "p": "ad-",
+    "m": "〜に"
+   },
+   {
+    "p": "vise",
+    "m": "見る"
+   }
+  ],
+  "story": "ラテン語visum「見たもの」→古フランス語avis「意見」から。見て思ったことを伝える→「忠告する」。",
+  "note": "vision・visitも「見る」の仲間。"
+ },
+ "volunteer": {
+  "parts": [],
+  "story": "ラテン語voluntarius「自分の意志による」から。自分から進んで申し出る人→「志願者」。",
+  "note": "voluntary（自発的な）と同じ語源。"
+ },
+ "statue": {
+  "parts": [],
+  "story": "ラテン語statuere「立てる・据える」から。立てて据えたもの→「像」。",
+  "note": "stand・statusも「立つ」の仲間。"
+ },
+ "quarter": {
+  "parts": [],
+  "story": "ラテン語quartus「4番目の」から→「4分の1」。1時間の4分の1→「15分」。",
+  "note": ""
+ },
+ "politician": {
+  "parts": [],
+  "story": "ギリシャ語polis「都市国家」から。都市（国）のことを扱う人→「政治家」。",
+  "note": "politics、metropolis（大都市）も同じ仲間。"
+ },
+ "sauce": {
+  "parts": [],
+  "story": "ラテン語salsus「塩で味つけした」（sal「塩」）から→「ソース」。",
+  "note": "salsa・salad・salary（給料）も「塩」の仲間。"
+ },
+ "scientist": {
+  "parts": [
+   {
+    "p": "scient",
+    "m": "科学（science）"
+   },
+   {
+    "p": "-ist",
+    "m": "〜する人"
+   }
+  ],
+  "story": "1834年、科学史家ヒューエルが「科学をする人」を表すために造った、比較的新しい語。",
+  "note": ""
+ },
+ "anxiety": {
+  "parts": [],
+  "story": "ラテン語angere「首を絞める・苦しめる」から。胸が締めつけられる→「心配・不安」。",
+  "note": "anger・angst（不安）と同じ仲間。"
+ },
+ "catholic": {
+  "parts": [
+   {
+    "p": "cata",
+    "m": "〜にわたって"
+   },
+   {
+    "p": "hol",
+    "m": "全体"
+   }
+  ],
+  "story": "ギリシャ語katholikos「全体にわたる・普遍的な」から。普遍の教会→「カトリックの」。",
+  "note": ""
+ },
+ "lecture": {
+  "parts": [],
+  "story": "ラテン語legere「読む」から。本を読み上げて教える→「講義」。",
+  "note": "legend（伝説＝読まれるべきもの）も同じ語根。"
+ },
+ "philosophy": {
+  "parts": [
+   {
+    "p": "philo",
+    "m": "愛する"
+   },
+   {
+    "p": "sophy",
+    "m": "知恵"
+   }
+  ],
+  "story": "ギリシャ語で「知恵を愛すること」→「哲学」。",
+  "note": "philharmonic（音楽を愛する）のphilも「愛する」。"
+ },
+ "costume": {
+  "parts": [],
+  "story": "ラテン語consuetudo「習慣」から。その土地・時代の習慣となった装い→「服装・衣装」。",
+  "note": "custom（習慣）と同じ語源。"
+ },
+ "appropriate": {
+  "parts": [
+   {
+    "p": "ap-",
+    "m": "〜に"
+   },
+   {
+    "p": "propri",
+    "m": "自分の"
+   }
+  ],
+  "story": "「自分のもの(proprius)にする」→「勝手に使う・あてる」、そのものにぴったり合う→「適当な」。",
+  "note": "proper・property と同じ仲間。"
+ },
+ "exit": {
+  "parts": [
+   {
+    "p": "ex-",
+    "m": "外へ"
+   },
+   {
+    "p": "it",
+    "m": "行く"
+   }
+  ],
+  "story": "ラテン語exire「外へ行く」から。exitはラテン語で「彼が退場する」の意で台本の指示に使われた。",
+  "note": ""
+ },
+ "range": {
+  "parts": [],
+  "story": "古フランス語rang「列」から。列に並べる→並んで広がる範囲→「幅・範囲」。",
+  "note": "rank（列・地位）・arrange（並べる）と同じ仲間。"
+ },
+ "treasure": {
+  "parts": [],
+  "story": "ギリシャ語thesauros「宝物庫」から→「宝物」。",
+  "note": "thesaurus（類語辞典＝言葉の宝庫）と同じ語源。"
+ },
+ "trunk": {
+  "parts": [],
+  "story": "ラテン語truncus「枝を切り落とした幹」から。木の「幹」→人の胴→大きな箱「トランク」。",
+  "note": "truncate（切り詰める）と同じ語源。"
+ },
+ "lamp": {
+  "parts": [],
+  "story": "ギリシャ語lampas「たいまつ」（lampein「輝く」）から→「ランプ」。",
+  "note": ""
+ },
+ "crew": {
+  "parts": [],
+  "story": "ラテン語crescere「増える」から。古フランス語で「増員・援軍」→一緒に働く人の集まり→「乗組員」。",
+  "note": "increase・crescent（三日月）も「増える」の仲間。"
+ },
+ "farmer": {
+  "parts": [],
+  "story": "中世ラテン語firma「決まった支払い（地代）」から。定額を払って土地を借りる人→「農場経営者」。",
+  "note": "firm（固い）と同じ仲間。"
+ },
+ "maintain": {
+  "parts": [
+   {
+    "p": "main",
+    "m": "手で"
+   },
+   {
+    "p": "tain",
+    "m": "保つ"
+   }
+  ],
+  "story": "ラテン語manu tenere「手で持つ」から。手で支え続ける→「維持する・扶養する・主張する」。",
+  "note": "contain・obtainのtainも「保つ」。"
+ },
+ "toast": {
+  "parts": [],
+  "story": "ラテン語tostus「焼かれた・あぶった」から。火であぶったパン→「トースト」。",
+  "note": ""
+ },
+ "distant": {
+  "parts": [
+   {
+    "p": "di-",
+    "m": "離れて"
+   },
+   {
+    "p": "st",
+    "m": "立つ"
+   }
+  ],
+  "story": "ラテン語distare「離れて立つ」から→「遠い・離れた」。",
+  "note": "instant・constantのstも「立つ」。"
+ },
+ "recipe": {
+  "parts": [],
+  "story": "ラテン語recipere「受け取る」の命令形「受け取れ」。処方箋の書き出しの語から→「作り方」。",
+  "note": "receive（受け取る）と同じ語源。"
+ },
+ "fuel": {
+  "parts": [],
+  "story": "ラテン語focus「炉・かまど」→古フランス語で「たきぎ」から。火にくべるもの→「燃料」。",
+  "note": "focus（焦点）と同じ語源。"
+ },
+ "pork": {
+  "parts": [],
+  "story": "ラテン語porcus「ブタ」から。フランス語経由で入り、英語では肉の名として定着した。",
+  "note": "beefも同様。動物はpig・cow、肉はpork・beefとフランス語由来。"
+ },
+ "beef": {
+  "parts": [],
+  "story": "ラテン語bos「ウシ」→古フランス語boef「ウシ」から。英語では牛の肉を表す語になった。",
+  "note": "cowと遠い同源。porkと同じくフランス語由来の肉の名。"
+ },
+ "attract": {
+  "parts": [
+   {
+    "p": "at-",
+    "m": "〜へ"
+   },
+   {
+    "p": "tract",
+    "m": "引く"
+   }
+  ],
+  "story": "ラテン語attrahere「こちらへ引く」から→「引きつける」。",
+  "note": "tractor・distract（気をそらす）のtractも「引く」。"
+ },
+ "damn": {
+  "parts": [],
+  "story": "ラテン語damnum「損害」から。損害を与える→罰する→「けなす・のろう」。",
+  "note": "condemn（非難する）と同じ仲間。"
+ },
+ "helmet": {
+  "parts": [
+   {
+    "p": "helm",
+    "m": "かぶと"
+   },
+   {
+    "p": "-et",
+    "m": "小さい"
+   }
+  ],
+  "story": "古フランス語helme「かぶと」に「小さい」を表す-etが付いた語→「ヘルメット」。",
+  "note": ""
+ },
+ "vision": {
+  "parts": [],
+  "story": "ラテン語videre「見る」から。見ること→「視力」、心の中に見るもの→「見通し・幻」。",
+  "note": "video・visit・reviseも「見る」の仲間。"
+ },
+ "version": {
+  "parts": [],
+  "story": "ラテン語vertere「向きを変える」から。別の言葉に向け変えたもの→「翻訳」、別の形にしたもの→「版」。",
+  "note": "convert・reverseのvertも「向ける」。"
+ },
+ "engineer": {
+  "parts": [],
+  "story": "engine（機械）＋-eer（人）。engineはラテン語ingenium「才知・工夫」から。工夫して機械を作る人→「技師」。",
+  "note": ""
+ },
+ "civil": {
+  "parts": [],
+  "story": "ラテン語civis「市民」から。市民の→「市民の」、市民らしくふるまう→「礼儀正しい」。",
+  "note": "city・civilizationと同じ仲間。"
+ },
+ "essay": {
+  "parts": [],
+  "story": "古フランス語essai「試み」から。モンテーニュが自分の考えを試しに書いた文章に用い→「随筆・小論」。",
+  "note": ""
+ },
+ "depend": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "下に"
+   },
+   {
+    "p": "pend",
+    "m": "ぶら下がる"
+   }
+  ],
+  "story": "ラテン語dependere「下にぶら下がる」から。何かにぶら下がる→「頼る」。",
+  "note": "pendant・suspend も「ぶら下がる」の仲間。"
+ },
+ "menu": {
+  "parts": [],
+  "story": "フランス語menu「細かい」から。料理を細かく書き出した一覧→「メニュー」。",
+  "note": "minute（微細な）と同じ語源。"
+ },
+ "convert": {
+  "parts": [
+   {
+    "p": "con-",
+    "m": "すっかり"
+   },
+   {
+    "p": "vert",
+    "m": "向ける"
+   }
+  ],
+  "story": "ラテン語convertere「すっかり向きを変える」から→「変える・転換する」。",
+  "note": "versionと同じ語根。"
+ },
+ "tunnel": {
+  "parts": [],
+  "story": "古フランス語tonel「小さな樽」から。樽のような筒形のもの→「トンネル」。",
+  "note": ""
+ },
+ "zero": {
+  "parts": [],
+  "story": "アラビア語sifr「空っぽ」から。何もない→「零」。",
+  "note": "cipher（暗号・ゼロ）も同じ語源。"
+ },
+ "sector": {
+  "parts": [
+   {
+    "p": "sect",
+    "m": "切る"
+   },
+   {
+    "p": "-or",
+    "m": "〜するもの"
+   }
+  ],
+  "story": "ラテン語secare「切る」から。円を切り分けた一部→「扇形」、そこから「部門・分野」。",
+  "note": "section・insect（体に切れ目がある虫）も「切る」。"
+ },
+ "cooperative": {
+  "parts": [
+   {
+    "p": "co-",
+    "m": "一緒に"
+   },
+   {
+    "p": "operate",
+    "m": "働く"
+   }
+  ],
+  "story": "「一緒に(co)働く(operate)」→「協力的な」。",
+  "note": ""
+ },
+ "affect": {
+  "parts": [
+   {
+    "p": "af-",
+    "m": "〜に"
+   },
+   {
+    "p": "fect",
+    "m": "する・作る"
+   }
+  ],
+  "story": "ラテン語afficere「〜に働きかける」から→「影響する」。",
+  "note": "effect（結果）と見た目が似ているので注意。"
+ }
+}
