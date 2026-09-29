@@ -27,15 +27,18 @@ esc = html.escape
 # ---------- 辞書 ----------
 def load_ejdict():
     d = {}
-    for line in open(os.path.join(DATA, "ejdict.txt"), encoding="utf-8"):
-        line = line.rstrip("\n")
-        if "\t" not in line:
-            continue
-        heads, mean = line.split("\t", 1)
-        for h in [x.strip() for x in heads.split(",")]:
-            h = h.lower()
-            if re.fullmatch(r"[a-z]+", h):
-                d.setdefault(h, []).append(mean)
+    for fname in ("ejdict.txt", "ejdict_extra.txt"):
+        p = os.path.join(DATA, fname)
+        if not os.path.exists(p): continue
+        for line in open(p, encoding="utf-8"):
+            line = line.rstrip("\n")
+            if "\t" not in line or line.startswith("#"):
+                continue
+            heads, mean = line.split("\t", 1)
+            for h in [x.strip() for x in heads.split(",")]:
+                h = h.lower()
+                if re.fullmatch(r"[a-z]+", h):
+                    d.setdefault(h, []).append(mean)
     return d
 
 KATA = re.compile(r"[ァ-ヶー]")
@@ -85,6 +88,24 @@ def load_kata():
         d[w] = k.split(",")
     return d
 KATA_WORDS = {}
+
+# ---------- 受験（英検準1級など）向けの追加見出し語 ----------
+# Tatoebaの出現頻度だけでは、受験生が調べたい硬い語彙（評論文語彙など）が
+# 収録から漏れる。専用リスト(tools/data/*_words.json: [{"word","note"}])に
+# ある語は、頻度フィルタを通らなくても見出し語として追加する。
+EXAM_LISTS = [
+    {"key": "eiken-p1", "label": "英検準1級", "file": "eiken_p1_words.json",
+     "title": "英検準1級レベルの単語", "desc": "英検準1級の読解・語彙問題に出てきそうな単語をまとめました。"},
+]
+EXAM_TAG = {}      # word -> [(key, label, note), ...]
+
+def load_exam_words():
+    out = {}
+    for spec in EXAM_LISTS:
+        p = os.path.join(DATA, spec["file"])
+        if not os.path.exists(p): continue
+        out[spec["key"]] = json.load(open(p, encoding="utf-8"))
+    return out
 
 # ---------- 発音 ----------
 ARPA = {"AA":"ɑ","AE":"æ","AH":"ʌ","AO":"ɔ","AW":"aʊ","AY":"aɪ","EH":"ɛ","ER":"ɚ","EY":"eɪ","IH":"ɪ","IY":"i",
@@ -157,8 +178,25 @@ def main():
     for s in eng.values():
         cnt.update(set(TOK.findall(s.lower())))  # 文書頻度（1文に複数回出ても1）
     ranked = [w for w, c in cnt.most_common() if w in ej and c >= MIN_COUNT]
+
+    have = set(ranked)
+    exam_lists = load_exam_words()
+    for spec in EXAM_LISTS:
+        items = exam_lists.get(spec["key"], [])
+        missing_from_dict = []
+        for item in items:
+            w = re.sub(r"[^a-z-]", "", item.get("word", "").strip().lower())
+            if not w: continue
+            if w not in ej:
+                missing_from_dict.append(w); continue
+            EXAM_TAG.setdefault(w, []).append((spec["key"], spec["label"], item.get("note", "")))
+            if w not in have:
+                ranked.append(w); have.add(w)
+        if missing_from_dict:
+            print(spec["key"], "辞書に見出しが無く追加できなかった語:", len(missing_from_dict), missing_from_dict[:15])
+
     rank = {w: i + 1 for i, w in enumerate(ranked)}
-    print("pages", len(ranked))
+    print("pages", len(ranked), "うち受験リストから追加:", sum(1 for w in EXAM_TAG if rank.get(w, 0) > 0))
 
     # 例文候補: 日本語訳つき・短め
     cand = defaultdict(list)
@@ -195,7 +233,7 @@ def main():
             pick.append(i)
         means = ej[w]
         words[w] = dict(w=w, rank=rank[w], means=means, ex=pick, ipa=cmu.get(w),
-                        summary=plain_summary(means), terms=key_terms(means))
+                        summary=plain_summary(means), terms=key_terms(means), exam=EXAM_TAG.get(w))
 
     if os.environ.get("EXPORT_DB"):
         export_db(os.environ["EXPORT_DB"], words, eng, pairs, form_of)
@@ -355,8 +393,11 @@ def word_page(x, words, order, pos, eng, pairs, form_of):
     summ = x["summary"]
     kt = KATA_WORDS.get(w)
     kmain = f"（{kt[0]}）" if kt else ""
-    title = f"{w}{kmain}の意味・発音・例文・語源 | {SITE}"
-    desc = f"英単語 {w}" + (f"（カタカナ語「{'・'.join(kt)}」）" if kt else "") + f" の意味は「{summ}」。" + (f"発音記号 /{x['ipa']}/。" if x["ipa"] else "") + "日本語訳つきの例文で使い方を確認できます。"
+    exam = x.get("exam") or []
+    exam_labels = [lbl for _, lbl, _ in exam]
+    exam_title = f"【{'・'.join(exam_labels)}】" if exam_labels else ""
+    title = f"{exam_title}{w}{kmain}の意味・発音・例文・語源 | {SITE}"
+    desc = f"英単語 {w}" + (f"（カタカナ語「{'・'.join(kt)}」）" if kt else "") + f" の意味は「{summ}」。" + (f"{'・'.join(exam_labels)}レベルの単語です。" if exam_labels else "") + (f"発音記号 /{x['ipa']}/。" if x["ipa"] else "") + "日本語訳つきの例文で使い方を確認できます。"
     ld = json.dumps({"@context": "https://schema.org", "@type": "DefinedTerm", "name": w,
                      "description": summ, "inLanguage": "en",
                      "inDefinedTermSet": f"{BASE_URL}/"}, ensure_ascii=False)
@@ -365,9 +406,16 @@ def word_page(x, words, order, pos, eng, pairs, form_of):
     h += f'<h1>{w}{("<small>（" + esc("・".join(kt)) + "）</small>") if kt else ""}</h1>\n<p class="meta">'
     if x["ipa"]:
         h += f'<span class="ipa">/{esc(x["ipa"])}/</span> '
-    h += f'<span class="tag">{level(x["rank"])}</span> <span class="rank">頻度 {x["rank"]}位</span></p>\n'
-    if x["terms"]:
-        h += f'<p class="core"><span>要点</span>{esc("、".join(x["terms"][:6]))}</p>\n'
+    h += f'<span class="tag">{level(x["rank"])}</span> <span class="rank">頻度 {x["rank"]}位</span>'
+    for _, lbl, _ in exam:
+        h += f' <span class="tag exam">{esc(lbl)}</span>'
+    h += "</p>\n"
+    terms_line = "、".join(x["terms"][:6])
+    if exam:
+        notes = "、".join(esc(n) for _, _, n in exam if n)
+        h += f'<p class="core exam"><span>{esc("・".join(exam_labels))}</span>{notes or "受験でよく出る単語です。"}</p>\n'
+    if terms_line and not (exam and terms_line == x["summary"]):
+        h += f'<p class="core"><span>要点</span>{esc(terms_line)}</p>\n'
     h += '<h2>意味</h2>\n'
     blocks = []
     for m in x["means"]:
@@ -458,6 +506,21 @@ def build_site(words, eng, pairs, form_of):
     h += "</ul>\n" + foot("../")
     write("list/katakana.html", h)
 
+    # 受験（英検準1級など）向け単語リスト
+    exam_pages = []
+    for spec in EXAM_LISTS:
+        ew = sorted((w for w in words if any(k == spec["key"] for k, _, _ in (words[w].get("exam") or []))),
+                    key=lambda w: words[w]["rank"])
+        if not ew: continue
+        exam_pages.append((spec, ew))
+        h = head(f'{spec["title"]}一覧（{len(ew)}語）| {SITE}', spec["desc"], f'list/{spec["key"]}.html')
+        h += f'<h1>{esc(spec["title"])}</h1>\n<p class="small">{esc(spec["desc"])}（{len(ew)}語）</p>\n<ul class="wl">\n'
+        for w in ew:
+            note = next((n for k, _, n in words[w]["exam"] if k == spec["key"]), "")
+            h += f'<li><a href="../w/{w}.html"><b>{w}</b><span>{esc(note or words[w]["summary"])}</span></a></li>\n'
+        h += "</ul>\n" + foot("../")
+        write(f'list/{spec["key"]}.html', h)
+
     # トップ
     h = head(f"{SITE} — 広告の少ない、読みやすい英和辞書", f"英単語の意味・発音・例文をすばやく調べられる無料の英和辞書。{len(words)}語収録。", "")
     h += f"""<section class="hero">
@@ -471,6 +534,7 @@ def build_site(words, eng, pairs, form_of):
 <p class="chips">{" ".join(f'<a href="list/rank-{k}.html">{(k-1)*step+1}〜{min(k*step, len(order))}位</a>' for k in range(1, len(bands)+1))}</p>
 <h2>カタカナ語から探す</h2>
 <p class="chips"><a href="list/katakana.html">カタカナ語の英語 一覧</a> {" ".join(f'<a href="w/{w}.html">{KATA_WORDS[w][0]}</a>' for w in kw[:24])}</p>
+{"".join(f'<h2>{esc(spec["title"])}</h2><p class="chips"><a href="list/{spec["key"]}.html">{esc(spec["title"])} 一覧（{len(ew)}語）</a> ' + " ".join(f'<a href="w/{w}.html">{w}</a>' for w in ew[:24]) + "</p>" for spec, ew in exam_pages)}
 <h2>頭文字で探す</h2>
 <p class="chips">{" ".join(f'<a href="list/{L}.html">{L.upper()}</a>' for L in letters)}</p>
 """
@@ -512,6 +576,7 @@ def build_site(words, eng, pairs, form_of):
     write("privacy.html", pv)
 
     urls = [""] + ["about.html", "privacy.html"] + [f"list/{L}.html" for L in letters] + ["list/katakana.html"] + \
+           [f'list/{spec["key"]}.html' for spec, _ in exam_pages] + \
            [f"list/rank-{n}.html" for n in range(1, len(bands) + 1)] + [f"w/{w}.html" for w in order]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += "".join(f"<url><loc>{BASE_URL}/{u}</loc></url>\n" for u in urls) + "</urlset>\n"
