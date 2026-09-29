@@ -310,6 +310,14 @@ def etym_html(w):
     ja = load_etym_ja().get(w)
     if not t and not ja: return ""
     t = re.sub(r"\s+", " ", t)
+    # kaikki/Wiktionaryの「Etymology tree」ウィジェットのナビゲーション文言が
+    # 語源本文の前に紛れ込むことがある（例: "Etymology tree English obvious Middle
+    # English -ly ... From obvious + -ly."）ので、"Etymology tree" で始まる場合は
+    # 本文らしき最初の大文字開始の文（From/Borrowed/Inherited等）以降だけを残す。
+    if t.startswith("Etymology tree"):
+        rest = t[len("Etymology tree"):]
+        m = re.search(r"\b(From|Borrowed from|Inherited from|Compound of|Equivalent to|Derived from|A |An |The )", rest)
+        t = rest[m.start():].strip() if m else ""
     if len(t) > 700:
         cut = t[:700]
         t = cut[:cut.rfind(". ") + 1] if ". " in cut[300:] else cut.rstrip() + "…"
