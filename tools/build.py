@@ -16,6 +16,9 @@ OUT = ROOT
 BASE_URL = os.environ.get("BASE_URL", "https://kaitoinoue0921.github.io/eigo-tango").rstrip("/")
 SITE = "サクッと英和"
 MIN_COUNT = 8          # 例文コーパスでの最低出現回数（薄いページを作らない）
+# Tatoebaの例文が "Tom and Mary..." を多用するため、頻度上位に人名が混入する。
+# 単語ページ自体は残すが、「よく使われる単語」等のおすすめ表示からは外す。
+FEATURED_EXCLUDE = {"tom", "mary"}
 MAX_EX = 3
 
 random.seed(7)
@@ -349,7 +352,7 @@ def word_page(x, words, order, pos, eng, pairs, form_of):
                      "inDefinedTermSet": f"{BASE_URL}/"}, ensure_ascii=False)
     h = head(title, desc, f"w/{w}.html", f'<script type="application/ld+json">{ld}</script>')
     h += f'<article class="entry"><p class="crumb"><a href="{up}index.html">トップ</a> › <a href="{up}list/{w[0]}.html">{w[0].upper()}</a> › {w}</p>\n'
-    h += f'<h1>{w}{("<small>" + esc("・".join(kt)) + "</small>") if kt else ""}</h1>\n<p class="meta">'
+    h += f'<h1>{w}{("<small>（" + esc("・".join(kt)) + "）</small>") if kt else ""}</h1>\n<p class="meta">'
     if x["ipa"]:
         h += f'<span class="ipa">/{esc(x["ipa"])}/</span> '
     h += f'<span class="tag">{level(x["rank"])}</span> <span class="rank">頻度 {x["rank"]}位</span></p>\n'
@@ -453,7 +456,7 @@ def build_site(words, eng, pairs, form_of):
 <p class="small">カタカナ（シャープ、サービス など）でも検索できます。活用形（running など）は、もとの単語のページに案内します。</p>
 </section>
 <h2>よく使われる単語</h2>
-<p class="chips">{" ".join(f'<a href="w/{w}.html">{w}</a>' for w in order[:80])}</p>
+<p class="chips">{" ".join(f'<a href="w/{w}.html">{w}</a>' for w in [x for x in order if x not in FEATURED_EXCLUDE][:80])}</p>
 <h2>頻度順で探す</h2>
 <p class="chips">{" ".join(f'<a href="list/rank-{k}.html">{(k-1)*step+1}〜{min(k*step, len(order))}位</a>' for k in range(1, len(bands)+1))}</p>
 <h2>カタカナ語から探す</h2>
