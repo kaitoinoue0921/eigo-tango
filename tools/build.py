@@ -96,6 +96,12 @@ KATA_WORDS = {}
 EXAM_LISTS = [
     {"key": "eiken-p1", "label": "英検準1級", "file": "eiken_p1_words.json",
      "title": "英検準1級レベルの単語", "desc": "英検準1級の読解・語彙問題に出てきそうな単語をまとめました。"},
+    {"key": "eiken-2", "label": "英検2級", "file": "eiken_2_words.json",
+     "title": "英検2級レベルの単語", "desc": "英検2級の読解・語彙問題に出てきそうな単語をまとめました。"},
+    {"key": "toefl", "label": "TOEFL", "file": "toefl_words.json",
+     "title": "TOEFLレベルの単語", "desc": "TOEFLの講義・学術文献でよく使われるアカデミックな単語をまとめました。"},
+    {"key": "juken", "label": "大学受験", "file": "juken_words.json",
+     "title": "大学受験英語の単語", "desc": "共通テスト〜MARCH・地方国公立レベルの長文読解に出てきそうな単語をまとめました。"},
 ]
 EXAM_TAG = {}      # word -> [(key, label, note), ...]
 
@@ -251,7 +257,14 @@ def export_db(path, words, eng, pairs, form_of):
     create index ex_w on examples(word);
     create table idx(term text, word text, kind integer);   -- kind 0=見出し 1=活用形 2=カタカナ
     create index idx_t on idx(term);
+    create table exam(word text, list_key text, label text, note text);
+    create index exam_w on exam(word);
+    create index exam_k on exam(list_key);
+    create table exam_lists(list_key text primary key, label text, title text, desc text, sort integer);
     """)
+    for i, spec in enumerate(EXAM_LISTS):
+        db.execute("insert into exam_lists values(?,?,?,?,?)",
+                   (spec["key"], spec["label"], spec["title"], spec["desc"], i))
     kata = load_kata()
     etf = os.path.join(DATA, "etymology.json")
     et = json.load(open(etf, encoding="utf-8")) if os.path.exists(etf) else {}
@@ -271,6 +284,8 @@ def export_db(path, words, eng, pairs, form_of):
         db.execute("insert into idx values(?,?,0)", (w, w))
         for k in kata.get(w, []):
             db.execute("insert into idx values(?,?,2)", (k, w))
+        for key, label, note in (x.get("exam") or []):
+            db.execute("insert into exam values(?,?,?,?)", (w, key, label, note))
     for f, b in form_of.items():
         if b in words: db.execute("insert into idx values(?,?,1)", (f, b))
     db.commit(); db.execute("vacuum"); db.close()
@@ -412,7 +427,10 @@ def word_page(x, words, order, pos, eng, pairs, form_of):
     h += "</p>\n"
     terms_line = "、".join(x["terms"][:6])
     if exam:
-        notes = "、".join(esc(n) for _, _, n in exam if n)
+        seen_notes = []
+        for _, _, n in exam:
+            if n and n not in seen_notes: seen_notes.append(n)
+        notes = "、".join(esc(n) for n in seen_notes)
         h += f'<p class="core exam"><span>{esc("・".join(exam_labels))}</span>{notes or "受験でよく出る単語です。"}</p>\n'
     if terms_line and not (exam and terms_line == x["summary"]):
         h += f'<p class="core"><span>要点</span>{esc(terms_line)}</p>\n'
