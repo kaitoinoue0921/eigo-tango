@@ -305,6 +305,16 @@ def load_etym_ja():
         _ETJA["d"] = d
     return _ETJA["d"]
 
+def story_flow_html(story):
+    """語源の説明文（『→』でつなげて書いてある）を、矢印つきのチップの並びで見せる。
+    矢印が無い普通の文はそのまま段落表示にする。"""
+    steps = [s.strip(" 、") for s in story.split("→") if s.strip(" 、")]
+    if len(steps) < 2:
+        return f'<p class="story">{esc(story)}</p>'
+    chips = f'<span class="flow-arrow" aria-hidden="true">→</span>'.join(
+        f'<span class="flow-step">{esc(s)}</span>' for s in steps)
+    return f'<p class="story flow">{chips}</p>'
+
 def etym_html(w):
     if not _ETYM:
         f = os.path.join(DATA, "etymology.json")
@@ -330,7 +340,7 @@ def etym_html(w):
         if ja.get("parts"):
             h += '<p class="parts">' + '<span class="plus">＋</span>'.join(
                 f'<span class="part"><b>{esc(x["p"])}</b><small>{esc(x["m"])}</small></span>' for x in ja["parts"]) + '</p>'
-        h += f'<p class="story">{esc(ja["story"])}</p>'
+        h += story_flow_html(ja["story"])
         if ja.get("note"): h += f'<p class="small">{esc(ja["note"])}</p>'
         h += '</div>\n'
     if t:
