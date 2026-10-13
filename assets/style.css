@@ -54,3 +54,4 @@ ol.wl{list-style:decimal;padding-left:2.2em}ol.wl li a{margin-left:-.2em}
 .flow-step:last-child{background:var(--accent);color:#08130f;border-color:var(--accent)}
 .flow-arrow{color:var(--accent);font-weight:700;font-size:1.1rem}
 details.etym{margin-top:8px;background:none}details.etym summary{cursor:pointer;color:var(--soft);font-size:.85rem}
+.senses .ex{margin:.45em 0 .1em}.senses .ex li{background:none;border:0;border-left:3px solid var(--accent-soft);border-radius:0;padding:1px 0 1px 12px;margin:.35em 0}.senses .ex .en{font-size:1rem}.senses .ex .ja{font-size:.92rem}.senses .ex .src{font-size:.7rem;text-align:left;opacity:.75}

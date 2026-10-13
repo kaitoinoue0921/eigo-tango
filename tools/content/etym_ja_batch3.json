@@ -1,0 +1,3004 @@
+{
+"found": {
+"parts": [],
+"story": "ラテン語fundare「基礎を置く」から（fundus「底」）。底・土台を据える→「創設する」。",
+"note": "findの過去形foundとは別の語。fund（基金）・foundation・fundamentalも同じ仲間。"
+},
+"means": {
+"parts": [],
+"story": "「中間の」を表すmean（ラテン語medianus「真ん中の」）から。目的と自分の中間に立って仲立ちするもの→「手段」、暮らしの手段→「資力」。",
+"note": "medium・middleと同じ発想。「意味する」のmeanとは別語源。"
+},
+"worth": {
+"parts": [],
+"story": "古英語weorth「価値がある・値する」から。",
+"note": "worthy・worship（価値ある状態→崇拝）も同じ仲間。"
+},
+"hardly": {
+"parts": [
+{
+"p": "hard",
+"m": "かたい・激しい"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "もとは「激しく・苦労して」の意味。苦労してやっと→「ほとんど〜ない」。",
+"note": "「熱心に」の意味はhardが受け持ち、hardlyは否定の意味だけが残った。"
+},
+"definitely": {
+"parts": [
+{
+"p": "definite",
+"m": "限定された・明確な"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "definiteはラテン語「境界(finis)をはっきり定めた」から。境界がはっきりしている→「明確に・確かに」。",
+"note": "finish・final・defineのfinも「終わり・境界」。"
+},
+"aware": {
+"parts": [],
+"story": "古英語gewaer「用心している」から。注意して見ている→「気づいている」。",
+"note": "beware（用心する）・wary（用心深い）も同じ仲間。"
+},
+"economic": {
+"parts": [
+{
+"p": "eco",
+"m": "家(oikos)"
+},
+{
+"p": "nom",
+"m": "管理(nomos)"
+}
+],
+"story": "ギリシャ語oikonomia「家の管理」から。家計のやりくり→国の家計→「経済の」。",
+"note": "ecology（生態学）のecoも「家・すみか」。"
+},
+"bear": {
+"parts": [],
+"story": "「クマ」は古英語beraから。もとの意味は「茶色いもの」で、恐ろしい獣の本当の名前を口にするのを避けた呼び名とされる。",
+"note": "「運ぶ・産む・耐える」のbearは古英語beran「運ぶ」からで別の語。brown・beaver（ビーバー）と同じ仲間。"
+},
+"behavior": {
+"parts": [
+{
+"p": "be-",
+"m": "すっかり"
+},
+{
+"p": "have",
+"m": "持つ"
+},
+{
+"p": "-ior",
+"m": "名詞語尾"
+}
+],
+"story": "behaveは「自分をしっかり持つ（保つ）」→身の処し方→「ふるまう」。その名詞形。",
+"note": "イギリス式のつづりはbehaviour。"
+},
+"lack": {
+"parts": [],
+"story": "中英語lak「欠陥・不足」から。ゲルマン語の「ゆるんだ・足りない」に由来。",
+"note": "slack（ゆるい）と関係があるとされる。"
+},
+"apparently": {
+"parts": [
+{
+"p": "ap-",
+"m": "〜へ"
+},
+{
+"p": "par",
+"m": "現れる"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語apparere「現れる・見えてくる」からapparent「目に見える・明らかな」。見たところ→「どうやら〜らしい」。",
+"note": "appear（現れる）と同じ語源。"
+},
+"species": {
+"parts": [],
+"story": "ラテン語species「見た目・姿・種類」から（specere「見る」）。見た目で分けられるまとまり→「種」。",
+"note": "special・specific・spectacle・inspectも「見る」の仲間。"
+},
+"seldom": {
+"parts": [],
+"story": "古英語seldan「めったに〜ない」から。語尾の-omは古い副詞の形にならって変わったもの。",
+"note": "ドイツ語selten（まれな）と同じ語源。"
+},
+"obvious": {
+"parts": [
+{
+"p": "ob-",
+"m": "〜に向かって"
+},
+{
+"p": "via",
+"m": "道"
+}
+],
+"story": "ラテン語obvius「道の途中にあって出くわす」から。行く手にあってすぐ目に入る→「明白な」。",
+"note": "via（〜経由で）・previous（前の）のviaも「道」。"
+},
+"highly": {
+"parts": [
+{
+"p": "high",
+"m": "高い"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "高い程度に→「非常に・高度に」。",
+"note": "場所の高さにはhighを使い、highlyは程度や評価に使う。"
+},
+"suspicious": {
+"parts": [
+{
+"p": "sus-",
+"m": "下から"
+},
+{
+"p": "spic",
+"m": "見る"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語suspicere「下から見上げる」から。こっそり下から見る→あやしいと見る→「疑わしい・疑い深い」。",
+"note": "suspect（疑う）と同じ語源。"
+},
+"crisis": {
+"parts": [],
+"story": "ギリシャ語krisis「分かれ目・決定」から（krinein「分ける」）。病気が良くなるか悪くなるかの分かれ目→「危機」。",
+"note": "critic（批評家）・criterion（基準）も「分ける・判断する」の仲間。"
+},
+"owe": {
+"parts": [],
+"story": "古英語agan「所有する」から。支払うべきものを持っている→「借りている・負っている」。",
+"note": "own（所有する）・ought（〜すべき、oweの古い過去形）も同じ語源。"
+},
+"constantly": {
+"parts": [
+{
+"p": "con-",
+"m": "しっかり"
+},
+{
+"p": "stant",
+"m": "立つ"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語constare「しっかり立つ」から。動かずに立っている→変わらない→「絶えず」。",
+"note": "stand・distant・instantのstaも「立つ」。"
+},
+"desire": {
+"parts": [],
+"story": "ラテン語desiderare「待ち望む」から。de-「離れて」＋sidus「星」で、星に願う・星の出を待つことからという説がある。",
+"note": "consider（よく考える）もsidus「星」を含むとされる。"
+},
+"process": {
+"parts": [
+{
+"p": "pro-",
+"m": "前へ"
+},
+{
+"p": "cess",
+"m": "進む"
+}
+],
+"story": "ラテン語procedere「前へ進む」から。進んでいく道筋→「過程・手順」。",
+"note": "proceed（進む）と同じ語源。success・accessのcessも「進む」。"
+},
+"properly": {
+"parts": [
+{
+"p": "proper",
+"m": "固有の・適切な"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "properはラテン語proprius「自分自身の」。そのもの本来の→本来あるべきように→「適切に」。",
+"note": "property（財産＝自分のもの）も同じ語源。"
+},
+"access": {
+"parts": [
+{
+"p": "ac-",
+"m": "〜へ"
+},
+{
+"p": "cess",
+"m": "進む"
+}
+],
+"story": "ラテン語accedere「近づく」から。近づいていくこと→「接近・利用する権利」。",
+"note": "process・success・exceedも「進む」の仲間。"
+},
+"entirely": {
+"parts": [
+{
+"p": "entire",
+"m": "全体の"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "entireはラテン語integer「手を触れていない・完全な」から。欠けたところなく→「まったく」。",
+"note": "integer（整数）・integrate（統合する）と同じ語源。"
+},
+"persuade": {
+"parts": [
+{
+"p": "per-",
+"m": "徹底的に"
+},
+{
+"p": "suade",
+"m": "勧める"
+}
+],
+"story": "ラテン語persuadere「強く勧めて納得させる」から→「説得する」。",
+"note": "suadere「勧める」はsweet（甘い）と同じ語根で、「心地よくして受け入れさせる」イメージ。"
+},
+"seek": {
+"parts": [],
+"story": "古英語secan「探す・求める」から。",
+"note": "beseech（懇願する）は同じ語源。過去形soughtもこの語の古い変化から。"
+},
+"anxious": {
+"parts": [],
+"story": "ラテン語anxius「不安な」から（angere「締めつける」）。胸が締めつけられる→「心配して」、早くそうなりたくて落ち着かない→「切望して」。",
+"note": "anger（怒り）・anguish（苦悩）・angina（狭心症）も「締めつける」の仲間。"
+},
+"accidentally": {
+"parts": [
+{
+"p": "ac-",
+"m": "〜へ"
+},
+{
+"p": "cid",
+"m": "落ちる"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "accidentはラテン語accidere「降りかかる」から。たまたま降りかかる→「偶然に」。",
+"note": "case・occasion・decayも「落ちる」の仲間。"
+},
+"wealth": {
+"parts": [
+{
+"p": "weal",
+"m": "幸福・繁栄"
+},
+{
+"p": "-th",
+"m": "名詞語尾"
+}
+],
+"story": "weal（wellと同じ語源）に名詞を作る-thがついた形。もとは「幸福・繁栄」→物の豊かさ→「富」。",
+"note": "health（heal＋th）と同じ作り方。"
+},
+"fluent": {
+"parts": [],
+"story": "ラテン語fluere「流れる」の現在分詞fluens「流れている」から。言葉がすらすら流れる→「流ちょうな」。",
+"note": "fluid（流体）・influence（影響）・flu（流感）も同じ仲間。"
+},
+"otherwise": {
+"parts": [
+{
+"p": "other",
+"m": "別の"
+},
+{
+"p": "wise",
+"m": "方法"
+}
+],
+"story": "古英語「別のやり方で」から。別のやり方では→「そうでなければ」「ほかの点では」。",
+"note": "clockwise（時計回りに）・likewise（同様に）のwiseも「方法」。"
+},
+"reasonable": {
+"parts": [
+{
+"p": "reason",
+"m": "理性・理由"
+},
+{
+"p": "-able",
+"m": "〜できる"
+}
+],
+"story": "reasonはラテン語ratio「計算・理性」から。理屈に合う→「道理にかなった」、値段が理にかなう→「手ごろな」。",
+"note": "rate・ratio・rationalも同じ語源。"
+},
+"humanity": {
+"parts": [
+{
+"p": "human",
+"m": "人間"
+},
+{
+"p": "-ity",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語humanitas「人間らしさ」から。humanはhumus「土」と関係があり、天の神々に対する「地上の者」の意味とされる。",
+"note": "humble（謙虚な）・humid（しめった）とは別。humbleはhumus「土」の仲間。"
+},
+"optimistic": {
+"parts": [
+{
+"p": "optim",
+"m": "最良の"
+},
+{
+"p": "-ist",
+"m": "人"
+},
+{
+"p": "-ic",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語optimus「最良の」から。この世界は考えられる中で最良だ、とする考え方（optimism）→「楽観的な」。",
+"note": "反対語pessimisticはpessimus「最悪の」から。"
+},
+"intelligence": {
+"parts": [
+{
+"p": "intel-",
+"m": "間で(inter)"
+},
+{
+"p": "lig",
+"m": "選ぶ・読む"
+},
+{
+"p": "-ence",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語intellegere「間から選び分ける」→見分ける→理解する。その力が「知能」、集めて見分けた知らせが「情報」。",
+"note": "collect・select・electのlecも「選ぶ」。"
+},
+"insurance": {
+"parts": [
+{
+"p": "in-",
+"m": "中に・〜にする"
+},
+{
+"p": "sure",
+"m": "確かな"
+},
+{
+"p": "-ance",
+"m": "名詞語尾"
+}
+],
+"story": "insure「確かにする」の名詞形。万一のときにも確かにしておくこと→「保険」。",
+"note": "sureはラテン語securus「心配のない」から。secure・assureも同じ仲間。"
+},
+"advance": {
+"parts": [],
+"story": "ラテン語ab ante「前から」が古フランス語avancer「前へ進む」になった。つづりのdは、ad-で始まる語だと思い違いをして後から入ったもの。",
+"note": "advantage（有利）も同じ語源で、同じくdが後から入った。"
+},
+"furious": {
+"parts": [
+{
+"p": "furi",
+"m": "激怒"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語furia「激しい怒り」から→「怒り狂った」。",
+"note": "fury（激怒）と同じ語源。"
+},
+"generous": {
+"parts": [
+{
+"p": "gener",
+"m": "生まれ・種族"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語generosus「高貴な生まれの」から。高貴な人にふさわしい心の広さ→「気前のよい・寛大な」。",
+"note": "gentle・gene・generateも「生まれ」の仲間。"
+},
+"indeed": {
+"parts": [
+{
+"p": "in",
+"m": "〜において"
+},
+{
+"p": "deed",
+"m": "行い・事実"
+}
+],
+"story": "in deed「事実において」が1語になった→「実に・本当に」。",
+"note": "deedはdo（する）の名詞形。"
+},
+"impress": {
+"parts": [
+{
+"p": "im-",
+"m": "中に・上に"
+},
+{
+"p": "press",
+"m": "押す"
+}
+],
+"story": "ラテン語imprimere「押しつける」から。押して跡をつける→心に跡を残す→「感銘を与える」。",
+"note": "print（印刷する）も同じ語源。express・depressのpressも「押す」。"
+},
+"aid": {
+"parts": [],
+"story": "ラテン語adjuvare「助ける」（ad-「〜へ」＋juvare「助ける」）からフランス語を経て入った。",
+"note": "adjutant（副官）も同じ語源。"
+},
+"grave": {
+"parts": [],
+"story": "「墓」は古英語graef「掘った穴」から（grafan「掘る」）。「重大な」はラテン語gravis「重い」からで、別の語。",
+"note": "engrave（彫る）は「掘る」の仲間、gravity（重力）・grief（深い悲しみ）は「重い」の仲間。"
+},
+"genius": {
+"parts": [],
+"story": "ラテン語genius「人に生まれつき付いている守り神」から（gignere「生む」）。生まれつき持っているもの→生まれつきの才能→「天才」。",
+"note": "gene・generate・genuineも「生む」の仲間。"
+},
+"rely": {
+"parts": [
+{
+"p": "re-",
+"m": "強く"
+},
+{
+"p": "ly",
+"m": "結ぶ(ligare)"
+}
+],
+"story": "ラテン語religare「しっかり結ぶ」から古フランス語relier。結びつく→寄り集まる→「頼る」。",
+"note": "ally（同盟する）・oblige（義務づける）・ligament（じん帯）も「結ぶ」の仲間。"
+},
+"severe": {
+"parts": [],
+"story": "ラテン語severus「厳格な・まじめな」から→「厳しい・重い」。",
+"note": "persevere（辛抱する）は「非常に厳しく続ける」から。"
+},
+"shelter": {
+"parts": [],
+"story": "古英語scildtruma「盾を組み合わせて作った守りの隊列」から、とする説が有力（scild「盾」＋truma「隊」）。身を守る囲い→「避難所・保護」。",
+"note": "shield（盾）と同じ仲間。"
+},
+"reliable": {
+"parts": [
+{
+"p": "rely",
+"m": "頼る"
+},
+{
+"p": "-able",
+"m": "〜できる"
+}
+],
+"story": "「頼ることができる」→「信頼できる」。",
+"note": "19世紀には「rely onなのだからrely-on-ableのはずだ」と批判されたが定着した。"
+},
+"sensitive": {
+"parts": [
+{
+"p": "sens",
+"m": "感じる"
+},
+{
+"p": "-itive",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語sentire「感じる」から。感じやすい→「敏感な」。",
+"note": "sense・sentence・consentも「感じる」の仲間。sensible（分別のある）との区別に注意。"
+},
+"raw": {
+"parts": [],
+"story": "古英語hreaw「生の」から。",
+"note": "ラテン語crudus「生の・血のにじむ」と同じ語根で、crude（粗い）・cruel（残酷な）は遠い親戚。"
+},
+"literally": {
+"parts": [
+{
+"p": "liter",
+"m": "文字"
+},
+{
+"p": "-al",
+"m": "形容詞語尾"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語littera「文字」から。文字のとおりに→「文字どおり」。",
+"note": "letter・literature・literateも同じ仲間。"
+},
+"relatively": {
+"parts": [
+{
+"p": "re-",
+"m": "元へ"
+},
+{
+"p": "lat",
+"m": "運ぶ"
+},
+{
+"p": "-ive",
+"m": "形容詞語尾"
+}
+],
+"story": "relateは「元へ運び戻す」→結びつける→関係づける。ほかと関係づけて見れば→「比較的」。",
+"note": "translate（向こうへ運ぶ→翻訳する）のlatも「運ぶ」。"
+},
+"equipment": {
+"parts": [
+{
+"p": "equip",
+"m": "装備する"
+},
+{
+"p": "-ment",
+"m": "名詞語尾"
+}
+],
+"story": "equipは古フランス語esquiper「船に装備を積む」から（ゲルマン語の「船」）。船出の準備→「装備・備品」。",
+"note": "ship（船）と同じ語源。"
+},
+"fond": {
+"parts": [],
+"story": "中英語fonned「ばかになった」から。夢中になって分別を失っている→「大好きで」。",
+"note": "もとの「愚かな」の意味はfond hope（むなしい望み）に残る。"
+},
+"soil": {
+"parts": [],
+"story": "ラテン語solium「座席」が、solum「地面」と取り違えられて「地面・土」の意味になり、古フランス語を経て入った。",
+"note": "「汚す」のsoilはラテン語sus「豚」に関係する別の語。"
+},
+"settle": {
+"parts": [],
+"story": "古英語setl「座席」から。座らせる→落ち着かせる→「定住する」「解決する」。",
+"note": "sit・seat・saddle（くら）と同じ仲間。"
+},
+"variety": {
+"parts": [
+{
+"p": "vari",
+"m": "さまざまな"
+},
+{
+"p": "-ety",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語varius「さまざまな・まだらの」から→「変化に富むこと・種類」。",
+"note": "vary・various・variableも同じ仲間。"
+},
+"critical": {
+"parts": [
+{
+"p": "crit",
+"m": "分ける・判断する"
+},
+{
+"p": "-ical",
+"m": "形容詞語尾"
+}
+],
+"story": "ギリシャ語kritikos「判断できる」から（krinein「分ける」）。良し悪しを分ける→「批評の」、分かれ目にある→「危機的な・決定的な」。",
+"note": "crisis・criterionと同じ語源。"
+},
+"privacy": {
+"parts": [
+{
+"p": "priv",
+"m": "個人の"
+},
+{
+"p": "-acy",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語privatus「公の生活から切り離された」から。公から離れた自分だけの領域→「プライバシー」。",
+"note": "deprive（奪う）・privilege（特権）のprivも「切り離す・個人の」。"
+},
+"witness": {
+"parts": [
+{
+"p": "wit",
+"m": "知る"
+},
+{
+"p": "-ness",
+"m": "名詞語尾"
+}
+],
+"story": "古英語witnes「知っていること」から。知っていること→証言→それを述べる人→「目撃者・証人」。",
+"note": "wit（機知）・wise（賢い）も「知る」の仲間。"
+},
+"conscious": {
+"parts": [
+{
+"p": "con-",
+"m": "共に・自分で"
+},
+{
+"p": "sci",
+"m": "知る"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語conscius「（自分の心と）共に知っている」から→「気づいている・意識のある」。",
+"note": "science（知ること→科学）・conscience（良心）も同じ仲間。"
+},
+"investment": {
+"parts": [
+{
+"p": "in-",
+"m": "中に"
+},
+{
+"p": "vest",
+"m": "衣服"
+},
+{
+"p": "-ment",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語investire「服を着せる」から。お金に別の姿（商品や株）を着せる→「投資」。",
+"note": "vest（チョッキ）と同じ語源。"
+},
+"chemical": {
+"parts": [],
+"story": "alchemy（錬金術、アラビア語al-kimiya）のal-が落ちてできたchemic「化学の」に-alがついた形。",
+"note": "chemistry・chemistも同じ。al-はアラビア語の冠詞。"
+},
+"elderly": {
+"parts": [
+{
+"p": "elder",
+"m": "年上の"
+},
+{
+"p": "-ly",
+"m": "形容詞語尾"
+}
+],
+"story": "elderはoldの古い比較級。「年上の人らしい」→「年配の」。",
+"note": "oldのていねいな言い方として使われる。"
+},
+"territory": {
+"parts": [
+{
+"p": "terr",
+"m": "土地"
+},
+{
+"p": "-ory",
+"m": "場所"
+}
+],
+"story": "ラテン語territorium「町のまわりの土地」から（terra「土地」）→「領土・地域」。",
+"note": "terrace・terrain・Mediterranean（地中海＝土地の真ん中）も同じ仲間。"
+},
+"awkward": {
+"parts": [
+{
+"p": "awk",
+"m": "逆向きの"
+},
+{
+"p": "-ward",
+"m": "〜の方へ"
+}
+],
+"story": "古ノルド語ofugr「逆向きの」から来たawkに-wardがついた形。逆の方を向いた→扱いにくい→「ぎこちない・気まずい」。",
+"note": "forward・backwardの-wardと同じ。"
+},
+"enormous": {
+"parts": [
+{
+"p": "e-",
+"m": "外へ"
+},
+{
+"p": "norm",
+"m": "規準"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語enormis「規準(norma)から外れた」から。ふつうの枠をはみ出した→「巨大な」。",
+"note": "norm・normalと同じ語源。"
+},
+"approve": {
+"parts": [
+{
+"p": "ap-",
+"m": "〜へ"
+},
+{
+"p": "prove",
+"m": "試す・良いと認める"
+}
+],
+"story": "ラテン語approbare「良いと認める」から（probus「良い」）→「承認する・賛成する」。",
+"note": "prove（証明する）・probable（ありそうな）も同じ仲間。"
+},
+"gradually": {
+"parts": [
+{
+"p": "grad",
+"m": "段・歩み"
+},
+{
+"p": "-al",
+"m": "形容詞語尾"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語gradus「一歩・段」から。一段ずつ→「だんだんに」。",
+"note": "grade・degree・graduateも同じ仲間。"
+},
+"numerous": {
+"parts": [
+{
+"p": "numer",
+"m": "数"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語numerus「数」から。数が多い→「非常に多くの」。",
+"note": "number・numeralと同じ語源。"
+},
+"besides": {
+"parts": [
+{
+"p": "be-",
+"m": "そばに(by)"
+},
+{
+"p": "side",
+"m": "わき"
+},
+{
+"p": "-s",
+"m": "副詞語尾"
+}
+],
+"story": "「わきに」→そのわきにさらに→「〜に加えて・そのうえ」。",
+"note": "beside（〜のそばに）との区別に注意。"
+},
+"suitable": {
+"parts": [
+{
+"p": "suit",
+"m": "合う"
+},
+{
+"p": "-able",
+"m": "〜できる"
+}
+],
+"story": "suitはラテン語sequi「ついていく」から。あとに続いてそろうもの→ひとそろい→合う。「合うことができる」→「ふさわしい」。",
+"note": "suite（ひと続きの部屋）・sequenceも同じ仲間。"
+},
+"academic": {
+"parts": [],
+"story": "ギリシャ語Akademeiaから。プラトンが学園を開いたアテネ郊外の森の名で、英雄アカデモスにちなむ。学園の→「学問の」。",
+"note": "academy（学院）も同じ。"
+},
+"strategy": {
+"parts": [
+{
+"p": "strat",
+"m": "軍"
+},
+{
+"p": "eg",
+"m": "導く"
+}
+],
+"story": "ギリシャ語strategos「将軍」（stratos「軍」＋agein「導く」）から。将軍のわざ→「戦略」。",
+"note": "agent・actのag/acも「導く・行う」。"
+},
+"bare": {
+"parts": [],
+"story": "古英語baer「裸の・むき出しの」から。",
+"note": "barefoot（はだしで）・barely（かろうじて）。"
+},
+"foundation": {
+"parts": [
+{
+"p": "found",
+"m": "基礎を置く"
+},
+{
+"p": "-ation",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語fundare「基礎を置く」（fundus「底」）から→「土台・創立・財団」。",
+"note": "fund・fundamentalと同じ語源。"
+},
+"burden": {
+"parts": [],
+"story": "古英語byrthen「運ぶもの」から。bear（運ぶ）と同じ語根。運ばなければならないもの→「荷・重荷」。",
+"note": "birth（産むこと）もbearの仲間。"
+},
+"weigh": {
+"parts": [],
+"story": "古英語wegan「運ぶ・動かす」から。持ち上げて重さを確かめる→「重さを量る」。",
+"note": "way・wagon・vehicleも「運ぶ・動く」の仲間。名詞はweight。"
+},
+"necessarily": {
+"parts": [
+{
+"p": "ne-",
+"m": "〜ない"
+},
+{
+"p": "cess",
+"m": "退く・譲る"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語necesse「譲れない・避けられない」から→「必ず」。",
+"note": "not necessarily（必ずしも〜ない）の形でよく使う。"
+},
+"alternative": {
+"parts": [
+{
+"p": "alter",
+"m": "もう一方の"
+},
+{
+"p": "-ative",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語alter「（2つのうちの）もう一方」から。もう一方を選べる→「代わりの・二者択一」。",
+"note": "alter（変える）・alternate（交互の）・altruism（利他主義）も同じ仲間。"
+},
+"status": {
+"parts": [],
+"story": "ラテン語status「立っている状態」から（stare「立つ」）→「地位・状態」。",
+"note": "state（状態・国家）・estate（地所）は同じ語がフランス語を経て入ったもの。"
+},
+"civilization": {
+"parts": [
+{
+"p": "civil",
+"m": "市民の"
+},
+{
+"p": "-ization",
+"m": "〜化"
+}
+],
+"story": "ラテン語civis「市民」から。都市の市民らしい暮らしになること→「文明」。",
+"note": "city・citizen・civicも同じ仲間。"
+},
+"regard": {
+"parts": [
+{
+"p": "re-",
+"m": "強く"
+},
+{
+"p": "gard",
+"m": "見守る"
+}
+],
+"story": "古フランス語regarder「よく見る」から。よく見る→注意を払う→「みなす」「尊重する」。",
+"note": "guard（守る）と同じ語源。gardはフランス語式、wardは英語式のつづり（reward）。"
+},
+"parliament": {
+"parts": [
+{
+"p": "parl",
+"m": "話す"
+},
+{
+"p": "-ment",
+"m": "名詞語尾"
+}
+],
+"story": "古フランス語parler「話す」から。話し合い→話し合う集まり→「議会」。",
+"note": "parlor（談話室）・parole（仮釈放＝約束の言葉）も同じ仲間。"
+},
+"collapse": {
+"parts": [
+{
+"p": "col-",
+"m": "共に"
+},
+{
+"p": "lapse",
+"m": "滑り落ちる"
+}
+],
+"story": "ラテン語collabi「いっしょに滑り落ちる」から→「崩れる・倒れる」。",
+"note": "lapse（過失・経過）・elapse（時がたつ）も同じ仲間。"
+},
+"element": {
+"parts": [],
+"story": "ラテン語elementum「基本になるもの・元素」から。それ以前の由来ははっきりしない。",
+"note": "アルファベットの並びL・M・Nから、とする説もあるが確かではない。"
+},
+"sacrifice": {
+"parts": [
+{
+"p": "sacri",
+"m": "聖なる"
+},
+{
+"p": "fice",
+"m": "作る・する"
+}
+],
+"story": "ラテン語sacrificium「聖なるものにすること」から。神にささげる→「いけにえ」→大事なものを手放す→「犠牲」。",
+"note": "sacred・saintも「聖なる」、factory・fictionも「作る」の仲間。"
+},
+"worship": {
+"parts": [
+{
+"p": "wor",
+"m": "価値(worth)"
+},
+{
+"p": "-ship",
+"m": "状態"
+}
+],
+"story": "古英語weorthscipe「価値のある状態」から。価値を認めて敬うこと→「崇拝・礼拝」。",
+"note": "friendship・leadershipの-shipと同じ。"
+},
+"confess": {
+"parts": [
+{
+"p": "con-",
+"m": "すっかり"
+},
+{
+"p": "fess",
+"m": "話す・認める"
+}
+],
+"story": "ラテン語confiteri「すっかり認める」から→「白状する・告白する」。",
+"note": "profess（公言する）・professionも同じ仲間。"
+},
+"increasingly": {
+"parts": [
+{
+"p": "in-",
+"m": "上に"
+},
+{
+"p": "creas",
+"m": "成長する"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語increscere「成長して大きくなる」から。大きくなり続けて→「ますます」。",
+"note": "decrease・crescent（三日月＝満ちていく月）・createも同じ仲間。"
+},
+"chaos": {
+"parts": [],
+"story": "ギリシャ語khaos「大きく口を開けた空間」から。世界ができる前の何もない裂け目→「混とん・大混乱」。",
+"note": "gas（気体）は17世紀にchaosをもとに作られた語。"
+},
+"cautious": {
+"parts": [
+{
+"p": "caut",
+"m": "用心する"
+},
+{
+"p": "-ious",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語cavere「用心する」から→「用心深い」。",
+"note": "caution（注意）・precaution（予防措置）も同じ仲間。"
+},
+"analysis": {
+"parts": [
+{
+"p": "ana-",
+"m": "すっかり"
+},
+{
+"p": "lysis",
+"m": "ほどくこと"
+}
+],
+"story": "ギリシャ語analyein「ほどいてばらばらにする」から。要素に分けて調べる→「分析」。",
+"note": "paralysis（まひ）・catalyst（触媒）のlysも「ほどく」。"
+},
+"approximately": {
+"parts": [
+{
+"p": "ap-",
+"m": "〜へ"
+},
+{
+"p": "proxim",
+"m": "最も近い"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語proximus「最も近い」から。そこに近づけて→「おおよそ」。",
+"note": "proximity（近さ）と同じ語源。"
+},
+"urban": {
+"parts": [],
+"story": "ラテン語urbs「都市」から→「都市の」。",
+"note": "suburb（郊外＝都市の下・そば）も同じ仲間。反対語はrural。"
+},
+"sacred": {
+"parts": [],
+"story": "ラテン語sacer「聖なる」から来た古い動詞sacre「神聖にする」の過去分詞→「神聖な」。",
+"note": "sacrifice・saint・sanctuaryも同じ仲間。"
+},
+"regardless": {
+"parts": [
+{
+"p": "regard",
+"m": "注意・考慮"
+},
+{
+"p": "-less",
+"m": "〜のない"
+}
+],
+"story": "「考慮しない」→「〜に関係なく」。",
+"note": "regardless of 〜 の形で使う。"
+},
+"occasionally": {
+"parts": [
+{
+"p": "oc-",
+"m": "〜に向かって"
+},
+{
+"p": "cas",
+"m": "落ちる"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "occasionはラテン語occidere「落ちてくる」から。降ってきためぐり合わせ→機会。機会があるときに→「たまに」。",
+"note": "accident・case・chanceも「落ちる」の仲間。"
+},
+"bond": {
+"parts": [],
+"story": "band（ひも・帯）の別の形。bind（しばる）と同じ語源。しばるもの→「きずな」「債券（約束でしばる証書）」。",
+"note": "bundle（束）・bandage（包帯）も同じ仲間。"
+},
+"faithful": {
+"parts": [
+{
+"p": "faith",
+"m": "信頼"
+},
+{
+"p": "-ful",
+"m": "満ちた"
+}
+],
+"story": "faithはラテン語fides「信頼」から。信頼に満ちた→「忠実な」。",
+"note": "confidence・fidelityも同じ仲間。"
+},
+"accompany": {
+"parts": [
+{
+"p": "ac-",
+"m": "〜へ"
+},
+{
+"p": "com-",
+"m": "共に"
+},
+{
+"p": "pan",
+"m": "パン"
+}
+],
+"story": "company（仲間）は「いっしょにパンを食べる人」。仲間として加わる→「同行する・伴う」。",
+"note": "companionも同じ語源。"
+},
+"transport": {
+"parts": [
+{
+"p": "trans-",
+"m": "越えて"
+},
+{
+"p": "port",
+"m": "運ぶ"
+}
+],
+"story": "ラテン語transportare「向こうへ運ぶ」から→「輸送する」。",
+"note": "import・export・portable・supportのportも「運ぶ」。"
+},
+"context": {
+"parts": [
+{
+"p": "con-",
+"m": "共に"
+},
+{
+"p": "text",
+"m": "織る"
+}
+],
+"story": "ラテン語contexere「織り合わせる」から。言葉が織り合わさったつながり→「文脈・前後関係」。",
+"note": "text・textile（織物）・texture（手ざわり）も同じ仲間。"
+},
+"ban": {
+"parts": [],
+"story": "古英語bannan「布告する・命じる」から。おおやけに出す命令→禁止の命令→「禁止する」。",
+"note": "abandon・bandit（追放された者→山賊）・banishも同じ仲間。"
+},
+"promote": {
+"parts": [
+{
+"p": "pro-",
+"m": "前へ"
+},
+{
+"p": "mote",
+"m": "動かす"
+}
+],
+"story": "ラテン語promovere「前へ動かす」から→「昇進させる」「促進する」。",
+"note": "move・motion・motor・remoteも「動かす」の仲間。"
+},
+"shallow": {
+"parts": [],
+"story": "中英語schaloweから。古英語sceald「浅い」と関係がある。",
+"note": "shoal（浅瀬）と同じ仲間。"
+},
+"adapt": {
+"parts": [
+{
+"p": "ad-",
+"m": "〜へ"
+},
+{
+"p": "apt",
+"m": "適した"
+}
+],
+"story": "ラテン語adaptare「合うようにする」から→「適応させる・脚色する」。",
+"note": "apt（適切な）・aptitude（適性）と同じ語源。adopt（採用する）との区別に注意。"
+},
+"steady": {
+"parts": [
+{
+"p": "stead",
+"m": "場所"
+},
+{
+"p": "-y",
+"m": "形容詞語尾"
+}
+],
+"story": "stead（場所、instead「その代わりに」のstead）に-yがついた形。その場にしっかりある→「安定した・着実な」。",
+"note": "stand・stationと同じ「立つ」の語根。"
+},
+"precisely": {
+"parts": [
+{
+"p": "pre-",
+"m": "前を"
+},
+{
+"p": "cis",
+"m": "切る"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語praecidere「先を切り落とす」から。余分を切り落としてある→「正確に」。",
+"note": "concise（簡潔な）・decide（切り離す→決める）・scissorsも「切る」の仲間。"
+},
+"genuine": {
+"parts": [],
+"story": "ラテン語genuinus「生まれつきの」から（gignere「生む」）。生まれたときからそうである→「本物の・心からの」。",
+"note": "gene・genius・generateと同じ仲間。"
+},
+"assignment": {
+"parts": [
+{
+"p": "as-",
+"m": "〜へ"
+},
+{
+"p": "sign",
+"m": "印"
+},
+{
+"p": "-ment",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語assignare「印をつけて割り当てる」から→「割り当てられた仕事・課題」。",
+"note": "sign・signal・designも「印」の仲間。"
+},
+"dense": {
+"parts": [],
+"story": "ラテン語densus「密な・濃い」から。",
+"note": "condense（凝縮する）・density（密度）も同じ仲間。"
+},
+"biological": {
+"parts": [
+{
+"p": "bio",
+"m": "生命"
+},
+{
+"p": "log",
+"m": "学問"
+},
+{
+"p": "-ical",
+"m": "形容詞語尾"
+}
+],
+"story": "ギリシャ語bios「生命」＋logos「言葉・学問」→「生物学の」。",
+"note": "biography（伝記）・antibiotic（抗生物質）のbioも「生命」。"
+},
+"reform": {
+"parts": [
+{
+"p": "re-",
+"m": "再び"
+},
+{
+"p": "form",
+"m": "形づくる"
+}
+],
+"story": "ラテン語reformare「形を作り直す」から→「改革する・改善する」。",
+"note": "日本語の「リフォーム」（家の改装）は英語ではrenovateなど。"
+},
+"internal": {
+"parts": [
+{
+"p": "intern",
+"m": "内側の"
+},
+{
+"p": "-al",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語internus「内側の」から→「内部の・国内の」。",
+"note": "反対語はexternal。inter-（間）と同じ系統。"
+},
+"urge": {
+"parts": [],
+"story": "ラテン語urgere「押す・せき立てる」から→「強く促す」。",
+"note": "urgent（緊急の）と同じ語源。"
+},
+"identical": {
+"parts": [
+{
+"p": "ident",
+"m": "同じ"
+},
+{
+"p": "-ical",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語idem「同じ」から→「まったく同じ」。",
+"note": "identity（同一性・身元）・identifyも同じ仲間。"
+},
+"sophisticated": {
+"parts": [
+{
+"p": "soph",
+"m": "知恵"
+},
+{
+"p": "-ist",
+"m": "人"
+},
+{
+"p": "-ated",
+"m": "〜された"
+}
+],
+"story": "ギリシャ語sophos「賢い」から。sophist（理屈をこねる人）→理屈で手を加えた→素朴でなくなった→「洗練された・高度な」。",
+"note": "philosophy（知を愛する→哲学）・sophomore（大学2年生）のsophも同じ。"
+},
+"keen": {
+"parts": [],
+"story": "古英語cene「勇敢な・賢い」から。鋭い心→「鋭い」「熱心な」。",
+"note": "ドイツ語kuhn（大胆な）と同じ語源。"
+},
+"wicked": {
+"parts": [],
+"story": "古英語wicca「魔法使い」と関係があるとされる。魔法使いのような→「邪悪な」。",
+"note": "witch（魔女）と同じ仲間とされる。"
+},
+"trigger": {
+"parts": [],
+"story": "オランダ語trekker「引くもの」から（trekken「引く」）→「引き金」→「引き起こす」。",
+"note": "trek（つらい長旅、もとは牛車を引いて行くこと）と同じ語源。"
+},
+"reckless": {
+"parts": [
+{
+"p": "reck",
+"m": "気にかける"
+},
+{
+"p": "-less",
+"m": "〜のない"
+}
+],
+"story": "古い動詞reck「気にかける」に-lessがついた形。「結果を気にかけない」→「向こう見ずな」。",
+"note": "wreck（難破）とは関係がない。"
+},
+"mature": {
+"parts": [],
+"story": "ラテン語maturus「熟した・ちょうどよい時の」から→「成熟した」。",
+"note": "premature（時期の早すぎる）・immature（未熟な）。"
+},
+"outcome": {
+"parts": [
+{
+"p": "out",
+"m": "外へ"
+},
+{
+"p": "come",
+"m": "来る"
+}
+],
+"story": "「外に出てきたもの」→「結果」。",
+"note": "come out（結果が出る）を名詞にした形。"
+},
+"greenhouse": {
+"parts": [
+{
+"p": "green",
+"m": "緑・青物"
+},
+{
+"p": "house",
+"m": "家"
+}
+],
+"story": "「青物を育てる家」→「温室」。",
+"note": "greenhouse gas（温室効果ガス）。"
+},
+"frankly": {
+"parts": [
+{
+"p": "frank",
+"m": "率直な"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "frankはフランク人（Franks）から。征服者のフランク人だけが自由民だった→自由な→遠慮なくものを言う→「率直に」。",
+"note": "France・franchise（特権）も同じ語源。"
+},
+"latter": {
+"parts": [],
+"story": "古英語laetra。late（遅い）の古い比較級。より後の→「後者の・後半の」。",
+"note": "later（もっと後で）は後から作られた新しい比較級。former（前者）と対で使う。"
+},
+"considerable": {
+"parts": [
+{
+"p": "consider",
+"m": "考慮する"
+},
+{
+"p": "-able",
+"m": "〜できる"
+}
+],
+"story": "「考慮に値する」→無視できないほどの→「かなりの」。",
+"note": "considerate（思いやりのある）との区別に注意。"
+},
+"deliberately": {
+"parts": [
+{
+"p": "de-",
+"m": "すっかり"
+},
+{
+"p": "liber",
+"m": "はかり"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語deliberare「はかりにかけてよく考える」から（libra「てんびん」）。よく考えたうえで→「故意に・慎重に」。",
+"note": "重さの単位ポンドをlbと書くのはlibraから。"
+},
+"briefly": {
+"parts": [
+{
+"p": "brief",
+"m": "短い"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "briefはラテン語brevis「短い」から→「手短に」。",
+"note": "abbreviate（省略する）も同じ仲間。"
+},
+"profession": {
+"parts": [
+{
+"p": "pro-",
+"m": "前で"
+},
+{
+"p": "fess",
+"m": "述べる"
+},
+{
+"p": "-ion",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語profiteri「人前で述べる」から。公に宣言すること→誓いを立てて就く職→「専門職」。",
+"note": "professor（教授）・confess（告白する）も同じ仲間。"
+},
+"consumption": {
+"parts": [
+{
+"p": "con-",
+"m": "すっかり"
+},
+{
+"p": "sum",
+"m": "取る"
+},
+{
+"p": "-tion",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語consumere「取りつくす」から→「消費」。",
+"note": "assume・resume・presumeのsumも「取る」。"
+},
+"gross": {
+"parts": [],
+"story": "後期ラテン語grossus「太い・粗い」から。細かく分けていない大づかみの全体→「総計の」。粗い→「下品な・ひどい」。",
+"note": "grocer（食料品店）はもと「まとめ売りの商人」。"
+},
+"foster": {
+"parts": [],
+"story": "古英語fostor「食べ物・養うこと」から→「養育する」「育てる・促進する」。",
+"note": "food・feedと同じ仲間。"
+},
+"grasp": {
+"parts": [],
+"story": "中英語graspenから。grope（手探りする）と同じ語根。手でつかむ→頭でつかむ→「理解する」。",
+"note": "grab・gripも近い仲間。"
+},
+"outbreak": {
+"parts": [
+{
+"p": "out",
+"m": "外へ"
+},
+{
+"p": "break",
+"m": "破る"
+}
+],
+"story": "「破って外へ出ること」→「（戦争・病気の）突然の発生」。",
+"note": "break out（発生する）を名詞にした形。"
+},
+"province": {
+"parts": [],
+"story": "ラテン語provincia「（ローマが征服した）属州」から。それ以前の由来ははっきりしない。",
+"note": "南フランスのプロヴァンス（Provence）はローマの属州だったことから。"
+},
+"transfer": {
+"parts": [
+{
+"p": "trans-",
+"m": "越えて"
+},
+{
+"p": "fer",
+"m": "運ぶ"
+}
+],
+"story": "ラテン語transferre「向こうへ運ぶ」から→「移す・乗り換える」。",
+"note": "offer・prefer・differ・ferryのferも「運ぶ」。"
+},
+"agenda": {
+"parts": [],
+"story": "ラテン語agenda「なされるべきこと」から（agere「行う」）→「議題・予定表」。",
+"note": "act・agent・actionも「行う」の仲間。もとは複数形。"
+},
+"proceed": {
+"parts": [
+{
+"p": "pro-",
+"m": "前へ"
+},
+{
+"p": "ceed",
+"m": "進む"
+}
+],
+"story": "ラテン語procedere「前へ進む」から→「進む・続ける」。",
+"note": "process・procedureと同じ語源。exceed・succeedのceedも「進む」。"
+},
+"statistics": {
+"parts": [],
+"story": "ラテン語status「国家」から。もとはドイツ語Statistikで「国の状態についての学問」。国勢を数字で表す→「統計」。",
+"note": "state（国家）と同じ語源。"
+},
+"strive": {
+"parts": [],
+"story": "古フランス語estriver「争う・競う」から→「懸命に努力する」。",
+"note": "strife（争い）と同じ語源。"
+},
+"ultimately": {
+"parts": [
+{
+"p": "ultim",
+"m": "最も遠い・最後の"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語ultimus「最も遠い」から。いちばん先まで行って→「最終的に」。",
+"note": "ultra-（超）・ultimatum（最後通告）も同じ仲間。"
+},
+"wander": {
+"parts": [],
+"story": "古英語wandrian「さまよう」から。wind（曲がりくねる）と同じ語根で、あちこち曲がりながら行く→「歩き回る」。",
+"note": "wonder（不思議に思う）とは別の語。"
+},
+"idle": {
+"parts": [],
+"story": "古英語idel「空っぽの・役に立たない」から→「何もしていない・怠けた」。",
+"note": "idol（偶像）・ideal（理想）とは別の語。"
+},
+"primarily": {
+"parts": [
+{
+"p": "prim",
+"m": "第一の"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語primus「第一の」から。第一に→「主として」。",
+"note": "prime・primitive・princeも同じ仲間。"
+},
+"possess": {
+"parts": [
+{
+"p": "pos",
+"m": "できる・主"
+},
+{
+"p": "sess",
+"m": "座る"
+}
+],
+"story": "ラテン語possidere「主として座る」から。その土地に主人として座る→「所有する」。",
+"note": "session（開会）・preside（議長を務める）のsess/sidも「座る」。"
+},
+"relevant": {
+"parts": [
+{
+"p": "re-",
+"m": "再び・上へ"
+},
+{
+"p": "lev",
+"m": "軽くする・持ち上げる"
+}
+],
+"story": "ラテン語relevare「持ち上げる・助ける」から。その件の助けになる→「関連のある・適切な」。",
+"note": "relieve（やわらげる）・elevator・leverも同じ仲間。"
+},
+"worthwhile": {
+"parts": [
+{
+"p": "worth",
+"m": "値する"
+},
+{
+"p": "while",
+"m": "時間"
+}
+],
+"story": "「時間をかけるだけの値打ちがある」→「やりがいのある」。",
+"note": "whileはもと名詞で「時間」（for a while）。"
+},
+"literary": {
+"parts": [
+{
+"p": "liter",
+"m": "文字"
+},
+{
+"p": "-ary",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語littera「文字」から。文字で書かれたものの→「文学の」。",
+"note": "literal（文字どおりの）・literate（読み書きできる）との区別に注意。"
+},
+"prosperity": {
+"parts": [
+{
+"p": "pro-",
+"m": "〜のとおりに"
+},
+{
+"p": "sper",
+"m": "望み"
+},
+{
+"p": "-ity",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語prosperus「望みどおりに運ぶ」から→「繁栄」。",
+"note": "despair（望みを失う→絶望）のspairも「望み」。"
+},
+"anonymous": {
+"parts": [
+{
+"p": "an-",
+"m": "〜のない"
+},
+{
+"p": "onym",
+"m": "名前"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ギリシャ語anonymos「名前のない」から→「匿名の」。",
+"note": "synonym（同義語）・antonym（反意語）のonymも「名前」。"
+},
+"wilderness": {
+"parts": [
+{
+"p": "wild",
+"m": "野生の"
+},
+{
+"p": "der",
+"m": "けもの"
+},
+{
+"p": "-ness",
+"m": "名詞語尾"
+}
+],
+"story": "古英語wildeor「野のけもの」から。野のけものがすむ所→「荒野」。",
+"note": "derはdeer（シカ、もとは「けもの」全般）と同じ。"
+},
+"nevertheless": {
+"parts": [
+{
+"p": "never",
+"m": "決して"
+},
+{
+"p": "the",
+"m": "それだけ"
+},
+{
+"p": "less",
+"m": "より少なく"
+}
+],
+"story": "「それで少なくなることは決してない」→「それにもかかわらず」。",
+"note": "nonethelessも同じ作りで同じ意味。"
+},
+"threaten": {
+"parts": [
+{
+"p": "threat",
+"m": "脅し"
+},
+{
+"p": "-en",
+"m": "動詞語尾"
+}
+],
+"story": "threat（古英語「圧迫」）に動詞を作る-enがついた形→「脅す・おびやかす」。",
+"note": "strengthen・weakenの-enと同じ。"
+},
+"thorough": {
+"parts": [],
+"story": "古英語thuruh。through（通り抜けて）と同じ語の別の形。端から端まで通す→「徹底的な」。",
+"note": "発音とつづりに注意（through / thorough / though）。"
+},
+"thesis": {
+"parts": [],
+"story": "ギリシャ語thesis「置くこと」から（tithenai「置く」）。議論の土台として置かれた主張→「論題・論文」。",
+"note": "theme・hypothesis・synthesisも「置く」の仲間。"
+},
+"specifically": {
+"parts": [
+{
+"p": "speci",
+"m": "種類"
+},
+{
+"p": "fic",
+"m": "作る"
+},
+{
+"p": "-ally",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語specificus「種類を成す」から。その種類だけに限って→「特に・明確に」。",
+"note": "species・specialと同じ語源。"
+},
+"swift": {
+"parts": [],
+"story": "古英語swift「速い」から。",
+"note": "アマツバメ（swift）は飛ぶ速さから。"
+},
+"welfare": {
+"parts": [
+{
+"p": "wel",
+"m": "よく(well)"
+},
+{
+"p": "fare",
+"m": "行く・暮らす"
+}
+],
+"story": "古英語wel faran「うまくやっていく」から→「幸福・福祉」。",
+"note": "farewell（さようなら＝お元気で）は同じ語を逆に並べた形。"
+},
+"tremendous": {
+"parts": [
+{
+"p": "trem",
+"m": "震える"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語tremendus「震えるほど恐ろしい」から→「ものすごい・とてつもない」。",
+"note": "tremble（震える）・tremor（震え）も同じ仲間。"
+},
+"irrelevant": {
+"parts": [
+{
+"p": "ir-",
+"m": "〜でない"
+},
+{
+"p": "relevant",
+"m": "関連のある"
+}
+],
+"story": "relevantの否定→「無関係の・見当ちがいの」。",
+"note": "in-がrの前でir-になった形。"
+},
+"strengthen": {
+"parts": [
+{
+"p": "strength",
+"m": "強さ"
+},
+{
+"p": "-en",
+"m": "動詞語尾"
+}
+],
+"story": "「強さを与える」→「強くする」。",
+"note": "strengthはstrongの名詞形。"
+},
+"scarce": {
+"parts": [],
+"story": "古北フランス語escars「けちな・乏しい」から。もとはラテン語excerpere「抜き取る」で、抜き取られて少ない→「乏しい」。",
+"note": "excerpt（抜粋）と同じ語源。"
+},
+"starve": {
+"parts": [],
+"story": "古英語steorfan「死ぬ」から。意味がせばまって「飢えて死ぬ・飢える」に。",
+"note": "ドイツ語sterben（死ぬ）と同じ語源。"
+},
+"imitate": {
+"parts": [],
+"story": "ラテン語imitari「まねる」から。",
+"note": "image（像）と同じ語根で、「似姿を作る」イメージ。"
+},
+"seize": {
+"parts": [],
+"story": "古フランス語saisir「手に入れる・所有させる」から→「つかむ・奪う」。",
+"note": "ei のつづりに注意。"
+},
+"achievement": {
+"parts": [
+{
+"p": "a-",
+"m": "〜へ"
+},
+{
+"p": "chieve",
+"m": "頭・終わり"
+},
+{
+"p": "-ment",
+"m": "名詞語尾"
+}
+],
+"story": "古フランス語a chief「頭（＝終わり）へ」から。最後までやり通す→「達成・業績」。",
+"note": "chief（長）・chef（料理長）・captainも「頭」の仲間。"
+},
+"venture": {
+"parts": [],
+"story": "adventure（冒険）の頭のad-が落ちた形。→「危険をともなう事業」「思い切って〜する」。",
+"note": "adventureはラテン語「これから起ころうとすること」から。"
+},
+"sheer": {
+"parts": [],
+"story": "古英語scir「輝く・澄んだ」と関係がある。澄んで混じりけがない→「まったくの」、透きとおる→「ごく薄い」。",
+"note": "shine（輝く）と同じ仲間。"
+},
+"thrive": {
+"parts": [],
+"story": "古ノルド語thrifask「自分のためにつかむ」から。つかみ取る→「栄える・よく育つ」。",
+"note": "thrift（倹約）も同じ語源。"
+},
+"essentially": {
+"parts": [
+{
+"p": "ess",
+"m": "ある・存在する"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語esse「ある」から来たessentia「あるものの本質」。本質において→「本質的に」。",
+"note": "absent・present・interestも「ある」の仲間。"
+},
+"intensive": {
+"parts": [
+{
+"p": "in-",
+"m": "〜へ"
+},
+{
+"p": "tens",
+"m": "張る"
+},
+{
+"p": "-ive",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語intendere「ぴんと張る」から。力を1点に張りつめた→「集中的な」。",
+"note": "tension・extend・tendも「張る・伸ばす」の仲間。"
+},
+"initial": {
+"parts": [
+{
+"p": "in-",
+"m": "中へ"
+},
+{
+"p": "it",
+"m": "行く"
+},
+{
+"p": "-ial",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語initium「入ること・始まり」から→「最初の」「頭文字」。",
+"note": "exit（外へ行く→出口）・transit（通過）のitも「行く」。"
+},
+"hypothesis": {
+"parts": [
+{
+"p": "hypo-",
+"m": "下に"
+},
+{
+"p": "thesis",
+"m": "置くこと"
+}
+],
+"story": "ギリシャ語hypothesis「下に置くもの・土台」から。議論の土台として仮に置くもの→「仮説」。",
+"note": "複数形はhypotheses。"
+},
+"invade": {
+"parts": [
+{
+"p": "in-",
+"m": "中へ"
+},
+{
+"p": "vade",
+"m": "行く"
+}
+],
+"story": "ラテン語invadere「入っていく」から→「侵入する」。",
+"note": "evade（外へ行く→逃れる）・pervade（行きわたる）も同じ仲間。"
+},
+"suppress": {
+"parts": [
+{
+"p": "sup-",
+"m": "下に"
+},
+{
+"p": "press",
+"m": "押す"
+}
+],
+"story": "ラテン語supprimere「下へ押さえつける」から→「鎮圧する・抑える」。",
+"note": "oppress（圧迫する）・repress（抑圧する）も同じ作り。"
+},
+"ritual": {
+"parts": [],
+"story": "ラテン語ritus「儀式・しきたり」から→「儀式」。",
+"note": "rite（儀式）と同じ語源。"
+},
+"exposure": {
+"parts": [
+{
+"p": "ex-",
+"m": "外に"
+},
+{
+"p": "pos",
+"m": "置く"
+},
+{
+"p": "-ure",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語exponere「外に置く」から。外に置いてさらすこと→「さらされること・暴露」。",
+"note": "compose・propose・positionのposも「置く」。"
+},
+"headquarters": {
+"parts": [
+{
+"p": "head",
+"m": "頭・長"
+},
+{
+"p": "quarters",
+"m": "宿営地"
+}
+],
+"story": "「長のいる宿営地」→「本部」。",
+"note": "quartersはもと「町の4分の1の区画」→「区域・宿舎」。"
+},
+"fatigue": {
+"parts": [],
+"story": "ラテン語fatigare「疲れさせる」からフランス語を経て入った→「疲労」。",
+"note": "つづりのgueはフランス語式。"
+},
+"visual": {
+"parts": [
+{
+"p": "vis",
+"m": "見る"
+},
+{
+"p": "-ual",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語visus「見ること」から（videre「見る」）→「視覚の」。",
+"note": "vision・visit・video・visibleも「見る」の仲間。"
+},
+"category": {
+"parts": [
+{
+"p": "cat-",
+"m": "〜に対して"
+},
+{
+"p": "egor",
+"m": "公に述べる"
+}
+],
+"story": "ギリシャ語kategoria「（人に対して）述べ立てること」から（agora「広場・集会」）。あるものについて述べられること→述語の種類→「範疇・部類」。",
+"note": "アリストテレスが哲学用語にした。"
+},
+"demonstrate": {
+"parts": [
+{
+"p": "de-",
+"m": "すっかり"
+},
+{
+"p": "monstr",
+"m": "示す"
+}
+],
+"story": "ラテン語demonstrare「はっきり示す」から→「実演する・論証する」。",
+"note": "monster（怪物）はもと「神が示す警告のしるし」で同じ仲間。"
+},
+"resemble": {
+"parts": [
+{
+"p": "re-",
+"m": "強く"
+},
+{
+"p": "semble",
+"m": "似ている"
+}
+],
+"story": "古フランス語resembler「似ている」から（ラテン語similis「似た」）。",
+"note": "similar・simulate・assemble（集める）も同じ仲間。"
+},
+"risk": {
+"parts": [],
+"story": "イタリア語risco「危険」からフランス語を経て入った。それ以前の由来ははっきりしない。",
+"note": ""
+},
+"barely": {
+"parts": [
+{
+"p": "bare",
+"m": "裸の・むき出しの"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "むき出しで余分が何もない→ぎりぎりで→「かろうじて」。",
+"note": ""
+},
+"fairly": {
+"parts": [
+{
+"p": "fair",
+"m": "美しい・公正な"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "fairは古英語faeger「美しい・好ましい」。きれいに・公正に→ほどよく→「かなり」。",
+"note": ""
+},
+"rarely": {
+"parts": [
+{
+"p": "rare",
+"m": "まれな"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "rareはラテン語rarus「まばらな・すき間のある」から。まばらにしか起こらない→「めったに〜ない」。",
+"note": ""
+},
+"ashamed": {
+"parts": [
+{
+"p": "a-",
+"m": "すっかり"
+},
+{
+"p": "shame",
+"m": "恥"
+},
+{
+"p": "-ed",
+"m": "過去分詞語尾"
+}
+],
+"story": "古英語ascamian「恥じる」の過去分詞。恥でいっぱいになった→「恥じて」。",
+"note": ""
+},
+"fake": {
+"parts": [],
+"story": "由来ははっきりしない。18世紀のイギリスの犯罪者の隠語として記録され、「見た目をよくする・細工する」を表す語から来たとされる。",
+"note": ""
+},
+"spare": {
+"parts": [],
+"story": "古英語sparian「使わずにおく・控える」から。使わずに取っておく→「予備の」「（時間などを）さく」、傷つけずにおく→「容赦する」。",
+"note": ""
+},
+"therefore": {
+"parts": [
+{
+"p": "there",
+"m": "そこ"
+},
+{
+"p": "fore",
+"m": "〜のために(for)"
+}
+],
+"story": "「そのために」→「それゆえ」。",
+"note": ""
+},
+"stubborn": {
+"parts": [],
+"story": "由来ははっきりしない。stub（切り株）と関係づけ、「切り株のように動かない」とする説がある。",
+"note": ""
+},
+"threat": {
+"parts": [],
+"story": "古英語threat「群衆・圧迫」から。押し寄せて圧力をかけること→「脅し」。",
+"note": ""
+},
+"rough": {
+"parts": [],
+"story": "古英語ruh「毛深い・ざらざらした」から。表面が粗い→「荒っぽい」「大ざっぱな」。",
+"note": ""
+},
+"massive": {
+"parts": [
+{
+"p": "mass",
+"m": "かたまり"
+},
+{
+"p": "-ive",
+"m": "形容詞語尾"
+}
+],
+"story": "massはギリシャ語maza「こねた大麦のかたまり」から。大きなかたまりのような→「大きくて重い・大規模な」。",
+"note": ""
+},
+"odd": {
+"parts": [],
+"story": "古ノルド語oddi「三角形・とがった先」から。三角形の頂点→2つ組に対して余る3つ目→「奇数の・半端な」→ふつうとちがう→「奇妙な」。",
+"note": ""
+},
+"slightly": {
+"parts": [
+{
+"p": "slight",
+"m": "わずかな"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "slightはもと「なめらかな・平らな」。平らで薄い→細い→「わずかに」。",
+"note": ""
+},
+"shift": {
+"parts": [],
+"story": "古英語sciftan「分ける・整える」から。配置を整え直す→「移す・変える」、入れ替わりの勤務→「交替勤務」。",
+"note": ""
+},
+"gain": {
+"parts": [],
+"story": "古ノルド語gagn「利益」と、古フランス語gaaignier「耕して得る・かせぐ」が合わさった語。→「得る・利益」。",
+"note": ""
+},
+"overcome": {
+"parts": [
+{
+"p": "over",
+"m": "越えて"
+},
+{
+"p": "come",
+"m": "来る"
+}
+],
+"story": "古英語ofercuman。相手を越えていく→「打ち勝つ」。",
+"note": ""
+},
+"somewhat": {
+"parts": [
+{
+"p": "some",
+"m": "いくらか"
+},
+{
+"p": "what",
+"m": "もの"
+}
+],
+"story": "「いくらかのもの」→「いくぶん・やや」。",
+"note": ""
+},
+"thus": {
+"parts": [],
+"story": "古英語thus「このように」から。this・thatと同じ系統の語。",
+"note": ""
+},
+"struggle": {
+"parts": [],
+"story": "由来ははっきりしない。中英語struglenから。",
+"note": ""
+},
+"consciousness": {
+"parts": [
+{
+"p": "conscious",
+"m": "意識のある"
+},
+{
+"p": "-ness",
+"m": "名詞語尾"
+}
+],
+"story": "conscious（ラテン語「共に知っている」）の名詞形→「意識」。",
+"note": ""
+},
+"era": {
+"parts": [],
+"story": "後期ラテン語aera「計算のもとになる数」から（aes「銅・お金」の複数形）。年を数える起点→そこから始まる「時代」。",
+"note": ""
+},
+"criticism": {
+"parts": [
+{
+"p": "critic",
+"m": "批評家"
+},
+{
+"p": "-ism",
+"m": "名詞語尾"
+}
+],
+"story": "ギリシャ語krinein「分ける・判断する」から。良し悪しを判断すること→「批評・批判」。",
+"note": ""
+},
+"shed": {
+"parts": [],
+"story": "「流す・落とす」は古英語sceadan「分ける」から。体から分けて離す→「（涙・血を）流す」「（葉・皮を）落とす」。「小屋」のshedはshade（日かげ）の変化した形とされる別の語。",
+"note": ""
+},
+"merely": {
+"parts": [
+{
+"p": "mere",
+"m": "ただの"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "mereはラテン語merus「混ぜ物のない・純粋な」から。それだけで他に何もない→「単に」。",
+"note": ""
+},
+"harsh": {
+"parts": [],
+"story": "北欧の言葉から入った語で、もとは「ざらざらした・（古くなって）えぐい味の」。手ざわりや味が不快→「厳しい・不快な」。",
+"note": ""
+},
+"thoroughly": {
+"parts": [
+{
+"p": "thorough",
+"m": "徹底的な"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "thoroughはthrough（通り抜けて）と同じ語。端から端まで通して→「徹底的に」。",
+"note": ""
+},
+"wildlife": {
+"parts": [
+{
+"p": "wild",
+"m": "野生の"
+},
+{
+"p": "life",
+"m": "生命"
+}
+],
+"story": "「野生の生き物」。",
+"note": ""
+},
+"household": {
+"parts": [
+{
+"p": "house",
+"m": "家"
+},
+{
+"p": "hold",
+"m": "保つこと"
+}
+],
+"story": "家を保つこと→1つの家を保っている人々→「世帯・家族」。",
+"note": ""
+},
+"slight": {
+"parts": [],
+"story": "もとは「なめらかな・平らな」を表すゲルマン語から。平らで薄い→細い→「わずかな」。",
+"note": ""
+},
+"disorder": {
+"parts": [
+{
+"p": "dis-",
+"m": "〜でない"
+},
+{
+"p": "order",
+"m": "秩序"
+}
+],
+"story": "「秩序がないこと」→「混乱」「（体の）不調」。",
+"note": ""
+},
+"guilt": {
+"parts": [],
+"story": "古英語gylt「罪・あやまち」から。それ以前の由来ははっきりしない。",
+"note": ""
+},
+"overseas": {
+"parts": [
+{
+"p": "over",
+"m": "越えて"
+},
+{
+"p": "sea",
+"m": "海"
+}
+],
+"story": "「海を越えて」→「海外へ・海外の」。",
+"note": ""
+},
+"uneasy": {
+"parts": [
+{
+"p": "un-",
+"m": "〜でない"
+},
+{
+"p": "easy",
+"m": "楽な"
+}
+],
+"story": "「気が楽でない」→「不安な・落ち着かない」。",
+"note": ""
+},
+"approval": {
+"parts": [
+{
+"p": "approve",
+"m": "良いと認める"
+},
+{
+"p": "-al",
+"m": "名詞語尾"
+}
+],
+"story": "approve（ラテン語「良いと認める」）の名詞形→「賛成・承認」。",
+"note": ""
+},
+"elementary": {
+"parts": [
+{
+"p": "element",
+"m": "基本要素"
+},
+{
+"p": "-ary",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語elementum「基本になるもの」から→「初歩の・基本の」。",
+"note": ""
+},
+"mild": {
+"parts": [],
+"story": "古英語milde「おだやかな・やさしい」から。",
+"note": ""
+},
+"crop": {
+"parts": [],
+"story": "古英語cropp「植物の先・穂」から。刈り取る部分→「作物・収穫」。先を切り取る→「刈り込む」。",
+"note": ""
+},
+"significantly": {
+"parts": [
+{
+"p": "sign",
+"m": "印"
+},
+{
+"p": "fic",
+"m": "作る"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "ラテン語significare「印で示す」から。意味がある→重要な→「著しく」。",
+"note": ""
+},
+"largely": {
+"parts": [
+{
+"p": "large",
+"m": "大きい"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "「大きな部分で」→「主として」。",
+"note": ""
+},
+"shortage": {
+"parts": [
+{
+"p": "short",
+"m": "足りない"
+},
+{
+"p": "-age",
+"m": "名詞語尾"
+}
+],
+"story": "「足りない状態」→「不足」。",
+"note": ""
+},
+"drought": {
+"parts": [
+{
+"p": "dry",
+"m": "乾いた"
+},
+{
+"p": "-th",
+"m": "名詞語尾"
+}
+],
+"story": "古英語drugath「乾いていること」から。dryの名詞形→「干ばつ」。",
+"note": ""
+},
+"partly": {
+"parts": [
+{
+"p": "part",
+"m": "部分"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "「部分的に」→「一部は」。",
+"note": ""
+},
+"outstanding": {
+"parts": [
+{
+"p": "out",
+"m": "外へ"
+},
+{
+"p": "stand",
+"m": "立つ"
+},
+{
+"p": "-ing",
+"m": "〜している"
+}
+],
+"story": "「外に突き出て立っている」→「目立つ・傑出した」。そのまま残っている→「未払いの」。",
+"note": ""
+},
+"roughly": {
+"parts": [
+{
+"p": "rough",
+"m": "粗い"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "「粗く」→「手荒く」「大ざっぱに・おおよそ」。",
+"note": ""
+},
+"odds": {
+"parts": [],
+"story": "odd（半端な・つり合わない）の複数形から。2つのものの差・不つり合い→勝ち目の差→「可能性・見込み」。",
+"note": ""
+},
+"bold": {
+"parts": [],
+"story": "古英語beald「勇敢な・自信のある」から→「大胆な」。",
+"note": ""
+},
+"possession": {
+"parts": [
+{
+"p": "possess",
+"m": "所有する"
+},
+{
+"p": "-ion",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語possidere（「主として座る」）から→「所有・所有物」。",
+"note": ""
+},
+"altogether": {
+"parts": [
+{
+"p": "al-",
+"m": "すべて"
+},
+{
+"p": "together",
+"m": "いっしょに"
+}
+],
+"story": "「すべていっしょに」→「全部で」「まったく」。",
+"note": ""
+},
+"overall": {
+"parts": [
+{
+"p": "over",
+"m": "越えて・覆って"
+},
+{
+"p": "all",
+"m": "すべて"
+}
+],
+"story": "「すべてを覆って」→「全体の・全般的に」。",
+"note": ""
+},
+"fulfill": {
+"parts": [
+{
+"p": "ful",
+"m": "いっぱいに(full)"
+},
+{
+"p": "fill",
+"m": "満たす"
+}
+],
+"story": "古英語fullfyllan「いっぱいに満たす」から。約束や条件を満たす→「果たす」。",
+"note": ""
+},
+"necessity": {
+"parts": [
+{
+"p": "necess",
+"m": "避けられない"
+},
+{
+"p": "-ity",
+"m": "名詞語尾"
+}
+],
+"story": "ラテン語necesse「譲れない・避けられない」から→「必要・必需品」。",
+"note": ""
+},
+"widespread": {
+"parts": [
+{
+"p": "wide",
+"m": "広く"
+},
+{
+"p": "spread",
+"m": "広がった"
+}
+],
+"story": "「広く広がった」→「広範囲にわたる」。",
+"note": ""
+},
+"feedback": {
+"parts": [
+{
+"p": "feed",
+"m": "送りこむ"
+},
+{
+"p": "back",
+"m": "戻して"
+}
+],
+"story": "出力の一部を入力に戻して送りこむこと。電子工学の用語から→「反応・意見」。",
+"note": ""
+},
+"ecosystem": {
+"parts": [
+{
+"p": "eco",
+"m": "すみか"
+},
+{
+"p": "system",
+"m": "体系"
+}
+],
+"story": "ギリシャ語oikos「家」から来たeco-とsystemの合成。1935年にイギリスの植物学者タンズリーが作った語。「生態系」。",
+"note": ""
+},
+"boost": {
+"parts": [],
+"story": "由来ははっきりしない。19世紀初めのアメリカで使われ始めた→「押し上げる」。",
+"note": ""
+},
+"whereas": {
+"parts": [
+{
+"p": "where",
+"m": "そこでは"
+},
+{
+"p": "as",
+"m": "〜なので"
+}
+],
+"story": "もとは法律文で「〜という事情なので」。そこから2つを比べて→「〜であるのに対して」。",
+"note": ""
+},
+"clumsy": {
+"parts": [],
+"story": "clumse「かじかんだ」という古い語から。寒さで手がかじかんで動かない→「不器用な」。",
+"note": ""
+},
+"awareness": {
+"parts": [
+{
+"p": "aware",
+"m": "気づいている"
+},
+{
+"p": "-ness",
+"m": "名詞語尾"
+}
+],
+"story": "「気づいていること」→「意識・認識」。",
+"note": ""
+},
+"meanwhile": {
+"parts": [
+{
+"p": "mean",
+"m": "中間の"
+},
+{
+"p": "while",
+"m": "時間"
+}
+],
+"story": "「間の時間に」→「その間に・一方では」。",
+"note": ""
+},
+"unfamiliar": {
+"parts": [
+{
+"p": "un-",
+"m": "〜でない"
+},
+{
+"p": "familiar",
+"m": "よく知っている"
+}
+],
+"story": "familiarはfamily（家族）と同じ語源で「家族のように親しい」。その否定→「よく知らない」。",
+"note": ""
+},
+"representative": {
+"parts": [
+{
+"p": "re-",
+"m": "再び"
+},
+{
+"p": "present",
+"m": "目の前に示す"
+},
+{
+"p": "-ative",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語repraesentare「目の前に示す」から。本人の代わりに姿を示す人→「代表者・代表的な」。",
+"note": ""
+},
+"steadily": {
+"parts": [
+{
+"p": "steady",
+"m": "着実な"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "steady（その場にしっかりある）の副詞形→「着実に」。",
+"note": ""
+},
+"arise": {
+"parts": [
+{
+"p": "a-",
+"m": "上へ・外へ"
+},
+{
+"p": "rise",
+"m": "上がる"
+}
+],
+"story": "古英語arisan「立ち上がる」から。立ち現れる→「（問題などが）起こる」。",
+"note": ""
+},
+"renewable": {
+"parts": [
+{
+"p": "re-",
+"m": "再び"
+},
+{
+"p": "new",
+"m": "新しい"
+},
+{
+"p": "-able",
+"m": "〜できる"
+}
+],
+"story": "「再び新しくできる」→「再生可能な・更新できる」。",
+"note": ""
+},
+"renew": {
+"parts": [
+{
+"p": "re-",
+"m": "再び"
+},
+{
+"p": "new",
+"m": "新しい"
+}
+],
+"story": "「再び新しくする」→「更新する・再開する」。",
+"note": ""
+},
+"replacement": {
+"parts": [
+{
+"p": "re-",
+"m": "再び"
+},
+{
+"p": "place",
+"m": "置く"
+},
+{
+"p": "-ment",
+"m": "名詞語尾"
+}
+],
+"story": "「元の場所に置き直すこと」→「取り替え・代わりの人や物」。",
+"note": ""
+},
+"settlement": {
+"parts": [
+{
+"p": "settle",
+"m": "落ち着かせる"
+},
+{
+"p": "-ment",
+"m": "名詞語尾"
+}
+],
+"story": "settle（古英語「座席」から）の名詞形→「解決」「入植地」。",
+"note": ""
+},
+"beforehand": {
+"parts": [
+{
+"p": "before",
+"m": "前に"
+},
+{
+"p": "hand",
+"m": "手"
+}
+],
+"story": "「手を出す前に」→「前もって」。",
+"note": ""
+},
+"tackle": {
+"parts": [],
+"story": "中期オランダ語takel「船の綱や道具」から→「道具一式」。道具でつかむ→「組みつく」「（問題に）取り組む」。",
+"note": ""
+},
+"prosperous": {
+"parts": [
+{
+"p": "pro-",
+"m": "〜のとおりに"
+},
+{
+"p": "sper",
+"m": "望み"
+},
+{
+"p": "-ous",
+"m": "形容詞語尾"
+}
+],
+"story": "ラテン語prosperus「望みどおりに運ぶ」から→「繁栄している」。",
+"note": ""
+},
+"characteristic": {
+"parts": [
+{
+"p": "character",
+"m": "刻印・特徴"
+},
+{
+"p": "-istic",
+"m": "形容詞語尾"
+}
+],
+"story": "ギリシャ語kharakter「刻みつけた印」から。そのものに刻まれた印→「特徴・特有の」。",
+"note": ""
+},
+"considerably": {
+"parts": [
+{
+"p": "considerable",
+"m": "かなりの"
+},
+{
+"p": "-ly",
+"m": "副詞語尾"
+}
+],
+"story": "「考慮に値するほど」→「かなり」。",
+"note": ""
+},
+"interact": {
+"parts": [
+{
+"p": "inter-",
+"m": "互いに"
+},
+{
+"p": "act",
+"m": "作用する"
+}
+],
+"story": "「互いに作用する」→「交流する・相互に作用する」。",
+"note": ""
+},
+"myth": {
+"parts": [],
+"story": "ギリシャ語mythos「言葉・語られた話」から→「神話」「根拠のない通説」。",
+"note": ""
+}
+}

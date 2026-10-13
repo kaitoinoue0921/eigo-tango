@@ -80,6 +80,67 @@ def plain_summary(means):
     return m.strip()[:40]
 
 
+# ---------- 語義と例文の対応づけ ----------
+MAX_SENSES = 14        # 1ページに出す語義の数
+MAX_SENSE_EX = 6       # 例文を添える語義の数（1語義につき1文）
+# 1文字だけでは語義の決め手にならない、ありふれた漢字
+WEAK_KANJI = set("人物事者方目手上下中出来行見言思大小本時間気何分自的性化用所内外前後高長新古多少同日月年一二三生地心力体合取付入立持")
+
+def sense_blocks(means):
+    blocks = []
+    for m in means:
+        blocks += [b.strip() for b in m.split(" / ") if b.strip()]
+    return blocks[:MAX_SENSES]
+
+_ROWS = ["かきくけこい", "がぎぐげごい", "さしすせそ", "たちつてとっ", "なにぬねのん", "ばびぶべぼん",
+         "まみむめもん", "らりるれろっ", "わいうえおっ"]
+_KJ = "一-鿿々"
+
+def _term_key(term):
+    """語義の1語から (正規表現, 重み) を作る。決め手にならない語は None。"""
+    if re.fullmatch(f"[{_KJ}]{{2,}}", term):                       # 断念 / 立候補
+        return re.escape(term), len(term) * 2
+    m = re.fullmatch(f"([{_KJ}]+)([ぁ-ん]+)", term)
+    if m:
+        stem, oku = m.groups()
+        if len(stem) >= 2:                                         # 断念する / 継続する
+            return re.escape(stem), len(stem) * 2
+        if stem in WEAK_KANJI: return None
+        c = oku[0]                                                 # 走る / 急ぐ / 支える / 高い
+        nxt = "いくかさけ" if oku == "い" else next((r for r in _ROWS if c in r), c)
+        if len(oku) > 1: nxt = c                                   # 支える→支え、捨てる→捨て
+        return f"(?<![{_KJ}]){stem}[{nxt}]", 2
+    if re.fullmatch(f"[{_KJ}]", term):                             # 春 / 熊 など1文字の名詞
+        return (f"(?<![{_KJ}]){term}(?![{_KJ}])", 1) if term not in WEAK_KANJI else None
+    if re.search(f"[{_KJ}]", term):                                # 売り方 / 走り去る / 持って行く
+        t = re.sub(r"[るうくすつむぐぶぬい]$", "", term) if re.search(r"[ぁ-ん]$", term) else term
+        return (re.escape(t), len(t)) if len(t) >= 3 else None
+    if re.fullmatch(r"[ァ-ヶー]{2,}", term):                        # クマ / ばね は前後に同じ文字種が続かないこと
+        return f"(?<![ァ-ヶー]){re.escape(term)}(?![ァ-ヶー])", len(term)
+    if re.fullmatch(r"[ぁ-ん]{4,}", term):
+        stem = re.sub(r"(する|である|な|に|い|る|う|く|す|つ|む)$", "", term)
+        return (re.escape(stem), len(stem)) if len(stem) >= 3 else None
+    return None
+
+def sense_keys(block):
+    """語義の日本語から、和訳に出てきそうな手がかり（正規表現と重み）を取り出す。"""
+    t = re.sub(r"《[^》]*》|〈[^〉]*〉|\([^)]*\)|（[^）]*）", " ", block)
+    t = re.sub(r"[『』…]", "", t)
+    keys = {}
+    for term in re.split(r"[,;、，；/\s・]+", t):
+        term = re.sub(r"^[をにがとでへの]+", "", term.strip())
+        k = _term_key(term) if term else None
+        if k: keys[k[0]] = max(keys.get(k[0], 0), k[1])
+    return [(re.compile(rx), wt) for rx, wt in keys.items()]
+
+def match_sense(jp, keysets):
+    """和訳に最もよく合う語義の番号と点数。合うものが無ければ (None, 0)。"""
+    top, at = 0, None
+    for k, ks in enumerate(keysets):
+        sc = max((wt for rx, wt in ks if rx.search(jp)), default=0)
+        if sc > top: top, at = sc, k
+    return at, top
+
 # ---------- カタカナ語 ----------
 def load_kata():
     d = {}
@@ -238,7 +299,22 @@ def main():
             if len(pick) >= MAX_EX: break
             pick.append(i)
         means = ej[w]
-        words[w] = dict(w=w, rank=rank[w], means=means, ex=pick, ipa=cmu.get(w),
+        blocks = sense_blocks(means)
+        sx = {}
+        if len(blocks) == 1:
+            sx = {0: pick[:]}
+        elif ids:
+            keysets = [sense_keys(b) for b in blocks]
+            best = {}
+            for i in ids[:300]:
+                k, sc = match_sense(pairs[i], keysets)
+                if k is not None and sc > best.get(k, (0, None))[0]:
+                    best[k] = (sc, i)
+            for k in sorted(best)[:MAX_SENSE_EX]:
+                sx[k] = [best[k][1]]
+        used = {i for v in sx.values() for i in v}
+        rest = [i for i in pick if i not in used][:max(0, MAX_EX - len(used))]
+        words[w] = dict(w=w, rank=rank[w], means=means, ex=pick, sx=sx, rest=rest, ipa=cmu.get(w),
                         summary=plain_summary(means), terms=key_terms(means), exam=EXAM_TAG.get(w))
 
     if os.environ.get("EXPORT_DB"):
@@ -292,9 +368,34 @@ def export_db(path, words, eng, pairs, form_of):
     print("exported", path, os.path.getsize(path) // 1024, "KB")
 
 # ---------- HTML ----------
+# トップ・about・privacy に付けるOGPと構造化データ（単語ページには付けていない）
+SEO_PAGES = ("", "about.html", "privacy.html")
+def seo_head(title, desc, canon, is_top):
+    if is_top:
+        ld = {"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": BASE_URL + "/",
+              "inLanguage": "ja", "description": desc}
+    else:
+        ld = {"@context": "https://schema.org", "@type": "WebPage", "name": title, "url": canon, "inLanguage": "ja",
+              "isPartOf": {"@type": "WebSite", "name": SITE, "url": BASE_URL + "/"}}
+    return f"""
+<!-- seo-boost -->
+<meta name="theme-color" content="#14532d">
+<meta property="og:type" content="{'website' if is_top else 'article'}">
+<meta property="og:site_name" content="{SITE}">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:url" content="{esc(canon)}">
+<meta property="og:image" content="{BASE_URL}/assets/ogp.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>"""
+
 def head(title, desc, path, extra=""):
     canon = f"{BASE_URL}/{path}".rstrip("/") if path else BASE_URL + "/"
     up = "../" * path.count("/")
+    if path in SEO_PAGES:
+        extra += seo_head(title, desc, canon, path == "")
     return f"""<!doctype html>
 <html lang="ja">
 <head>
@@ -357,6 +458,19 @@ def load_etym_ja():
             d.update(json.load(open(f, encoding="utf-8")))
         _ETJA["d"] = d
     return _ETJA["d"]
+
+_EXX = {}
+def load_examples_extra():
+    """Tatoebaに例文が無い語のために書き下ろした例文(tools/content/examples_extra*.tsv: 語\t英文\t和訳)。"""
+    if not _EXX:
+        d = {}
+        import glob
+        for f in sorted(glob.glob(os.path.join(ROOT, "tools", "content", "examples_extra*.tsv"))):
+            for line in open(f, encoding="utf-8"):
+                p = line.rstrip("\n").split("\t")
+                if len(p) == 3: d.setdefault(p[0], []).append((p[1], p[2]))
+        _EXX["d"] = d
+    return _EXX["d"]
 
 def story_flow_html(story):
     """語源の説明文（『→』でつなげて書いてある）を、矢印つきのチップの並びで見せる。
@@ -435,23 +549,35 @@ def word_page(x, words, order, pos, eng, pairs, form_of):
     if terms_line and not (exam and terms_line == x["summary"]):
         h += f'<p class="core"><span>要点</span>{esc(terms_line)}</p>\n'
     h += '<h2>意味</h2>\n'
-    blocks = []
-    for m in x["means"]:
-        blocks += [b.strip() for b in m.split(" / ") if b.strip()]
+    blocks = sense_blocks(x["means"])
+    fx = {f for f, b in form_of.items() if b == w}
+    def ex_li(en, jp, sid=None):
+        src = (f'<p class="src"><a href="https://tatoeba.org/ja/sentences/show/{sid}" rel="nofollow noopener">Tatoeba #{sid}</a></p>'
+               if sid else "")
+        return f'<li><p class="en">{hl(en, w, fx)}</p><p class="ja">{esc(jp)}</p>{src}</li>\n'
+    under = {k: [ex_li(eng[i], pairs[i], i) for i in v] for k, v in x["sx"].items()}
+    below = [ex_li(eng[i], pairs[i], i) for i in x["rest"]]
+    # 書き下ろしの例文（Tatoebaに例文が足りない語）も、合う語義の下に置く
+    n_tatoeba = sum(len(v) for v in under.values()) + len(below)
+    own = load_examples_extra().get(w, [])[:max(0, MAX_EX - n_tatoeba)]
+    keysets = [sense_keys(b) for b in blocks] if own else []
+    for en, jp in own:
+        k = 0 if len(blocks) == 1 else match_sense(jp, keysets)[0]
+        if k is None: below.append(ex_li(en, jp))
+        else: under.setdefault(k, []).append(ex_li(en, jp))
     h += '<ol class="senses">\n'
-    for b in blocks[:14]:
+    for k, b in enumerate(blocks):
         parts = split_bullets(b)
-        h += "<li>" + "<br>".join(fmt_sense(p) for p in parts[:10]) + "</li>\n"
+        h += "<li>" + "<br>".join(fmt_sense(p) for p in parts[:10])
+        if k in under:
+            h += '\n<ul class="ex">\n' + "".join(under[k]) + "</ul>\n"
+        h += "</li>\n"
     h += "</ol>\n"
-    if len(blocks) > 14:
+    if sum(len([b.strip() for b in m.split(" / ") if b.strip()]) for m in x["means"]) > MAX_SENSES:
         h += '<p class="small">※ 一部の語義を省略しています。</p>\n'
     h += '<div class="adslot" data-slot="mid"></div>\n'
-    if x["ex"]:
-        fx = {f for f, b in form_of.items() if b == w}
-        h += "<h2>例文</h2>\n<ul class=\"ex\">\n"
-        for sid in x["ex"]:
-            h += f'<li><p class="en">{hl(eng[sid], w, fx)}</p><p class="ja">{esc(pairs[sid])}</p><p class="src"><a href="https://tatoeba.org/ja/sentences/show/{sid}" rel="nofollow noopener">Tatoeba #{sid}</a></p></li>\n'
-        h += "</ul>\n"
+    if below:
+        h += f"<h2>{'その他の例文' if under else '例文'}</h2>\n<ul class=\"ex\">\n" + "".join(below) + "</ul>\n"
     h += etym_html(w)
     alpha0 = _ALPHA.setdefault("a", sorted(words))
     import bisect
@@ -565,7 +691,7 @@ def build_site(words, eng, pairs, form_of):
 <h2>データの出典</h2>
 <ul>
 <li><b>語義</b>: <a href="https://github.com/kujirahand/EJDict" rel="noopener">EJDict-hand</a>（パブリックドメイン／CC0）。収録語義は簡潔なため、辞書としての網羅性は市販の辞書に及びません。</li>
-<li><b>例文</b>: <a href="https://tatoeba.org/" rel="noopener">Tatoeba</a> プロジェクトの投稿文（<a href="https://creativecommons.org/licenses/by/2.0/fr/" rel="noopener">CC BY 2.0 FR</a>）。各例文のリンクから原文と投稿者を確認できます。例文はユーザー投稿のため、不自然な表現を含む場合があります。</li>
+<li><b>例文</b>: <a href="https://tatoeba.org/" rel="noopener">Tatoeba</a> プロジェクトの投稿文（<a href="https://creativecommons.org/licenses/by/2.0/fr/" rel="noopener">CC BY 2.0 FR</a>）。各例文のリンクから原文と投稿者を確認できます。例文はユーザー投稿のため、不自然な表現を含む場合があります。Tatoebaに例文が無い単語には、当サイトで書いた例文（出典リンクの無いもの）を載せています。</li>
 <li><b>頻度</b>: Tatoeba の英文中の出現頻度から算出しています。一般的な英語全体の頻度とは異なる場合があります。</li>
 <li><b>語源</b>: <a href="https://en.wiktionary.org/" rel="noopener">Wiktionary</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja" rel="noopener">CC BY-SA 4.0</a>）の語源欄を、加工せず原文（英語）のまま一部抜粋して掲載しています。各ページのリンクから原典と編集履歴を確認できます。</li>
 <li><b>発音記号</b>: <a href="https://github.com/cmusphinx/cmudict" rel="noopener">CMU Pronouncing Dictionary</a>（米国発音）から自動変換しています。Copyright (C) 1993-2015 Carnegie Mellon University. All rights reserved.</li>
