@@ -11,7 +11,7 @@
   実装は `tools/build.py` の `sense_keys()` `match_sense()`。例文のある12,075ページのうち9,867ページで語義の下に例文が付いた。
 - 2026-10-13 にコミットして公開済み（batch4 も同日に公開）。
 
-## 2026-10-15 医学英語リスト追加（未コミット・未公開）
+## 2026-10-15 医学英語リスト追加（10/15コミット・公開済み）
 - 脳転移の放射線治療後嚢胞の症例報告(J Neurosurg Case Lessons CASE22462)から医学語140語を拾い、`tools/data/igaku_words.json` と build.py の EXAM_LISTS に「医学英語」リストとして追加。`list/igaku.html` ができ、新規ページ132語(15065→15197)。
 - EJDict に無い語・医学の意味が無い語(necrosis=壊疽だけ等)は `tools/data/ejdict_extra.txt` 末尾に語義を足した。
 - 新しい語には例文と語源がまだ無い。論文の文は転載しない（自作例文を examples_extra に足す）。
