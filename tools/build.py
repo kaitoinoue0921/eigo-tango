@@ -163,6 +163,8 @@ EXAM_LISTS = [
      "title": "TOEFLレベルの単語", "desc": "TOEFLの講義・学術文献でよく使われるアカデミックな単語をまとめました。"},
     {"key": "juken", "label": "大学受験", "file": "juken_words.json",
      "title": "大学受験英語の単語", "desc": "共通テスト〜MARCH・地方国公立レベルの長文読解に出てきそうな単語をまとめました。"},
+    {"key": "igaku", "label": "医学英語", "file": "igaku_words.json",
+     "title": "医学英語の単語", "desc": "医学論文・症例報告を読むときに出てくる単語をまとめました。"},
 ]
 EXAM_TAG = {}      # word -> [(key, label, note), ...]
 
