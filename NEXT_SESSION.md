@@ -16,7 +16,7 @@
 - EJDict に無い語・医学の意味が無い語(necrosis=壊疽だけ等)は `tools/data/ejdict_extra.txt` 末尾に語義を足した。
 - 新しい語には例文と語源がまだ無い。論文の文は転載しない（自作例文を examples_extra に足す）。
 - 10/15 続き: 例文ゼロだった126語と、医学の意味の例文が無かった11語(tumor, resonance, weighted, enhancement 等)に書き下ろし例文137文を `tools/content/examples_extra_4.tsv` に追加。137文すべて語義の直下に付いた。
-  語義に合わなかった語のため、ejdict_extra.txt に lesion=病変、parietal=頭頂の、inhibitor=阻害薬、palliative=緩和的な を追記。コミット済み、push(公開)は本人確認待ち。
+  語義に合わなかった語のため、ejdict_extra.txt に lesion=病変、parietal=頭頂の、inhibitor=阻害薬、palliative=緩和的な を追記。10/15 push・公開済み。
 
 ## 決定事項と理由
 - 語義との照合は取りこぼしより誤りを避ける方に倒した。漢字1文字の動詞は活用形まで一致したときだけ採る（「運ぶ」に「運転」の文が付くのを防ぐため）。
