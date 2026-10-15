@@ -1,0 +1,739 @@
+{
+ "additionally": {
+  "parts": [
+   {
+    "p": "ad",
+    "m": "〜へ"
+   },
+   {
+    "p": "d",
+    "m": "与える"
+   },
+   {
+    "p": "-ition",
+    "m": "名詞語尾"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   },
+   {
+    "p": "-ly",
+    "m": "副詞語尾"
+   }
+  ],
+  "story": "addはラテン語addere「〜へ与える」から。付け加える→addition（追加）→additional（追加の）→「加えて・さらに」。",
+  "note": "data・donateのd/donも「与える」。"
+ },
+ "adolescent": {
+  "parts": [
+   {
+    "p": "ad",
+    "m": "〜へ"
+   },
+   {
+    "p": "olesc",
+    "m": "育っていく"
+   },
+   {
+    "p": "-ent",
+    "m": "〜している"
+   }
+  ],
+  "story": "ラテン語adolescere「育って大人になる」の現在分詞。いま育っている途中の人→「青年期の・思春期の若者」。",
+  "note": "同じ動詞の過去分詞がadult（育ちきった→大人）。"
+ },
+ "approximate": {
+  "parts": [
+   {
+    "p": "ap(ad)",
+    "m": "〜へ"
+   },
+   {
+    "p": "proxim",
+    "m": "いちばん近い"
+   },
+   {
+    "p": "-ate",
+    "m": "動詞・形容詞語尾"
+   }
+  ],
+  "story": "ラテン語approximare「すぐそばまで近づく」から。ほぼそこまで近づいた→「おおよその・近似の」「近づく」。",
+  "note": "proximity（近さ）も同じproxim。"
+ },
+ "ascribe": {
+  "parts": [
+   {
+    "p": "a(ad)",
+    "m": "〜へ"
+   },
+   {
+    "p": "scribe",
+    "m": "書く"
+   }
+  ],
+  "story": "ラテン語ascribere「〜のところに書き添える」から。結果の横に原因や作者の名を書き込む→「〜のせいにする・〜に帰する」。",
+  "note": "describe・prescribe・scriptのscrib/scriptも「書く」。"
+ },
+ "cite": {
+  "parts": [
+   {
+    "p": "cite",
+    "m": "動かす・呼び出す"
+   }
+  ],
+  "story": "ラテン語citare「動かす・呼び出す」から。法廷に証人を呼び出す→証拠として持ち出す→「引用する・例に挙げる」。",
+  "note": "excite（外へ動かす→興奮させる）・recite（再び呼び出す→暗唱する）も同じ語。"
+ },
+ "classify": {
+  "parts": [
+   {
+    "p": "class",
+    "m": "区分・等級"
+   },
+   {
+    "p": "-ify",
+    "m": "〜にする"
+   }
+  ],
+  "story": "classはラテン語classis「（古代ローマ市民の）階級区分」から。区分に分ける→「分類する」。",
+  "note": "-ifyはラテン語facere「する・作る」から。simplify・identifyも同じ。"
+ },
+ "compile": {
+  "parts": [
+   {
+    "p": "com",
+    "m": "共に"
+   },
+   {
+    "p": "pile",
+    "m": "奪う（とされる）"
+   }
+  ],
+  "story": "ラテン語compilare「略奪する」から。あちこちから奪い集める→他の書物から材料を寄せ集める→「編集する・まとめる」。",
+  "note": "-pileの元の意味ははっきりしない。積み重ねるpileとは別の語。"
+ },
+ "comprise": {
+  "parts": [
+   {
+    "p": "com",
+    "m": "すっかり"
+   },
+   {
+    "p": "prise",
+    "m": "つかむ"
+   }
+  ],
+  "story": "フランス語comprendre（ラテン語comprehendere「すっかりつかむ」）の過去分詞compris から。全部をつかんで含んでいる→「〜から成る・〜を含む」。",
+  "note": "comprehend（理解する）・prison（捕まえておく所）と同じ「つかむ」。"
+ },
+ "criterion": {
+  "parts": [
+   {
+    "p": "crit",
+    "m": "判断する"
+   },
+   {
+    "p": "-erion",
+    "m": "手段を表す語尾"
+   }
+  ],
+  "story": "ギリシャ語kritērion「判断するための手段」から。判断のものさし→「基準・尺度」。複数形はcriteria。",
+  "note": "critic（批評家）・crisis（分かれ目）も同じギリシャ語krinein「判断する・分ける」から。"
+ },
+ "descendant": {
+  "parts": [
+   {
+    "p": "de",
+    "m": "下へ"
+   },
+   {
+    "p": "scend",
+    "m": "登る・進む"
+   },
+   {
+    "p": "-ant",
+    "m": "〜する人"
+   }
+  ],
+  "story": "ラテン語descendere「下っていく」の現在分詞から。家系図を下っていく者→「子孫」。",
+  "note": "ascend（上へ登る）の反対。ancestor（先に行った者→祖先）と対で覚える。"
+ },
+ "designate": {
+  "parts": [
+   {
+    "p": "de",
+    "m": "はっきりと"
+   },
+   {
+    "p": "sign",
+    "m": "印"
+   },
+   {
+    "p": "-ate",
+    "m": "動詞語尾"
+   }
+  ],
+  "story": "ラテン語designare「印をつけて示す」から。これだと印をつける→「指定する・任命する」。",
+  "note": "design（設計）も同じdesignareから。sign・signalも「印」。"
+ },
+ "devise": {
+  "parts": [
+   {
+    "p": "de(di)",
+    "m": "離して"
+   },
+   {
+    "p": "vise",
+    "m": "分ける"
+   }
+  ],
+  "story": "ラテン語dividere「分ける」が古フランス語deviser「分ける・整える」になった。物事を分けて整理する→段取りをつける→「考案する・工夫する」。",
+  "note": "device（工夫したもの→装置）・divide（分ける）と同じ語から。"
+ },
+ "discard": {
+  "parts": [
+   {
+    "p": "dis",
+    "m": "離して"
+   },
+   {
+    "p": "card",
+    "m": "トランプの札"
+   }
+  ],
+  "story": "もとはトランプで手札を捨てること。いらない札を手放す→「（不要なものを）捨てる・処分する」。",
+  "note": "スペイン語descartarも同じ発想の語。"
+ },
+ "discriminate": {
+  "parts": [
+   {
+    "p": "dis",
+    "m": "離して"
+   },
+   {
+    "p": "crimin",
+    "m": "分け目"
+   },
+   {
+    "p": "-ate",
+    "m": "動詞語尾"
+   }
+  ],
+  "story": "ラテン語discrimen「分け目・区別」から。はっきり分ける→「見分ける・区別する」→人を分け隔てする→「差別する」。",
+  "note": "discern（見分ける）・crisis・criterionと同じく「分ける」がもと。"
+ },
+ "distort": {
+  "parts": [
+   {
+    "p": "dis",
+    "m": "ばらばらに"
+   },
+   {
+    "p": "tort",
+    "m": "ねじる"
+   }
+  ],
+  "story": "ラテン語distorquere「ねじ曲げる」の過去分詞から。形をねじ曲げる→事実をねじ曲げる→「ゆがめる・歪曲する」。",
+  "note": "torture（ねじって苦しめる→拷問）も同じtort。"
+ },
+ "divert": {
+  "parts": [
+   {
+    "p": "di(dis)",
+    "m": "わきへ"
+   },
+   {
+    "p": "vert",
+    "m": "向ける"
+   }
+  ],
+  "story": "ラテン語divertere「わきへ向ける」から。進む向きをそらす→「（注意・流れを）そらす・転用する」。気をそらして楽しませる意味も出た。",
+  "note": "convert（変える）・reverse（逆にする）のvert/versも「向ける・回す」。"
+ },
+ "endanger": {
+  "parts": [
+   {
+    "p": "en",
+    "m": "〜の状態にする"
+   },
+   {
+    "p": "danger",
+    "m": "危険"
+   }
+  ],
+  "story": "危険な状態に置く→「危険にさらす」。endangered species（絶滅危惧種）でよく使う。",
+  "note": "dangerはもと古フランス語dangier「（領主の）支配力」。人の手中にある→危うい、と意味が移った。"
+ },
+ "equip": {
+  "parts": [
+   {
+    "p": "equip",
+    "m": "船に人を乗せる"
+   }
+  ],
+  "story": "フランス語équiper「（船を）装備する」から。さらに古ノルド語skipa「船に人と物を整える」にさかのぼるとされる。船出の支度→「装備させる・備えつける」。",
+  "note": "ship（船）と同じ語源。equipment（装備）。"
+ },
+ "eventual": {
+  "parts": [
+   {
+    "p": "e(ex)",
+    "m": "外へ"
+   },
+   {
+    "p": "vent",
+    "m": "来る"
+   },
+   {
+    "p": "-ual",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "eventはラテン語evenire「外へ出て来る」から。最後に出て来る結果の→「最終的な・ゆくゆくの」。",
+  "note": "eventually（結局）はこの副詞形。"
+ },
+ "evoke": {
+  "parts": [
+   {
+    "p": "e(ex)",
+    "m": "外へ"
+   },
+   {
+    "p": "voke",
+    "m": "呼ぶ"
+   }
+  ],
+  "story": "ラテン語evocare「外へ呼び出す」から。心の奥から呼び出す→「（感情・記憶を）呼び起こす」。",
+  "note": "voice・vocabulary・provokeのvoc/vokも「声・呼ぶ」。"
+ },
+ "facilitate": {
+  "parts": [
+   {
+    "p": "facil",
+    "m": "容易な"
+   },
+   {
+    "p": "-itate",
+    "m": "動詞語尾"
+   }
+  ],
+  "story": "ラテン語facilis「たやすい（するのが楽な）」から。物事をやりやすくする→「促進する・容易にする」。",
+  "note": "facilisはfacere「する」から。facility（設備＝物事を楽にするもの）も同じ。"
+ },
+ "fragment": {
+  "parts": [
+   {
+    "p": "frag",
+    "m": "壊す"
+   },
+   {
+    "p": "-ment",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語fragmentum（frangere「壊す」から）。壊れて残ったもの→「破片・断片」。",
+  "note": "fragile（壊れやすい）・fraction（分数・一部）も同じ「壊す」。"
+ },
+ "frustrate": {
+  "parts": [
+   {
+    "p": "frustr",
+    "m": "むだに"
+   },
+   {
+    "p": "-ate",
+    "m": "動詞語尾"
+   }
+  ],
+  "story": "ラテン語frustra「むだに・空しく」から、frustrari「欺く・期待を裏切る」。努力をむだにさせる→「挫折させる・いらだたせる」。",
+  "note": "frustration（欲求不満）。"
+ },
+ "guideline": {
+  "parts": [
+   {
+    "p": "guide",
+    "m": "導く"
+   },
+   {
+    "p": "line",
+    "m": "線"
+   }
+  ],
+  "story": "もとは文字や図をまっすぐ書くために引く下書きの線。進む方向を示す線→「指針・ガイドライン」。",
+  "note": ""
+ },
+ "hierarchy": {
+  "parts": [
+   {
+    "p": "hier",
+    "m": "神聖な"
+   },
+   {
+    "p": "arch",
+    "m": "支配"
+   },
+   {
+    "p": "-y",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ギリシャ語hierarkhia「大祭司の支配」から。聖職者の上下の序列→一般の「階層・ヒエラルキー」。",
+  "note": "monarchy（一人の支配）・anarchy（支配なし）のarchyも「支配」。"
+ },
+ "incentive": {
+  "parts": [
+   {
+    "p": "in",
+    "m": "〜に向けて"
+   },
+   {
+    "p": "cent",
+    "m": "歌う"
+   },
+   {
+    "p": "-ive",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語incinere「（曲を）歌い始める・調子をつける」から、中世ラテン語incentivus「音頭をとる」。人を乗せる・駆り立てる→「刺激・動機づけ・奨励金」。",
+  "note": "chant（歌う）と同じcan「歌う」。incendere「火をつける」の影響もあったとされる。"
+ },
+ "infer": {
+  "parts": [
+   {
+    "p": "in",
+    "m": "中へ"
+   },
+   {
+    "p": "fer",
+    "m": "運ぶ"
+   }
+  ],
+  "story": "ラテン語inferre「運び込む」から。手がかりから結論を運び込む→「推論する・推測する」。",
+  "note": "transfer・prefer・offerのferも「運ぶ」。英語bear（運ぶ・耐える）と同じ祖先の語。"
+ },
+ "nutrient": {
+  "parts": [
+   {
+    "p": "nutri",
+    "m": "養う"
+   },
+   {
+    "p": "-ent",
+    "m": "〜するもの"
+   }
+  ],
+  "story": "ラテン語nutrire「乳を与える・養う」の現在分詞から。体を養うもの→「栄養素・養分」。",
+  "note": "nutrition（栄養）・nurse（乳母→看護師）・nourish（養う）も同じ語から。"
+ },
+ "oblige": {
+  "parts": [
+   {
+    "p": "ob",
+    "m": "〜に対して"
+   },
+   {
+    "p": "lige",
+    "m": "縛る"
+   }
+  ],
+  "story": "ラテン語obligare「縛りつける」から。約束や義務で縛る→「義務づける・余儀なくさせる」。恩で縛る→「恩恵を施す」（I'm obliged＝ありがたい）。",
+  "note": "religion・ligament（靭帯）のligも「縛る」。obligationは名詞形。"
+ },
+ "overwhelm": {
+  "parts": [
+   {
+    "p": "over",
+    "m": "上から"
+   },
+   {
+    "p": "whelm",
+    "m": "ひっくり返す・覆う"
+   }
+  ],
+  "story": "中英語whelmen「（器や舟を）ひっくり返す・覆いかぶせる」にoverがついた語。上からすっぽり覆う→「圧倒する・打ちのめす」。",
+  "note": "whelm単独ではほとんど使われない。"
+ },
+ "participant": {
+  "parts": [
+   {
+    "p": "parti",
+    "m": "部分"
+   },
+   {
+    "p": "cip",
+    "m": "取る"
+   },
+   {
+    "p": "-ant",
+    "m": "〜する人"
+   }
+  ],
+  "story": "ラテン語participare「分け前を取る」から。全体の一部分を受け持つ人→「参加者」。",
+  "note": "capture・acceptのcap/cepも「取る」。"
+ },
+ "pesticide": {
+  "parts": [
+   {
+    "p": "pest",
+    "m": "害虫"
+   },
+   {
+    "p": "-i-",
+    "m": "つなぎ"
+   },
+   {
+    "p": "-cide",
+    "m": "殺すもの"
+   }
+  ],
+  "story": "害虫を殺すもの→「殺虫剤・農薬」。20世紀にできた語。",
+  "note": "-cideはラテン語caedere「殺す」から。suicide・insecticide・genocideも同じ。"
+ },
+ "precaution": {
+  "parts": [
+   {
+    "p": "pre",
+    "m": "前もって"
+   },
+   {
+    "p": "caut",
+    "m": "用心する"
+   },
+   {
+    "p": "-ion",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語praecavere「前もって用心する」から。起こる前の用心→「予防措置・用心」。",
+  "note": "caution（用心）・cautious（用心深い）も同じcav/caut。"
+ },
+ "precede": {
+  "parts": [
+   {
+    "p": "pre",
+    "m": "前に"
+   },
+   {
+    "p": "cede",
+    "m": "行く"
+   }
+  ],
+  "story": "ラテン語praecedere「前を行く」から。時間・順序で先に来る→「先行する・〜より先に起こる」。",
+  "note": "proceed（前へ進む）・exceed（超えて行く）・precedent（先例）のced/ceedも「行く」。"
+ },
+ "primate": {
+  "parts": [
+   {
+    "p": "prim",
+    "m": "第一の"
+   },
+   {
+    "p": "-ate",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語primas「第一位の者」から。動物のうち最も上位にあると考えられた仲間→「霊長類」（1876年ごろから）。",
+  "note": "大文字で「大司教」の意味もある（第一位の聖職者）。prime・primaryも同じprim。"
+ },
+ "prohibit": {
+  "parts": [
+   {
+    "p": "pro",
+    "m": "前に"
+   },
+   {
+    "p": "hibit",
+    "m": "持つ・保つ"
+   }
+  ],
+  "story": "ラテン語prohibere「前に立ちはだかって押しとどめる」から。行く手をふさぐ→「禁止する・妨げる」。",
+  "note": "exhibit（外に持ち出す→展示する）・habit（持っているもの→習慣）のhib/habも「持つ」。"
+ },
+ "reinforce": {
+  "parts": [
+   {
+    "p": "re",
+    "m": "再び"
+   },
+   {
+    "p": "in(en)",
+    "m": "〜にする"
+   },
+   {
+    "p": "force",
+    "m": "力"
+   }
+  ],
+  "story": "古い語inforce（力を加える）にreがついた形で、フランス語renforcerの影響も受けた。さらに力を足す→「強化する・補強する」。",
+  "note": "force・fortress・effortも「強い」を表すラテン語fortisから。"
+ },
+ "rotate": {
+  "parts": [
+   {
+    "p": "rot",
+    "m": "車輪"
+   },
+   {
+    "p": "-ate",
+    "m": "動詞語尾"
+   }
+  ],
+  "story": "ラテン語rota「車輪」から、rotare「回す」。車輪のように回る→「回転する」→順番に回す→「交替する」。",
+  "note": "rotary（回転式の）・roll・roundも同じ系統。"
+ },
+ "scatter": {
+  "parts": [],
+  "story": "中英語scateren「まき散らす」から。shatter（粉々に砕く）の別形とする説が有力だが、由来ははっきりしない。ばらばらに飛ばす→「まき散らす・散らばる」。",
+  "note": ""
+ },
+ "simulate": {
+  "parts": [
+   {
+    "p": "simul",
+    "m": "似た"
+   },
+   {
+    "p": "-ate",
+    "m": "動詞語尾"
+   }
+  ],
+  "story": "ラテン語simulare「似せる・まねる・ふりをする」（similis「似た」から）。似せて作る→「模擬実験をする」、似せてふるまう→「ふりをする」。",
+  "note": "similar（似た）・simultaneous（同時の）・assimilateも同じ系統。"
+ },
+ "specialize": {
+  "parts": [
+   {
+    "p": "spec",
+    "m": "見る→種類"
+   },
+   {
+    "p": "-ial",
+    "m": "形容詞語尾"
+   },
+   {
+    "p": "-ize",
+    "m": "〜にする"
+   }
+  ],
+  "story": "specialはラテン語species「見た目→種類」から。ある種類だけのものにする→「専門にする・特化する」。",
+  "note": "species（種）・specific（特定の）も同じ。"
+ },
+ "specimen": {
+  "parts": [
+   {
+    "p": "speci",
+    "m": "見る"
+   },
+   {
+    "p": "-men",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語specimen「目印・見本」（specere「見る」から）。見て確かめるための一つ→「見本・標本・検体」。",
+  "note": "inspect・spectacleのspec/spectも「見る」。"
+ },
+ "spectator": {
+  "parts": [
+   {
+    "p": "spect",
+    "m": "見る"
+   },
+   {
+    "p": "-ator",
+    "m": "〜する人"
+   }
+  ],
+  "story": "ラテン語spectare「じっと見る」から。じっと見ている人→「観客・見物人」。",
+  "note": "spectacle（見もの）・prospect（前を見る→見込み）も同じspect。"
+ },
+ "supplement": {
+  "parts": [
+   {
+    "p": "sup(sub)",
+    "m": "下から"
+   },
+   {
+    "p": "ple",
+    "m": "満たす"
+   },
+   {
+    "p": "-ment",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語supplementum（supplere「足りない分を満たす」から）。不足を埋めるもの→「補足・補充・栄養補助食品」。",
+  "note": "supply（供給する）・complete（すっかり満たす）のple/plyも「満たす」。"
+ },
+ "suspend": {
+  "parts": [
+   {
+    "p": "sus(sub)",
+    "m": "下に"
+   },
+   {
+    "p": "pend",
+    "m": "つるす"
+   }
+  ],
+  "story": "ラテン語suspendere「下につるす」から。宙ぶらりんにする→決着させずに止めておく→「一時停止する・停学にする」。",
+  "note": "pendant（ペンダント）・depend（〜にぶら下がる→頼る）のpendも「つるす」。"
+ },
+ "transmit": {
+  "parts": [
+   {
+    "p": "trans",
+    "m": "越えて・向こうへ"
+   },
+   {
+    "p": "mit",
+    "m": "送る"
+   }
+  ],
+  "story": "ラテン語transmittere「向こうへ送る」から。こちらからあちらへ送る→「伝える・送信する・（病気を）うつす」。",
+  "note": "submit・admit・missionのmit/missも「送る」。"
+ },
+ "unify": {
+  "parts": [
+   {
+    "p": "uni",
+    "m": "一つ"
+   },
+   {
+    "p": "-fy",
+    "m": "〜にする"
+   }
+  ],
+  "story": "後期ラテン語unificare「一つにする」から→「統一する・一体化する」。",
+  "note": "unit・unique・universeのuniも「一つ」。"
+ },
+ "utilize": {
+  "parts": [
+   {
+    "p": "util",
+    "m": "役に立つ"
+   },
+   {
+    "p": "-ize",
+    "m": "〜にする"
+   }
+  ],
+  "story": "フランス語utiliser（ラテン語utilis「役に立つ」、uti「使う」から）。役に立つように使う→「利用する・活用する」。",
+  "note": "use・utility（公益事業・有用性）も同じuti「使う」から。"
+ },
+ "vacancy": {
+  "parts": [
+   {
+    "p": "vac",
+    "m": "空の"
+   },
+   {
+    "p": "-ancy",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "後期ラテン語vacantia（vacare「空いている」から）。空いていること→「空室・空席・欠員」。",
+  "note": "vacant（空いている）・vacation（仕事が空く→休暇）・vacuum（真空）も同じvac。"
+ }
+}
