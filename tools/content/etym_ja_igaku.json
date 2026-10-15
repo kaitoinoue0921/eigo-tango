@@ -1,0 +1,2209 @@
+{
+ "metastasis": {
+  "parts": [
+   {
+    "p": "meta-",
+    "m": "変化して・越えて"
+   },
+   {
+    "p": "stasis",
+    "m": "置くこと"
+   }
+  ],
+  "story": "ギリシャ語metastasis「場所を移すこと」→病気が体の別の場所へ移ること→「転移」。",
+  "note": "stasisはギリシャ語histanai「立てる、置く」から。systemのstも同じ。"
+ },
+ "metastatic": {
+  "parts": [
+   {
+    "p": "metasta(sis)",
+    "m": "転移"
+   },
+   {
+    "p": "-tic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "metastasisの形容詞形。ギリシャ語由来の-sisで終わる語は-ticで形容詞になる（analysis→analytic）。→「転移性の」。",
+  "note": ""
+ },
+ "metastasize": {
+  "parts": [
+   {
+    "p": "metasta(sis)",
+    "m": "転移"
+   },
+   {
+    "p": "-ize",
+    "m": "〜する"
+   }
+  ],
+  "story": "名詞metastasisに動詞を作る語尾-izeがついた形→「転移する」。",
+  "note": ""
+ },
+ "radiosurgery": {
+  "parts": [
+   {
+    "p": "radio",
+    "m": "放射線"
+   },
+   {
+    "p": "surgery",
+    "m": "手術"
+   }
+  ],
+  "story": "メスで切る代わりに放射線を一点に集めて病変を壊す→「放射線手術」。",
+  "note": "surgeryはギリシャ語kheirourgia「手でする仕事」（kheir手＋ergon仕事）から。"
+ },
+ "stereotactic": {
+  "parts": [
+   {
+    "p": "stereo",
+    "m": "立体の"
+   },
+   {
+    "p": "tact",
+    "m": "触れる"
+   },
+   {
+    "p": "-ic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "立体的に触れる→頭の中の位置を三次元の座標で決め、そこへ正確に器具や放射線を届ける→「定位的な」。",
+  "note": "contact・tactileのtactも「触れる」。"
+ },
+ "radiotherapy": {
+  "parts": [
+   {
+    "p": "radio",
+    "m": "放射線"
+   },
+   {
+    "p": "therapy",
+    "m": "治療"
+   }
+  ],
+  "story": "放射線による治療→「放射線治療」。",
+  "note": "therapyはギリシャ語therapeia「仕えること、世話をすること」から。"
+ },
+ "irradiation": {
+  "parts": [
+   {
+    "p": "ir-",
+    "m": "〜へ"
+   },
+   {
+    "p": "radi",
+    "m": "光線"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語irradiare「光を当てる」→光線を当てること→放射線を当てること→「照射」。",
+  "note": "radius（半径）のradiも「光線、車輪のスポーク」。"
+ },
+ "radionecrosis": {
+  "parts": [
+   {
+    "p": "radio",
+    "m": "放射線"
+   },
+   {
+    "p": "necr",
+    "m": "死"
+   },
+   {
+    "p": "-osis",
+    "m": "状態"
+   }
+  ],
+  "story": "放射線による組織の死→「放射線壊死」。",
+  "note": "-osisは病的な状態を表す語尾（fibrosis・thrombosis）。"
+ },
+ "fractionation": {
+  "parts": [
+   {
+    "p": "fract",
+    "m": "割る"
+   },
+   {
+    "p": "-ion",
+    "m": "名詞語尾"
+   },
+   {
+    "p": "-ation",
+    "m": "〜すること"
+   }
+  ],
+  "story": "ラテン語frangere「割る」→割れた一部分（fraction）→分けること→放射線の総量を何回にも分けて当てる→「分割照射」。",
+  "note": "fracture（骨折）・fragileのfract/fragも「割る」。"
+ },
+ "cyst": {
+  "parts": [
+   {
+    "p": "cyst",
+    "m": "袋"
+   }
+  ],
+  "story": "ギリシャ語kystis「袋、膀胱」→液体のたまった袋状のもの→「嚢胞」。",
+  "note": "cystitis（膀胱炎）・cholecystitis（胆嚢炎）のcystも「袋」。"
+ },
+ "cystic": {
+  "parts": [
+   {
+    "p": "cyst",
+    "m": "袋"
+   },
+   {
+    "p": "-ic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "嚢胞（cyst）の形容詞形→「嚢胞性の」。",
+  "note": "cystic fibrosisは「嚢胞性線維症」。"
+ },
+ "degeneration": {
+  "parts": [
+   {
+    "p": "de-",
+    "m": "離れて"
+   },
+   {
+    "p": "gener",
+    "m": "生まれ・種類"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語degenerare「生まれ（種族）から外れる」→本来の質が落ちる→組織の性質が変わって衰える→「変性」。",
+  "note": "general・generateのgenerも「生まれ・種類」。"
+ },
+ "sequela": {
+  "parts": [
+   {
+    "p": "sequ",
+    "m": "続く"
+   },
+   {
+    "p": "-ela",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語sequela「後に続くもの」→病気やけがの後に残る状態→「後遺症、続発症」。",
+  "note": "複数形はsequelae。sequence・consequenceのsequも「続く」。"
+ },
+ "necrosis": {
+  "parts": [
+   {
+    "p": "necr",
+    "m": "死"
+   },
+   {
+    "p": "-osis",
+    "m": "状態"
+   }
+  ],
+  "story": "ギリシャ語nekrosis「死ぬこと」→体の一部の細胞や組織が死ぬこと→「壊死」。",
+  "note": "-osisは病的な状態を表す語尾（fibrosis・thrombosis）。"
+ },
+ "necrotic": {
+  "parts": [
+   {
+    "p": "necro",
+    "m": "死"
+   },
+   {
+    "p": "-tic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "necrosisの形容詞形→「壊死した、壊死性の」。",
+  "note": ""
+ },
+ "edema": {
+  "parts": [
+   {
+    "p": "edema",
+    "m": "腫れ"
+   }
+  ],
+  "story": "ギリシャ語oidema「腫れ」（oidein「腫れる」）→組織に水がたまってむくむこと→「浮腫」。",
+  "note": "イギリス綴りはoedema。"
+ },
+ "lesion": {
+  "parts": [
+   {
+    "p": "les",
+    "m": "傷つける"
+   },
+   {
+    "p": "-ion",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語laesio「傷つけること」→損傷→組織に起きた異常な部分全般→「病変」。",
+  "note": "collide（衝突する）も同じlaedere「打つ、傷つける」から。"
+ },
+ "tumor": {
+  "parts": [
+   {
+    "p": "tum",
+    "m": "腫れる"
+   },
+   {
+    "p": "-or",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語tumor「腫れ」（tumere「腫れる」）→ふくらみ→組織が異常に増えてできる塊→「腫瘍」。",
+  "note": "イギリス綴りはtumour。"
+ },
+ "neoplasm": {
+  "parts": [
+   {
+    "p": "neo",
+    "m": "新しい"
+   },
+   {
+    "p": "plasm",
+    "m": "形作られたもの"
+   }
+  ],
+  "story": "新しく形作られたもの→体の中に新しくできた組織の塊→「新生物」。",
+  "note": "plasma・plasticのplasも「形作る」。"
+ },
+ "carcinoma": {
+  "parts": [
+   {
+    "p": "carcin",
+    "m": "蟹"
+   },
+   {
+    "p": "-oma",
+    "m": "腫瘍"
+   }
+  ],
+  "story": "ギリシャ語karkinos「蟹」から。腫瘍から伸びる血管が蟹の脚のように見えたためと言われる→「癌腫」。",
+  "note": "cancerもラテン語で「蟹」。-omaは腫瘍を表す語尾。"
+ },
+ "adenoma": {
+  "parts": [
+   {
+    "p": "aden",
+    "m": "腺"
+   },
+   {
+    "p": "-oma",
+    "m": "腫瘍"
+   }
+  ],
+  "story": "ギリシャ語aden「腺」→腺の組織からできる腫瘍→「腺腫」。",
+  "note": "adenocarcinoma（腺癌）・adenoids（アデノイド）のadenも「腺」。"
+ },
+ "glioma": {
+  "parts": [
+   {
+    "p": "glia",
+    "m": "膠（にかわ）"
+   },
+   {
+    "p": "-oma",
+    "m": "腫瘍"
+   }
+  ],
+  "story": "ギリシャ語glia「膠、のり」→神経細胞のすき間を埋めて支える細胞（glia）→その細胞からできる腫瘍→「神経膠腫」。",
+  "note": "日本語の「膠」もglueの訳。"
+ },
+ "melanoma": {
+  "parts": [
+   {
+    "p": "melan",
+    "m": "黒い"
+   },
+   {
+    "p": "-oma",
+    "m": "腫瘍"
+   }
+  ],
+  "story": "黒い腫瘍→色素細胞（メラニンを作る細胞）からできる腫瘍→「黒色腫」。",
+  "note": "melanin・melancholy（黒い胆汁→憂鬱）のmelanも「黒い」。"
+ },
+ "squamous": {
+  "parts": [
+   {
+    "p": "squam",
+    "m": "うろこ"
+   },
+   {
+    "p": "-ous",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語squama「うろこ」→うろこのような→薄く平たい細胞が重なった→「扁平上皮の」。",
+  "note": ""
+ },
+ "nasopharyngeal": {
+  "parts": [
+   {
+    "p": "naso",
+    "m": "鼻"
+   },
+   {
+    "p": "pharyng",
+    "m": "咽頭"
+   },
+   {
+    "p": "-eal",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "鼻（ラテン語nasus）と咽頭（ギリシャ語pharynx「のど」）→鼻の奥でのどにつながる部分の→「上咽頭の」。",
+  "note": "pharyngitisは「咽頭炎」。"
+ },
+ "malformation": {
+  "parts": [
+   {
+    "p": "mal",
+    "m": "悪い"
+   },
+   {
+    "p": "form",
+    "m": "形"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "悪い形作り→生まれつき形がうまくできていないこと→「奇形」。",
+  "note": "malfunction・malnutritionのmalも「悪い」。"
+ },
+ "arteriovenous": {
+  "parts": [
+   {
+    "p": "arterio",
+    "m": "動脈"
+   },
+   {
+    "p": "ven",
+    "m": "静脈"
+   },
+   {
+    "p": "-ous",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "動脈（arteria）と静脈（vena）の→「動静脈の」。",
+  "note": "arteriaはもともと「気管」。死体では動脈が空なので、空気の通り道と考えられていた。"
+ },
+ "cavernous": {
+  "parts": [
+   {
+    "p": "cavern",
+    "m": "ほら穴"
+   },
+   {
+    "p": "-ous",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語caverna「ほら穴」（cavus「空洞の」）→空洞の多い→スポンジのような→「海綿状の」。",
+  "note": "cave・cavity（虫歯の穴、体腔）のcavも「空洞」。cavernous sinusは海綿静脈洞。"
+ },
+ "vascular": {
+  "parts": [
+   {
+    "p": "vas",
+    "m": "器・管"
+   },
+   {
+    "p": "-cul",
+    "m": "小さい"
+   },
+   {
+    "p": "-ar",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語vasculum「小さな器」→体の中の細い管→「血管の」。",
+  "note": "vase（花瓶）のvasも「器」。"
+ },
+ "endothelial": {
+  "parts": [
+   {
+    "p": "endo",
+    "m": "内側"
+   },
+   {
+    "p": "thel",
+    "m": "乳頭"
+   },
+   {
+    "p": "-ial",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "epithelium（上皮）にならって作られた語。epitheliumはもとは乳頭（thele）の上の薄い膜→内側を覆う上皮→血管の内側を覆う細胞の層→「内皮の」。",
+  "note": ""
+ },
+ "neovascularization": {
+  "parts": [
+   {
+    "p": "neo",
+    "m": "新しい"
+   },
+   {
+    "p": "vascular",
+    "m": "血管の"
+   },
+   {
+    "p": "-ization",
+    "m": "〜化"
+   }
+  ],
+  "story": "新しく血管ができること→「血管新生」。",
+  "note": ""
+ },
+ "permeability": {
+  "parts": [
+   {
+    "p": "per",
+    "m": "通して"
+   },
+   {
+    "p": "mea",
+    "m": "通る"
+   },
+   {
+    "p": "-able",
+    "m": "できる"
+   },
+   {
+    "p": "-ity",
+    "m": "性質"
+   }
+  ],
+  "story": "ラテン語permeare「通り抜ける」→通り抜けられる性質→物質が膜や壁をしみ通る性質→「透過性」。",
+  "note": "permeate（しみ通る）も同じ。"
+ },
+ "hemorrhage": {
+  "parts": [
+   {
+    "p": "hemo",
+    "m": "血"
+   },
+   {
+    "p": "rrhage",
+    "m": "破れ出る"
+   }
+  ],
+  "story": "ギリシャ語haimorrhagia（haima血＋rhegnynai破れる）→血が破れて噴き出す→「出血」。",
+  "note": "-rrhage「破れる」と-rrhea「流れる」（diarrhea）は別の語尾。"
+ },
+ "hemorrhagic": {
+  "parts": [
+   {
+    "p": "hemorrhag",
+    "m": "出血"
+   },
+   {
+    "p": "-ic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "hemorrhageの形容詞形→「出血性の」。",
+  "note": ""
+ },
+ "hemosiderin": {
+  "parts": [
+   {
+    "p": "hemo",
+    "m": "血"
+   },
+   {
+    "p": "sider",
+    "m": "鉄"
+   },
+   {
+    "p": "-in",
+    "m": "物質"
+   }
+  ],
+  "story": "血の鉄→赤血球が壊れたあとに組織に残る鉄を含む色素→「ヘモジデリン」。",
+  "note": "siderはギリシャ語sideros「鉄」。"
+ },
+ "exudation": {
+  "parts": [
+   {
+    "p": "ex",
+    "m": "外へ"
+   },
+   {
+    "p": "sud",
+    "m": "汗をかく"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語exsudare「汗のようにしみ出る」→血管から液体や細胞がにじみ出ること→「滲出」。",
+  "note": ""
+ },
+ "fibrinous": {
+  "parts": [
+   {
+    "p": "fibr",
+    "m": "繊維"
+   },
+   {
+    "p": "-in",
+    "m": "物質"
+   },
+   {
+    "p": "-ous",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "繊維状の物質fibrin（血液を固めるたんぱく質）を含む→「線維素性の」。",
+  "note": "fiberのfibrも「繊維」。"
+ },
+ "proliferation": {
+  "parts": [
+   {
+    "p": "proli",
+    "m": "子孫"
+   },
+   {
+    "p": "fer",
+    "m": "生む・運ぶ"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語proles「子孫」＋ferre「生む」→子をどんどん生み出す→数がどんどん増えること→「増殖」。",
+  "note": ""
+ },
+ "hyperplasia": {
+  "parts": [
+   {
+    "p": "hyper",
+    "m": "過剰に"
+   },
+   {
+    "p": "plas",
+    "m": "形作る"
+   },
+   {
+    "p": "-ia",
+    "m": "状態"
+   }
+  ],
+  "story": "形作りすぎ→細胞の数が増えて組織が大きくなる→「過形成」。",
+  "note": "細胞一つ一つが大きくなるのはhypertrophy（肥大）。"
+ },
+ "infiltration": {
+  "parts": [
+   {
+    "p": "in",
+    "m": "中へ"
+   },
+   {
+    "p": "filtr",
+    "m": "濾す"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "中世ラテン語filtrum「フェルト（濾すのに使った）」→濾して中へしみ込む→細胞などが組織の中へしみ込むように入り込む→「浸潤」。",
+  "note": "filterも同じ。"
+ },
+ "gliosis": {
+  "parts": [
+   {
+    "p": "gli",
+    "m": "膠（グリア）"
+   },
+   {
+    "p": "-osis",
+    "m": "状態"
+   }
+  ],
+  "story": "グリア細胞（glia）が増える状態→脳が傷ついたあとの反応性の変化→「グリオーシス」。",
+  "note": ""
+ },
+ "macrophage": {
+  "parts": [
+   {
+    "p": "macro",
+    "m": "大きい"
+   },
+   {
+    "p": "phage",
+    "m": "食べる"
+   }
+  ],
+  "story": "大きな食べる細胞→異物や死んだ細胞を飲み込む白血球→「マクロファージ（大食細胞）」。",
+  "note": "bacteriophage・esophagusのphagも「食べる」。"
+ },
+ "histiocyte": {
+  "parts": [
+   {
+    "p": "histio",
+    "m": "組織"
+   },
+   {
+    "p": "cyte",
+    "m": "細胞"
+   }
+  ],
+  "story": "組織にいる細胞→組織に住みついたマクロファージ→「組織球」。",
+  "note": "-cyteはギリシャ語kytos「器」から→細胞。"
+ },
+ "mononuclear": {
+  "parts": [
+   {
+    "p": "mono",
+    "m": "一つの"
+   },
+   {
+    "p": "nucle",
+    "m": "核"
+   },
+   {
+    "p": "-ar",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "核が一つの→「単核の」。",
+  "note": "nucleusはラテン語で「木の実の中身」。"
+ },
+ "histological": {
+  "parts": [
+   {
+    "p": "histo",
+    "m": "組織"
+   },
+   {
+    "p": "log",
+    "m": "学"
+   },
+   {
+    "p": "-ical",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ギリシャ語histos「機（はた）、織物」→織物のような体の組織→組織の学問（histology）の→「組織学的な」。",
+  "note": ""
+ },
+ "immunohistochemical": {
+  "parts": [
+   {
+    "p": "immuno",
+    "m": "免疫"
+   },
+   {
+    "p": "histo",
+    "m": "組織"
+   },
+   {
+    "p": "chemical",
+    "m": "化学の"
+   }
+  ],
+  "story": "抗体（免疫の仕組み）を使って、組織の中の特定の物質を化学的に染めて見る→「免疫組織化学的な」。",
+  "note": "immuneはラテン語immunis「務め（munus）を免れた」から→病気を免れる。"
+ },
+ "hematoxylin": {
+  "parts": [
+   {
+    "p": "hemato",
+    "m": "血"
+   },
+   {
+    "p": "xyl",
+    "m": "木"
+   },
+   {
+    "p": "-in",
+    "m": "物質"
+   }
+  ],
+  "story": "血のように赤い木という意味の木（ログウッド、学名Haematoxylum）から取った色素→「ヘマトキシリン」。",
+  "note": "xylophone（木琴）のxyloも「木」。"
+ },
+ "eosin": {
+  "parts": [
+   {
+    "p": "eos",
+    "m": "夜明け"
+   },
+   {
+    "p": "-in",
+    "m": "物質"
+   }
+  ],
+  "story": "ギリシャ語eos「夜明け、曙」→曙の空のようなピンク色の色素→「エオシン」。",
+  "note": "eosinophil（好酸球）はこの色素によく染まる細胞。"
+ },
+ "photomicrograph": {
+  "parts": [
+   {
+    "p": "photo",
+    "m": "光"
+   },
+   {
+    "p": "micro",
+    "m": "小さい"
+   },
+   {
+    "p": "graph",
+    "m": "書く"
+   }
+  ],
+  "story": "顕微鏡で見た小さなものを光で書き写したもの→「顕微鏡写真」。",
+  "note": ""
+ },
+ "biopsy": {
+  "parts": [
+   {
+    "p": "bio",
+    "m": "生命"
+   },
+   {
+    "p": "opsy",
+    "m": "見ること"
+   }
+  ],
+  "story": "生きたものを見る→生きた体から組織を取って調べる→「生検」。",
+  "note": "autopsy（剖検）は「自分の目で見る」。"
+ },
+ "pathogenesis": {
+  "parts": [
+   {
+    "p": "patho",
+    "m": "病気・苦しみ"
+   },
+   {
+    "p": "genesis",
+    "m": "発生"
+   }
+  ],
+  "story": "病気が生まれること→病気が起こる仕組み→「発症機序、病因」。",
+  "note": "sympathy・patheticのpathも「感情、苦しみ」。"
+ },
+ "pathophysiology": {
+  "parts": [
+   {
+    "p": "patho",
+    "m": "病気"
+   },
+   {
+    "p": "physio",
+    "m": "自然・体の働き"
+   },
+   {
+    "p": "logy",
+    "m": "学"
+   }
+  ],
+  "story": "病気のときの生理学→病気で体の働きがどう変わるか→「病態生理」。",
+  "note": "physiologyはギリシャ語physis「自然」から。"
+ },
+ "pathognomonic": {
+  "parts": [
+   {
+    "p": "patho",
+    "m": "病気"
+   },
+   {
+    "p": "gnomon",
+    "m": "見分ける者"
+   },
+   {
+    "p": "-ic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ギリシャ語pathognomonikos「病気を見分けるのに長けた」→その所見があればその病気と決められる→「疾患特異的な」。",
+  "note": "diagnosisのgnoも「知る」。"
+ },
+ "epidemiology": {
+  "parts": [
+   {
+    "p": "epi",
+    "m": "上に・間に"
+   },
+   {
+    "p": "dem",
+    "m": "民衆"
+   },
+   {
+    "p": "logy",
+    "m": "学"
+   }
+  ],
+  "story": "民衆の上に広がるもの（epidemic、流行病）を研究する学問→「疫学」。",
+  "note": "democracyのdemも「民衆」。"
+ },
+ "symptomatic": {
+  "parts": [
+   {
+    "p": "sym",
+    "m": "共に"
+   },
+   {
+    "p": "ptom",
+    "m": "落ちる"
+   },
+   {
+    "p": "-atic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ギリシャ語symptoma「一緒に降りかかること」→病気に伴って起こること（symptom）→症状がある→「症候性の」。",
+  "note": ""
+ },
+ "asymptomatic": {
+  "parts": [
+   {
+    "p": "a-",
+    "m": "〜ない"
+   },
+   {
+    "p": "symptomatic",
+    "m": "症状がある"
+   }
+  ],
+  "story": "症状がない→「無症候性の」。",
+  "note": ""
+ },
+ "seizure": {
+  "parts": [
+   {
+    "p": "seize",
+    "m": "つかむ"
+   },
+   {
+    "p": "-ure",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "つかむこと→病気が急に人をつかまえる→「発作、けいれん」。",
+  "note": "一般語では「押収、差し押さえ」。"
+ },
+ "hemiparesis": {
+  "parts": [
+   {
+    "p": "hemi",
+    "m": "半分"
+   },
+   {
+    "p": "paresis",
+    "m": "力が抜けること"
+   }
+  ],
+  "story": "ギリシャ語paresis「緩めること」→体の半分の力が抜けること→「片麻痺（不全片麻痺）」。",
+  "note": "hemisphereのhemiも「半分」。完全な片麻痺はhemiplegia。"
+ },
+ "palsy": {
+  "parts": [
+   {
+    "p": "palsy",
+    "m": "麻痺"
+   }
+  ],
+  "story": "paralysis（麻痺）がフランス語を経て短くなった形→「麻痺」。",
+  "note": "cerebral palsy（脳性麻痺）、Bell's palsy（ベル麻痺）。"
+ },
+ "quadrantanopia": {
+  "parts": [
+   {
+    "p": "quadrant",
+    "m": "4分の1"
+   },
+   {
+    "p": "an-",
+    "m": "〜ない"
+   },
+   {
+    "p": "op",
+    "m": "見る"
+   },
+   {
+    "p": "-ia",
+    "m": "状態"
+   }
+  ],
+  "story": "視野の4分の1が見えない状態→「四分盲」。",
+  "note": "視野の半分ならhemianopia（半盲）。"
+ },
+ "dyscalculia": {
+  "parts": [
+   {
+    "p": "dys",
+    "m": "困難な・悪い"
+   },
+   {
+    "p": "calcul",
+    "m": "計算"
+   },
+   {
+    "p": "-ia",
+    "m": "状態"
+   }
+  ],
+  "story": "計算が難しい状態→「失算、計算障害」。",
+  "note": "calculusはラテン語で「小石」。小石を並べて数を数えた。"
+ },
+ "disorientation": {
+  "parts": [
+   {
+    "p": "dis",
+    "m": "逆に"
+   },
+   {
+    "p": "orient",
+    "m": "方向を定める"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "東（orient）に向ける→方角を定める→それがわからなくなる→自分がどこにいるか、今がいつかわからない→「見当識障害」。",
+  "note": ""
+ },
+ "drowsiness": {
+  "parts": [
+   {
+    "p": "drows",
+    "m": "うとうとする"
+   },
+   {
+    "p": "-y",
+    "m": "形容詞語尾"
+   },
+   {
+    "p": "-ness",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "古英語drusian「沈む、だるくなる」→うとうとする→「眠気、傾眠」。",
+  "note": ""
+ },
+ "panhypopituitarism": {
+  "parts": [
+   {
+    "p": "pan",
+    "m": "全て"
+   },
+   {
+    "p": "hypo",
+    "m": "下に・不足"
+   },
+   {
+    "p": "pituitar",
+    "m": "下垂体"
+   },
+   {
+    "p": "-ism",
+    "m": "状態"
+   }
+  ],
+  "story": "下垂体のホルモンが全部足りない状態→「汎下垂体機能低下症」。",
+  "note": "panoramaのpanも「全て」。"
+ },
+ "pituitary": {
+  "parts": [
+   {
+    "p": "pituit",
+    "m": "粘液"
+   },
+   {
+    "p": "-ary",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語pituita「粘液、鼻水」から。昔は脳から出る粘液を鼻へ流す腺だと考えられていた→「下垂体」。",
+  "note": ""
+ },
+ "olfactory": {
+  "parts": [
+   {
+    "p": "ol",
+    "m": "匂う"
+   },
+   {
+    "p": "fact",
+    "m": "する"
+   },
+   {
+    "p": "-ory",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語olfacere「匂いをかぐ」（olere匂う＋facereする）→「嗅覚の」。",
+  "note": "factory・factのfactも「する、作る」。"
+ },
+ "intracranial": {
+  "parts": [
+   {
+    "p": "intra",
+    "m": "内"
+   },
+   {
+    "p": "crani",
+    "m": "頭蓋"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "頭蓋骨（ギリシャ語kranion）の内側の→「頭蓋内の」。",
+  "note": ""
+ },
+ "extracranial": {
+  "parts": [
+   {
+    "p": "extra",
+    "m": "外"
+   },
+   {
+    "p": "crani",
+    "m": "頭蓋"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "頭蓋骨の外側の→「頭蓋外の」。",
+  "note": ""
+ },
+ "cranial": {
+  "parts": [
+   {
+    "p": "crani",
+    "m": "頭蓋"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ギリシャ語kranion「頭蓋骨」→「頭蓋の、脳神経の」。",
+  "note": "cranial nervesは「脳神経」。"
+ },
+ "dural": {
+  "parts": [
+   {
+    "p": "dura",
+    "m": "硬い"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "dura mater（硬膜）はラテン語で「硬い母」。アラビア語の医学書で膜を「母」と呼んだのを訳した言い方→脳を包む硬い膜の→「硬膜の」。",
+  "note": "durableのdurも「硬い、長持ちする」。"
+ },
+ "cortical": {
+  "parts": [
+   {
+    "p": "cort",
+    "m": "樹皮"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語cortex「樹皮」→外側を覆う層→「皮質の」。",
+  "note": "大脳皮質も副腎皮質もcortex。"
+ },
+ "parenchyma": {
+  "parts": [
+   {
+    "p": "par",
+    "m": "横に"
+   },
+   {
+    "p": "en",
+    "m": "中に"
+   },
+   {
+    "p": "chyma",
+    "m": "注がれたもの"
+   }
+  ],
+  "story": "ギリシャ語parenkhyma「横に注ぎ込まれたもの」。昔は臓器の本体が血管から注ぎ出たもので固まってできると考えられていた→臓器の働きを担う本体→「実質」。",
+  "note": ""
+ },
+ "parenchymal": {
+  "parts": [
+   {
+    "p": "parenchym",
+    "m": "実質"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "parenchymaの形容詞形→「実質の」。",
+  "note": ""
+ },
+ "occipital": {
+  "parts": [
+   {
+    "p": "oc-",
+    "m": "反対側"
+   },
+   {
+    "p": "cip",
+    "m": "頭"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語occiput「頭の反対側」→後頭部の→「後頭の」。",
+  "note": "capital・captainのcap/cipも「頭」。"
+ },
+ "parietal": {
+  "parts": [
+   {
+    "p": "pariet",
+    "m": "壁"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語paries「壁」→頭蓋の側面の壁をなす骨の→「頭頂の」。",
+  "note": "parietal pleura（壁側胸膜）のように「壁側の」の意味でも使う。"
+ },
+ "temporal": {
+  "parts": [
+   {
+    "p": "tempor",
+    "m": "こめかみ"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語tempora「こめかみ」→こめかみの→「側頭の」。「時」のtempusと同じ語かどうかははっきりしない。",
+  "note": "一般語のtemporal（時間の、一時的な）と同じ綴り。"
+ },
+ "craniotomy": {
+  "parts": [
+   {
+    "p": "crani",
+    "m": "頭蓋"
+   },
+   {
+    "p": "tomy",
+    "m": "切ること"
+   }
+  ],
+  "story": "頭蓋骨を切ること→「開頭術」。",
+  "note": "-tomyは切開、-ectomyは切除（appendectomy）。"
+ },
+ "resection": {
+  "parts": [
+   {
+    "p": "re",
+    "m": "後ろへ"
+   },
+   {
+    "p": "sect",
+    "m": "切る"
+   },
+   {
+    "p": "-ion",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語resecare「切り取る」→病変を含む部分を切り取ること→「切除」。",
+  "note": "section・insectのsectも「切る」。"
+ },
+ "resect": {
+  "parts": [
+   {
+    "p": "re",
+    "m": "後ろへ"
+   },
+   {
+    "p": "sect",
+    "m": "切る"
+   }
+  ],
+  "story": "ラテン語resecare「切り取る」→「切除する」。",
+  "note": ""
+ },
+ "fenestration": {
+  "parts": [
+   {
+    "p": "fenestr",
+    "m": "窓"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語fenestra「窓」→窓を作ること→壁や膜に穴を開けて通り道を作る→「開窓術」。",
+  "note": ""
+ },
+ "decompression": {
+  "parts": [
+   {
+    "p": "de",
+    "m": "取り去る"
+   },
+   {
+    "p": "com",
+    "m": "共に"
+   },
+   {
+    "p": "press",
+    "m": "押す"
+   },
+   {
+    "p": "-ion",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "押しつけをやめること→圧迫を取り除く→「減圧」。",
+  "note": ""
+ },
+ "shunt": {
+  "parts": [
+   {
+    "p": "shunt",
+    "m": "よける"
+   }
+  ],
+  "story": "中英語shunten「身をかわす、よける」（由来ははっきりしない）→わきへそらす→液体の流れを別の道へ逃がす管→「シャント、短絡」。",
+  "note": ""
+ },
+ "catheter": {
+  "parts": [
+   {
+    "p": "cath",
+    "m": "下へ"
+   },
+   {
+    "p": "eter",
+    "m": "送るもの"
+   }
+  ],
+  "story": "ギリシャ語katheter（kata下へ＋hienai送る）→下へ送り込むもの→体の中に差し込む細い管→「カテーテル」。",
+  "note": ""
+ },
+ "reservoir": {
+  "parts": [
+   {
+    "p": "reserv",
+    "m": "取っておく"
+   },
+   {
+    "p": "-oir",
+    "m": "場所"
+   }
+  ],
+  "story": "フランス語で「取っておく場所」→貯水池→体の中に置いて薬液や髄液をためる容器→「リザーバー」。",
+  "note": "reserveと同じ語根。"
+ },
+ "adhesion": {
+  "parts": [
+   {
+    "p": "ad",
+    "m": "〜に"
+   },
+   {
+    "p": "hes",
+    "m": "くっつく"
+   },
+   {
+    "p": "-ion",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語adhaerere「くっつく」→手術や炎症のあとに組織同士がくっつくこと→「癒着」。",
+  "note": "adhesive（接着剤）も同じ。"
+ },
+ "loculation": {
+  "parts": [
+   {
+    "p": "locul",
+    "m": "小部屋"
+   },
+   {
+    "p": "-ation",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語loculus「小さな場所」→袋の中が仕切りで小部屋に分かれること→「多房化、隔壁形成」。",
+  "note": "local・locationのlocも「場所」。"
+ },
+ "lobulated": {
+  "parts": [
+   {
+    "p": "lob",
+    "m": "葉"
+   },
+   {
+    "p": "-ul",
+    "m": "小さい"
+   },
+   {
+    "p": "-ated",
+    "m": "〜された"
+   }
+  ],
+  "story": "ギリシャ語lobos「葉、耳たぶ」→小さな葉（lobule）に分かれた→表面が小さなこぶの集まりのようになった→「分葉状の」。",
+  "note": "肺の「葉」もlobe。"
+ },
+ "percutaneous": {
+  "parts": [
+   {
+    "p": "per",
+    "m": "通して"
+   },
+   {
+    "p": "cutane",
+    "m": "皮膚"
+   },
+   {
+    "p": "-ous",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語cutis「皮膚」→皮膚を通して→皮膚に針を刺して→「経皮的な」。",
+  "note": ""
+ },
+ "interventional": {
+  "parts": [
+   {
+    "p": "inter",
+    "m": "間に"
+   },
+   {
+    "p": "vent",
+    "m": "来る"
+   },
+   {
+    "p": "-ion",
+    "m": "名詞語尾"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "間に入って来る→病気の進行に割って入る→カテーテルなどを体の中に入れて治療する→「インターベンションの」。",
+  "note": "eventやadventureのventも「来る」。"
+ },
+ "postoperative": {
+  "parts": [
+   {
+    "p": "post",
+    "m": "後"
+   },
+   {
+    "p": "oper",
+    "m": "働く"
+   },
+   {
+    "p": "-ative",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "手術（operation）の後の→「術後の」。",
+  "note": "operationはラテン語operari「働く」から。"
+ },
+ "preoperative": {
+  "parts": [
+   {
+    "p": "pre",
+    "m": "前"
+   },
+   {
+    "p": "oper",
+    "m": "働く"
+   },
+   {
+    "p": "-ative",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "手術の前の→「術前の」。",
+  "note": ""
+ },
+ "recurrence": {
+  "parts": [
+   {
+    "p": "re",
+    "m": "再び"
+   },
+   {
+    "p": "cur",
+    "m": "走る"
+   },
+   {
+    "p": "-ence",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語recurrere「走って戻る」→また起こること→「再発」。",
+  "note": "current・courseのcur/courも「走る」。"
+ },
+ "imaging": {
+  "parts": [
+   {
+    "p": "image",
+    "m": "像"
+   },
+   {
+    "p": "-ing",
+    "m": "〜すること"
+   }
+  ],
+  "story": "像を作ること→CTやMRIで体の中を画像にすること→「画像検査、画像診断」。",
+  "note": "imageはラテン語imago「似姿」。imitateも同じ語根。"
+ },
+ "tomography": {
+  "parts": [
+   {
+    "p": "tomo",
+    "m": "切片"
+   },
+   {
+    "p": "graph",
+    "m": "書く"
+   },
+   {
+    "p": "-y",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "切った断面を書く→体を輪切りにした画像を作る方法→「断層撮影」。",
+  "note": "CTはcomputed tomography。"
+ },
+ "positron": {
+  "parts": [
+   {
+    "p": "posit(ive)",
+    "m": "正の"
+   },
+   {
+    "p": "(elec)tron",
+    "m": "電子"
+   }
+  ],
+  "story": "positive electron（正の電子）を縮めて作った語→「陽電子」。",
+  "note": "PET（陽電子放出断層撮影）のP。"
+ },
+ "resonance": {
+  "parts": [
+   {
+    "p": "re",
+    "m": "再び"
+   },
+   {
+    "p": "son",
+    "m": "音"
+   },
+   {
+    "p": "-ance",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "ラテン語resonare「響き返す」→外からの振動と同じリズムで揺れる現象→「共鳴」。",
+  "note": "MRIのR（magnetic resonance）。sonic・soundも「音」。"
+ },
+ "weighted": {
+  "parts": [
+   {
+    "p": "weight",
+    "m": "重さ"
+   },
+   {
+    "p": "-ed",
+    "m": "された"
+   }
+  ],
+  "story": "重みをつけられた→ある性質を強めて写した→T1強調・T2強調の「強調」。",
+  "note": ""
+ },
+ "axial": {
+  "parts": [
+   {
+    "p": "axi",
+    "m": "軸"
+   },
+   {
+    "p": "-al",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語axis「車軸」→体の縦の軸に対して垂直に切った→「横断の、水平断の」。",
+  "note": ""
+ },
+ "enhancement": {
+  "parts": [
+   {
+    "p": "en",
+    "m": "〜にする"
+   },
+   {
+    "p": "hance",
+    "m": "高い"
+   },
+   {
+    "p": "-ment",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "古フランス語enhaucier「高くする」（ラテン語altus「高い」）→強める→造影剤で病変が白くくっきり写ること→「増強、造影効果」。",
+  "note": "altitudeのaltも「高い」。"
+ },
+ "perfusion": {
+  "parts": [
+   {
+    "p": "per",
+    "m": "通して"
+   },
+   {
+    "p": "fus",
+    "m": "注ぐ"
+   },
+   {
+    "p": "-ion",
+    "m": "名詞語尾"
+   }
+  ],
+  "story": "注ぎ通すこと→血液が組織の中を流れ通ること→「灌流」。",
+  "note": "transfusion（輸血）・confuseのfusも「注ぐ」。"
+ },
+ "radiographic": {
+  "parts": [
+   {
+    "p": "radio",
+    "m": "放射線"
+   },
+   {
+    "p": "graph",
+    "m": "書く"
+   },
+   {
+    "p": "-ic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "X線で書いたもの（radiograph）の→「X線写真の、X線上の」。",
+  "note": ""
+ },
+ "radiological": {
+  "parts": [
+   {
+    "p": "radio",
+    "m": "放射線"
+   },
+   {
+    "p": "log",
+    "m": "学"
+   },
+   {
+    "p": "-ical",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "放射線医学（radiology）の→「放射線学的な、画像上の」。",
+  "note": ""
+ },
+ "radiology": {
+  "parts": [
+   {
+    "p": "radio",
+    "m": "放射線"
+   },
+   {
+    "p": "logy",
+    "m": "学"
+   }
+  ],
+  "story": "放射線の学問→「放射線医学」。",
+  "note": "radioはラテン語radius「光線」から。"
+ },
+ "electroencephalogram": {
+  "parts": [
+   {
+    "p": "electro",
+    "m": "電気"
+   },
+   {
+    "p": "en",
+    "m": "中"
+   },
+   {
+    "p": "cephal",
+    "m": "頭"
+   },
+   {
+    "p": "gram",
+    "m": "書かれたもの"
+   }
+  ],
+  "story": "頭の中のもの（encephalon、脳）の電気を書き記したもの→「脳波」。",
+  "note": "electricはギリシャ語elektron「琥珀」から。こすると静電気が起きた。"
+ },
+ "steroid": {
+  "parts": [
+   {
+    "p": "ster(ol)",
+    "m": "ステロール"
+   },
+   {
+    "p": "-oid",
+    "m": "〜のようなもの"
+   }
+  ],
+  "story": "cholesterolのようなもの→コレステロールと同じ骨格をもつ物質→「ステロイド」。",
+  "note": "cholesterolは胆汁（chole）の固体（stereos）。胆石から見つかったため。"
+ },
+ "corticosteroid": {
+  "parts": [
+   {
+    "p": "cortico",
+    "m": "皮質"
+   },
+   {
+    "p": "steroid",
+    "m": "ステロイド"
+   }
+  ],
+  "story": "副腎皮質（cortex）で作られるステロイド→「副腎皮質ステロイド」。",
+  "note": ""
+ },
+ "dexamethasone": {
+  "parts": [],
+  "story": "化学構造の名前を縮めて作った薬の名前で、分解して意味を取る語ではない。末尾の-soneはcortisoneなどステロイド薬に共通する語尾。",
+  "note": "同じ仲間にbetamethasone・prednisoloneなど。"
+ },
+ "hydrocortisone": {
+  "parts": [
+   {
+    "p": "hydro",
+    "m": "水素"
+   },
+   {
+    "p": "cortisone",
+    "m": "コルチゾン"
+   }
+  ],
+  "story": "cortisoneに水素（hydro）が二つ加わった形のホルモン→体の中のコルチゾールと同じ物質→「ヒドロコルチゾン」。",
+  "note": ""
+ },
+ "anticonvulsant": {
+  "parts": [
+   {
+    "p": "anti",
+    "m": "反"
+   },
+   {
+    "p": "con",
+    "m": "強く"
+   },
+   {
+    "p": "vuls",
+    "m": "引っぱる"
+   },
+   {
+    "p": "-ant",
+    "m": "もの"
+   }
+  ],
+  "story": "ラテン語convellere「激しく引っぱる」→体がけいれんする（convulse）→それを抑えるもの→「抗けいれん薬」。",
+  "note": ""
+ },
+ "chemotherapy": {
+  "parts": [
+   {
+    "p": "chemo",
+    "m": "化学"
+   },
+   {
+    "p": "therapy",
+    "m": "治療"
+   }
+  ],
+  "story": "化学物質による治療→今は主に抗がん剤による治療→「化学療法」。",
+  "note": "エールリヒがドイツ語Chemotherapieとして作った語。"
+ },
+ "immunotherapy": {
+  "parts": [
+   {
+    "p": "immuno",
+    "m": "免疫"
+   },
+   {
+    "p": "therapy",
+    "m": "治療"
+   }
+  ],
+  "story": "免疫の働きを使った治療→「免疫療法」。",
+  "note": ""
+ },
+ "adjuvant": {
+  "parts": [
+   {
+    "p": "ad",
+    "m": "〜に"
+   },
+   {
+    "p": "juv",
+    "m": "助ける"
+   },
+   {
+    "p": "-ant",
+    "m": "もの"
+   }
+  ],
+  "story": "ラテン語adjuvare「助ける」→主な治療（手術など）を助けるために加える治療→「補助療法の、アジュバント」。",
+  "note": "aid（助ける）も同じadjuvareから。"
+ },
+ "inhibitor": {
+  "parts": [
+   {
+    "p": "in",
+    "m": "上に"
+   },
+   {
+    "p": "hibit",
+    "m": "持つ"
+   },
+   {
+    "p": "-or",
+    "m": "もの"
+   }
+  ],
+  "story": "ラテン語inhibere「押さえて持つ、引き止める」→酵素や反応の働きを止めるもの→「阻害薬」。",
+  "note": "exhibit・habitのhab/hibも「持つ」。"
+ },
+ "receptor": {
+  "parts": [
+   {
+    "p": "re",
+    "m": "後ろへ"
+   },
+   {
+    "p": "cept",
+    "m": "取る"
+   },
+   {
+    "p": "-or",
+    "m": "もの"
+   }
+  ],
+  "story": "受け取るもの→ホルモンや薬と結びついて信号を受け取るたんぱく質→「受容体」。",
+  "note": "accept・receiveのcept/ceiveも「取る」。"
+ },
+ "estrogen": {
+  "parts": [
+   {
+    "p": "estr",
+    "m": "発情"
+   },
+   {
+    "p": "gen",
+    "m": "生む"
+   }
+  ],
+  "story": "ギリシャ語oistros「アブ（虻）」→虻に刺された牛の狂乱→激しい欲求、発情→発情を生む物質→「エストロゲン（卵胞ホルモン）」。",
+  "note": ""
+ },
+ "progesterone": {
+  "parts": [
+   {
+    "p": "pro",
+    "m": "〜のために"
+   },
+   {
+    "p": "gest",
+    "m": "妊娠"
+   },
+   {
+    "p": "ster(ol)",
+    "m": "ステロール"
+   },
+   {
+    "p": "-one",
+    "m": "化学語尾"
+   }
+  ],
+  "story": "妊娠（gestation）のために働くステロイド→「プロゲステロン（黄体ホルモン）」。",
+  "note": ""
+ },
+ "systemic": {
+  "parts": [
+   {
+    "p": "sy(n)",
+    "m": "共に"
+   },
+   {
+    "p": "stem",
+    "m": "立つ"
+   },
+   {
+    "p": "-ic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "一緒に立てたもの→組み合わさった全体（system）→体全体の→「全身性の」。",
+  "note": ""
+ },
+ "palliative": {
+  "parts": [
+   {
+    "p": "palli",
+    "m": "外套で覆う"
+   },
+   {
+    "p": "-ative",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語palliare「外套（pallium）で覆う」→症状を覆い隠して和らげる（根本は治さない）→「緩和的な」。",
+  "note": ""
+ },
+ "indolent": {
+  "parts": [
+   {
+    "p": "in",
+    "m": "〜ない"
+   },
+   {
+    "p": "dol",
+    "m": "痛み"
+   },
+   {
+    "p": "-ent",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語indolens「痛みを感じない」→動こうとしない→怠惰な。医学では痛みが少なくゆっくり進む→「緩徐進行性の、無痛性の」。",
+  "note": "一般語では「怠惰な」。"
+ },
+ "prognosis": {
+  "parts": [
+   {
+    "p": "pro",
+    "m": "前もって"
+   },
+   {
+    "p": "gnosis",
+    "m": "知ること"
+   }
+  ],
+  "story": "前もって知ること→病気がこの先どうなるかの見通し→「予後」。",
+  "note": "diagnosisは「見分けて知る」→診断。"
+ },
+ "prognostic": {
+  "parts": [
+   {
+    "p": "pro",
+    "m": "前もって"
+   },
+   {
+    "p": "gnos",
+    "m": "知る"
+   },
+   {
+    "p": "-tic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "prognosisの形容詞形→「予後の、予後を示す」。",
+  "note": "prognostic factorは「予後因子」。"
+ },
+ "diagnostic": {
+  "parts": [
+   {
+    "p": "dia",
+    "m": "分けて"
+   },
+   {
+    "p": "gnos",
+    "m": "知る"
+   },
+   {
+    "p": "-tic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "見分けて知ること（diagnosis）の→「診断の」。",
+  "note": ""
+ },
+ "neurological": {
+  "parts": [
+   {
+    "p": "neuro",
+    "m": "神経"
+   },
+   {
+    "p": "log",
+    "m": "学"
+   },
+   {
+    "p": "-ical",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "神経の学問（neurology）の→「神経学的な、神経の」。",
+  "note": "neuronはギリシャ語でもともと「腱、すじ」。"
+ },
+ "neurosurgery": {
+  "parts": [
+   {
+    "p": "neuro",
+    "m": "神経"
+   },
+   {
+    "p": "surgery",
+    "m": "手術"
+   }
+  ],
+  "story": "神経の手術→「脳神経外科」。",
+  "note": ""
+ },
+ "neurosurgical": {
+  "parts": [
+   {
+    "p": "neuro",
+    "m": "神経"
+   },
+   {
+    "p": "surgical",
+    "m": "外科の"
+   }
+  ],
+  "story": "脳神経外科の→「脳神経外科的な」。",
+  "note": ""
+ },
+ "neurosurgeon": {
+  "parts": [
+   {
+    "p": "neuro",
+    "m": "神経"
+   },
+   {
+    "p": "surgeon",
+    "m": "外科医"
+   }
+  ],
+  "story": "神経を手術する医者→「脳神経外科医」。",
+  "note": ""
+ },
+ "oncology": {
+  "parts": [
+   {
+    "p": "onco",
+    "m": "塊"
+   },
+   {
+    "p": "logy",
+    "m": "学"
+   }
+  ],
+  "story": "ギリシャ語onkos「塊、かさ」→腫瘍を扱う学問→「腫瘍学」。",
+  "note": ""
+ },
+ "oncologic": {
+  "parts": [
+   {
+    "p": "onco",
+    "m": "塊"
+   },
+   {
+    "p": "log",
+    "m": "学"
+   },
+   {
+    "p": "-ic",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "腫瘍学（oncology）の→「腫瘍学的な」。",
+  "note": ""
+ },
+ "oncologist": {
+  "parts": [
+   {
+    "p": "onco",
+    "m": "塊"
+   },
+   {
+    "p": "log",
+    "m": "学"
+   },
+   {
+    "p": "-ist",
+    "m": "人"
+   }
+  ],
+  "story": "腫瘍学の専門家→「腫瘍内科医」。",
+  "note": ""
+ },
+ "multidisciplinary": {
+  "parts": [
+   {
+    "p": "multi",
+    "m": "多くの"
+   },
+   {
+    "p": "disciplin",
+    "m": "分野"
+   },
+   {
+    "p": "-ary",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "多くの分野（discipline）にまたがる→外科・放射線科・腫瘍内科など複数の専門家が一緒に関わる→「集学的な、多職種の」。",
+  "note": "disciplineはラテン語discipulus「学ぶ者」から。discipleも同じ。"
+ },
+ "lymph": {
+  "parts": [
+   {
+    "p": "lymph",
+    "m": "澄んだ水"
+   }
+  ],
+  "story": "ラテン語lympha「澄んだ水、泉の水」→体の中を流れる無色の液体→「リンパ（液）」。",
+  "note": "水の精nymphと混ざってできた語とされる。"
+ },
+ "sentinel": {
+  "parts": [
+   {
+    "p": "sentinel",
+    "m": "見張り"
+   }
+  ],
+  "story": "イタリア語sentinella「見張り」（sentire「感じ取る」とつなげる説がある）→見張り番→がんが最初に流れ着いて転移の有無を知らせるリンパ節→「センチネル（見張り）リンパ節」。",
+  "note": ""
+ },
+ "esophagus": {
+  "parts": [
+   {
+    "p": "eso",
+    "m": "運ぶ"
+   },
+   {
+    "p": "phag",
+    "m": "食べる"
+   }
+  ],
+  "story": "ギリシャ語oisophagos→食べたものを運ぶ通り道→「食道」。前半を「運ぶ」とする説が有力だが確かではない。",
+  "note": "イギリス綴りはoesophagus。"
+ },
+ "ovarian": {
+  "parts": [
+   {
+    "p": "ov",
+    "m": "卵"
+   },
+   {
+    "p": "-ari",
+    "m": "場所"
+   },
+   {
+    "p": "-an",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "卵（ovum）の場所（ovary）の→「卵巣の」。",
+  "note": "oval（卵形の）のovも「卵」。"
+ },
+ "cutaneous": {
+  "parts": [
+   {
+    "p": "cutane",
+    "m": "皮膚"
+   },
+   {
+    "p": "-ous",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語cutis「皮膚」→「皮膚の」。",
+  "note": ""
+ },
+ "subcutaneous": {
+  "parts": [
+   {
+    "p": "sub",
+    "m": "下"
+   },
+   {
+    "p": "cutane",
+    "m": "皮膚"
+   },
+   {
+    "p": "-ous",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "皮膚の下の→「皮下の」。",
+  "note": "subcutaneous injection（皮下注射）。"
+ },
+ "hematocrit": {
+  "parts": [
+   {
+    "p": "hemato",
+    "m": "血"
+   },
+   {
+    "p": "crit",
+    "m": "分ける・判定する"
+   }
+  ],
+  "story": "血を分けて判定するもの→血液を遠心分離して赤血球の割合を測る→「ヘマトクリット」。",
+  "note": "critic・criterionのcriも「判定する」。"
+ },
+ "nodular": {
+  "parts": [
+   {
+    "p": "nod",
+    "m": "結び目"
+   },
+   {
+    "p": "-ul",
+    "m": "小さい"
+   },
+   {
+    "p": "-ar",
+    "m": "形容詞語尾"
+   }
+  ],
+  "story": "ラテン語nodulus「小さな結び目」→小さなしこりがある→「結節状の」。",
+  "note": "nodeも「結び目」→リンパ節（lymph node）。"
+ }
+}
