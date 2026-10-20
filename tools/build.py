@@ -330,8 +330,8 @@ def export_db(path, words, eng, pairs, form_of):
     if os.path.exists(path): os.remove(path)
     db = sqlite3.connect(path)
     db.executescript("""
-    create table words(word text primary key, rank integer, ipa text, summary text, terms text, senses text, etym text, kana text, etym_ja text);
-    create table examples(word text, en text, ja text, tid integer);
+    create table words(word text primary key, rank integer, ipa text, summary text, terms text, senses text, etym text, kana text, etym_ja text, pos text);
+    create table examples(word text, en text, ja text, tid integer, sense integer);
     create index ex_w on examples(word);
     create table idx(term text, word text, kind integer);   -- kind 0=見出し 1=活用形 2=カタカナ
     create index idx_t on idx(term);
@@ -346,19 +346,24 @@ def export_db(path, words, eng, pairs, form_of):
     kata = load_kata()
     etf = os.path.join(DATA, "etymology.json")
     et = json.load(open(etf, encoding="utf-8")) if os.path.exists(etf) else {}
+    import sense_tags
+    wikt = sense_tags.load_wikt(DATA)
+    adj_stems = sense_tags.adjective_stems(m for x in words.values() for m in x["means"])
     for w, x in words.items():
         blocks = []
         for m in x["means"]:
             blocks += [b.strip() for b in m.split(" / ") if b.strip()]
-        senses = json.dumps([[re.sub(r"〈[CU]〉", "", q) for q in split_bullets(b)[:10]] for b in blocks[:14]], ensure_ascii=False)
+        blocks = blocks[:40]
+        pos = json.dumps(sense_tags.tag_blocks(w, blocks, wikt, adj_stems), ensure_ascii=False)
+        senses = json.dumps([[re.sub(r"〈[CU]〉", "", q) for q in split_bullets(b)[:10]] for b in blocks[:40]], ensure_ascii=False)
         e = re.sub(r"\s+", " ", et.get(w, "")).strip()
         if len(e) > 700:
             cut = e[:700]; e = cut[:cut.rfind(". ") + 1] if ". " in cut[300:] else cut.rstrip() + "…"
-        db.execute("insert into words values(?,?,?,?,?,?,?,?,?)",
+        db.execute("insert into words values(?,?,?,?,?,?,?,?,?,?)",
                    (w, x["rank"], x["ipa"], x["summary"], "、".join(x["terms"][:6]), senses, e, "・".join(kata.get(w, [])),
-                    json.dumps(load_etym_ja()[w], ensure_ascii=False) if w in load_etym_ja() else ""))
+                    json.dumps(load_etym_ja()[w], ensure_ascii=False) if w in load_etym_ja() else "", pos))
         for sid in x["ex"]:
-            db.execute("insert into examples values(?,?,?,?)", (w, eng[sid], pairs[sid], int(sid)))
+            db.execute("insert into examples values(?,?,?,?,?)", (w, eng[sid], pairs[sid], int(sid), sense_tags.match_sense(pairs[sid], blocks)))
         db.execute("insert into idx values(?,?,0)", (w, w))
         for k in kata.get(w, []):
             db.execute("insert into idx values(?,?,2)", (k, w))
