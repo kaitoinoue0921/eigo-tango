@@ -316,7 +316,7 @@ def main():
                 sx[k] = [best[k][1]]
         used = {i for v in sx.values() for i in v}
         rest = [i for i in pick if i not in used][:max(0, MAX_EX - len(used))]
-        words[w] = dict(w=w, rank=rank[w], means=means, ex=pick, sx=sx, rest=rest, ipa=cmu.get(w),
+        words[w] = dict(w=w, rank=rank[w], means=means, ex=pick, ids=ids[:1000], sx=sx, rest=rest, ipa=cmu.get(w),
                         summary=plain_summary(means), terms=key_terms(means), exam=EXAM_TAG.get(w))
 
     if os.environ.get("EXPORT_DB"):
@@ -325,6 +325,19 @@ def main():
     build_site(words, eng, pairs, form_of)
 
 # ---------- アプリ用SQLite ----------
+def app_examples(x, blocks, pairs):
+    """語義ごとに1文ずつ（novelなら「小説」と「斬新な」の文を1つずつ）。語義が決まった文が足りない語は、語義の数（最大MAX_EX）まで語義不明の文で補う。"""
+    import sense_tags
+    by_sense, other = {}, []
+    for sid in x["ids"]:
+        k = 0 if len(blocks) == 1 else sense_tags.match_sense(pairs[sid], blocks)
+        if k >= 0 and k not in by_sense: by_sense[k] = sid
+        elif k < 0 and len(other) < MAX_EX: other.append(sid)
+        if len(by_sense) == len(blocks): break
+    out = sorted(((sid, k) for k, sid in by_sense.items()), key=lambda t: t[1])
+    out += [(sid, -1) for sid in other[:max(0, min(MAX_EX, len(blocks)) - len(out))]]
+    return out
+
 def export_db(path, words, eng, pairs, form_of):
     import sqlite3
     if os.path.exists(path): os.remove(path)
@@ -362,8 +375,8 @@ def export_db(path, words, eng, pairs, form_of):
         db.execute("insert into words values(?,?,?,?,?,?,?,?,?,?)",
                    (w, x["rank"], x["ipa"], x["summary"], "、".join(x["terms"][:6]), senses, e, "・".join(kata.get(w, [])),
                     json.dumps(load_etym_ja()[w], ensure_ascii=False) if w in load_etym_ja() else "", pos))
-        for sid in x["ex"]:
-            db.execute("insert into examples values(?,?,?,?,?)", (w, eng[sid], pairs[sid], int(sid), sense_tags.match_sense(pairs[sid], blocks)))
+        for sid, k in app_examples(x, blocks, pairs):
+            db.execute("insert into examples values(?,?,?,?,?)", (w, eng[sid], pairs[sid], int(sid), k))
         db.execute("insert into idx values(?,?,0)", (w, w))
         for k in kata.get(w, []):
             db.execute("insert into idx values(?,?,2)", (k, w))
