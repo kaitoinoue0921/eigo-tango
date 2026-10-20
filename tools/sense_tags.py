@@ -146,10 +146,34 @@ def _match_len(term, ja):
     return 0
 
 
-def match_sense(ja, blocks):
-    """例文の和訳と一番よく一致する語義ブロックの番号。決められなければ -1。"""
+DET = {"a", "an", "the", "its", "his", "her", "my", "your", "our", "their", "this", "these", "those", "no", "every", "each"}
+AUX_NEXT = {"is", "was", "are", "were", "will", "would", "can", "could", "has", "had", "have", "went", "goes", "came", "comes", "of"}
+VERB_PREV = {"to", "will", "would", "can", "could", "should", "must", "may", "might", "please", "did", "didn't", "don't", "doesn't", "not", "i", "we", "they"}
+
+
+def pos_fits(word, en, pos):
+    """英文の中の word の使われ方が品詞 pos（名詞・動詞…）と矛盾しないか。どれか1か所でも合えば True。"""
+    if pos not in ("名詞", "動詞", "形容詞", "副詞"): return True
+    toks = re.findall(r"[A-Za-z']+|[.,!?;:]", en.lower())
+    w = word.lower(); hit = False
+    for i, t in enumerate(toks):
+        if not (t == w or (t.startswith(w) and len(t) - len(w) <= 3 and t[len(w):] in ("s", "es", "ed", "d", "ing", "er", "est", "ly"))): continue
+        hit = True
+        prev = toks[i - 1] if i else ""; nxt = toks[i + 1] if i + 1 < len(toks) else "."
+        if pos == "動詞" and (prev in DET or nxt in AUX_NEXT): continue
+        if pos == "名詞" and prev in VERB_PREV: continue
+        if pos in ("形容詞", "副詞") and prev in DET and (nxt in AUX_NEXT or nxt in ".,!?;:"): continue
+        if pos == "副詞" and prev in DET: continue
+        return True
+    return not hit  # 見出し語が英文に見つからない（不規則変化など）ときは判定しない
+
+
+def match_sense(ja, blocks, en=None, word=None, pos=None):
+    """例文の和訳と一番よく一致する語義ブロックの番号。決められなければ -1。
+    en・word・pos（ブロックごとの品詞）があれば、英文での品詞と合わない語義は選ばない。"""
     best, best_i = 0, -1
     for i, b in enumerate(blocks):
+        if pos and en and i < len(pos) and not pos_fits(word, en, pos[i]): continue
         core = re.findall(r"『([^』]+)』", b)
         for t in _terms(b):
             n = _match_len(t, ja)

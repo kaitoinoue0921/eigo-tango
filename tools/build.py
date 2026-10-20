@@ -325,12 +325,12 @@ def main():
     build_site(words, eng, pairs, form_of)
 
 # ---------- アプリ用SQLite ----------
-def app_examples(x, blocks, pairs):
+def app_examples(x, blocks, pairs, eng=None, word=None, pos=None):
     """語義ごとに1文ずつ（novelなら「小説」と「斬新な」の文を1つずつ）。語義が決まった文が足りない語は、語義の数（最大MAX_EX）まで語義不明の文で補う。"""
     import sense_tags
     by_sense, other = {}, []
     for sid in x["ids"]:
-        k = 0 if len(blocks) == 1 else sense_tags.match_sense(pairs[sid], blocks)
+        k = 0 if len(blocks) == 1 else sense_tags.match_sense(pairs[sid], blocks, eng and eng[sid], word, pos)
         if k >= 0 and k not in by_sense: by_sense[k] = sid
         elif k < 0 and len(other) < MAX_EX: other.append(sid)
         if len(by_sense) == len(blocks): break
@@ -367,7 +367,8 @@ def export_db(path, words, eng, pairs, form_of):
         for m in x["means"]:
             blocks += [b.strip() for b in m.split(" / ") if b.strip()]
         blocks = blocks[:40]
-        pos = json.dumps(sense_tags.tag_blocks(w, blocks, wikt, adj_stems), ensure_ascii=False)
+        pos_l = sense_tags.tag_blocks(w, blocks, wikt, adj_stems)
+        pos = json.dumps(pos_l, ensure_ascii=False)
         senses = json.dumps([[re.sub(r"〈[CU]〉", "", q) for q in split_bullets(b)[:10]] for b in blocks[:40]], ensure_ascii=False)
         e = re.sub(r"\s+", " ", et.get(w, "")).strip()
         if len(e) > 700:
@@ -375,7 +376,7 @@ def export_db(path, words, eng, pairs, form_of):
         db.execute("insert into words values(?,?,?,?,?,?,?,?,?,?)",
                    (w, x["rank"], x["ipa"], x["summary"], "、".join(x["terms"][:6]), senses, e, "・".join(kata.get(w, [])),
                     json.dumps(load_etym_ja()[w], ensure_ascii=False) if w in load_etym_ja() else "", pos))
-        for sid, k in app_examples(x, blocks, pairs):
+        for sid, k in app_examples(x, blocks, pairs, eng, w, pos_l):
             db.execute("insert into examples values(?,?,?,?,?)", (w, eng[sid], pairs[sid], int(sid), k))
         db.execute("insert into idx values(?,?,0)", (w, w))
         for k in kata.get(w, []):
