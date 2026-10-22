@@ -417,6 +417,9 @@ def head(title, desc, path, extra=""):
     up = "../" * path.count("/")
     if path in SEO_PAGES:
         extra += seo_head(title, desc, canon, path == "")
+    # 自動生成の単語・一覧ページは検索/AdSense審査の対象から外す(2026-10-22 有用性の低いコンテンツで不合格)
+    if path.startswith(("w/", "list/")):
+        extra = '<meta name="robots" content="noindex">\n' + extra
     return f"""<!doctype html>
 <html lang="ja">
 <head>
@@ -744,7 +747,7 @@ def build_site(words, eng, pairs, form_of):
            [f'list/{spec["key"]}.html' for spec, _ in exam_pages] + \
            [f"list/rank-{n}.html" for n in range(1, len(bands) + 1)] + [f"w/{w}.html" for w in order]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    sm += "".join(f"<url><loc>{BASE_URL}/{u}</loc></url>\n" for u in urls) + "</urlset>\n"
+    sm += "".join(f"<url><loc>{BASE_URL}/{u}</loc></url>\n" for u in urls if not u.startswith(("w/", "list/"))) + "</urlset>\n"
     write("sitemap.xml", sm)
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
     print("built", len(order), "words,", len(urls), "urls")
